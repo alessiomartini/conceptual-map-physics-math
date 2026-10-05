@@ -1,0 +1,52 @@
+id: supersymmetry
+title: Supersymmetry
+short: SUSY
+domain: physics
+area: hep
+order: 545
+one_liner: A symmetry exchanging bosons and fermions — the only extension of spacetime symmetry allowed in an interacting QFT, so far unseen in nature but central to theory.
+summary: >-
+  Supersymmetry adds fermionic generators $Q$ with $\{Q, \bar Q\} \sim P_\mu$, so every particle has a partner
+  of opposite statistics. Phenomenologically it was the leading answer to the hierarchy problem and gave a
+  dark-matter candidate and gauge coupling unification; the LHC has found no superpartners. Theoretically it is
+  indispensable: it makes strongly coupled QFTs solvable (Seiberg–Witten, localization), it is required by
+  superstring theory, and its best-understood holographic examples are supersymmetric.
+  The broader BSM context is in [[beyond-standard-model]].
+asks:
+  - Is there a symmetry between bosons and fermions in nature, and at what energy is it broken?
+  - Does it stabilize the Higgs mass against quantum corrections (naturalness)?
+  - What can supersymmetry teach us about strongly coupled field theories, even if nature is not supersymmetric?
+key_results:
+  - "Golfand–Likhtman (1971), Volkov–Akulov, Wess–Zumino (1974): first supersymmetric field theories."
+  - "Haag–Łopuszański–Sohnius (1975): supersymmetry is the unique way around the Coleman–Mandula theorem."
+  - "Non-renormalization theorems: the superpotential is not renormalized in perturbation theory; quadratic divergences of scalar masses cancel."
+  - "Witten index (1982): $\\mathrm{Tr}(-1)^F$ counts vacua robustly and diagnoses spontaneous SUSY breaking."
+  - "MSSM: gauge couplings unify near $2\\times10^{16}$ GeV; R-parity makes the lightest superpartner stable (a WIMP dark-matter candidate)."
+  - "Exact results: Seiberg–Witten (1994), Seiberg duality, localization of path integrals (Pestun 2007)."
+  - "Supergravity (1976) and superstrings: local supersymmetry includes gravity; 11D supergravity as low-energy M-theory."
+experiments:
+  - "No superpartner observed. LHC searches exclude gluinos below roughly 2 TeV and first-generation squarks below roughly 1.5–2 TeV in simplified models; direct dark-matter searches (LZ, XENONnT) constrain neutralino WIMPs."
+  - "The 125 GeV [[exp-higgs]] mass requires heavy stops or large mixing in the MSSM, reintroducing some fine-tuning."
+limits:
+  - Weak-scale natural SUSY is under strong pressure from the LHC; the SUSY-breaking mechanism and scale are unknown.
+  - The minimal models have >100 free parameters once soft breaking is included.
+applications:
+  - "Exact computations in QFT (BPS states, indices, localization); mathematics (Donaldson/Seiberg–Witten invariants, mirror symmetry); supersymmetric quantum mechanics in index theory and in solvable potentials."
+frontiers:
+  - Split and high-scale SUSY; SUSY as a tool for non-supersymmetric dynamics; superconformal bootstrap; emergent supersymmetry at critical points of condensed-matter systems.
+connections: [beyond-standard-model, standard-model, qft, string-theory, gauge-theory, lie-theory, holography, symmetries, exp-higgs, tqft]
+prerequisites: [qft]
+resources:
+  - "Martin, *A Supersymmetry Primer* (arXiv:hep-ph/9709356)"
+  - "Wess & Bagger, *Supersymmetry and Supergravity*"
+cards:
+  - q: How does supersymmetry evade the Coleman–Mandula theorem?
+    a: Its generators are fermionic (anticommute), which the theorem does not cover; Haag–Łopuszański–Sohnius showed SUSY is the unique such extension.
+  - q: Why was supersymmetry thought to solve the hierarchy problem?
+    a: Boson and fermion loops cancel the quadratic sensitivity of the Higgs mass, so it is natural if superpartners are near the TeV scale.
+  - q: What does R-parity do in the MSSM?
+    a: Forbids fast proton decay and makes the lightest superpartner stable, a dark-matter candidate.
+  - q: What is the Witten index?
+    a: $\mathrm{Tr}(-1)^F e^{-\beta H}$; it counts bosonic minus fermionic ground states, is invariant under deformations, and nonzero implies unbroken SUSY.
+  - q: Why do theorists study SUSY even if the LHC found no superpartners?
+    a: It makes strongly coupled theories exactly solvable (Seiberg–Witten, localization, holography) and is required by superstring theory.

@@ -8,6 +8,13 @@ summary: >-
   A meta-field (associated with the Santa Fe Institute) studying emergence, self-organization, adaptation and
   heavy-tailed statistics. Tools come from statistical physics, nonlinear dynamics, network theory, agent-based
   modelling and information theory.
+definitions:
+  - "**Complex system has no single definition** (Seth Lloyd collected ~40 measures of complexity). The main families:"
+  - "**(1) Many interacting parts with emergent collective behaviour** — the physicist's default ([[emergence]]); inclusive but vague."
+  - "**(2) Between order and randomness** — complexity peaks neither for crystals nor for gases (statistical complexity of Crutchfield, effective complexity of Gell-Mann–Lloyd). Formalizes the intuition, but different measures rank systems differently."
+  - "**(3) Complex adaptive systems** — agents that learn and adapt (Santa Fe tradition): ecosystems, markets, immune systems. Excludes physical pattern formation without adaptation."
+  - "**(4) Operational signatures** — heavy tails, networks, criticality, nonlinearity. Easy to measure, but power laws have many mundane origins."
+  - "**Overlap:** all stress emergence and non-reducibility to components; they disagree on whether adaptation, computation or mere nonlinearity is essential."
 asks:
   - How does collective behaviour emerge from simple local rules?
   - Are there universal laws (scaling, criticality) across complex systems?

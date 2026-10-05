@@ -21,6 +21,7 @@ SECTIONS = [
     # concept entries: a chain of reasoning across fields, and its fine print
     ("thread", "The thread"),
     ("caveats", "Careful: nuances"),
+    ("definitions", "Definitions in use (no single answer)"),
     ("asks", "What questions does it try to answer?"),
     ("key_results", "Fundamental results"),
     ("experiments", "Empirical basis"),

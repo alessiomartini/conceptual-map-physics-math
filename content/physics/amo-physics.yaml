@@ -27,7 +27,7 @@ applications:
   - GPS and timekeeping, quantum sensing (gravimeters, magnetometers), quantum computing, spectroscopy, attosecond science (Nobel 2023).
 frontiers:
   - Nuclear clock with thorium-229 (2024); redefinition of the SI second with optical clocks; tweezer arrays with thousands of atoms; tests of new physics with clocks.
-connections: [quantum-mechanics, quantum-information, electromagnetism, condensed-matter, beyond-standard-model]
+connections: [optics, quantum-mechanics, quantum-information, electromagnetism, condensed-matter, beyond-standard-model]
 cards:
   - q: What made Bose–Einstein condensation of atoms possible in 1995?
     a: Laser cooling followed by evaporative cooling in magnetic traps to ~100 nK (Cornell, Wieman, Ketterle).

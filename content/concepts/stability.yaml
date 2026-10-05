@@ -1,0 +1,48 @@
+id: stability
+title: "Stability: from fixed points to the fate of the universe"
+short: Stability
+domain: concept
+area: concepts
+order: 15
+one_liner: Does a small perturbation stay small? The same question, asked of orbits, flows, stars, black holes, vacua and algorithms, organizes a surprising amount of physics.
+summary: >-
+  Stability is not a separate branch of mathematics: it is a theme of [[ode]] and [[dynamical-systems]] (Lyapunov,
+  linear and structural stability) and the core of control theory, and it reappears in every field below with its
+  own meaning. Chaos is the case where trajectories are unstable but the overall motion is bounded and recurrent.
+thread:
+  - "**Lyapunov stability (1892):** an equilibrium is stable if nearby solutions stay nearby, asymptotically stable if they converge to it. Proved without solving the equations, using a Lyapunov function that decreases along trajectories — energy is the prototype ([[ode]])."
+  - "**Linear stability:** linearize around the equilibrium; eigenvalues with negative real part ⇒ stable, any positive ⇒ unstable. Hartman–Grobman makes this rigorous for hyperbolic fixed points ([[dynamical-systems]], [[linear-algebra]])."
+  - "**Bifurcations:** when a parameter makes an eigenvalue cross zero, the qualitative behaviour changes (saddle-node, pitchfork, Hopf). Phase transitions are the many-body cousins ([[phase-transitions]])."
+  - "**Chaos = stable set, unstable trajectories.** A chaotic attractor can be robust (nearby initial conditions stay on it) while trajectories *on* it separate exponentially (positive Lyapunov exponent). Stability of the attractor and instability of orbits coexist ([[chaos]])."
+  - "**Structural stability (Andronov–Pontryagin 1937, Smale):** does the whole phase portrait survive small changes of the *equations*? Hyperbolic systems do; this is why simplified models can be trusted at all."
+  - "**Hamiltonian systems are never asymptotically stable** (Liouville: volume is conserved). KAM says most quasi-periodic motions survive perturbations; Arnold diffusion and Nekhoroshev bounds describe the slow leaks. The solar system is chaotic, with a ~1% chance of Mercury's orbit destabilizing within 5 billion years (Laskar) ([[classical-mechanics]])."
+  - "**Fluids:** laminar flows lose stability as the Reynolds number grows (Reynolds 1883; Rayleigh–Bénard convection); the cascade of instabilities leads to turbulence ([[hydrodynamics]]). Plasma confinement is a fight against instabilities (Rayleigh–Taylor, kink) ([[plasma-physics]])."
+  - "**Thermodynamic stability:** equilibrium requires entropy to be concave (positive heat capacity, positive compressibility). Self-gravitating systems violate it — negative heat capacity — which is why stars heat up as they lose energy ([[thermodynamics]], [[astrophysics]])."
+  - "**Stars and compact objects:** white dwarfs are stable only below the Chandrasekhar mass; black holes are expected to be stable — Minkowski space is proved nonlinearly stable (Christodoulou–Klainerman 1993), Kerr for slow rotation (Klainerman–Szeftel, 2022) ([[general-relativity]], [[pde]])."
+  - "**Stability of matter:** classical atoms would collapse; quantum mechanics plus Pauli exclusion makes bulk matter stable (Dyson–Lenard 1967, Lieb–Thirring) ([[quantum-mechanics]])."
+  - "**Stable laws need bounded energy:** theories with higher time derivatives have Hamiltonians unbounded below (Ostrogradsky), see [[eom-action-quantum]]."
+  - "**Vacuum stability:** with the measured Higgs and top masses, the Standard-Model vacuum is metastable — lifetime vastly longer than the age of the universe ([[standard-model]], [[exp-higgs]])."
+  - "**Numerical stability:** a discretization converges only if it is stable (Lax equivalence theorem, CFL condition) — the same notion, now for algorithms ([[numerical-analysis]])."
+  - "**Control theory** turns stability into design: feedback moves eigenvalues to the left half-plane (Nyquist, Kalman); it is how rockets, tokamak plasmas and quantum error correction are kept stable."
+caveats:
+  - "Different notions are not equivalent: Lyapunov stability of a point, orbital stability of a periodic orbit, structural stability of a system and stability of an attractor answer different questions."
+  - "Linear stability can mislead: non-normal operators allow large transient growth even when all eigenvalues are stable, which is how pipe flow becomes turbulent below the linear threshold."
+  - "Metastable is not stable: the electroweak vacuum is metastable only if no new physics changes the Higgs potential at high scales."
+connections: [ode, dynamical-systems, chaos, classical-mechanics, hydrodynamics, plasma-physics, thermodynamics, astrophysics, general-relativity, quantum-mechanics, standard-model, numerical-analysis, phase-transitions, linear-algebra, pde, exp-higgs, eom-action-quantum]
+resources:
+  - "Strogatz, *Nonlinear Dynamics and Chaos*"
+  - "Lieb & Seiringer, *The Stability of Matter in Quantum Mechanics*"
+  - "Trefethen & Embree, *Spectra and Pseudospectra* (non-normal transient growth)"
+cards:
+  - q: What is the difference between Lyapunov stability and asymptotic stability?
+    a: Lyapunov stable — perturbations stay small; asymptotically stable — they also decay to zero.
+  - q: How can a chaotic system be "stable"?
+    a: Its attractor can be robust to perturbations while individual trajectories on it diverge exponentially; the instability is of orbits, not of the attractor.
+  - q: What is structural stability, and why does it matter for modelling?
+    a: The qualitative phase portrait is unchanged by small changes of the equations; only then do conclusions from approximate models carry over to reality.
+  - q: Why can Hamiltonian systems not have asymptotically stable equilibria?
+    a: Hamiltonian flow preserves phase-space volume (Liouville), so it cannot contract a neighbourhood onto a point.
+  - q: Why do self-gravitating systems have negative heat capacity, and what does it imply?
+    a: By the virial theorem, losing energy makes them contract and heat up; they cannot reach equilibrium with a heat bath (thermodynamically unstable).
+  - q: Who proved the stability of matter, and what is essential to it?
+    a: Dyson and Lenard (1967), with a simpler proof by Lieb and Thirring (1975); the Pauli exclusion principle is essential.

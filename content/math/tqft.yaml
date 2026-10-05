@@ -1,0 +1,50 @@
+id: tqft
+title: Topological Quantum Field Theory
+short: TQFT
+domain: math
+area: geometry
+order: 740
+one_liner: Quantum field theories that depend only on the topology of spacetime — a bridge where physics computes invariants of knots and manifolds.
+summary: >-
+  A TQFT assigns a vector space to each space and a linear map to each spacetime (cobordism) between spaces,
+  compatibly with gluing (Atiyah–Segal axioms). Witten showed that physical path integrals produce such theories:
+  Chern–Simons theory gives the Jones polynomial, a twisted N=2 Yang–Mills gives Donaldson invariants. In
+  condensed matter, TQFTs are the low-energy theories of topologically ordered phases and anyons
+  ([[topological-phases]]).
+asks:
+  - Which invariants of manifolds and knots can be computed by a quantum field theory?
+  - How are TQFTs classified, and which algebraic structures (Frobenius algebras, modular tensor categories, higher categories) describe them?
+  - Which topological phases of matter and which symmetries are described by TQFTs?
+key_results:
+  - "Atiyah's axioms (1988) and Segal's functorial definition: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces."
+  - "Witten (1988–89): Donaldson invariants from twisted N=2 Yang–Mills; Jones polynomial from Chern–Simons theory."
+  - "2D TQFTs ↔ commutative Frobenius algebras."
+  - "Reshetikhin–Turaev (from quantum groups / modular tensor categories) and Turaev–Viro state-sum constructions in 3D; Dijkgraaf–Witten theories for finite gauge groups (1990)."
+  - "Cobordism hypothesis (Baez–Dolan 1995; Lurie 2009): fully extended framed TQFTs are determined by a fully dualizable object."
+  - "Khovanov homology (2000) categorifies the Jones polynomial; Floer homologies as TQFT-like structures."
+  - "Topological quantum computation: braiding non-abelian anyons is universal for quantum computing (Freedman–Kitaev–Larsen–Wang)."
+motivating_examples:
+  - "Knot invariants (Jones 1984); Donaldson's invariants of smooth 4-manifolds; the fractional quantum Hall effect as a Chern–Simons theory."
+limits:
+  - Mostly limited to low dimensions and to gapped phases; physically relevant gapless theories are not topological.
+applications:
+  - "Knot theory and low-dimensional topology; classification of topological phases and anomalies (invertible TQFTs, cobordism); fault-tolerant quantum memories (toric code is a $\\mathbb Z_2$ gauge theory)."
+frontiers:
+  - Symmetry TFT (SymTFT) for generalized symmetries; higher-categorical TQFTs in 4D and beyond; non-semisimple TQFTs; categorification of quantum invariants.
+connections: [topology, category-theory, gauge-theory, topological-phases, symmetries, string-theory, quantum-information, supersymmetry]
+prerequisites: [topology, gauge-theory]
+resources:
+  - "Atiyah, *Topological quantum field theories*, Publ. Math. IHÉS 68 (1988)"
+  - "Witten, *Quantum field theory and the Jones polynomial*, Commun. Math. Phys. 121 (1989)"
+  - "Kock, *Frobenius Algebras and 2D Topological Quantum Field Theories*"
+cards:
+  - q: What is a TQFT in the Atiyah–Segal sense?
+    a: A symmetric monoidal functor from the cobordism category (spaces and spacetimes between them) to vector spaces.
+  - q: What structure classifies 2D TQFTs?
+    a: Commutative Frobenius algebras.
+  - q: How does Chern–Simons theory compute the Jones polynomial?
+    a: Expectation values of Wilson loops in SU(2) Chern–Simons theory on $S^3$ are the Jones polynomial of the knot (Witten 1989).
+  - q: What is the cobordism hypothesis?
+    a: A fully extended framed TQFT is determined by its value on a point, which must be a fully dualizable object (Baez–Dolan; proved by Lurie).
+  - q: Why are TQFTs relevant to quantum computing?
+    a: Their anyons can store information non-locally; braiding non-abelian anyons implements fault-tolerant gates.

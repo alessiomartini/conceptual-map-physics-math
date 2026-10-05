@@ -10,6 +10,15 @@ summary: >-
   invariance and unitarity force particles to be created and destroyed, imply antiparticles and the
   spin–statistics connection, and make infinities appear that are tamed by [[renormalization]].
   It is extremely successful perturbatively but lacks a complete mathematical definition in four dimensions.
+definitions:
+  - "**What *is* a QFT? Several definitions coexist, each capturing a different class of theories.**"
+  - "**(1) Lagrangian + path integral (+ renormalization)** — the physicist's working definition. *Limits:* mostly perturbative; misses non-Lagrangian theories; one theory can have several Lagrangians (dualities, see [[eom-action-quantum]])."
+  - "**(2) Axiomatic (Wightman; Osterwalder–Schrader in Euclidean signature)** — fields as operator-valued distributions with locality, covariance and a spectral condition. Rigorous, but no interacting 4D example is known to satisfy them."
+  - "**(3) Algebraic QFT (Haag–Kastler)** — a net of operator algebras attached to spacetime regions; fields are secondary. Clarifies entanglement (type III algebras) and superselection sectors."
+  - "**(4) Lattice continuum limit** — a QFT is what a lattice model approaches at a critical point; the practical definition for QCD ([[lattice-field-theory]])."
+  - "**(5) CFT data and RG flows** — a QFT is an RG flow between conformal fixed points, and a CFT is defined by its operator spectrum and OPE coefficients (bootstrap viewpoint, [[cft]])."
+  - "**(6) Functorial (Atiyah–Segal)** — a symmetric monoidal functor from cobordisms to Hilbert spaces; complete for topological QFTs ([[tqft]])."
+  - "**Overlap:** in 2D and 3D constructive field theory shows that (2), (3) and (4) agree on the examples built; in 4D they are believed equivalent for theories like QCD, but this is unproven — the Yang–Mills Millennium problem asks for exactly that."
 asks:
   - How do we describe relativistic quantum systems with variable particle number?
   - How do interactions modify particle properties and scattering?

@@ -8,6 +8,13 @@ summary: >-
   GR works as an EFT below the Planck scale ($\sim 10^{19}$ GeV), but its UV completion is unknown. Approaches
   include string theory, holography, loop quantum gravity, asymptotic safety, causal dynamical triangulations and
   causal sets. Evidence is mostly theoretical: black-hole entropy, consistency, and the hope of testable relics.
+definitions:
+  - "**Quantum gravity is defined by a problem, not (yet) by a theory.** Different communities mean different things:"
+  - "**(1) The low-energy definition:** any quantum theory whose long-distance limit is GR coupled to matter. This EFT is known and computable ([[effective-field-theory]]); what is unknown is its UV completion. Every candidate must reproduce it."
+  - "**(2) Constraints without a theory:** properties any consistent quantum gravity should have — Bekenstein–Hawking entropy, unitary black-hole evaporation, no global symmetries, weak gravity conjecture (swampland, S-matrix and CFT bootstrap). *Why:* lets one make claims without choosing a candidate. *Limit:* most constraints are conjectures with varying evidence."
+  - "**(3) Holographic definition:** in asymptotically AdS spacetimes, quantum gravity *is* a dual CFT on the boundary ([[holography]]). *Why:* the only fully non-perturbative definition we have. *Limit:* our universe is not AdS; flat-space and de Sitter versions are open."
+  - "**(4) Specific candidates:** string theory (perturbative, with non-perturbative completions in AdS), loop quantum gravity (canonical quantization of geometry, background independent), asymptotic safety (GR-like field theory with a UV fixed point), causal dynamical triangulations, causal sets."
+  - "**Where they agree / disagree:** all aim to recover semiclassical GR; string theory and LQG both reproduce black-hole entropy (LQG after fixing the Immirzi parameter). They disagree on what is fundamental — a quantized continuum geometry (LQG, asymptotic safety) or spacetime emerging from non-geometric degrees of freedom (strings, holography) — and on whether string theory is the unique consistent completion, which is debated, not established."
 asks:
   - What are the microscopic degrees of freedom of spacetime?
   - What replaces singularities (Big Bang, black hole interiors)?

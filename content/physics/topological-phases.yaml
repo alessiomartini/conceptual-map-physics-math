@@ -9,6 +9,8 @@ summary: >-
   From the quantum Hall effect onward, robust quantized responses arise from topology: Chern numbers,
   symmetry-protected invariants, and long-range entanglement with anyonic excitations. Described by
   topological quantum field theories, they are candidates for fault-tolerant quantum memory.
+definitions:
+  - "**Topological order — definitions that coincide for gapped 2D phases:** (a) ground-state degeneracy depending on the topology of space; (b) anyonic excitations described by a modular tensor category; (c) long-range entanglement — not connected to a product state by a finite-depth local unitary circuit (Chen–Gu–Wen); (d) a nonzero topological entanglement entropy. *Where they diverge:* fracton phases have degeneracy growing with system size; gapless and non-equilibrium cases lack an agreed definition."
 asks:
   - Which gapped phases exist beyond the Landau symmetry-breaking paradigm?
   - Why are some responses (Hall conductance) quantized exactly?
@@ -28,7 +30,7 @@ applications:
   - Resistance standard (quantum Hall); topological quantum computation; spintronics.
 frontiers:
   - Non-abelian anyons on quantum processors; fracton phases; topological phases in non-equilibrium (Floquet, time crystals); classification via higher categories.
-connections: [condensed-matter, symmetries, quantum-information, topology, category-theory, gauge-theory, phase-transitions]
+connections: [tqft, condensed-matter, symmetries, quantum-information, topology, category-theory, gauge-theory, phase-transitions]
 prerequisites: [condensed-matter]
 cards:
   - q: What topological invariant gives the integer quantum Hall conductance?

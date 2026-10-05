@@ -1,0 +1,48 @@
+id: soft-matter
+title: Soft & Active Matter
+short: Soft & active matter
+domain: physics
+area: matter
+order: 1020
+one_liner: Materials whose structure is set by thermal fluctuations and entropy — polymers, colloids, liquid crystals, foams, granular media — and matter whose parts consume energy to move.
+summary: >-
+  Soft matter has interaction energies comparable to $k_BT$, so it is easily deformed and dominated by entropy and
+  mesoscale structure (de Gennes, Nobel 1991). Active matter adds constituents that convert energy into motion —
+  bacteria, cells, birds, self-propelled colloids — breaking detailed balance locally and producing flocking,
+  motility-induced phase separation and active turbulence ([[non-equilibrium]]).
+asks:
+  - How do universal laws emerge for polymers, colloids and liquid crystals regardless of chemistry?
+  - What is the glass/jamming transition, and why do disordered materials become rigid?
+  - What new phases and hydrodynamics appear when each particle is self-driven?
+key_results:
+  - "Polymer scaling: Flory exponent $R \\sim N^{\\nu}$ with $\\nu \\approx 0.588$ in 3D; de Gennes' mapping of polymers to the $n\\to0$ limit of the O(n) model."
+  - "Liquid crystals: nematic order, Frank elasticity, Landau–de Gennes theory; topological defects (disclinations)."
+  - "Colloids as model atoms: entropy-driven crystallization of hard spheres; depletion forces (Asakura–Oosawa)."
+  - "Jamming transition of granular and foam packings (Liu–Nagel 1998); isostaticity."
+  - "Active matter: Vicsek model (1995) and Toner–Tu theory — true long-range orientational order in 2D, evading Mermin–Wagner because the system is out of equilibrium."
+  - "Motility-induced phase separation (Cates–Tailleur): repulsive self-propelled particles phase-separate."
+experiments:
+  - "Perrin's colloids and Brownian motion; colloidal crystals imaged by confocal microscopy; bacterial turbulence; flocks of starlings (STARFLAG); Janus particles."
+limits:
+  - The glass transition has no accepted theory (Anderson called it the deepest unsolved problem in solid-state theory).
+  - Active systems lack a free-energy principle; few exact results.
+applications:
+  - Plastics, LCD displays, food and cosmetics, drug delivery, 3D-printed materials, tissue mechanics, swarm robotics.
+frontiers:
+  - Active and non-reciprocal matter, living materials and tissue mechanics, odd elasticity and odd viscosity, machine-learned design of self-assembly.
+connections: [non-equilibrium, statistical-mechanics, phase-transitions, hydrodynamics, biophysics, complex-systems, topology, stochastic-processes]
+prerequisites: [statistical-mechanics]
+resources:
+  - "Chaikin & Lubensky, *Principles of Condensed Matter Physics*"
+  - "Marchetti et al., *Hydrodynamics of soft active matter*, Rev. Mod. Phys. 85 (2013)"
+cards:
+  - q: What makes matter "soft"?
+    a: Interaction energies comparable to $k_BT$ and large structural units, so entropy and thermal fluctuations dominate and the material deforms easily.
+  - q: What is the Flory exponent for a self-avoiding polymer in 3D?
+    a: $\nu \approx 0.588$ (Flory's estimate 3/5), with $R \sim N^\nu$.
+  - q: Why can 2D flocks have long-range order despite Mermin–Wagner?
+    a: The Toner–Tu theory shows that self-propulsion couples order to density and velocity fluctuations out of equilibrium, suppressing the fluctuations that destroy order in equilibrium.
+  - q: What is motility-induced phase separation?
+    a: Self-propelled particles slow down where they are crowded and accumulate there, so even purely repulsive active particles phase-separate.
+  - q: What is the jamming transition?
+    a: The onset of rigidity in disordered packings (grains, foams, emulsions) as density increases, controlled by the number of contacts (isostaticity).

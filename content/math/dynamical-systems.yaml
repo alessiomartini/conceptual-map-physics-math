@@ -26,7 +26,7 @@ applications:
   - Celestial mechanics, climate models, population dynamics, control theory, neural dynamics.
 frontiers:
   - Smooth ergodic theory, data-driven dynamics (Koopman operator), rigidity in homogeneous dynamics.
-connections: [ode, chaos, classical-mechanics, probability-theory, number-theory, complex-systems, stochastic-processes]
+connections: [stability, ode, chaos, classical-mechanics, probability-theory, number-theory, complex-systems, stochastic-processes]
 resources:
   - "Strogatz, *Nonlinear Dynamics and Chaos*"
   - "Katok & Hasselblatt, *Introduction to the Modern Theory of Dynamical Systems*"

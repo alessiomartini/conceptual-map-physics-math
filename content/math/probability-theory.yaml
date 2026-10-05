@@ -27,7 +27,7 @@ applications:
   - Statistics, machine learning, physics, finance and risk, insurance, algorithms (randomized).
 frontiers:
   - High-dimensional probability; random geometry (Liouville quantum gravity); probabilistic methods in combinatorics and learning theory.
-connections: [real-analysis, stochastic-processes, statistical-mechanics, information-theory, random-matrix-theory, combinatorics]
+connections: [statistics, real-analysis, stochastic-processes, statistical-mechanics, information-theory, random-matrix-theory, combinatorics]
 resources:
   - "Durrett, *Probability: Theory and Examples* (free online)"
   - "Vershynin, *High-Dimensional Probability* (free online)"

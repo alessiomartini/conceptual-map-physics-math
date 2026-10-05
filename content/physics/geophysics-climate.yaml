@@ -1,0 +1,50 @@
+id: geophysics-climate
+title: Geophysics & Climate Physics
+short: Earth & climate
+domain: physics
+area: scales
+order: 950
+one_liner: The physics of the Earth — its interior, magnetic field, oceans and atmosphere — and of the climate system as a driven, chaotic, multiscale machine.
+summary: >-
+  Seismology revealed the Earth's layered interior; plate tectonics explained continents and earthquakes; the
+  geodynamo explains the magnetic field. Climate physics applies radiative transfer, [[hydrodynamics]] on a rotating
+  planet and statistical physics to the coupled atmosphere–ocean–ice system. The 2021 Nobel Prize (Manabe,
+  Hasselmann, with Parisi) recognised climate modelling as physics of complex systems.
+asks:
+  - What is the structure and dynamics of the Earth's interior, and how is its magnetic field generated?
+  - How does the climate respond to changes in radiative forcing (climate sensitivity)?
+  - What is predictable in weather and climate, given that the atmosphere is chaotic?
+key_results:
+  - "Seismic discovery of the core (Oldham 1906, Gutenberg 1914) and solid inner core (Lehmann 1936)."
+  - "Plate tectonics (1960s), building on Wegener's continental drift (1912); sea-floor spreading and magnetic stripes."
+  - "Greenhouse effect: Fourier (1820s), Tyndall's absorption measurements (1859), Arrhenius' first estimate of CO₂ warming (1896)."
+  - "Manabe–Wetherald (1967): first radiative–convective model giving a realistic warming for doubled CO₂."
+  - "Hasselmann (1976): stochastic climate models — slow climate variables integrate fast weather noise."
+  - "Lorenz (1963): deterministic chaos limits weather predictability to about two weeks; climate is predictable as statistics."
+  - "Equilibrium climate sensitivity: likely 2.5–4 °C per CO₂ doubling (IPCC AR6, 2021)."
+  - "Self-sustained geodynamo simulations (Glatzmaier–Roberts 1995) reproduce field reversals."
+experiments:
+  - "Keeling curve of atmospheric CO₂ (since 1958); ice cores reaching back ~800,000 years; global seismic networks; satellite gravimetry (GRACE); Argo ocean floats; paleomagnetic records of field reversals."
+limits:
+  - Clouds and aerosols dominate uncertainty in climate sensitivity; tipping points (ice sheets, AMOC) are poorly constrained.
+  - The Earth's deep interior is accessible only indirectly (seismic waves, geodesy).
+applications:
+  - Weather forecasting, climate projections and policy, earthquake and tsunami hazard, resource exploration, space weather.
+frontiers:
+  - Kilometre-scale climate models and machine-learning weather prediction; tipping points and early-warning signals; detection and attribution of extreme events; inner-core dynamics.
+connections: [hydrodynamics, chaos, dynamical-systems, statistical-mechanics, complex-systems, non-equilibrium, plasma-physics, thermodynamics, stochastic-processes, sde, pde]
+resources:
+  - "Vallis, *Atmospheric and Oceanic Fluid Dynamics*"
+  - "Pierrehumbert, *Principles of Planetary Climate*"
+  - "Stein & Wysession, *An Introduction to Seismology, Earthquakes, and Earth Structure*"
+cards:
+  - q: How was the solid inner core discovered?
+    a: Inge Lehmann (1936) explained weak P-wave arrivals inside the core's shadow zone by a solid inner core.
+  - q: What did Manabe and Wetherald compute in 1967?
+    a: With a radiative–convective model, the first physically realistic warming for doubled CO₂ (about 2 °C) — Nobel 2021 for Manabe.
+  - q: What is Hasselmann's stochastic climate model?
+    a: Slow climate components (oceans, ice) integrate fast random weather forcing, producing red-noise variability; the basis of detection and attribution.
+  - q: Why is weather unpredictable beyond ~2 weeks but climate projections possible?
+    a: The atmosphere is chaotic (Lorenz), so individual trajectories diverge; climate concerns the statistics of the attractor, which respond predictably to forcing.
+  - q: What is equilibrium climate sensitivity and its AR6 likely range?
+    a: Long-term global warming for doubled CO₂; likely 2.5–4 °C (best estimate 3 °C).

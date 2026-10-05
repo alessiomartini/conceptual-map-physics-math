@@ -8,6 +8,14 @@ summary: >-
   Quantum integrable systems have factorized scattering and infinitely many commuting charges. Bethe ansatz,
   Yang–Baxter equation and quantum groups solve 1+1D models exactly. Integrability solved the spectrum
   of planar N=4 SYM and supplies exact benchmarks for many-body physics.
+definitions:
+  - "**Classical integrability is clear:** n independent Poisson-commuting conserved quantities (Liouville–Arnold) ⇒ motion on tori."
+  - "**Quantum integrability has no agreed definition** (Caux–Mossel 2011). The naive translation fails: every Hamiltonian has N commuting conserved operators (the projectors on its eigenstates)."
+  - "**(1) Local (or quasi-local) conserved charges** — an extensive number of conserved quantities that are sums of local densities. Most common in condensed matter; explains GGE relaxation."
+  - "**(2) Bethe-ansatz solvability / Yang–Baxter** — eigenstates obtained exactly from an R-matrix. The working definition in mathematical physics; free fermions are integrable by (1) but trivially so."
+  - "**(3) Factorized, non-diffractive scattering** — the multi-particle S-matrix factorizes into two-body ones (1+1D field theories)."
+  - "**(4) Poisson level statistics** — the spectral opposite of chaos. *Problem:* fails with degeneracies or unresolved symmetries, and some non-integrable systems (localized ones) also show Poisson statistics."
+  - "**Overlap:** for XXZ, Lieb–Liniger and sine-Gordon all four agree; they form a cluster of properties rather than one definition."
 asks:
   - Which interacting systems can be solved exactly, and what structure makes it possible?
   - How do integrable systems thermalize (or fail to)?

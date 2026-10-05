@@ -10,7 +10,7 @@ physics:
     - {id: hep,         label: "Fields, particles & symmetry",   hue: 260}
     - {id: gravity,     label: "Gravity, cosmology & strings",   hue: 210}
     - {id: matter,      label: "Statistical & condensed matter", hue: 155}
-    - {id: scales,      label: "Atoms, nuclei, stars & life",    hue: 85}
+    - {id: scales,      label: "Atoms, nuclei, stars, Earth & life", hue: 85}
     - {id: complex,     label: "Complex systems",                hue: 350}
     - {id: phil-physics, label: "Philosophy of physics",         hue: 50}
 math:

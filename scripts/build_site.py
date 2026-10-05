@@ -16,7 +16,7 @@ import yaml
 
 from common import ROOT, SECTION_LABELS, load_all, render_inline, sections_of
 
-LENSES = ["thread", "asks", "key_results", "experiments", "limits", "applications", "frontiers"]
+LENSES = ["thread", "definitions", "asks", "key_results", "experiments", "limits", "applications", "frontiers"]
 
 WRAP = """<!doctype html>
 <html lang="en">

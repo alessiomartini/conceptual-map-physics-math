@@ -10,6 +10,14 @@ summary: >-
   with mixing. Quantum chaos asks what replaces this in quantum systems: level statistics of [[random-matrix-theory]],
   the eigenstate thermalization hypothesis, and out-of-time-order correlators, with a bound on the
   quantum Lyapunov exponent saturated by black holes.
+definitions:
+  - "**Classical chaos — several definitions that mostly agree.** (a) A positive Lyapunov exponent on a bounded, recurrent orbit (sensitivity alone is not enough: $\\dot x = x$ separates trajectories exponentially but is not chaotic); (b) Devaney: sensitivity + topological transitivity + dense periodic orbits; (c) positive Kolmogorov–Sinai entropy (equal to the sum of positive Lyapunov exponents by Pesin's formula); (d) mixing in the ergodic hierarchy. *Overlap:* for uniformly hyperbolic systems all coincide. *Where they differ:* mixed phase spaces (KAM islands inside chaotic seas), transient chaos, chaos on a set of measure zero."
+  - "**Quantum chaos (1): semiclassical — quantum systems whose classical limit is chaotic** (Berry's quantum chaology; Gutzwiller trace formula). *Why it exists:* historically the question was what happens to classical chaos under quantisation. *Problem:* unitary evolution of a finite system is quasi-periodic, so no exponential sensitivity survives; and many systems of interest (spin-½ chains, SYK) have no classical limit, so the definition does not apply."
+  - "**Quantum chaos (2): spectral — level statistics follow random-matrix theory** (Bohigas–Giannoni–Schmit; spectral form factor with a ramp). *Why:* works without a classical limit and is easy to test numerically; the most widely used criterion. *Limits:* a statistical, not dynamical, statement; needs symmetry sectors resolved; says nothing about time scales."
+  - "**Quantum chaos (3): the eigenstate thermalization hypothesis (ETH)** — eigenstates look thermal for local observables. *Why:* it is what makes isolated systems thermalize ([[non-equilibrium]]). *Overlap:* in practice RMT statistics and ETH go together; ETH is about eigenvectors, RMT about eigenvalues."
+  - "**Quantum chaos (4): exponential growth of out-of-time-order correlators**, $\\lambda_L \\le 2\\pi k_BT/\\hbar$. *Why:* the closest analogue of a Lyapunov exponent, natural in large-N and holographic systems. *Conflict:* exponential OTOC growth also occurs in integrable systems with unstable saddle points (Rozenbaum et al.; Xu–Scaffidi–Cao 2020), and spin chains with small local Hilbert space show no clean exponential window — so it is neither necessary nor sufficient."
+  - "**Quantum chaos (5): operator growth / Krylov complexity** — Lanczos coefficients growing linearly (Parker et al. 2019). *Why:* a definition at infinite temperature without a semiclassical parameter. *Conflict:* linear growth can also come from saddle points; still being tested."
+  - "**Bottom line:** in maximally chaotic large-N systems (SYK, black holes) all quantum criteria agree; in general they are different diagnostics, and papers say which one they use."
 asks:
   - When does deterministic dynamics become unpredictable?
   - What universal routes to chaos exist?
@@ -33,7 +41,7 @@ applications:
 frontiers:
   - Many-body quantum chaos, operator growth and Krylov complexity, scrambling, deep thermalization.
   - Links with black holes (fast scramblers) and quantum error correction.
-connections: [classical-mechanics, dynamical-systems, random-matrix-theory, statistical-mechanics, black-holes, complex-systems, hydrodynamics]
+connections: [geophysics-climate, stability, classical-mechanics, dynamical-systems, random-matrix-theory, statistical-mechanics, black-holes, complex-systems, hydrodynamics]
 cards:
   - q: What quantity measures sensitivity to initial conditions?
     a: The (maximal) Lyapunov exponent $\\lambda$; separations grow as $e^{\\lambda t}$.

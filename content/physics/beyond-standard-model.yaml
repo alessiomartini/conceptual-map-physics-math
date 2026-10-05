@@ -31,7 +31,7 @@ frontiers:
   - "Feebly interacting particles and dark sectors; axion searches across many mass decades; neutrino mass ordering (JUNO), CP phase (DUNE, Hyper-K); 0νββ."
   - Muon g−2 tension largely resolved by lattice QCD (2025); flavour physics at Belle II and LHCb.
   - Relaxion, swampland-inspired and anthropic approaches to naturalness.
-connections: [standard-model, cosmology, string-theory, effective-field-theory, astrophysics, nuclear-physics]
+connections: [supersymmetry, standard-model, cosmology, string-theory, effective-field-theory, astrophysics, nuclear-physics]
 prerequisites: [standard-model]
 cards:
   - q: What are the three Sakharov conditions?

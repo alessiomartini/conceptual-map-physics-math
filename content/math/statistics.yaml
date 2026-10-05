@@ -1,0 +1,56 @@
+id: statistics
+title: Statistics & Inference
+short: Statistics
+domain: math
+area: probability
+order: 485
+one_liner: Going backwards from data to the process that produced it — estimation, testing, uncertainty and causality.
+summary: >-
+  Probability asks what data a model produces; statistics asks which model produced the data. The frequentist
+  (Fisher, Neyman–Pearson) and Bayesian schools give different meanings to probability and uncertainty but share
+  most tools. Modern statistics deals with high dimensions, model selection, causal inference and machine learning;
+  Bayesian inference is mathematically a statistical-mechanics problem ([[statistical-mechanics]]).
+definitions:
+  - "**Frequentist vs Bayesian.** *Frequentist:* parameters are fixed; probability is long-run frequency; procedures are judged by their error rates over repeated samples (confidence intervals, p-values). *Bayesian:* probability is degree of belief; parameters get a prior, data update it to a posterior (credible intervals). *Overlap:* with lots of data and weak priors the answers coincide (Bernstein–von Mises); many frequentist methods are Bayesian with a particular prior (ridge regression ↔ Gaussian prior). *Contrast:* the meaning of a 95% interval, the role of the stopping rule, and how to encode prior knowledge."
+asks:
+  - How do we estimate parameters and quantify the uncertainty of the estimate?
+  - How do we decide between hypotheses or models, and control false discoveries?
+  - When can we infer causes, not just correlations, from data?
+  - What changes when the number of parameters is comparable to or larger than the number of observations?
+key_results:
+  - "Bayes' theorem; likelihood principle; maximum likelihood (Fisher) and its asymptotic efficiency."
+  - "Cramér–Rao bound: variance of an unbiased estimator ≥ inverse Fisher information."
+  - "Neyman–Pearson lemma: the likelihood-ratio test is most powerful for simple hypotheses."
+  - "Stein's paradox (1956; James–Stein 1961): in dimension ≥ 3 the sample mean is inadmissible — shrinkage helps."
+  - "Bootstrap (Efron 1979); false discovery rate control (Benjamini–Hochberg 1995)."
+  - "Lasso and sparse regression (Tibshirani 1996); compressed sensing (Candès–Romberg–Tao, Donoho 2006)."
+  - "Causal inference: randomization (Fisher), potential outcomes (Rubin), causal graphs and do-calculus (Pearl)."
+  - "Bias–variance trade-off and its modern twist, double descent in overparameterized models."
+motivating_examples:
+  - "Measurement errors in astronomy (Gauss, least squares); agricultural experiments (Fisher); clinical trials; particle-physics discoveries (5σ)."
+limits:
+  - Replication crisis from p-hacking and selective reporting; causal claims from observational data rest on untestable assumptions.
+  - Model misspecification makes most guarantees fragile.
+applications:
+  - Experimental science (including particle physics and cosmology parameter fits), medicine, economics and finance, machine learning, A/B testing.
+frontiers:
+  - Conformal prediction and distribution-free uncertainty; high-dimensional and overparameterized inference; causal machine learning; simulation-based inference in physics.
+connections: [probability-theory, information-theory, optimization, statistical-mechanics, stochastic-processes, random-matrix-theory, econophysics, numerical-analysis]
+prerequisites: [probability-theory]
+resources:
+  - "Wasserman, *All of Statistics*"
+  - "Gelman et al., *Bayesian Data Analysis*"
+  - "Hastie, Tibshirani & Friedman, *The Elements of Statistical Learning*"
+cards:
+  - q: State the Cramér–Rao bound.
+    a: For an unbiased estimator $\hat\theta$, $\mathrm{Var}(\hat\theta) \ge 1/I(\theta)$, with $I$ the Fisher information.
+  - q: What is Stein's paradox?
+    a: For estimating the mean of a Gaussian in dimension ≥ 3, the sample mean is beaten in total squared error by a shrinkage estimator (James–Stein).
+  - q: What does the Neyman–Pearson lemma state?
+    a: For testing two simple hypotheses at a fixed false-positive rate, the likelihood-ratio test has maximal power.
+  - q: What does the Benjamini–Hochberg procedure control?
+    a: The false discovery rate — the expected fraction of false positives among rejected hypotheses.
+  - q: What is the difference between a confidence interval and a credible interval?
+    a: A 95% confidence interval covers the true parameter in 95% of repeated experiments; a 95% credible interval contains the parameter with 95% posterior probability given the data and prior.
+  - q: Why does particle physics use 5σ for discoveries?
+    a: To guard against fluctuations amplified by many searches (look-elsewhere effect) and unknown systematics; 5σ is a p-value of about $3\times10^{-7}$.

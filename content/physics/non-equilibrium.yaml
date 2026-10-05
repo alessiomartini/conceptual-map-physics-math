@@ -9,6 +9,15 @@ summary: >-
   Most of nature is out of equilibrium. The field ranges from linear response and kinetic theory to exact
   fluctuation theorems, stochastic thermodynamics, non-equilibrium phase transitions, active matter and the
   thermalization of isolated quantum systems.
+definitions:
+  - "**Thermalization has several inequivalent definitions.** First distinguish *equilibration* (relaxing to some stationary state) from *thermalization* (that state is the Gibbs state at the right temperature)."
+  - "**(1) Ergodic hypothesis** — time averages equal microcanonical averages. *Why:* Boltzmann's original route. *Problem:* rarely provable and stronger than needed: Khinchin showed that for macroscopic sum-like observables concentration of measure suffices."
+  - "**(2) Typicality** — almost every pure state of a large system looks thermal on a small subsystem (canonical typicality: Goldstein–Lebowitz–Tumulka–Zanghì; Popescu–Short–Winter 2006). *Why:* explains why thermal states are generic. *Limit:* a statement about states, not dynamics — it does not say that a given initial state gets there."
+  - "**(3) Subsystem thermalization in isolated quantum systems** — after a quench, local observables (reduced density matrices of small regions) relax to and stay near their Gibbs values. *Why:* the operational definition used in cold-atom experiments."
+  - "**(4) ETH** — strong ETH: every eigenstate in the bulk of the spectrum is thermal; weak ETH: almost all. *Relation:* strong ETH plus dephasing implies (3) for all reasonable initial states; weak ETH does not. Many-body scars and many-body localization violate strong ETH."
+  - "**(5) Generalized thermalization** — integrable systems relax to a generalized Gibbs ensemble with all their conserved charges, so they thermalize only in this extended sense ([[integrability]])."
+  - "**(6) Open systems** — relaxation to the temperature of a bath (Markovian/Lindblad dynamics); here thermalization is imposed by the environment rather than emergent."
+  - "**Time scales are a separate question:** systems can prethermalize to a long-lived non-thermal plateau before thermalizing; definitions (3)–(5) differ on what counts as eventually."
 asks:
   - What general laws govern systems away from equilibrium?
   - How do isolated quantum systems thermalize, or avoid it?
@@ -29,7 +38,7 @@ applications:
   - Molecular motors and biophysics, chemical reaction networks, nanoscale engines, climate, traffic.
 frontiers:
   - Active matter, non-reciprocal interactions and phase transitions; stochastic thermodynamics of computation; prethermalization and Floquet engineering.
-connections: [statistical-mechanics, thermodynamics, hydrodynamics, phase-transitions, complex-systems, stochastic-processes, chaos, biophysics]
+connections: [soft-matter, statistical-mechanics, thermodynamics, hydrodynamics, phase-transitions, complex-systems, stochastic-processes, chaos, biophysics]
 prerequisites: [statistical-mechanics]
 cards:
   - q: State the Jarzynski equality.

@@ -1,0 +1,50 @@
+id: optics
+title: Optics & Photonics
+short: Optics
+domain: physics
+area: classical
+order: 140
+one_liner: The behaviour of light — rays, waves and photons — and the technology of generating, guiding and detecting it.
+summary: >-
+  Optics spans geometric optics (rays, Fermat's principle), wave optics (interference, diffraction, coherence),
+  nonlinear optics and quantum optics (photon statistics, squeezed light). Photonics engineers light in fibres,
+  waveguides, photonic crystals and metamaterials. It is where wave–particle duality was first fought over and
+  where the most precise measurement devices (interferometers, frequency combs) live; atom–light interaction
+  is in [[amo-physics]].
+asks:
+  - How does light propagate, interfere and diffract, and what limits imaging resolution?
+  - What is the quantum nature of light, and how do photon statistics distinguish it from classical waves?
+  - How can we shape, guide and confine light with engineered materials?
+key_results:
+  - "Fermat's principle of least time; Huygens–Fresnel principle; Young's double slit (1801) establishing the wave theory."
+  - "Light as an electromagnetic wave (Maxwell 1865); polarization; Fresnel equations."
+  - "Abbe diffraction limit $d \\approx \\lambda/2\\,\\mathrm{NA}$; circumvented by super-resolution microscopy (STED, PALM/STORM; Nobel Chemistry 2014)."
+  - "Coherence theory and the Hanbury Brown–Twiss effect (1956); Glauber's quantum theory of optical coherence (1963, Nobel 2005)."
+  - "The laser (Maiman 1960); nonlinear optics from second-harmonic generation (Franken 1961)."
+  - "Optical fibres for communication (Kao, Nobel 2009); photonic crystals (Yablonovitch, John 1987); negative refraction and metamaterials (Pendry 2000)."
+  - "Squeezed light reduces quantum noise below the shot-noise limit; used in gravitational-wave detectors."
+experiments:
+  - "Young's double slit and the [[exp-double-slit]] single-photon versions; [[exp-michelson-morley]]; [[exp-photoelectric]]; HBT intensity interferometry; photon antibunching (Kimble–Dagenais–Mandel 1977); squeezed light in [[exp-ligo]]."
+limits:
+  - Diffraction limits classical imaging; photon loss and detector efficiency limit quantum-optical technologies.
+applications:
+  - Telecommunications, imaging and microscopy, lithography for chips, lidar, laser machining, optical clocks, photonic quantum computing, gravitational-wave detection.
+frontiers:
+  - Integrated and topological photonics, attosecond optics, quantum light sources and detectors, optical computing for AI, metasurfaces.
+connections: [electromagnetism, amo-physics, quantum-mechanics, quantum-information, condensed-matter, topological-phases, exp-double-slit, exp-michelson-morley, exp-photoelectric, exp-ligo]
+prerequisites: [electromagnetism]
+resources:
+  - "Hecht, *Optics*"
+  - "Saleh & Teich, *Fundamentals of Photonics*"
+  - "Loudon, *The Quantum Theory of Light*"
+cards:
+  - q: What is the Abbe diffraction limit?
+    a: The smallest resolvable distance in far-field imaging is about $\lambda/(2\,\mathrm{NA})$.
+  - q: What does photon antibunching prove?
+    a: Light can have $g^{(2)}(0) < 1$, impossible for any classical field — direct evidence for photons (Kimble, Dagenais, Mandel 1977).
+  - q: What is the Hanbury Brown–Twiss effect?
+    a: Intensity correlations between two detectors reveal the coherence (and bunching) of light; originally used to measure star diameters.
+  - q: What is squeezed light and where is it used?
+    a: A state with quantum noise reduced below the vacuum level in one quadrature (at the expense of the other); used to improve gravitational-wave detector sensitivity.
+  - q: What is a photonic crystal?
+    a: A periodic dielectric structure with a photonic band gap, forbidding light propagation in a frequency range — the optical analogue of a semiconductor.
