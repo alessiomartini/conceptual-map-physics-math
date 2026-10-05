@@ -20,6 +20,12 @@ Read `README.md` first (philosophy, schema, commands). Talk to Alessio in Italia
 ## Content rules
 - Never delete content; correct it. When a claim of Alessio's is imprecise, keep it and put the precise
   version in `caveats:` (see `concepts/eom-action-quantum.yaml`).
+- When a concept has no single accepted definition (quantum chaos, thermalization, quantum gravity, quantum
+  integrability, complex system, QFT…), add a `definitions:` section listing each option, why it exists, where
+  options overlap and where they conflict — never pick one silently.
+- Original papers: append `([Author Year](https://arxiv.org/abs/ID or https://doi.org/DOI))` to the milestone item.
+  Only add identifiers verified against the arXiv / Crossref APIs (titles and years checked); never from memory alone.
+  Encode `(`, `)`, `<`, `>` in DOI URLs (%28 %29 %3C %3E) or the inline-link regex breaks.
 - Quote YAML items containing `": "` or starting with `* [ { \``. LaTeX: `$...$`; links `[[id]]`.
 - After content edits: `make`, then check pages in the browser (MathJax errors show as red).
 - Bump nothing for cache-busting: the site is a single self-contained HTML file.

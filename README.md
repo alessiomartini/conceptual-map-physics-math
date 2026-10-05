@@ -33,6 +33,7 @@ Every field answers the same guiding questions:
 | `limits` | Where does it break / what is open? |
 | `applications` | What is it used for? |
 | `frontiers` | Where is research going? |
+| `definitions` | When there is no single definition: the options, why each exists, overlaps and conflicts |
 
 Experiments use `year`, `who`, `measured`, `result`, `significance`. Two overview pages collect
 **what we are trying to measure now** and **what we cannot measure**.
