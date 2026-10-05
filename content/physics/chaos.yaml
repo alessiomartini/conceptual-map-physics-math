@@ -10,6 +10,14 @@ summary: >-
   with mixing. Quantum chaos asks what replaces this in quantum systems: level statistics of [[random-matrix-theory]],
   the eigenstate thermalization hypothesis, and out-of-time-order correlators, with a bound on the
   quantum Lyapunov exponent saturated by black holes.
+big_goal: "Understand when deterministic laws produce unpredictable behaviour, what remains predictable (statistics, structure of attractors), and what chaos means in quantum systems."
+essentials:
+  - "Determinism does not mean predictability: tiny errors grow exponentially in chaotic systems (Lyapunov exponent), so long-term prediction is impossible in practice."
+  - "Chaos has universal features, e.g. the Feigenbaum constants of the period-doubling route."
+  - "In quantum mechanics chaos shows up in energy-level statistics (random matrices) and in how fast information scrambles — with a speed limit saturated by black holes."
+broken_promises:
+  - "Laplace's dream: knowing the laws and the present state exactly would give the whole future. Chaos (Poincaré, Lorenz) showed this fails for any finite precision — weather beyond ~2 weeks is unpredictable in principle, not just in practice."
+  - "Quantum chaos was expected to be the quantum version of the same idea; but unitary evolution of finite systems is never exponentially sensitive, so it had to be redefined (and there are now several definitions)."
 definitions:
   - "**Classical chaos — several definitions that mostly agree.** (a) A positive Lyapunov exponent on a bounded, recurrent orbit (sensitivity alone is not enough: $\\dot x = x$ separates trajectories exponentially but is not chaotic); (b) Devaney: sensitivity + topological transitivity + dense periodic orbits; (c) positive Kolmogorov–Sinai entropy (equal to the sum of positive Lyapunov exponents by Pesin's formula); (d) mixing in the ergodic hierarchy. *Overlap:* for uniformly hyperbolic systems all coincide. *Where they differ:* mixed phase spaces (KAM islands inside chaotic seas), transient chaos, chaos on a set of measure zero."
   - "**Quantum chaos (1): semiclassical — quantum systems whose classical limit is chaotic** (Berry's quantum chaology; Gutzwiller trace formula). *Why it exists:* historically the question was what happens to classical chaos under quantisation. *Problem:* unitary evolution of a finite system is quasi-periodic, so no exponential sensitivity survives; and many systems of interest (spin-½ chains, SYK) have no classical limit, so the definition does not apply."

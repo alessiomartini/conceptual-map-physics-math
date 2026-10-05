@@ -9,6 +9,14 @@ summary: >-
   Its formal core (Hilbert space, unitary evolution, Born rule, tensor products) is extremely well
   tested and underlies chemistry, materials and electronics. What it says about reality (measurement)
   is still debated: see [[quantum-foundations]].
+big_goal: "Describe the microscopic world: the states of atoms, molecules and particles, and the probabilities of measurement outcomes."
+essentials:
+  - "States are vectors, observables are operators, and probabilities are squared amplitudes (Born rule)."
+  - "Quantization explains discrete atomic spectra, chemical bonding and the stability of matter."
+  - "Superposition and entanglement have no classical counterpart and are now technological resources."
+broken_promises:
+  - "The founders expected quantum mechanics to be a provisional theory soon replaced by a deeper deterministic one; a century of tests found no deviation."
+  - "Its own interpretation is still not settled: the measurement problem is open (see Quantum Foundations)."
 asks:
   - What are the possible states and measurement outcomes of microscopic systems, and with which probabilities?
   - Why are atomic spectra discrete and why is matter stable?

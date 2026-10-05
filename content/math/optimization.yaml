@@ -8,6 +8,13 @@ summary: >-
   Convex optimization has a complete theory (duality, efficient algorithms); non-convex optimization is hard
   in general yet works surprisingly well in deep learning. It connects to variational principles in physics and
   portfolio theory in finance.
+big_goal: "Find the best solution under constraints, efficiently and with certificates."
+essentials:
+  - "Convex problems can be solved efficiently and certified by duality."
+  - "Linear programs are solvable in polynomial time."
+  - "Gradient descent trains neural networks despite non-convexity."
+broken_promises:
+  - "General global optimization of non-convex problems is NP-hard, so no efficient universal method exists; why gradient descent works so well in deep learning is still not fully explained."
 asks:
   - When can the optimum be found efficiently and certified?
   - How do constraints shape optima (duality)?

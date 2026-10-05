@@ -21,11 +21,14 @@ SECTIONS = [
     # concept entries: a chain of reasoning across fields, and its fine print
     ("thread", "The thread"),
     ("caveats", "Careful: nuances"),
+    ("big_goal", "The big goal"),
     ("definitions", "Definitions in use (no single answer)"),
     ("asks", "What questions does it try to answer?"),
-    ("key_results", "Fundamental results"),
+    ("essentials", "Results to remember"),
+    ("key_results", "Key results in detail"),
     ("experiments", "Empirical basis"),
     ("motivating_examples", "Motivating examples"),
+    ("broken_promises", "What it hoped to answer, and why it can't"),
     ("limits", "Limits & open problems"),
     ("applications", "Applications"),
     ("frontiers", "Where research is going"),
@@ -157,6 +160,11 @@ def warnings(entries: list[dict]) -> list[str]:
         for r in refs & nb.keys():
             nb[e["id"]].add(r); nb[r].add(e["id"])
     out = []
+    for e in entries:
+        if e.get("domain") in ("physics", "math"):
+            missing = [k for k in ("big_goal", "essentials", "broken_promises") if not e.get(k)]
+            if missing:
+                out.append(f"field '{e['id']}' has no {', '.join(missing)} (used by the Anki deck)")
     for eid, d in dom.items():
         if d == "physics" and eid not in has_exp_section and not any(dom[x] == "experiment" for x in nb[eid]):
             out.append(f"physics '{eid}' links to no experiment")

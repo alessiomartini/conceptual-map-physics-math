@@ -9,6 +9,14 @@ summary: >-
   "More is different" (Anderson): band theory, Fermi liquids, superconductivity, magnetism and their breakdowns.
   It has the largest community in physics and continuously produces new phases (quantum Hall, topological
   insulators, moiré materials) together with conceptual tools (RG, anomalies, entanglement) shared with high energy.
+big_goal: "Understand and predict all phases of matter that arise from many interacting electrons, spins and atoms — and design new ones."
+essentials:
+  - "Electrons in solids behave like weakly interacting quasiparticles (band theory, Fermi liquid) — which explains metals, insulators and semiconductors."
+  - "Phases are classified by symmetry breaking (magnets, superconductors) and, beyond that, by topology (quantum Hall effect, topological insulators)."
+  - "Superconductivity is a macroscopic quantum state; BCS explained conventional superconductors."
+broken_promises:
+  - "After BCS (1957) superconductivity seemed understood; high-temperature superconductors (1986) and strange metals still have no accepted theory after 40 years."
+  - "The hope of computing materials properties from first principles for every material fails for strongly correlated systems: the many-body problem is exponentially hard."
 asks:
   - What phases can many-body quantum matter form, and what are their low-energy excitations?
   - Why do some materials superconduct, and at what temperatures?

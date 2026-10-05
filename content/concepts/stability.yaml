@@ -41,8 +41,10 @@ cards:
   - q: What is structural stability, and why does it matter for modelling?
     a: The qualitative phase portrait is unchanged by small changes of the equations; only then do conclusions from approximate models carry over to reality.
   - q: Why can Hamiltonian systems not have asymptotically stable equilibria?
+    detail: true  # site only, not in the Anki deck
     a: Hamiltonian flow preserves phase-space volume (Liouville), so it cannot contract a neighbourhood onto a point.
   - q: Why do self-gravitating systems have negative heat capacity, and what does it imply?
     a: By the virial theorem, losing energy makes them contract and heat up; they cannot reach equilibrium with a heat bath (thermodynamically unstable).
   - q: Who proved the stability of matter, and what is essential to it?
+    detail: true  # site only, not in the Anki deck
     a: Dyson and Lenard (1967), with a simpler proof by Lieb and Thirring (1975); the Pauli exclusion principle is essential.

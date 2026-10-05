@@ -10,6 +10,13 @@ summary: >-
   up as higher-dimension operators suppressed by powers of the heavy scale. This explains why the
   Standard Model works, makes General Relativity a sensible quantum EFT, and gives systematic tools
   from pion physics to gravitational-wave templates.
+big_goal: "Make predictions at a given scale without knowing what happens at much shorter distances, and know exactly how much the unknown physics can matter."
+essentials:
+  - "Physics at low energy depends on high-energy physics only through a few parameters, suppressed by powers of (energy/heavy scale)."
+  - "Every QFT, including the Standard Model and general relativity, is best seen as an effective theory valid up to some scale."
+  - "Consistency (unitarity, causality) restricts which effective theories can come from a sensible high-energy completion (positivity bounds, swampland)."
+broken_promises:
+  - "The EFT logic suggested small parameters should be 'natural' — the Higgs mass and the cosmological constant should not be much smaller than the cutoff. Both are, and EFT reasoning cannot explain it."
 asks:
   - How can we make predictions without knowing the UV completion?
   - Which low-energy observables carry information about high-energy physics?

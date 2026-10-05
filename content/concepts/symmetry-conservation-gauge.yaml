@@ -38,4 +38,5 @@ cards:
   - q: What is an anomaly and give a physical consequence?
     a: "A clash between a symmetry and quantisation. Gauge anomalies would make the theory inconsistent and must cancel (this fixes the Standard-Model hypercharges); 't Hooft anomalies only obstruct gauging a global symmetry and constrain the IR; ABJ is a mixed anomaly with a gauged symmetry, which breaks the global one (π⁰ → γγ)."
   - q: Why does Noether's second theorem not give new conserved quantities?
+    detail: true  # site only, not in the Anki deck
     a: For local (gauge) symmetries it yields identities among the EOM (like the Bianchi identity), not independent conservation laws.

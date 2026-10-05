@@ -8,6 +8,14 @@ summary: >-
   GR works as an EFT below the Planck scale ($\sim 10^{19}$ GeV), but its UV completion is unknown. Approaches
   include string theory, holography, loop quantum gravity, asymptotic safety, causal dynamical triangulations and
   causal sets. Evidence is mostly theoretical: black-hole entropy, consistency, and the hope of testable relics.
+big_goal: "Find the quantum theory of spacetime itself — what happens at the Planck scale, inside black holes and at the Big Bang."
+essentials:
+  - "General relativity works as an effective quantum theory at low energy; the problem is its completion near the Planck scale (~10¹⁹ GeV)."
+  - "Black-hole entropy and holography suggest the number of degrees of freedom scales with area, not volume."
+  - "There are several candidates (strings/holography, loop quantum gravity, asymptotic safety…) and a set of conjectured constraints (swampland)."
+broken_promises:
+  - "Direct tests at the Planck scale are out of reach: a particle accelerator would need to be roughly galaxy-sized, and single gravitons are probably undetectable in principle (Dyson)."
+  - "There is no experimental evidence pointing to any candidate, so progress relies on consistency and indirect hints (cosmology, black holes, tabletop entanglement tests)."
 definitions:
   - "**Quantum gravity is defined by a problem, not (yet) by a theory.** Different communities mean different things:"
   - "**(1) The low-energy definition:** any quantum theory whose long-distance limit is GR coupled to matter. This EFT is known and computable ([[effective-field-theory]]); what is unknown is its UV completion. Every candidate must reproduce it."

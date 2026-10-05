@@ -9,6 +9,13 @@ summary: >-
   Lie groups are groups that are smooth manifolds; their Lie algebras linearize them. Cartan and Killing
   classified simple Lie algebras via root systems and Dynkin diagrams. Lie theory is the mathematical
   backbone of gauge theory and particle classification.
+big_goal: "Understand continuous symmetry groups and their representations."
+essentials:
+  - "A Lie group is captured by its infinitesimal version, its Lie algebra."
+  - "Simple Lie algebras are fully classified: four infinite families and five exceptional ones (G₂, F₄, E₆, E₇, E₈)."
+  - "Representations of Lie groups classify particles and quantum states (spin, flavour, gauge charges)."
+broken_promises:
+  - "Lie's original goal was a Galois theory for differential equations — solving ODEs by their symmetries; it reduces equations with symmetry but most ODEs have none."
 asks:
   - What are the continuous symmetry groups and how are they classified?
   - What are their representations?

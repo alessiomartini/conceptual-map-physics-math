@@ -9,6 +9,14 @@ summary: >-
   First-order transitions have latent heat; continuous ones have diverging correlation lengths and power laws
   with universal exponents. Landau theory, scaling and the RG explain universality. Quantum phase transitions
   at zero temperature and transitions beyond the Landau paradigm (topological, deconfined) extend the story.
+big_goal: "Explain why matter changes state abruptly, and why very different systems behave identically near their critical points."
+essentials:
+  - "Phases are classified by order parameters and symmetry breaking (Landau)."
+  - "Near a critical point, correlation lengths diverge and exponents are universal: water and magnets share the same numbers."
+  - "The renormalization group explains universality; quantum phase transitions happen at zero temperature by tuning a parameter."
+broken_promises:
+  - "Landau's symmetry-breaking paradigm was meant to classify all phases; topological order and deconfined criticality showed it is incomplete."
+  - "The glass transition, a 'phase transition' in everyday materials, has resisted every theory."
 asks:
   - Why do sharp phase transitions exist in the thermodynamic limit?
   - Why do critical exponents depend only on dimension, symmetry and range of interactions?

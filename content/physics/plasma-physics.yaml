@@ -7,6 +7,13 @@ one_liner: Ionized gases governed by collective electromagnetic forces — 99% o
 summary: >-
   Plasmas are described by kinetic theory (Vlasov) and magnetohydrodynamics. The field underpins
   controlled fusion, space weather and much of astrophysics.
+big_goal: "Understand collective dynamics of ionized matter — in stars, space and the lab — and harness controlled fusion."
+essentials:
+  - "Plasmas are dominated by collective electromagnetic effects: screening, waves, collisionless damping."
+  - "Magnetohydrodynamics describes them as conducting fluids threaded by magnetic fields."
+  - "Fusion needs density × temperature × confinement time above the Lawson criterion; laser fusion passed target gain > 1 in 2022."
+broken_promises:
+  - "Controlled fusion power was promised as '30 years away' since the 1950s; plasma instabilities and turbulent transport made confinement far harder than expected, and no power plant exists yet."
 asks:
   - How do charged-particle collective effects and magnetic fields shape plasma dynamics?
   - Can a hot plasma be confined long enough for net fusion energy?

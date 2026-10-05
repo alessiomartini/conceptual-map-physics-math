@@ -11,6 +11,14 @@ summary: >-
   time-symmetric? When is a gauge symmetry a fact about the world and when is it just redundancy in our
   description? It also studies physics as a practice — how theories are tested, chosen and reduced to one another.
   The interpretation of quantum mechanics has its own page, [[quantum-foundations]].
+big_goal: "Clarify what our best theories say about reality — space, time, probability, causation, what exists — and what counts as explanation and evidence in physics."
+essentials:
+  - "Theories can fit all data and still disagree about what exists (underdetermination); interpretations of quantum mechanics are the prime example."
+  - "The arrow of time comes from a low-entropy initial state, not from the laws (past hypothesis)."
+  - "Gauge symmetries are redundancies of description; diffeomorphism invariance makes spacetime points lose independent identity (hole argument)."
+broken_promises:
+  - "Logical positivism hoped to reduce physics to statements about observations; theories turned out to be full of unobservable structure that does real explanatory work."
+  - "Many debates (interpretations, substantivalism) may never be settled by experiment, because the competing views make the same predictions."
 asks:
   - "Realism vs instrumentalism: do theories describe unobservable reality, or are they tools for predicting observations?"
   - What is the ontology of a theory — particles, fields, spacetime points, wavefunctions, information?

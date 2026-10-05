@@ -8,6 +8,13 @@ one_liner: Rigorous foundations of limits, continuity, integration and the size 
 summary: >-
   Makes calculus rigorous (ε–δ), builds the real numbers, and generalizes integration via Lebesgue measure,
   which is the foundation of probability theory and of function spaces.
+big_goal: "Make limits, continuity, integration and measure rigorous."
+essentials:
+  - "The real numbers are complete: Cauchy sequences converge."
+  - "Lebesgue's integral handles limits far better than Riemann's (dominated convergence)."
+  - "Measure theory is the foundation of probability."
+broken_promises:
+  - "The hope of assigning a size (measure) to every subset of space fails: with the axiom of choice, non-measurable sets exist (Vitali), and a ball can be cut and reassembled into two balls (Banach–Tarski)."
 asks:
   - What does it mean for a limit, sum or integral to exist?
   - Which sets and functions can be measured and integrated?

@@ -272,7 +272,7 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
     if (e.prerequisites && e.prerequisites.length) h += `<section class="sec"><h2>Builds on</h2><div class="chips">${e.prerequisites.map(chip).join("")}</div></section>`;
     if ((e.connections || []).length || inc.length) h += `<section class="sec"><h2>Connected to</h2><div class="chips">${[...(e.connections || []), ...inc].map(chip).join("")}</div></section>`;
     if (e.resources && e.resources.length) h += `<section class="sec"><h2>Where to read more</h2><ul>${e.resources.map(r => `<li>${r}</li>`).join("")}</ul></section>`;
-    if (e.cards.length) h += `<section class="sec"><h2>Flashcards · ${e.cards.length}</h2><div class="cards">${e.cards.map(c => `<details><summary>${c.q}</summary><div>${c.a}</div></details>`).join("")}</div></section>`;
+    if (e.cards.length) h += `<section class="sec"><h2>${e.domain === "concept" ? "Flashcards" : "Details to check yourself (not in the Anki deck)"} · ${e.cards.length}</h2><div class="cards">${e.cards.map(c => `<details><summary>${c.q}</summary><div>${c.a}</div></details>`).join("")}</div></section>`;
     h += `</div><nav class="pager"><span>${prev ? `← <a href="#${prev.id}">${esc(prev.title)}</a>` : ""}</span><span>${next ? `<a href="#${next.id}">${esc(next.title)}</a> →` : ""}</span></nav></article>`;
     main.innerHTML = h;
     document.title = `${e.title} · ${D.config.title}`;
@@ -286,7 +286,7 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
     let h = `<div class="wide">
       <div class="hero"><div><div class="eyebrow">An atlas for the long view</div><h1>${esc(D.config.title)}</h1>
       <p>${esc(D.config.subtitle)}. Each field answers the same questions: what it asks, what it has established, what it rests on, where it breaks, and where it is heading. Click a node to open it.</p></div>
-      <div class="stats"><div><b>${nFields}</b>fields</div><div><b>${nExp}</b>experiments</div><div><b>${nConcepts}</b>threads</div><div><b>${D.nCards}</b>flashcards</div></div></div>
+      <div class="stats"><div><b>${nFields}</b>fields</div><div><b>${nExp}</b>experiments</div><div><b>${nConcepts}</b>threads</div><div><b>${D.nCards}</b>detail Q&amp;As</div></div></div>
       ${D.config.philosophy.length ? `<div class="philo"><h2>What this map is for</h2><ul>${D.config.philosophy.map(p => `<li>${p}</li>`).join("")}</ul></div>` : ""}
       <div class="mapbox"><div class="mapbar">${Object.entries(D.areas).map(([k, d]) => `<label><input type="checkbox" data-dom="${k}" checked> ${esc(d.label)} <span class="mark mark-${k}"></span></label>`).join("")}
         <span class="hint">Drag to pan · scroll to zoom (experiment names appear) · hover to trace links</span></div>

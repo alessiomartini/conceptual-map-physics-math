@@ -10,6 +10,14 @@ summary: >-
   physical (circuit complexity of quantum states, statistical complexity of processes). Computational
   complexity limits simulability of physical systems; quantum circuit complexity has been proposed to
   track the growth of black-hole interiors.
+big_goal: "Quantify how hard things are — to describe, to compute, to simulate, to prepare — and understand what these limits say about physics."
+essentials:
+  - "Different notions: description length (Kolmogorov), computational resources (P vs NP), quantum circuit complexity."
+  - "Some physical problems are provably hard (finding spin-glass ground states is NP-hard; quantum ground-state energies are QMA-hard), so no efficient algorithm is expected."
+  - "In holography, the growth of black-hole interiors has been conjectured to match the growth of quantum complexity."
+broken_promises:
+  - "Kolmogorov complexity was meant to be the ultimate measure of information content of a single object; it is uncomputable, so it can never be evaluated in general."
+  - "The hope that physical systems might efficiently solve NP-hard problems (analog computers, quantum annealers) has not been borne out; complexity theory suggests even quantum computers cannot."
 asks:
   - How much information or computation is needed to describe or simulate a system?
   - Which physical problems are intractable (e.g. NP-hard spin glasses, QMA-hard ground states)?

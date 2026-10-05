@@ -9,6 +9,14 @@ summary: >-
   AMO physics gave lasers, laser cooling, atomic clocks and Bose–Einstein condensates, and now builds
   programmable quantum simulators and computers from neutral atoms and ions. Its precision makes it a
   probe of fundamental physics (fine-structure constant, EDMs, variation of constants, dark matter).
+big_goal: "Total control of individual quantum systems of light and matter — to measure nature as precisely as possible and to build quantum machines from atoms."
+essentials:
+  - "Lasers and laser cooling turned atoms into controllable objects, down to nanokelvin (Bose–Einstein condensates, 1995)."
+  - "Atomic clocks are the most precise instruments ever built (fractional errors below 10⁻¹⁸), so AMO tests fundamental physics through precision instead of high energy."
+  - "Arrays of trapped atoms and ions are now programmable quantum simulators and computers."
+broken_promises:
+  - "It was once seen as a 'finished' field (atomic structure was solved by quantum mechanics by the 1930s). The opposite happened: control of single quanta reopened it — the promise that was wrong was its completion, not its ambition."
+  - "Quantum simulators were hoped to solve hard many-body problems (high-Tc superconductivity) quickly; noise and limited size mean they have not yet answered a question classical methods could not."
 asks:
   - How do light and matter interact at the single-quantum level?
   - How precisely can we measure time, frequency and fundamental constants?

@@ -8,6 +8,15 @@ summary: >-
   The ΛCDM model fits the cosmic microwave background, large-scale structure, Big Bang nucleosynthesis and
   supernova distances with six parameters, but 95% of its energy budget (dark matter, dark energy) is unexplained
   and tensions (Hubble constant, possibly evolving dark energy) are under active scrutiny.
+big_goal: "Reconstruct the history and composition of the universe from its beginning to today, and explain its initial conditions."
+essentials:
+  - "The universe is expanding and was once hot and dense (Big Bang); the CMB is light from 380,000 years after it."
+  - "A six-parameter model (ΛCDM) fits all data, but 95% of its content is dark matter and dark energy of unknown nature."
+  - "Tiny initial fluctuations (10⁻⁵) seeded all structure; inflation is the leading explanation of their origin."
+broken_promises:
+  - "The hope of explaining why the universe is as it is — the value of the cosmological constant, the initial state — from fundamental theory has not succeeded; the cosmological constant is 'predicted' wrong by ~120 orders of magnitude."
+  - "Cosmic variance: we have one universe, so some quantities (large-scale CMB patterns) can never be measured better than a fixed statistical limit."
+  - "Before recombination the universe was opaque to light, so the earliest epochs (inflation itself) can be seen only indirectly — via gravitational waves or neutrinos, if ever."
 asks:
   - How did the universe begin and evolve, and what is it made of?
   - What are dark matter and dark energy?

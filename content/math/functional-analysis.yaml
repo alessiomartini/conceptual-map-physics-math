@@ -7,6 +7,13 @@ one_liner: Linear algebra in infinite dimensions — Banach and Hilbert spaces a
 summary: >-
   The mathematical setting of quantum mechanics and PDEs. Spectral theory of unbounded self-adjoint operators,
   operator algebras (C* and von Neumann), and distributions are its main tools.
+big_goal: "Extend linear algebra and calculus to infinite-dimensional spaces of functions — the mathematical setting of quantum mechanics and PDE."
+essentials:
+  - "Hilbert spaces and self-adjoint operators give quantum mechanics its rigorous form (spectral theorem)."
+  - "Function spaces (Sobolev) and distributions make weak solutions of PDEs possible."
+  - "Operator algebras classify possible algebras of observables (types I, II, III)."
+broken_promises:
+  - "von Neumann hoped operator algebras would give a rigorous foundation for quantum field theory; algebraic QFT clarified the structure, but no interacting 4D QFT has been constructed this way."
 asks:
   - How do linear algebra and spectral theory extend to infinite-dimensional spaces?
   - What are the possible algebras of observables?

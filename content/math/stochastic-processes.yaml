@@ -8,6 +8,13 @@ one_liner: Random functions of time — Brownian motion, Markov chains, Itô cal
 summary: >-
   The mathematics behind diffusion, noise, filtering and financial derivatives. Itô calculus makes sense of
   differential equations driven by Brownian motion (see [[sde]]) and links them to PDEs (Feynman–Kac).
+big_goal: "Model and compute with randomness that evolves in time."
+essentials:
+  - "Brownian motion is the universal continuous random walk."
+  - "Markov processes forget their past; their statistics obey master/Fokker–Planck equations."
+  - "No-arbitrage pricing in finance is a theorem about martingales."
+broken_promises:
+  - "Gaussian random-walk models of prices (Bachelier, Black–Scholes) were hoped to describe markets; real returns are fat-tailed and volatility clusters, so the models are approximations that fail precisely in crashes."
 asks:
   - How do we model and compute with continuous-time randomness?
   - How do random dynamics relate to PDEs and to equilibrium distributions?

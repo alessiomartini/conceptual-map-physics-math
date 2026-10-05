@@ -9,6 +9,14 @@ summary: >-
   Treats quantum states as information carriers. It produced quantum algorithms, error correction,
   entanglement theory and cryptography, and its language (entanglement entropy, tensor networks,
   error-correcting codes, complexity) now organizes condensed matter and quantum gravity.
+big_goal: "Use quantum mechanics as a resource for computation, communication and sensing — and build a fault-tolerant quantum computer."
+essentials:
+  - "Quantum computers can factor large numbers efficiently (Shor), breaking today's public-key cryptography."
+  - "Quantum information can be protected from noise by error correction, if physical errors are below a threshold."
+  - "Its language (entanglement, codes, complexity) now organizes condensed matter and quantum gravity too."
+broken_promises:
+  - "Early hopes that quantum computers would speed up essentially everything (including NP-hard problems) were wrong: speedups are expected only for specific problems."
+  - "A large useful fault-tolerant quantum computer was expected 'within a decade' repeatedly since the late 1990s; error-correction overheads keep it a long engineering effort."
 asks:
   - What can quantum computers compute efficiently that classical ones cannot?
   - How can fragile quantum information be protected from noise?

@@ -8,6 +8,14 @@ summary: >-
   Holomorphic functions are analytic, determined by their values on small sets, and computable through contour
   integrals and residues. The theory feeds number theory (zeta function), physics (analyticity of S-matrix,
   dispersion relations), and 2D conformal field theory.
+big_goal: "Understand functions of a complex variable, where differentiability forces a rigidity with no analogue in real analysis."
+essentials:
+  - "A complex-differentiable function is infinitely differentiable and determined by its values on any small region."
+  - "Integrals can be computed from singularities (residue theorem)."
+  - "Analyticity encodes causality in physics (Kramers–Kronig, dispersion relations) and drives number theory (zeta function)."
+broken_promises:
+  - "Several complex variables were expected to behave like one variable; they do not (Hartogs phenomenon), and the theory is far more complicated."
+  - "The Riemann hypothesis, a statement about a complex function, remains unproven since 1859."
 asks:
   - What are the properties of complex-differentiable functions?
   - How do singularities and analytic continuation determine a function?

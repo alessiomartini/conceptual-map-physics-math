@@ -9,6 +9,13 @@ summary: >-
   Wilson's lattice gauge theory (1974) gave a non-perturbative definition of QCD and, with Monte Carlo
   simulation in Euclidean time, first-principles hadron masses, quark masses, the QCD phase diagram at zero
   density and hadronic contributions to precision observables.
+big_goal: "Compute strongly coupled quantum field theories — above all QCD — from first principles on computers."
+essentials:
+  - "Putting spacetime on a grid gives a non-perturbative definition of QCD."
+  - "Lattice QCD reproduces the hadron masses and showed the QCD transition at zero density is a smooth crossover around 155 MeV."
+  - "It now provides key precision inputs, e.g. the hadronic contribution that resolved the muon g−2 anomaly."
+broken_promises:
+  - "Lattice methods were expected to eventually compute all of QCD; the sign problem makes dense matter (neutron-star interiors) and real-time dynamics inaccessible to Monte Carlo, perhaps permanently for classical computers."
 asks:
   - How can we compute strongly coupled QFT from first principles?
   - What are hadron masses and matrix elements predicted by QCD?

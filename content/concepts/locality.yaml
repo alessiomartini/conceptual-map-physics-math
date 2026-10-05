@@ -25,10 +25,12 @@ resources:
   - "Haag, *Local Quantum Physics*"
 cards:
   - q: What is microcausality in QFT?
+    detail: true  # site only, not in the Anki deck
     a: Observables at spacelike separation commute, so measurements there cannot influence each other.
   - q: How can quantum mechanics be "nonlocal" yet forbid faster-than-light signalling?
     a: Bell-violating correlations rule out local hidden variables, but the marginal statistics at each side are independent of the distant choice (no-signalling).
   - q: What is the Lieb–Robinson bound?
+    detail: true  # site only, not in the Anki deck
     a: In lattice systems with local interactions, correlations and information spread within an effective light cone with finite velocity.
   - q: Why is locality problematic in quantum gravity?
     a: Diffeomorphism invariance means there are no local gauge-invariant observables, and holography/black-hole information suggest bulk locality is only approximate.

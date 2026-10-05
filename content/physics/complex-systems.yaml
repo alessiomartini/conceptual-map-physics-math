@@ -8,6 +8,14 @@ summary: >-
   A meta-field (associated with the Santa Fe Institute) studying emergence, self-organization, adaptation and
   heavy-tailed statistics. Tools come from statistical physics, nonlinear dynamics, network theory, agent-based
   modelling and information theory.
+big_goal: "Find general laws for how collective behaviour emerges from many interacting parts — in physics, biology, economics and society — and how predictable and controllable such systems are."
+essentials:
+  - "Simple local rules can produce complex global patterns; the whole has properties the parts do not."
+  - "Many complex systems show scaling laws and heavy-tailed statistics (earthquakes, city sizes, metabolism)."
+  - "Some systems organize themselves near critical points without tuning (self-organized criticality)."
+broken_promises:
+  - "The 1980s–90s hope for a unified 'science of complexity' with universal laws (Santa Fe) did not deliver: there is no single definition of complexity and universality claims (power laws everywhere) were often overstated."
+  - "Long-term prediction of adaptive systems (markets, ecosystems, societies) remains impossible: they react to the predictions themselves."
 definitions:
   - "**Complex system has no single definition** (Seth Lloyd collected ~40 measures of complexity). The main families:"
   - "**(1) Many interacting parts with emergent collective behaviour** — the physicist's default ([[emergence]]); inclusive but vague."

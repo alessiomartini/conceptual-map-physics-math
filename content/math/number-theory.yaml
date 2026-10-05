@@ -8,6 +8,14 @@ summary: >-
   Simple questions with deep answers. Analytic number theory studies prime distribution via the zeta function;
   algebraic number theory studies number fields; arithmetic geometry studies Diophantine equations through
   geometry. The Langlands program connects them all with representation theory.
+big_goal: "Understand the integers and primes, and the hidden symmetries linking arithmetic, geometry and analysis (Langlands)."
+essentials:
+  - "Primes thin out like 1/log x (prime number theorem); their finer distribution is governed by the zeros of the zeta function."
+  - "Fermat's Last Theorem was proved (1995) by connecting elliptic curves to modular forms."
+  - "Number theory underpins modern cryptography."
+broken_promises:
+  - "The Riemann hypothesis, twin primes and Goldbach's conjecture have resisted every approach for over a century."
+  - "Hilbert's tenth problem asked for an algorithm deciding whether any Diophantine equation has integer solutions; Matiyasevich (1970) proved none exists."
 asks:
   - How are the primes distributed?
   - When do polynomial equations have integer or rational solutions?

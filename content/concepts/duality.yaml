@@ -26,10 +26,12 @@ resources:
   - "Seiberg, Senthil, Wang & Witten, *A Duality Web in 2+1 Dimensions* (2016)"
 cards:
   - q: How does Kramers–Wannier duality fix the 2D Ising critical point?
+    detail: true  # site only, not in the Anki deck
     a: It maps high temperature to low temperature; if there is a single transition it must sit at the self-dual point, $\sinh(2J/k_BT_c) = 1$.
   - q: What is S-duality?
     a: An equivalence of gauge theories under $g\to1/g$ (more generally $SL(2,\mathbb Z)$ on $\tau$) exchanging electric and magnetic charges.
   - q: What is T-duality in string theory?
+    detail: true  # site only, not in the Anki deck
     a: String theory on a circle of radius $R$ is equivalent to one on radius $\alpha'/R$, with momentum and winding modes exchanged.
   - q: Why do dualities show that a Lagrangian is not the theory?
     a: The same physics admits several Lagrangians with different fields and couplings, each weakly coupled in a different regime.

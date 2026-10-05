@@ -8,6 +8,14 @@ summary: >-
   The formalism works; its interpretation does not command consensus. Foundations studies the
   measurement problem, nonlocality, contextuality and the status of the wavefunction, and has
   turned philosophical questions into experiments (Bell tests) and resources (quantum information).
+big_goal: "Find out what quantum mechanics says about reality: what happens in a measurement, what the wavefunction is, and why nature allows exactly quantum correlations."
+essentials:
+  - "No local hidden-variable theory can reproduce quantum predictions (Bell); experiments confirm the violation, loophole-free since 2015."
+  - "Decoherence explains why we don't see superpositions of macroscopic objects, but not why one outcome occurs."
+  - "Several interpretations (Copenhagen, many-worlds, Bohmian, QBism, collapse models) agree on all current predictions."
+broken_promises:
+  - "Einstein (EPR 1935) hoped quantum mechanics would be completed by local hidden variables; Bell's theorem and experiments ruled this out."
+  - "Settling the interpretation by experiment is mostly impossible: interpretations are empirically equivalent, with objective-collapse models the testable exception."
 asks:
   - What happens during a measurement, and why do we see definite outcomes?
   - Is the wavefunction physical (ontic) or knowledge (epistemic)?

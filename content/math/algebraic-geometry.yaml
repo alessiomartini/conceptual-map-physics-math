@@ -7,6 +7,14 @@ one_liner: Geometry of solution sets of polynomial equations, rebuilt by Grothen
 summary: >-
   From classical curves and surfaces to schemes, stacks and derived geometry. It unifies geometry and number
   theory (arithmetic geometry) and is the natural home of mirror symmetry, moduli spaces and much of string theory.
+big_goal: "Understand the geometry of solutions of polynomial equations so completely that geometry and arithmetic become one subject."
+essentials:
+  - "Polynomial equations and geometric shapes are two sides of the same object (Nullstellensatz); Grothendieck's schemes extend this to any ring, including the integers."
+  - "Counting solutions over finite fields is governed by topology (Weil conjectures, proved by Deligne 1974)."
+  - "It is the language of modern number theory, mirror symmetry and string compactifications."
+broken_promises:
+  - "Grothendieck's 'standard conjectures' were meant to give a complete theory of motives — a universal cohomology for all varieties; they remain unproven decades later."
+  - "The Hodge conjecture (which classes come from algebraic cycles) is still open, a Millennium problem."
 asks:
   - What are the geometric properties of solution sets of polynomials?
   - How do we classify varieties (moduli spaces)?

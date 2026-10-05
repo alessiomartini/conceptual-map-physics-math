@@ -11,6 +11,14 @@ summary: >-
   waveguides, photonic crystals and metamaterials. It is where wave–particle duality was first fought over and
   where the most precise measurement devices (interferometers, frequency combs) live; atom–light interaction
   is in [[amo-physics]].
+big_goal: "Understand and control light — as rays, waves and photons — and use it to see, measure and communicate."
+essentials:
+  - "Light is an electromagnetic wave whose interference and diffraction set the limits of imaging."
+  - "Light is also made of photons; some of its statistics (antibunching, squeezing) have no classical explanation."
+  - "Lasers, fibres and interferometers made optics the backbone of communication and precision measurement."
+broken_promises:
+  - "The diffraction limit was thought to be absolute for microscopy; it was circumvented (near-field, super-resolution fluorescence), so the 'impossible' turned out possible."
+  - "Optical computing was promised repeatedly since the 1980s to replace electronics; it has remained niche (though optics for AI is being tried again)."
 asks:
   - How does light propagate, interfere and diffract, and what limits imaging resolution?
   - What is the quantum nature of light, and how do photon statistics distinguish it from classical waves?

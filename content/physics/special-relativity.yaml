@@ -8,6 +8,14 @@ summary: >-
   Einstein (1905) replaced Galilean invariance with Lorentz invariance. Simultaneity becomes relative,
   time dilates and lengths contract, and energy and mass are equivalent. Lorentz (Poincaré) symmetry is
   a non-negotiable input for every fundamental theory built later.
+big_goal: "Make the laws of physics the same for all inertial observers with an invariant speed of light — and rebuild mechanics on that basis."
+essentials:
+  - "Space and time merge into spacetime; simultaneity is relative, moving clocks run slow."
+  - "Energy and mass are equivalent (E = mc²)."
+  - "Lorentz symmetry is an input for every fundamental theory built afterwards."
+broken_promises:
+  - "Physics before 1905 hoped to detect absolute motion through the ether; Michelson–Morley found nothing, and relativity removed absolute rest altogether."
+  - "Special relativity forbids faster-than-light signalling; hopes (or fears) of exploiting quantum entanglement for it are ruled out by the no-signalling theorem."
 asks:
   - How do measurements of space and time relate between observers in uniform motion?
   - What is the correct dynamics at speeds close to $c$?

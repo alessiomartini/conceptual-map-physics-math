@@ -10,6 +10,14 @@ summary: >-
   through holography, quantum gravity in AdS. In 2D conformal symmetry is infinite-dimensional (Virasoro)
   and many theories are exactly solvable. In higher dimensions the conformal bootstrap uses consistency
   alone to compute critical exponents.
+big_goal: "Classify and solve all scale-invariant quantum field theories — the fixed points that describe critical phenomena and organize the space of all QFTs."
+essentials:
+  - "At a critical point physics looks the same at all scales; this extends to conformal invariance, a much stronger constraint."
+  - "In 2D conformal symmetry is infinite-dimensional and many theories are exactly solvable."
+  - "In higher dimensions the bootstrap computes critical exponents (3D Ising) to record precision from consistency alone."
+broken_promises:
+  - "The hope of solving 3D and 4D CFTs exactly, as in 2D, has not materialized: there is no infinite-dimensional symmetry, so we get numbers (often very precise) rather than closed-form solutions."
+  - "A complete classification of CFTs, even in 2D (non-rational theories), remains out of reach."
 asks:
   - What are the possible scale-invariant quantum field theories?
   - What data (operator spectrum, OPE coefficients) defines a CFT, and what consistency conditions constrain it?

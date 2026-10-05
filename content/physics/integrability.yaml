@@ -8,6 +8,14 @@ summary: >-
   Quantum integrable systems have factorized scattering and infinitely many commuting charges. Bethe ansatz,
   Yang–Baxter equation and quantum groups solve 1+1D models exactly. Integrability solved the spectrum
   of planar N=4 SYM and supplies exact benchmarks for many-body physics.
+big_goal: "Find and exploit the systems that can be solved exactly, using them as benchmarks and as windows into strong coupling."
+essentials:
+  - "Some interacting systems have so many conserved quantities that they can be solved exactly (Bethe ansatz, 2D Ising)."
+  - "Integrable systems do not thermalize normally: they relax to a generalized Gibbs ensemble."
+  - "Integrability gave the exact spectrum of planar N=4 super-Yang–Mills, a 4D gauge theory."
+broken_promises:
+  - "The hope that integrability would solve realistic theories like QCD has not been realized: it seems to require special symmetry (planarity, supersymmetry, low dimension)."
+  - "Quantum integrability itself has no agreed definition, so what 'solvable' means is partly a matter of convention."
 definitions:
   - "**Classical integrability is clear:** n independent Poisson-commuting conserved quantities (Liouville–Arnold) ⇒ motion on tori."
   - "**Quantum integrability has no agreed definition** (Caux–Mossel 2011). The naive translation fails: every Hamiltonian has N commuting conserved operators (the projectors on its eigenstates)."

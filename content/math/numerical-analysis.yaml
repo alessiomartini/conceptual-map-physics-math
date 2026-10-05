@@ -8,6 +8,13 @@ one_liner: Designing and analysing algorithms for continuous mathematics on fini
 summary: >-
   Approximation, stability and convergence of algorithms for linear algebra, ODEs, PDEs, integration and
   optimization. Monte Carlo methods and structure-preserving integrators are central for physics and finance.
+big_goal: "Compute continuous mathematics on finite machines with guaranteed accuracy and efficiency."
+essentials:
+  - "A method converges only if it is stable (Lax equivalence)."
+  - "Fast algorithms (FFT, multigrid) made large simulations possible."
+  - "Monte Carlo error decreases as 1/√N regardless of dimension — the method of choice in high dimension."
+broken_promises:
+  - "Early computing pioneers expected that more computing power would make long-term numerical prediction of physical systems routine; chaos and the curse of dimensionality limit this fundamentally."
 asks:
   - How accurately and stably can continuous problems be approximated?
   - How do errors and costs scale with problem size?

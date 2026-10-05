@@ -9,6 +9,15 @@ summary: >-
   Strings unify via dualities into M-theory, contain D-branes, and led to AdS/CFT. Its mathematical
   output (mirror symmetry, enumerative geometry) is huge; its experimental confirmation is absent and the
   landscape of vacua complicates prediction.
+big_goal: "A single quantum framework containing gravity and all other forces, in which particles are vibrations of strings."
+essentials:
+  - "Strings necessarily contain the graviton, so gravity is unavoidable and perturbatively finite."
+  - "The different string theories are limits of one theory (M-theory), related by dualities."
+  - "Its biggest concrete products are holography (AdS/CFT), black-hole entropy counting and new mathematics (mirror symmetry)."
+broken_promises:
+  - "It was born (Veneziano 1968) as a theory of the strong interaction; QCD replaced it in 1973."
+  - "In the 1980s it was hoped to predict the Standard Model uniquely; instead it has a huge landscape of possible vacua (~10⁵⁰⁰ or more), and predictivity is unclear."
+  - "Its characteristic energy is near the Planck scale, so direct experimental tests are probably impossible; evidence can only be indirect."
 asks:
   - Can gravity and gauge forces be unified in a single quantum theory?
   - Which low-energy physics can emerge, and is our universe in the landscape?

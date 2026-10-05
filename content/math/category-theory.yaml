@@ -8,6 +8,13 @@ summary: >-
   Introduced by Eilenberg and Mac Lane (1945) for algebraic topology, it became the organizing language of
   algebraic geometry (Grothendieck), homological algebra, logic and now physics (TQFTs, generalized symmetries)
   and computer science. Higher categories capture homotopy-coherent structure.
+big_goal: "Find the common structure behind constructions across all of mathematics, describing objects by their relationships rather than their contents."
+essentials:
+  - "An object is determined by how it maps to and from everything else (Yoneda lemma)."
+  - "Universal constructions and adjoint functors appear in every field, making analogies precise."
+  - "In physics, topological field theories and generalized symmetries are naturally categorical."
+broken_promises:
+  - "Category theory (topos theory) was proposed as a replacement for set theory as the foundation of mathematics; most mathematicians still work in set theory, and the foundations question is unsettled (homotopy type theory is a newer contender)."
 asks:
   - What is common to constructions across different fields?
   - How can mathematical objects be characterized by their relations (universal properties)?

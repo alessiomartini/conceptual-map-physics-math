@@ -8,6 +8,13 @@ one_liner: Which problems can be solved efficiently, and which resources (time, 
 summary: >-
   Classifies problems into complexity classes (P, NP, PSPACE, BQP...). Its central open question, P vs NP, is
   a Millennium problem. Complexity shapes cryptography, limits of simulation in physics, and quantum advantage.
+big_goal: "Classify problems by the resources needed to solve them, and decide whether finding solutions is fundamentally harder than checking them (P vs NP)."
+essentials:
+  - "NP-complete problems (SAT, travelling salesman) are all equivalent: an efficient algorithm for one solves all."
+  - "Quantum computers solve some problems (factoring) efficiently that seem hard classically, but are not expected to solve NP-complete ones."
+  - "Most separations between classes are believed but not proven."
+broken_promises:
+  - "P ≠ NP was expected to be proven with the tools of the 1970s; known proof techniques provably cannot do it (relativization, natural proofs, algebrization barriers)."
 asks:
   - Which problems are efficiently solvable?
   - Is finding a solution fundamentally harder than checking one (P vs NP)?

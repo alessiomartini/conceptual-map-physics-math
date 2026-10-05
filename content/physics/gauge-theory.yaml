@@ -8,6 +8,14 @@ summary: >-
   Gauge symmetry is a redundancy of description, not a physical symmetry, but it dictates the form of
   interactions. Yang–Mills theory with a compact Lie group underlies the strong and electroweak forces.
   Physically, gauge theories show confinement, Higgsing and topological phases.
+big_goal: "Understand the forces of nature as consequences of local symmetry, and solve gauge theories at strong coupling — above all, explain confinement."
+essentials:
+  - "Requiring a symmetry to hold locally forces the existence of force-carrying fields; three of the four forces are gauge theories."
+  - "Gauge symmetry is a redundancy of description: only gauge-invariant quantities are physical."
+  - "Non-abelian gauge theories are asymptotically free at high energy and (for QCD) confining at low energy."
+broken_promises:
+  - "Proving that quarks are confined and that Yang–Mills theory has a mass gap was expected to follow from better techniques; 50 years later it is still a Millennium Prize problem, supported by lattice numerics but unproven."
+  - "Yang and Mills (1954) proposed their theory for the strong force between nucleons, but the massless gauge bosons seemed unphysical; it took asymptotic freedom and quarks (1973) to make it the theory of the strong force — in a form quite different from the original idea."
 asks:
   - Which interactions are consistent with local symmetry, and why are force carriers spin-1?
   - What are the phases of gauge theories (Coulomb, Higgs, confining, topological)?

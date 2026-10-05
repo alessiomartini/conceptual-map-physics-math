@@ -9,6 +9,13 @@ summary: >-
   The most-used mathematics in science: eigenvalues, decompositions and tensor products are the language
   of quantum mechanics, data analysis and numerical computation. Representation theory studies groups acting
   linearly, decomposing symmetry into irreducible pieces.
+big_goal: "Understand linear maps completely — decompositions, eigenvalues, representations — since almost everything is approximated linearly."
+essentials:
+  - "Linear maps decompose into eigenvalues and eigenvectors (spectral theorem, SVD)."
+  - "Representation theory decomposes symmetry into irreducible pieces."
+  - "It is the computational core of quantum mechanics, data analysis and numerics."
+broken_promises:
+  - "Finding eigenvalues was hoped to reduce to solving the characteristic polynomial exactly; by Abel–Ruffini this is impossible beyond degree 4, so eigenvalues must be computed iteratively."
 asks:
   - How can linear maps be classified and decomposed?
   - How do groups act on vector spaces, and what are their irreducible representations?

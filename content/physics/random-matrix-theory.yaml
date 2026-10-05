@@ -9,6 +9,14 @@ summary: >-
   Wigner introduced random Hamiltonians to model heavy nuclei. The spectra depend only on symmetry class
   (Dyson's threefold way, later tenfold), producing universal level repulsion. RMT appears in quantum chaos,
   disordered conductors, number theory, 2D gravity, wireless communication, statistics and finance.
+big_goal: "Explain the universal statistics of spectra of complex systems, which depend only on symmetry and not on details."
+essentials:
+  - "Eigenvalues of large random matrices repel each other; their local statistics are universal and depend only on symmetry class."
+  - "Chaotic quantum systems, heavy nuclei and even the zeros of the Riemann zeta function show the same statistics."
+  - "In finance and data science, RMT separates real correlations from noise."
+broken_promises:
+  - "Wigner introduced random matrices to understand nuclear spectra while giving up on computing individual levels; RMT explains statistics, never specific energy levels — a deliberate trade."
+  - "Hopes that the GUE statistics of zeta zeros would lead to a proof of the Riemann hypothesis (via a 'Hilbert–Pólya' operator) have not been realized."
 asks:
   - What are the universal statistical properties of spectra of complex systems?
   - Which symmetry classes exist and what are their universal laws?

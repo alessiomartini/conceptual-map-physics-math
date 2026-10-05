@@ -9,6 +9,14 @@ summary: >-
   Mathematical logic studies formal systems: proof theory, model theory, computability and set theory. Its
   landmark results are limitative — Gödel, Turing, Cohen — showing that no consistent formal system captures
   all mathematical truth and that some questions (the continuum hypothesis) are independent of ZFC.
+big_goal: "Find secure foundations for mathematics: what a proof is, what can be proven and what can be computed."
+essentials:
+  - "Any consistent system strong enough for arithmetic has true but unprovable statements, and cannot prove its own consistency (Gödel)."
+  - "Some problems are undecidable: no algorithm can decide whether a program halts (Turing)."
+  - "The continuum hypothesis is independent of the standard axioms (ZFC)."
+broken_promises:
+  - "Hilbert's programme: a complete, consistent axiomatization of mathematics with a finitary consistency proof. Gödel showed it is impossible."
+  - "The Entscheidungsproblem — an algorithm deciding all mathematical statements — was shown impossible by Church and Turing."
 asks:
   - What is a proof, and what can formal systems prove?
   - What is computable?

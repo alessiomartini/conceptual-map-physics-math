@@ -8,6 +8,14 @@ summary: >-
   Maxwell's theory is the prototype of every field theory: local, relativistic, and a U(1) gauge theory.
   Light is an electromagnetic wave. The potentials $A_\mu$ carry gauge redundancy, a structure later
   generalized to Yang–Mills theory.
+big_goal: "One theory for electricity, magnetism and light — the prototype of every field theory."
+essentials:
+  - "Maxwell's equations unify electricity and magnetism and predict that light is an electromagnetic wave."
+  - "The theory is Lorentz invariant — it pushed physics to special relativity."
+  - "It is a gauge theory (U(1)), the template for the forces of the Standard Model."
+broken_promises:
+  - "Late 19th-century physics hoped electromagnetism would explain all of matter (electromagnetic mass of the electron, ether models). It could not explain atomic stability, blackbody radiation or the photoelectric effect — quantum mechanics was needed."
+  - "A consistent classical theory of a point charge interacting with its own field was never found (runaway solutions of Abraham–Lorentz)."
 asks:
   - How do charges and currents create fields, and how do fields act on charges?
   - What is light?

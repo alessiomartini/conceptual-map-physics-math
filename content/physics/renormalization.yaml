@@ -10,6 +10,14 @@ summary: >-
   out short-distance modes generates a flow in the space of couplings. Fixed points are scale-invariant
   theories; relevant and irrelevant directions explain universality in critical phenomena and why
   effective theories work.
+big_goal: "Understand how physics changes with the scale of observation, and why theories at long distances depend on only a few parameters."
+essentials:
+  - "Integrating out short-distance details makes couplings flow with scale; fixed points of the flow are scale-invariant theories."
+  - "Irrelevant details die away, which explains universality and why effective theories work."
+  - "RG flows are irreversible: degrees of freedom decrease from high to low energy (c-theorem, a-theorem)."
+broken_promises:
+  - "Renormalization was first seen (Dirac, Feynman) as a trick to hide infinities, expected to be replaced by a finite theory; Wilson showed it is physics, and the infinities are a sign of missing short-distance information."
+  - "Renormalizability was once a criterion for fundamental theories; it is now known that non-renormalizable theories (gravity, Fermi theory) are fine as effective theories, so the criterion lost its role."
 asks:
   - Why are low-energy physics predictions insensitive to unknown high-energy details?
   - How do couplings depend on scale, and what are the fixed points?

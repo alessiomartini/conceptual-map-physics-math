@@ -8,6 +8,14 @@ one_liner: Physical principles of living matter, from molecular machines to coll
 summary: >-
   Uses statistical mechanics, information theory and non-equilibrium physics to understand how life
   computes, senses, moves and organizes itself.
+big_goal: "Find the physical principles that make living matter work — how molecules, cells and organisms sense, compute, move and organize reliably out of equilibrium."
+essentials:
+  - "Life works at the physical limits: cells sense chemicals close to the Berg–Purcell noise limit and spend energy to reduce errors (kinetic proofreading)."
+  - "Patterns in development can arise spontaneously from reaction and diffusion (Turing 1952)."
+  - "Collective behaviour (flocks, tissues) is modelled with statistical physics of active matter."
+broken_promises:
+  - "Physicists hoped for a few universal 'laws of life' comparable to thermodynamics; biology turned out to be shaped by evolution and history, so most principles are partial and context-dependent."
+  - "Protein structure prediction from physics alone (energy minimization) largely failed; it was solved by machine learning on data (AlphaFold), not by a physical theory."
 asks:
   - How do molecular machines work reliably in a noisy thermal environment?
   - How do cells sense, compute and make decisions near physical limits?

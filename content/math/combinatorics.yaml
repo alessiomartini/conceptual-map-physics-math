@@ -7,6 +7,13 @@ one_liner: Counting, arranging and finding structure in finite objects.
 summary: >-
   Enumerative, extremal, probabilistic and algebraic combinatorics. Ramsey theory shows that complete
   disorder is impossible; the probabilistic method proves existence without construction.
+big_goal: "Count, construct and find unavoidable structure in finite objects."
+essentials:
+  - "Total disorder is impossible: any large enough structure contains ordered substructures (Ramsey, Szemerédi)."
+  - "Existence can be proven by showing a random object works, without constructing it (probabilistic method)."
+  - "Problems are easy to state and often extremely hard; recent progress mixes algebra, analysis and computers."
+broken_promises:
+  - "Exact Ramsey numbers were expected to be computable with enough effort; even R(5,5) is unknown, and Erdős joked aliens would have us compute it rather than R(6,6) — brute force is hopeless."
 asks:
   - How many configurations of a given kind exist?
   - How large can a structure be while avoiding a pattern (extremal problems)?

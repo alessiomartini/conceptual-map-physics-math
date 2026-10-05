@@ -11,6 +11,13 @@ summary: >-
   Each SDE comes with two PDEs: the Fokker–Planck (forward) equation for the probability density and the backward
   Kolmogorov equation for expectations (Feynman–Kac). The general theory of random processes lives in
   [[stochastic-processes]]; this page is about the equations themselves.
+big_goal: "Describe systems driven by noise and connect random trajectories to the evolution of probability distributions."
+essentials:
+  - "Noise requires a new calculus (Itô), with an extra second-order term."
+  - "Each SDE comes with a PDE for its probability density (Fokker–Planck) and for expectations (Feynman–Kac)."
+  - "The Langevin equation reaches thermal equilibrium only if noise and friction are balanced (fluctuation–dissipation)."
+broken_promises:
+  - "The choice between Itô and Stratonovich cannot be decided by mathematics; it is a modelling decision about the physical noise."
 asks:
   - When does a noise-driven equation have a unique solution, and in which sense (strong/pathwise or weak/in law)?
   - How does the probability distribution of the state evolve, and what is its stationary state?

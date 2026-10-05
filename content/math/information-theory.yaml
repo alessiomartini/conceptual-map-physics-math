@@ -8,6 +8,13 @@ summary: >-
   Shannon (1948) defined entropy and proved the limits of compression and reliable communication. Information-theoretic
   quantities now appear everywhere: statistical inference, machine learning, thermodynamics, quantum information,
   black holes and finance (Kelly criterion).
+big_goal: "Quantify information and the ultimate limits of compressing and communicating it."
+essentials:
+  - "Entropy measures information; it sets the limit of lossless compression."
+  - "Every noisy channel has a capacity: below it, error-free communication is possible; above it, not."
+  - "The same quantities appear in thermodynamics, statistics, machine learning and quantum physics."
+broken_promises:
+  - "Shannon's theory deliberately ignores meaning; hopes (1950s) of a theory of semantic information or of communication in biology and psychology built on it largely failed — Shannon himself warned against the 'bandwagon'."
 asks:
   - How much can data be compressed?
   - How fast can information be sent reliably through noisy channels?

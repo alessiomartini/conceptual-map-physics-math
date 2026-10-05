@@ -10,6 +10,14 @@ summary: >-
   (Fisher, Neyman–Pearson) and Bayesian schools give different meanings to probability and uncertainty but share
   most tools. Modern statistics deals with high dimensions, model selection, causal inference and machine learning;
   Bayesian inference is mathematically a statistical-mechanics problem ([[statistical-mechanics]]).
+big_goal: "Infer the processes that produced data, with honest uncertainty, and distinguish causes from correlations."
+essentials:
+  - "There are two coherent frameworks, frequentist and Bayesian, which agree with enough data."
+  - "Shrinkage beats the obvious estimator in high dimension (Stein's paradox)."
+  - "Causal claims need randomization or explicit assumptions about the causal structure."
+broken_promises:
+  - "Significance testing was expected to give a reliable mechanical criterion for scientific discovery; misuse (p-hacking, selective reporting) produced a replication crisis."
+  - "Inferring causation from observational data alone is impossible without untestable assumptions."
 definitions:
   - "**Frequentist vs Bayesian.** *Frequentist:* parameters are fixed; probability is long-run frequency; procedures are judged by their error rates over repeated samples (confidence intervals, p-values). *Bayesian:* probability is degree of belief; parameters get a prior, data update it to a posterior (credible intervals). *Overlap:* with lots of data and weak priors the answers coincide (Bernstein–von Mises); many frequentist methods are Bayesian with a particular prior (ridge regression ↔ Gaussian prior). *Contrast:* the meaning of a 95% interval, the role of the stopping rule, and how to encode prior knowledge."
 asks:

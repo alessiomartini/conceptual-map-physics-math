@@ -10,6 +10,14 @@ summary: >-
   Kapustin, Seiberg and Willett (2014) symmetries are seen as topological operators: they may act on
   lines and surfaces (higher-form), form higher groups, or have no inverse (non-invertible, fusion-category
   symmetries). Their anomalies give robust non-perturbative constraints on phases of matter and QFTs.
+big_goal: "Use symmetry as the organizing principle of physics — constraining spectra, dynamics and phases independently of details — and find its most general form."
+essentials:
+  - "Continuous symmetries give conservation laws; in quantum mechanics symmetries are unitary or antiunitary operators."
+  - "Spontaneous symmetry breaking and anomalies are among the strongest non-perturbative constraints we have."
+  - "Modern view: a symmetry is a topological operator; this allows higher-form and non-invertible symmetries."
+broken_promises:
+  - "Particle physicists hoped a larger symmetry (SU(6), grand unification) would explain the whole particle spectrum and its parameters; it explains patterns, not values."
+  - "Exact global symmetries are probably absent in quantum gravity, so symmetry cannot be a fundamental principle in the way once hoped."
 definitions:
   - "**'Anomaly' covers several different things.** Common thread: a symmetry of the classical theory that cannot be consistently kept, or gauged, in the quantum theory. They differ in what fails."
   - "**Gauge anomaly** — the gauged symmetry itself is anomalous: the theory is inconsistent (loss of unitarity/gauge invariance). Must cancel. Example: Standard-Model hypercharges; Green–Schwarz mechanism in string theory."

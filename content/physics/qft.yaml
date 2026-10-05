@@ -10,6 +10,14 @@ summary: >-
   invariance and unitarity force particles to be created and destroyed, imply antiparticles and the
   spin–statistics connection, and make infinities appear that are tamed by [[renormalization]].
   It is extremely successful perturbatively but lacks a complete mathematical definition in four dimensions.
+big_goal: "Provide the complete language for relativistic quantum systems with variable particle number — and understand all its possible phases and dynamics, including strong coupling."
+essentials:
+  - "Quantum mechanics plus special relativity forces fields: particles are excitations, and can be created and destroyed."
+  - "Infinities are tamed by renormalization; QED predictions agree with experiment to about one part in 10¹²."
+  - "Antiparticles, spin–statistics and CPT invariance follow from the framework itself."
+broken_promises:
+  - "In the 1960s many thought QFT was doomed for strong interactions (S-matrix bootstrap programme); asymptotic freedom revived it — but a rigorous mathematical construction of interacting 4D QFTs still does not exist."
+  - "Perturbation theory, the main tool, gives series that do not converge; strong coupling needs other methods."
 definitions:
   - "**What *is* a QFT? Several definitions coexist, each capturing a different class of theories.**"
   - "**(1) Lagrangian + path integral (+ renormalization)** — the physicist's working definition. *Limits:* mostly perturbative; misses non-Lagrangian theories; one theory can have several Lagrangians (dualities, see [[eom-action-quantum]])."

@@ -8,6 +8,14 @@ summary: >-
   Nuclei are bound by the residual strong force. The field spans nuclear structure (shell model, collective
   models), nuclear reactions and astrophysics (nucleosynthesis), hot QCD matter in heavy-ion collisions,
   and the dense matter in neutron stars.
+big_goal: "Explain atomic nuclei and dense nuclear matter from the strong interaction — from quarks to neutron stars."
+essentials:
+  - "Nuclei are held together by the residual strong force; the shell model with magic numbers explains their structure."
+  - "Elements are made in stars and stellar explosions; the heaviest ones in neutron-star mergers."
+  - "At high temperature nuclear matter melts into a quark–gluon plasma, a nearly perfect fluid."
+broken_promises:
+  - "Deriving nuclear physics directly from QCD was the goal since the 1970s; it is achieved only for light nuclei — heavy nuclei and dense matter still rely on effective models."
+  - "The equation of state inside neutron stars cannot be computed (sign problem) and must be inferred from observation."
 asks:
   - How do protons and neutrons emerge from quarks and gluons, and how do they bind into nuclei?
   - What are the limits of nuclear existence (drip lines, superheavy elements)?

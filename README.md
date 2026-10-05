@@ -26,10 +26,13 @@ Every field answers the same guiding questions:
 
 | key | question |
 |---|---|
+| `big_goal` | What is the big goal it aims at? |
 | `asks` | What questions does it try to answer? |
+| `essentials` | 2–4 results worth remembering, in plain words |
 | `key_results` | What are its fundamental results? |
 | `experiments` | Which experiments is it built on? (physics) |
 | `motivating_examples` | Where does it come from? (math) |
+| `broken_promises` | What did it hope to answer, and why it can't (e.g. string theory: born for the strong force, Planck scale untestable) |
 | `limits` | Where does it break / what is open? |
 | `applications` | What is it used for? |
 | `frontiers` | Where is research going? |
@@ -67,6 +70,16 @@ make check                                                 # reports broken link
   `make check` tells you which file and item.
 
 ## Anki notes
+
+The deck is about **context, not technical detail**. Per field: what is it about, where it sits on the map
+(cluster, what it builds on, connections, experiments, threads), its big goal, the results worth remembering,
+and what it hoped to answer but can't. Per thread: its one-line idea, its steps in order, and its *why* cards.
+Per experiment: what it established and which fields it supports. The hand-written technical `cards:` of fields
+and experiments stay on the site ("Details to check yourself"); `anki.detail_cards: true` in `config.yaml` puts
+them in an optional subdeck. A thread card with `detail: true` is also kept out of the deck.
+
+If you imported an older version of the deck, delete it in Anki before importing (old technical cards are not
+removed by a re-import).
 
 - Re-importing an updated deck **updates** existing cards and keeps your review history: card
   identities come from the entry id + question text. If you reword a question but want to keep its

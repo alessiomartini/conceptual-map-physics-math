@@ -10,6 +10,15 @@ summary: >-
   geodynamo explains the magnetic field. Climate physics applies radiative transfer, [[hydrodynamics]] on a rotating
   planet and statistical physics to the coupled atmosphere–ocean–ice system. The 2021 Nobel Prize (Manabe,
   Hasselmann, with Parisi) recognised climate modelling as physics of complex systems.
+big_goal: "Understand the Earth as a physical system — interior, magnetic field, oceans and atmosphere — and predict how the climate responds to forcing."
+essentials:
+  - "Seismology revealed the Earth's layers; plate tectonics explains continents, mountains and earthquakes."
+  - "More CO₂ means more warming: the physics (radiative transfer) is 19th-century, the quantitative models since Manabe (1967) have proved accurate."
+  - "Weather is chaotic and unpredictable beyond ~2 weeks, but climate — the statistics of weather — responds predictably to forcing."
+broken_promises:
+  - "Early numerical weather prediction (von Neumann, Charney) hoped that bigger computers would make long-range weather forecasts possible; Lorenz showed chaos sets a hard limit of about two weeks."
+  - "Deterministic earthquake prediction, hoped for in the 1970s, has failed; only probabilistic hazard estimates are possible."
+  - "Climate sensitivity has been stuck in roughly the same range (1.5–4.5 °C, narrowed only recently to 2.5–4 °C) since 1979, mostly because of clouds."
 asks:
   - What is the structure and dynamics of the Earth's interior, and how is its magnetic field generated?
   - How does the climate respond to changes in radiative forcing (climate sensitivity)?

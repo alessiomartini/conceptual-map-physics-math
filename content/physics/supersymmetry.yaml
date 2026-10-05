@@ -12,6 +12,14 @@ summary: >-
   indispensable: it makes strongly coupled QFTs solvable (Seiberg–Witten, localization), it is required by
   superstring theory, and its best-understood holographic examples are supersymmetric.
   The broader BSM context is in [[beyond-standard-model]].
+big_goal: "A symmetry between bosons and fermions — as a solution to the hierarchy problem in nature, and as a tool to solve strongly coupled theories."
+essentials:
+  - "Supersymmetry is the only possible extension of spacetime symmetry in an interacting QFT."
+  - "It cancels the large quantum corrections to scalar masses and makes many theories exactly solvable."
+  - "No superpartner has been found at the LHC."
+broken_promises:
+  - "Weak-scale supersymmetry was expected to be discovered at LEP, the Tevatron or the LHC, solving naturalness and providing dark matter; none was seen."
+  - "If it exists at much higher energies, it may never be directly observable — and then it no longer solves the hierarchy problem."
 asks:
   - Is there a symmetry between bosons and fermions in nature, and at what energy is it broken?
   - Does it stabilize the Higgs mass against quantum corrections (naturalness)?

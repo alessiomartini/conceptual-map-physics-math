@@ -9,6 +9,14 @@ summary: >-
   Maldacena's AdS/CFT correspondence (1997) relates type IIB strings on AdS₅×S⁵ to N=4 SYM ([Maldacena 1997](https://arxiv.org/abs/hep-th/9711200)). It is the best
   understood non-perturbative definition of quantum gravity, a tool for strongly coupled systems, and the
   source of the idea that spacetime emerges from entanglement (Ryu–Takayanagi).
+big_goal: "Show that quantum gravity in a region is equivalent to an ordinary quantum system on its boundary — and use this to understand how spacetime emerges from quantum information."
+essentials:
+  - "AdS/CFT (1997): string theory in anti-de Sitter space equals a gauge theory without gravity on its boundary."
+  - "Hard strongly coupled problems become easy gravitational calculations, and vice versa."
+  - "Entanglement on the boundary is geometry in the bulk (Ryu–Takayanagi); bulk information is stored like a quantum error-correcting code."
+broken_promises:
+  - "Holography works sharply only in anti-de Sitter space; our universe is approximately de Sitter, and no equally precise holographic description of it exists."
+  - "Hopes of computing QCD or real strange metals directly with holography were too optimistic: holographic models capture universal features (η/s), not quantitative QCD or material-specific physics."
 asks:
   - How does a gravitational bulk emerge from boundary quantum degrees of freedom?
   - How do we compute strongly coupled dynamics with classical gravity?

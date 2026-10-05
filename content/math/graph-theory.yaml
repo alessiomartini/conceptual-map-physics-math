@@ -7,6 +7,14 @@ one_liner: The mathematics of networks — vertices joined by edges.
 summary: >-
   From Euler's bridges to spectral graph theory, graph minors and random graphs. It underpins network science,
   algorithms and combinatorial optimization.
+big_goal: "Understand networks of vertices and edges: their structure, colourings, flows and spectra."
+essentials:
+  - "Many structural questions (planarity, matchings, flows) have elegant exact answers."
+  - "The four colour theorem needed a computer-assisted proof (1976)."
+  - "Spectra of graph matrices reveal connectivity and expansion."
+broken_promises:
+  - "A human-readable proof of the four colour theorem was expected; none exists, and the accepted proof relies on computer checking (formally verified in 2005)."
+  - "Many natural graph problems (colouring, Hamiltonian cycles) are NP-hard, so efficient general algorithms are not expected."
 asks:
   - What structural properties (connectivity, colouring, planarity, flows) do graphs have?
   - How do spectra of graph matrices reflect structure?

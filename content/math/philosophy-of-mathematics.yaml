@@ -11,6 +11,14 @@ summary: >-
   showed none of them could be completed as hoped. Today's questions include structuralism, the role of proof by
   computer and formal verification, and Wigner's "unreasonable effectiveness" of mathematics in physics.
   The technical side lives in [[logic-set-theory]] and [[category-theory]].
+big_goal: "Understand what mathematical objects are, how we know mathematical truths, and why mathematics applies to the world."
+essentials:
+  - "The foundational crisis (1900–1930) produced logicism, formalism and intuitionism; Gödel showed none could be completed as hoped."
+  - "Some questions (continuum hypothesis) are independent of the standard axioms."
+  - "Computer-assisted and formally verified proofs are changing what counts as a proof."
+broken_promises:
+  - "Logicism (Frege, Russell): mathematics reducible to pure logic — broken by Russell's paradox and by incompleteness."
+  - "Hilbert's formalism: a finitary proof that mathematics is consistent — impossible by Gödel's second theorem."
 asks:
   - Do mathematical objects exist independently of us (platonism), or are they constructions, fictions or rules for symbols?
   - How do we know mathematical truths, given that we have no causal contact with abstract objects (Benacerraf's dilemma)?

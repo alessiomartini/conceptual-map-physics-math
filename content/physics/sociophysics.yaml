@@ -7,6 +7,13 @@ one_liner: Statistical-physics models of opinions, culture, crowds and collectiv
 summary: >-
   Treats individuals as interacting agents with simple rules, looking for collective phases (consensus,
   polarization) and universal statistics in social data, increasingly validated with digital trace data.
+big_goal: "Model collective human behaviour — opinions, segregation, crowds — with the tools of statistical physics, and find quantitative regularities."
+essentials:
+  - "Mild individual preferences can produce strong collective segregation (Schelling)."
+  - "Simple opinion models produce consensus, polarization or fragmentation depending on how people interact."
+  - "Some social statistics are regular across countries and times (city sizes, mobility, turnout)."
+broken_promises:
+  - "The idea of a predictive 'social physics' (Comte, Quetelet; later Asimov's psychohistory) remains out of reach: people are not spins, they learn and react to models, and validation with data is hard."
 asks:
   - How do opinions, norms and languages spread and reach consensus or polarize?
   - Are there quantitative regularities in human collective behaviour?

@@ -8,6 +8,13 @@ summary: >-
   The Lagrangian formalism extended to infinitely many degrees of freedom. Fields, Lagrangian densities,
   Noether currents, solitons and instantons all live here. It is the classical starting point that
   [[qft]] quantizes and [[general-relativity]] geometrizes.
+big_goal: "Describe every continuous medium and force field — electromagnetism, gravity, fluids, elastic bodies — with one framework: fields, a local action, and their symmetries."
+essentials:
+  - "Fields have infinitely many degrees of freedom; dynamics comes from a local action, and symmetries give conserved currents (Noether)."
+  - "Non-linear field theories have particle-like solutions (solitons, vortices, monopoles) protected by topology."
+  - "It is the starting point that quantum field theory quantizes and that general relativity makes geometric."
+broken_promises:
+  - "Early 20th-century physicists (Mie, Einstein, Weyl) hoped to describe matter itself — electrons as classical field configurations — in a unified classical field theory. Quantum mechanics showed matter cannot be classical, and the programme was abandoned."
 asks:
   - How do we describe systems with infinitely many degrees of freedom and local interactions?
   - What are the conserved currents and stress-energy of a field?

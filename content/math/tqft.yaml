@@ -11,6 +11,13 @@ summary: >-
   Chern–Simons theory gives the Jones polynomial, a twisted N=2 Yang–Mills gives Donaldson invariants. In
   condensed matter, TQFTs are the low-energy theories of topologically ordered phases and anyons
   ([[topological-phases]]).
+big_goal: "Understand quantum field theories that depend only on topology — and use them to compute invariants of knots and manifolds and to describe topological phases."
+essentials:
+  - "A TQFT assigns vector spaces to spaces and linear maps to spacetimes between them (Atiyah–Segal)."
+  - "Chern–Simons theory computes the Jones polynomial of knots (Witten 1989)."
+  - "Topologically ordered phases and their anyons are described by TQFTs."
+broken_promises:
+  - "TQFTs were hoped to produce new invariants that distinguish smooth 4-manifolds completely; Donaldson and Seiberg–Witten invariants are powerful but do not classify them, and fully defining 4D TQFTs that detect exotic structures remains open."
 asks:
   - Which invariants of manifolds and knots can be computed by a quantum field theory?
   - How are TQFTs classified, and which algebraic structures (Frobenius algebras, modular tensor categories, higher categories) describe them?

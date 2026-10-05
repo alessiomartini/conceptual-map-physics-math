@@ -9,6 +9,14 @@ summary: >-
   [[effective-field-theory]]: a gradient expansion of conserved currents around local equilibrium.
   It describes water and air, but also the quark–gluon plasma, electron fluids in graphene, and
   black-hole horizons (fluid/gravity correspondence).
+big_goal: "Describe the flow of any substance at long distances and late times — from water to quark–gluon plasma — and understand turbulence."
+essentials:
+  - "Hydrodynamics is the universal effective theory of conserved quantities (energy, momentum, charge) near local equilibrium."
+  - "Turbulence transfers energy from large to small scales with a universal spectrum (Kolmogorov 1941)."
+  - "The quark–gluon plasma behaves as an almost perfect fluid, close to the holographic viscosity bound."
+broken_promises:
+  - "Turbulence was expected to yield to theory (Heisenberg, Landau, Feynman called it the last unsolved problem of classical physics); there is still no first-principles theory, only Kolmogorov scaling and its corrections."
+  - "Whether 3D Navier–Stokes solutions stay smooth is still unknown (Millennium problem)."
 asks:
   - How do conserved densities (energy, momentum, charge) relax at long distances and late times?
   - How does turbulence arise and what are its statistical laws?

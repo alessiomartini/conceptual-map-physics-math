@@ -9,6 +9,13 @@ summary: >-
   The language of general relativity (Riemannian/Lorentzian geometry) and gauge theory (fibre bundles and
   connections). Global results link local curvature to topology; geometric analysis (Ricci flow, minimal surfaces)
   proved major conjectures.
+big_goal: "Do calculus on curved spaces and understand how local curvature controls global shape."
+essentials:
+  - "Curvature is intrinsic: it can be measured from inside the surface (Gauss)."
+  - "Total curvature determines topology (Gauss–Bonnet)."
+  - "Connections and curvature are the mathematics of both general relativity and gauge theory."
+broken_promises:
+  - "Classifying all manifolds by their curvature was a natural hope; it works in low dimension (geometrization in 3D, proved via Ricci flow) but is out of reach in general dimension."
 asks:
   - How do we do calculus and measure distances on curved spaces?
   - How does curvature constrain topology?

@@ -9,6 +9,14 @@ summary: >-
   Real networks (internet, social, biological, financial) share small-world and heavy-tailed degree properties
   that shape spreading, robustness and synchronization. Statistical physics provides random-graph ensembles,
   percolation, and community detection methods.
+big_goal: "Understand how the pattern of connections in real systems — social, biological, technological — shapes what happens on them."
+essentials:
+  - "Real networks are 'small worlds': few steps connect any two nodes, while local clustering stays high."
+  - "Many networks have hubs (heavy-tailed degree distributions), which make them robust to random failure but fragile to targeted attacks."
+  - "Epidemics spread differently on networks with hubs: the epidemic threshold can vanish."
+broken_promises:
+  - "The claim that most real networks are 'scale-free' with universal exponents turned out much weaker under rigorous statistics (Broido–Clauset 2019)."
+  - "Pairwise networks were hoped to capture complex systems; many phenomena need higher-order (group) interactions and time dependence."
 asks:
   - What universal structures do real networks share and why?
   - How do processes (epidemics, cascades, synchronization) depend on network structure?

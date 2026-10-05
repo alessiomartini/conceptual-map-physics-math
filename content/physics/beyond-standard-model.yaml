@@ -10,6 +10,15 @@ summary: >-
   naturalness (hierarchy, strong CP, flavour). Candidates include supersymmetry, composite Higgs, axions,
   grand unification, extra dimensions and dark sectors. The LHC has found no new particles so far, pushing
   the field towards precision, low-mass hidden sectors and cosmology.
+big_goal: "Find the theory that completes the Standard Model: explain dark matter, neutrino masses, the matter–antimatter asymmetry and the values of the Standard-Model parameters."
+essentials:
+  - "There is hard evidence for physics beyond the Standard Model: neutrino masses, dark matter, the baryon asymmetry, dark energy."
+  - "Naturalness (why the Higgs mass is small) predicted new particles at the TeV scale — supersymmetry, compositeness — and the LHC has found none."
+  - "The search has shifted to precision measurements, light weakly coupled particles (axions, dark sectors) and cosmology."
+broken_promises:
+  - "Naturalness was expected to guarantee new physics at the LHC. It did not appear, and it is now unclear whether naturalness is a good guide at all."
+  - "Grand unification hoped to explain all couplings and predicted proton decay; the minimal model is excluded and proton decay has not been seen."
+  - "We may never reach the energy where the answer lives directly: if new physics is near the GUT or Planck scale, only indirect traces (rare decays, cosmology) will be measurable."
 asks:
   - What is dark matter?
   - Where do neutrino masses come from?

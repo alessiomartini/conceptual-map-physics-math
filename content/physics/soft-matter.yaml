@@ -10,6 +10,13 @@ summary: >-
   mesoscale structure (de Gennes, Nobel 1991). Active matter adds constituents that convert energy into motion —
   bacteria, cells, birds, self-propelled colloids — breaking detailed balance locally and producing flocking,
   motility-induced phase separation and active turbulence ([[non-equilibrium]]).
+big_goal: "Understand materials whose behaviour is dominated by entropy and thermal fluctuations — polymers, colloids, gels — and matter made of self-driven units."
+essentials:
+  - "Polymers obey universal scaling laws independent of their chemistry."
+  - "Colloids crystallize from entropy alone; disordered packings become rigid at a jamming transition."
+  - "Active matter (bacteria, flocks) forms phases forbidden in equilibrium."
+broken_promises:
+  - "The glass transition was expected to be understood like other phase transitions; whether it is a true transition at all is still debated."
 asks:
   - How do universal laws emerge for polymers, colloids and liquid crystals regardless of chemistry?
   - What is the glass/jamming transition, and why do disordered materials become rigid?

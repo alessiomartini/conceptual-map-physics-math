@@ -8,6 +8,14 @@ summary: >-
   A phenomenological theory of equilibrium built on four laws. Its universality is the reason it survived
   every revolution: it constrains black holes, information processing and the early universe alike.
   [[statistical-mechanics]] explains it microscopically.
+big_goal: "Universal laws for energy, heat and entropy that hold regardless of the microscopic details."
+essentials:
+  - "Energy is conserved; entropy of an isolated system never decreases; absolute zero is unattainable."
+  - "No heat engine can beat the Carnot efficiency."
+  - "Its laws constrain black holes, information processing (Landauer) and the early universe alike."
+broken_promises:
+  - "The 19th-century 'heat death' and the hope to derive the arrow of time from thermodynamics alone: the second law needs a low-entropy initial state, which thermodynamics cannot explain."
+  - "Extending thermodynamics to far-from-equilibrium systems with equal generality has not succeeded."
 asks:
   - What can and cannot be done with heat and work?
   - Why do processes have a direction in time?

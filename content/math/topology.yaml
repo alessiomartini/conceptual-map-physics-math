@@ -8,6 +8,14 @@ summary: >-
   General topology formalizes continuity; algebraic topology attaches algebraic invariants (homotopy groups,
   homology, cohomology, K-theory) to spaces; geometric topology studies manifolds and knots. Topology now
   classifies phases of matter and anomalies.
+big_goal: "Understand the properties of spaces that survive continuous deformation, and classify spaces and manifolds."
+essentials:
+  - "Holes and twists are measured by algebraic invariants (homotopy, homology)."
+  - "The Poincaré conjecture was proved (Perelman 2003) using geometry."
+  - "Topology now classifies phases of matter and anomalies in physics."
+broken_promises:
+  - "Classifying all manifolds is impossible in dimension ≥ 4: the classification problem is algorithmically undecidable (Markov 1958)."
+  - "Computing all homotopy groups of spheres, a basic question, remains out of reach."
 asks:
   - When are two spaces equivalent up to deformation?
   - What invariants detect holes, twisting and knotting?

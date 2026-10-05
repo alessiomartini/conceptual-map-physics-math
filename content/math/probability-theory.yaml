@@ -8,6 +8,13 @@ one_liner: The mathematics of uncertainty, built on measure theory since Kolmogo
 summary: >-
   From limit theorems and large deviations to random walks, martingales and random structures. Probability is the
   foundation of statistics, statistical physics, information theory and quantitative finance.
+big_goal: "Give a rigorous theory of uncertainty and chance, and of the laws that emerge from many random events."
+essentials:
+  - "Kolmogorov's axioms (1933) put probability on measure theory."
+  - "Averages converge (law of large numbers) and fluctuations become Gaussian (central limit theorem)."
+  - "Rare events are exponentially unlikely, at rates given by an entropy-like function (large deviations)."
+broken_promises:
+  - "The axioms say how probability behaves, not what it means; the interpretation (frequency vs degree of belief) is still debated and cannot be settled by mathematics."
 asks:
   - What laws govern sums and extremes of random variables?
   - How do random processes and random structures behave in high dimension?

@@ -9,6 +9,14 @@ summary: >-
   Born from the observation that asset returns have heavy tails and volatility clustering, econophysics
   imports scaling, random-matrix and agent-based ideas into finance. Its toolbox overlaps strongly with
   quantitative research: stochastic processes, RMT cleaning, market microstructure and price impact.
+big_goal: "Find robust statistical laws of markets and economies using the methods of statistical physics — fat tails, correlations, impact — instead of assuming rational equilibrium."
+essentials:
+  - "Price returns are fat-tailed and volatility clusters — Gaussian models underestimate crashes."
+  - "Large trades move prices roughly as the square root of their size (square-root impact law)."
+  - "Random-matrix theory separates real correlations between assets from noise."
+broken_promises:
+  - "Early hopes of universal 'laws of finance' like physical laws were too strong: markets adapt to known patterns (reflexivity), so regularities are approximate and can disappear once exploited."
+  - "Predicting crashes in time (e.g. log-periodic precursors) has not proved reliable."
 asks:
   - What are the universal statistical properties (stylized facts) of financial markets?
   - How do prices form from order flow, and what is the impact of trades?

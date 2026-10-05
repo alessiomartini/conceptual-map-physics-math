@@ -9,6 +9,14 @@ summary: >-
   Most of nature is out of equilibrium. The field ranges from linear response and kinetic theory to exact
   fluctuation theorems, stochastic thermodynamics, non-equilibrium phase transitions, active matter and the
   thermalization of isolated quantum systems.
+big_goal: "Find general laws for systems away from equilibrium — driven, relaxing or living — comparable to what thermodynamics is for equilibrium."
+essentials:
+  - "Exact fluctuation theorems (Jarzynski, Crooks) hold arbitrarily far from equilibrium."
+  - "Isolated quantum systems thermalize through their eigenstates (ETH) — except special ones (integrable, localized)."
+  - "Driven and active systems show phases impossible in equilibrium (flocking with long-range order in 2D, time crystals)."
+broken_promises:
+  - "A general variational principle for non-equilibrium steady states (like 'maximum' or 'minimum entropy production') was long sought; proposed principles work only in special regimes."
+  - "Many-body localization was hoped to be a robust non-thermalizing phase; whether it survives in large systems is now disputed."
 definitions:
   - "**Thermalization has several inequivalent definitions.** First distinguish *equilibration* (relaxing to some stationary state) from *thermalization* (that state is the Gibbs state at the right temperature)."
   - "**(1) Ergodic hypothesis** — time averages equal microcanonical averages. *Why:* Boltzmann's original route. *Problem:* rarely provable and stronger than needed: Khinchin showed that for macroscopic sum-like observables concentration of measure suffices."

@@ -9,6 +9,13 @@ summary: >-
   Abstract algebra formalizes symmetry (groups), arithmetic (rings and fields) and linear structure
   (modules). Galois theory links field extensions to groups; the classification of finite simple groups is one of
   the largest collective proofs ever.
+big_goal: "Understand symmetry abstractly — groups, rings and fields — and classify the building blocks."
+essentials:
+  - "Galois theory explains why the general quintic has no formula by radicals."
+  - "All finite simple groups are classified: a few infinite families plus 26 sporadic groups, the largest being the Monster."
+  - "Groups describe symmetries everywhere, from crystals to particle physics."
+broken_promises:
+  - "Classifying all groups, not only finite simple ones, is hopeless: many problems about infinite groups are algorithmically undecidable (word problem)."
 asks:
   - What are the possible symmetry groups and how are they built from simple pieces?
   - When can polynomial equations be solved by radicals?

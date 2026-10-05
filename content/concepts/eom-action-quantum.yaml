@@ -45,6 +45,7 @@ cards:
   - q: What does a quantum theory need in order to have a classical limit?
     a: A parameter that suppresses fluctuations (effective $\hbar\to0$, large spin, large N); without one there is no classical regime.
   - q: Name quantum field theories with no known Lagrangian.
+    detail: true  # site only, not in the Anki deck
     a: The 6d $(2,0)$ superconformal theory; Argyres–Douglas and Minahan–Nemeschansky 4d $\mathcal N=2$ theories.
   - q: What does it mean that a system has no quasiparticles?
     a: Its spectral function has no sharp poles at low energy; excitations decay on the shortest possible time scale $\sim\hbar/k_BT$ (strange metals, SYK, quantum critical CFTs), so hydrodynamics and operator spectra replace particles.

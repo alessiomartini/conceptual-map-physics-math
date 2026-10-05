@@ -9,6 +9,15 @@ summary: >-
   Einstein's 1915 theory: free fall follows geodesics of a dynamical Lorentzian metric obeying
   $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}$. It predicts black holes, gravitational waves and an
   expanding universe, and has passed every test from the lab to merging black holes.
+big_goal: "Describe gravity as the geometry of spacetime, at all scales from the lab to the whole universe."
+essentials:
+  - "Gravity is the curvature of spacetime, produced by energy and momentum; free fall follows the straightest possible paths."
+  - "It predicts black holes, gravitational waves and an expanding universe — all observed."
+  - "It breaks down at singularities and is not renormalizable as a quantum theory, though it works fine as an effective field theory."
+broken_promises:
+  - "Einstein hoped GR would be the first step of a unified classical field theory including electromagnetism and matter; thirty years of attempts failed."
+  - "Mach's principle (inertia determined by distant matter) motivated Einstein but is not actually built into GR."
+  - "GR cannot describe the Big Bang or black-hole interiors: its own singularity theorems show it predicts its own breakdown."
 asks:
   - What is gravity, and how do matter and spacetime geometry influence each other?
   - What happens in strong gravitational fields (black holes, neutron stars, the Big Bang)?

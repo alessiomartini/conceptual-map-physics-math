@@ -8,6 +8,14 @@ summary: >-
   Applying all of physics to the cosmos: stellar structure and evolution, compact objects, galaxies and
   their dynamics, high-energy astrophysics, and multi-messenger astronomy combining light, neutrinos,
   cosmic rays and gravitational waves.
+big_goal: "Explain how the objects in the universe — stars, galaxies, black holes — form, evolve and die, using all of physics, and use them as laboratories for physics we cannot reach on Earth."
+essentials:
+  - "Stars are nuclear reactors in hydrostatic balance; their death leaves white dwarfs, neutron stars or black holes depending on mass (Chandrasekhar limit ~1.4 solar masses)."
+  - "Galaxies rotate too fast for their visible mass — one of the main pieces of evidence for dark matter."
+  - "Multi-messenger astronomy (light, neutrinos, gravitational waves together) started with the neutron-star merger GW170817."
+broken_promises:
+  - "Astronomy hoped to see everything that matters by observing light; most of the matter (dark matter) and energy (dark energy) turned out to emit none."
+  - "No controlled experiments are possible: we see each object once, at one moment of its life, so many questions (galaxy formation details) depend on simulations with uncertain physics."
 asks:
   - How do stars form, live and die?
   - How do galaxies and supermassive black holes form and co-evolve?

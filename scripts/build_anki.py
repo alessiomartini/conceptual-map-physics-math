@@ -15,7 +15,9 @@ from pathlib import Path
 import genanki
 import yaml
 
-from common import ROOT, load_all, render_inline
+import re
+
+from common import REF_RE, ROOT, iter_text, load_all, render_inline
 
 MODEL_ID = 1730091001  # never change: Anki uses it to recognise the note type
 DECK_ID_BASE = 1730092000
@@ -73,11 +75,23 @@ def main():
     area_label = {a["id"]: a["label"] for d in areas.values() for a in d["areas"]}
     site = (cfg.get("site_url") or "").rstrip("/")
     root_name = cfg["anki"]["deck_name"]
-    overview = cfg["anki"].get("overview_cards", True)
+    details = cfg["anki"].get("detail_cards", False)
 
     decks = {}
     for i, (dom, d) in enumerate(areas.items()):
         decks[dom] = genanki.Deck(DECK_ID_BASE + i, f"{root_name}::{d['label']}")
+    detail_deck = genanki.Deck(DECK_ID_BASE + 99, f"{root_name}::Details (optional)")
+
+    # Who links to whom (both directions), and which threads pass through each entry.
+    nb = {e["id"]: [] for e in entries}
+    for e in entries:
+        refs = list(dict.fromkeys((e.get("connections") or []) + [m.group(1) for x in iter_text(e) for m in REF_RE.finditer(x)]))
+        for r in refs:
+            if r in nb and r != e["id"]:
+                if r not in nb[e["id"]]: nb[e["id"]].append(r)
+                if e["id"] not in nb[r]: nb[r].append(e["id"])
+    dom_of = {e["id"]: e["domain"] for e in entries}
+    names = lambda ids: ", ".join(titles[i] for i in ids) or "—"
 
     n = 0
     for e in entries:
@@ -86,7 +100,7 @@ def main():
         ctx = html.escape(area_label.get(e["area"], ""))
         base_tags = [f"bigpicture::{dom}::{e['area']}::{eid}"] + [f"bigpicture::tag::{t}" for t in e.get("tags", [])]
 
-        def add(q, a, key, kind):
+        def add(q, a, key, kind, deck=None):
             nonlocal n
             note = genanki.Note(
                 model=MODEL,
@@ -94,26 +108,47 @@ def main():
                 guid=genanki.guid_for(eid, key),
                 tags=base_tags + [f"bigpicture::kind::{kind}"],
             )
-            decks[dom].add_note(note)
+            (deck or decks[dom]).add_note(note)
             n += 1
 
-        if overview:
-            if dom == "experiment" and e.get("significance"):
-                when = f" ({e['year']})" if e.get("year") else ""
-                add(f"What did <b>{title}</b>{when} establish, and why does it matter?",
-                    as_html(e["significance"], titles), "auto:significance", "overview")
-            elif dom != "experiment":
-                add(f"<b>{title}</b> in one sentence?",
-                    as_html(e["one_liner"], titles), "auto:one-liner", "overview")
-                if e.get("asks"):
-                    add(f"What questions does <b>{title}</b> try to answer?",
-                        as_html(e["asks"], titles), "auto:asks", "overview")
-        for c in e.get("cards", []) or []:
-            add(c["q"], as_html(c["a"], titles), c.get("id") or c["q"], "atomic")
+        t = f"**{title}**"
+        if dom in ("physics", "math"):
+            # The deck is about context, not about memorising each framework.
+            add(f"What is {t} about?", as_html(e["one_liner"], titles), "auto:one-liner", "context")
+            fields = [x for x in nb[eid] if dom_of[x] in ("physics", "math")]
+            exps = [x for x in nb[eid] if dom_of[x] == "experiment"]
+            threads = [x for x in nb[eid] if dom_of[x] == "concept"]
+            where = (f"<b>Cluster:</b> {ctx}<br><b>Builds on:</b> {html.escape(names(e.get('prerequisites') or []))}"
+                     f"<br><b>Connected to:</b> {html.escape(names(fields[:8]))}"
+                     + (f"<br><b>Experiments:</b> {html.escape(names(exps))}" if exps else "")
+                     + (f"<br><b>Threads through it:</b> {html.escape(names(threads))}" if threads else ""))
+            add(f"Where does {t} sit on the map?", where, "auto:map", "context")
+            if e.get("big_goal"):
+                add(f"What is the big goal of {t}?", as_html(e["big_goal"], titles), "auto:big-goal", "context")
+            if e.get("essentials"):
+                add(f"{t}: which results are worth remembering?", as_html(e["essentials"], titles), "auto:essentials", "context")
+            if e.get("broken_promises"):
+                add(f"What did {t} hope to answer, and why can't it?", as_html(e["broken_promises"], titles), "auto:broken-promises", "context")
+        elif dom == "concept":
+            add(f"Thread {t}: the idea in one sentence?", as_html(e["one_liner"], titles), "auto:one-liner", "thread")
+            steps = [m.group(1) for x in e.get("thread", []) for m in [re.match(r"\*\*(.+?)\*\*", x)] if m]
+            if steps:
+                add(f"Thread {t}: what are its steps, in order?", "<ol>" + "".join(f"<li>{render_inline(x, titles, 'anki')}</li>" for x in steps) + "</ol>", "auto:steps", "thread")
+            for c in [c for c in e.get("cards", []) or [] if not c.get("detail")]:   # thread cards ask *why* fields connect
+                add(c["q"], as_html(c["a"], titles), c.get("id") or c["q"], "thread")
+        elif dom == "experiment" and e.get("significance"):
+            when = f" ({e['year']})" if e.get("year") else ""
+            tested = [x for x in nb[eid] if dom_of[x] == "physics"]
+            add(f"What did {t}{when} establish, and why does it matter?",
+                as_html(e["significance"], titles) + (f"<p><b>Fields it supports:</b> {html.escape(names(tested))}</p>" if tested else ""),
+                "auto:significance", "context")
+        if details and dom != "concept":
+            for c in e.get("cards", []) or []:
+                add(c["q"], as_html(c["a"], titles), c.get("id") or c["q"], "detail", detail_deck)
 
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
-    genanki.Package(list(decks.values())).write_to_file(out)
+    genanki.Package(list(decks.values()) + ([detail_deck] if details else [])).write_to_file(out)
     print(f"Wrote {out.relative_to(ROOT)}: {n} notes from {len(entries)} entries")
 
 

@@ -9,6 +9,14 @@ summary: >-
   Astrophysically, black holes power quasars and merge in gravitational-wave events. Theoretically,
   Hawking radiation and Bekenstein–Hawking entropy make them the key testing ground for quantum gravity,
   culminating in the information paradox and its recent partial resolution through quantum extremal surfaces.
+big_goal: "Understand black holes completely — as astrophysical objects and as the place where gravity, quantum theory and information meet — and with that, the quantum nature of spacetime."
+essentials:
+  - "Black holes have a temperature and an entropy proportional to the horizon area (Hawking, Bekenstein): they are thermodynamic objects."
+  - "If they evaporate unitarily, information must come out — the information paradox; recent work (islands, Page curve) shows how, at least in semiclassical gravity."
+  - "They are real and observed: gravitational waves from mergers and images of their shadows."
+broken_promises:
+  - "The hope of observing Hawking radiation from astrophysical black holes is essentially dead: a solar-mass black hole has a temperature of ~60 nK, far below the cosmic microwave background."
+  - "Seeing what happens at the singularity or inside the horizon is impossible by construction — no signal escapes; only theory and indirect consistency can address it."
 asks:
   - What is the microscopic origin of black-hole entropy?
   - Is information lost when a black hole evaporates?

@@ -18,6 +18,10 @@ Read `README.md` first (philosophy, schema, commands). Talk to Alessio in Italia
 - Read feedback: `cd worker && npx wrangler d1 execute conceptual-map-feedback --remote --command "select * from notes order by id desc"`.
 
 ## Content rules
+- Anki = context, not frameworks (Alessio's explicit request): every physics/math field needs `big_goal`,
+  `essentials` (2–4 plain-language bullets) and `broken_promises` (what it hoped to answer and why it can't);
+  `make check` warns when one is missing. Don't add technical flashcards to the deck; technical Q&A goes in
+  `cards:` (site only) or, for threads, with `detail: true`.
 - Never delete content; correct it. When a claim of Alessio's is imprecise, keep it and put the precise
   version in `caveats:` (see `concepts/eom-action-quantum.yaml`).
 - When a concept has no single accepted definition (quantum chaos, thermalization, quantum gravity, quantum

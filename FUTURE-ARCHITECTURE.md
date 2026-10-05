@@ -13,6 +13,8 @@
 - Map: optional "threads only" view that highlights the fields a selected thread passes through.
 
 ## Done / history
+- 2026-10-05 (2): feedback #6 (anomaly taxonomy); Anki deck rebuilt around context (big goal, essentials,
+  broken promises, place on the map) — 454 notes instead of 624 technical ones.
 - 2026-10-05: site feedback #2–#5 handled — light/dark toggle, original-paper links, `definitions:` sections,
   stability thread; added supersymmetry, soft & active matter, optics, geophysics & climate, statistics, TQFT.
 - 2026-10: project created by Cowork in `big-picture/big-picture/`; moved to repo root, ODE/SDE, philosophy

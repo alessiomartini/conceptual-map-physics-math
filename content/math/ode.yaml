@@ -11,6 +11,13 @@ summary: >-
   linear equations, qualitative theory (stability, phase portraits, which grew into [[dynamical-systems]]) and
   numerical integration. Newton's laws, circuits, chemical kinetics, population models and the classical limit of
   almost every physical theory are ODEs.
+big_goal: "Predict the evolution of finitely many quantities from the rule for their rate of change."
+essentials:
+  - "Under mild conditions the present state determines the future uniquely (Picard–Lindelöf)."
+  - "Linear equations are solved completely; nonlinear ones mostly qualitatively (stability, phase portraits)."
+  - "They are the mathematical form of determinism in mechanics, circuits, chemistry and biology."
+broken_promises:
+  - "The 18th–19th century programme of solving every ODE in closed form failed: most ODEs (including the three-body problem) have no solution in terms of known functions (Liouville, Poincaré). This failure gave birth to the qualitative theory and dynamical systems."
 asks:
   - Given an initial state, is there exactly one future, and for how long does it exist?
   - Which equations can be solved exactly, and what structure (linearity, symmetry, conserved quantities) makes it possible?

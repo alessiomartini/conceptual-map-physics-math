@@ -13,6 +13,8 @@ repo: "alessiomartini/conceptual-map-physics-math"
 feedback_url: "https://conceptual-map-feedback.alemarti-2001.workers.dev"
 anki:
   deck_name: Big Picture
-  # Auto-generate overview cards ("what is X in one sentence?",
-  # "what questions does X try to answer?") on top of the hand-written ones.
-  overview_cards: true
+  # The deck asks for context, not technical detail: per field "what is it about", "where on the map",
+  # "big goal", "results worth remembering", "what it hoped to answer and can't"; per thread its steps and
+  # why-cards; per experiment its significance. The hand-written technical `cards:` of fields and
+  # experiments stay on the site; set this to true to also get them in a separate optional subdeck.
+  detail_cards: false

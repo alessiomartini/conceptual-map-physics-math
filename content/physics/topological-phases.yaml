@@ -9,6 +9,13 @@ summary: >-
   From the quantum Hall effect onward, robust quantized responses arise from topology: Chern numbers,
   symmetry-protected invariants, and long-range entanglement with anyonic excitations. Described by
   topological quantum field theories, they are candidates for fault-tolerant quantum memory.
+big_goal: "Classify phases of matter that are distinguished by topology rather than by symmetry breaking, and use their robustness (e.g. for quantum computing)."
+essentials:
+  - "Some properties are quantized exactly because they are topological invariants (quantum Hall conductance = Chern number)."
+  - "Topological insulators conduct only on their surfaces; topologically ordered phases host anyons."
+  - "These phases are described by topological quantum field theories."
+broken_promises:
+  - "Majorana zero modes in nanowires were announced (2012, 2018) as a near-term route to topological qubits; key claims were later retracted or contested, and no topological qubit is yet established."
 definitions:
   - "**Topological order — definitions that coincide for gapped 2D phases:** (a) ground-state degeneracy depending on the topology of space; (b) anyonic excitations described by a modular tensor category; (c) long-range entanglement — not connected to a product state by a finite-depth local unitary circuit (Chen–Gu–Wen); (d) a nonzero topological entanglement entropy. *Where they diverge:* fracton phases have degeneracy growing with system size; gapless and non-equilibrium cases lack an agreed definition."
 asks:

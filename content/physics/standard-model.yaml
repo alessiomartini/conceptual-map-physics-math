@@ -10,6 +10,14 @@ summary: >-
   parameters (more with neutrino masses). It has passed every collider test, with the Higgs boson
   discovered in 2012. It is known to be incomplete: no gravity, no dark matter, no neutrino mass mechanism,
   no explanation for its parameters.
+big_goal: "One theory for all known particles and three of the four forces."
+essentials:
+  - "Matter is made of quarks and leptons in three generations; forces come from SU(3)×SU(2)×U(1) gauge symmetry."
+  - "The Higgs field gives mass to W, Z and fermions; the Higgs boson was found in 2012."
+  - "It passes every collider test, yet it has ~19 unexplained parameters and no gravity, dark matter or neutrino-mass mechanism."
+broken_promises:
+  - "It was hoped the Standard Model would explain its own parameters (masses, mixing angles, three generations); it does not — they are inputs."
+  - "The expected new physics at the TeV scale, which would have explained the Higgs mass, has not appeared."
 asks:
   - What are the elementary constituents of matter and their interactions?
   - How do particles get mass?

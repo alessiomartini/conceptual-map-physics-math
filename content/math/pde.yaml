@@ -9,6 +9,14 @@ summary: >-
   Elliptic (Laplace), parabolic (heat) and hyperbolic (wave) equations behave differently. The core questions are
   existence, uniqueness, regularity and long-time behaviour, especially for nonlinear equations like Navier–Stokes,
   Einstein and Yang–Mills.
+big_goal: "Understand the equations of continuous systems — existence, uniqueness, smoothness and long-time behaviour of their solutions."
+essentials:
+  - "Elliptic, parabolic and hyperbolic equations (Laplace, heat, wave) behave very differently."
+  - "Solutions often have to be understood in a weak sense, in function spaces."
+  - "Nonlinear equations can develop singularities; whether they do is often the central question."
+broken_promises:
+  - "There is no general theory of nonlinear PDEs and probably never will be: each important equation needs its own methods."
+  - "Smoothness of 3D Navier–Stokes solutions remains unproven (Millennium problem)."
 asks:
   - Do solutions exist, are they unique, and do they depend continuously on data (well-posedness)?
   - Do solutions stay smooth or develop singularities?

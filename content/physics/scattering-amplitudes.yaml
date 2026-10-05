@@ -9,6 +9,14 @@ summary: >-
   On-shell methods revealed that gauge and gravity amplitudes are far simpler than their Feynman
   diagram expansions. This led to new computational tools for colliders and gravitational waves and to
   geometric reformulations (amplituhedron) in which locality and unitarity emerge.
+big_goal: "Compute and understand particle scattering directly from basic principles (symmetry, unitarity, analyticity), revealing hidden structures of gauge theory and gravity."
+essentials:
+  - "Scattering amplitudes are vastly simpler than their Feynman-diagram expansion suggests."
+  - "Gravity amplitudes are, in a precise sense, the square of gauge-theory amplitudes (double copy)."
+  - "These methods produce precision predictions for the LHC and gravitational-wave templates."
+broken_promises:
+  - "The 1960s S-matrix programme hoped to derive the strong interaction from consistency alone, without fields; it failed for QCD but left Regge theory and seeded string theory."
+  - "The amplituhedron hoped to reformulate quantum field theory without spacetime locality; so far it works for planar N=4 super-Yang–Mills, not for realistic theories."
 asks:
   - What is the simplest way to compute and understand S-matrix elements?
   - What hidden structures (dualities, geometry) do amplitudes have?

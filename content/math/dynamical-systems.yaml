@@ -8,6 +8,14 @@ one_liner: Long-term behaviour of systems evolving by fixed rules, and the stati
 summary: >-
   Studies flows and maps qualitatively: stability, bifurcations, attractors, chaos. Ergodic theory studies
   invariant measures, connecting dynamics to probability and number theory.
+big_goal: "Understand the long-term behaviour of anything that evolves by fixed rules, qualitatively and statistically."
+essentials:
+  - "Long-term behaviour is organized by fixed points, cycles and attractors, and changes at bifurcations."
+  - "Deterministic systems can be chaotic; then only statistical prediction is possible."
+  - "Ergodic theory asks when time averages equal space averages."
+broken_promises:
+  - "Smale's programme hoped that 'generic' dynamical systems would be structurally stable and classifiable; this turned out false in dimensions ≥ 3."
+  - "Proving ergodicity for physical systems (gases), once hoped to justify statistical mechanics, is almost never possible."
 asks:
   - What are the possible long-term behaviours of a system?
   - When do time averages equal space averages?

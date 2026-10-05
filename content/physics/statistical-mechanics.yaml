@@ -9,6 +9,14 @@ summary: >-
   Boltzmann and Gibbs explained thermodynamics through ensembles and entropy as counting. Partition functions
   connect microscopic Hamiltonians to free energies, and the same mathematics (path integrals, RG) is shared
   with QFT. It extends beyond physics to inference, machine learning and finance.
+big_goal: "Derive macroscopic behaviour — thermodynamics, phases, response — from the statistics of enormous numbers of microscopic constituents."
+essentials:
+  - "Entropy counts microscopic states compatible with what we know (S = k log W)."
+  - "One function, the partition function, gives all equilibrium properties."
+  - "The same mathematics describes quantum field theory, inference and machine learning."
+broken_promises:
+  - "Boltzmann hoped to derive irreversibility from mechanics alone (H-theorem); objections (Loschmidt, Zermelo) showed it needs extra input — a low-entropy initial condition."
+  - "Proving ergodicity for realistic systems, once seen as the foundation of the field, has turned out almost impossible — and probably unnecessary."
 asks:
   - How do macroscopic properties emerge from microscopic dynamics?
   - Why and how do systems reach equilibrium?
