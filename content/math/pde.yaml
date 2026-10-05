@@ -27,7 +27,7 @@ applications:
   - Physics everywhere, engineering simulations, Black–Scholes equation, image processing, weather prediction.
 frontiers:
   - Blow-up for Euler (computer-assisted proof by Chen–Hou), stability of Kerr black holes, PDE-based machine learning (PINNs, neural operators).
-connections: [functional-analysis, real-analysis, differential-geometry, hydrodynamics, general-relativity, numerical-analysis, stochastic-processes]
+connections: [ode, sde, functional-analysis, real-analysis, differential-geometry, hydrodynamics, general-relativity, numerical-analysis, stochastic-processes]
 resources:
   - "Evans, *Partial Differential Equations*"
 cards:

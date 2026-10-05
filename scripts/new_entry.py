@@ -8,7 +8,7 @@ import sys
 
 from common import ROOT, load_areas
 
-DIRS = {"physics": "physics", "math": "math", "experiment": "experiments"}
+DIRS = {"physics": "physics", "math": "math", "experiment": "experiments", "concept": "concepts"}
 
 
 def main():

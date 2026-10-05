@@ -1,0 +1,55 @@
+id: ode
+title: Ordinary Differential Equations
+short: ODE
+domain: math
+area: analysis
+order: 465
+one_liner: Equations for the rate of change of finitely many quantities in one variable (usually time) — the mathematical form of determinism.
+summary: >-
+  An ODE $\dot x = f(x, t)$ turns "the present state fixes the rate of change" into a rule for the whole future.
+  The theory splits into existence and uniqueness (when does the state determine the future?), exact methods for
+  linear equations, qualitative theory (stability, phase portraits, which grew into [[dynamical-systems]]) and
+  numerical integration. Newton's laws, circuits, chemical kinetics, population models and the classical limit of
+  almost every physical theory are ODEs.
+asks:
+  - Given an initial state, is there exactly one future, and for how long does it exist?
+  - Which equations can be solved exactly, and what structure (linearity, symmetry, conserved quantities) makes it possible?
+  - What does the solution do for long times — settle, oscillate, blow up — and is that behaviour stable?
+  - How do we approximate solutions numerically while keeping the structure (energy, volume, symplecticity) of the true flow?
+key_results:
+  - "Picard–Lindelöf: a locally Lipschitz $f$ gives a unique local solution; Peano: continuity alone gives existence but not uniqueness ($\\dot x = \\sqrt{|x|}$)."
+  - "Grönwall's inequality: solutions depend continuously on initial data and parameters; maximal solutions either exist forever or leave every compact set (blow-up, e.g. $\\dot x = x^2$)."
+  - "Linear systems: $x(t) = e^{At}x_0$, Jordan form and the variation-of-constants formula; Floquet theory for periodic coefficients (Bloch's theorem is its spatial version)."
+  - "Sturm–Liouville theory: self-adjoint boundary-value problems have real eigenvalues and complete orthogonal eigenfunctions (origin of Fourier series and special functions)."
+  - "Frobenius method and the classification of singular points; special functions (Bessel, Legendre, hypergeometric) as solutions of ODEs with regular singularities."
+  - "Lyapunov stability; linearisation (Hartman–Grobman); Lie's symmetry method reduces the order of an ODE by each symmetry; Liouville integrability of Hamiltonian systems."
+  - "Numerics: Runge–Kutta and multistep methods; stiffness and implicit methods; symplectic integrators (leapfrog/Verlet) preserve the phase-space structure over long times."
+motivating_examples:
+  - "Newton's second law $m\\ddot x = F(x)$; Kepler problem; pendulum; harmonic and anharmonic oscillators."
+  - "Exponential and logistic growth; Lotka–Volterra predator–prey; SIR epidemics; RLC circuits; chemical kinetics."
+limits:
+  - Most nonlinear ODEs have no closed-form solution; even three bodies can be chaotic ([[chaos]]), so long-time prediction fails in practice.
+  - Finite-dimensional by definition; continuum systems need [[pde]], noisy ones need [[sde]].
+applications:
+  - Celestial mechanics and spacecraft trajectories, control engineering, pharmacokinetics, epidemiology, circuit simulation, neural ODEs in machine learning.
+frontiers:
+  - Computer-assisted proofs of dynamics (e.g. Tucker's proof of the Lorenz attractor, 2002); geometric/structure-preserving integration; learning ODEs from data (SINDy, neural ODEs).
+connections: [pde, dynamical-systems, classical-mechanics, chaos, numerical-analysis, linear-algebra, lie-theory, sde, real-analysis]
+prerequisites: [real-analysis, linear-algebra]
+resources:
+  - "Arnold, *Ordinary Differential Equations*"
+  - "Hirsch, Smale & Devaney, *Differential Equations, Dynamical Systems, and an Introduction to Chaos*"
+  - "Hairer, Lubich & Wanner, *Geometric Numerical Integration*"
+cards:
+  - q: What does the Picard–Lindelöf theorem guarantee, and under which hypothesis?
+    a: If $f$ is continuous in $t$ and locally Lipschitz in $x$, the initial-value problem $\dot x = f(x,t)$, $x(t_0)=x_0$ has a unique local solution.
+  - q: Give an ODE with non-unique solutions and explain why.
+    a: "$\\dot x = \\sqrt{|x|}$, $x(0)=0$: both $x\\equiv 0$ and $x = t^2/4$ (for $t\\ge0$) solve it; $\\sqrt{|x|}$ is not Lipschitz at 0."
+  - q: What can a maximal solution of a smooth ODE do if it does not exist for all time?
+    a: Leave every compact set in finite time (blow-up), e.g. $\dot x = x^2$ gives $x = 1/(1/x_0 - t)$.
+  - q: What is Floquet theory, and what is its spatial analogue in physics?
+    a: Linear ODEs with periodic coefficients have solutions $P(t)e^{Bt}$ with $P$ periodic; Bloch's theorem for electrons in a periodic potential is the same statement in space.
+  - q: Why use symplectic integrators for Hamiltonian systems?
+    a: They preserve the symplectic structure exactly, so energy errors stay bounded over very long times instead of drifting (used in celestial mechanics and molecular dynamics).
+  - q: What does Sturm–Liouville theory provide?
+    a: For self-adjoint second-order boundary-value problems, real eigenvalues and a complete orthogonal set of eigenfunctions — the basis of Fourier series and separation of variables.

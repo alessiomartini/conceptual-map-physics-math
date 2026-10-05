@@ -16,7 +16,7 @@ import yaml
 
 from common import ROOT, SECTION_LABELS, load_all, render_inline, sections_of
 
-LENSES = ["asks", "key_results", "experiments", "limits", "applications", "frontiers"]
+LENSES = ["thread", "asks", "key_results", "experiments", "limits", "applications", "frontiers"]
 
 WRAP = """<!doctype html>
 <html lang="en">
@@ -60,7 +60,9 @@ def build_data(entries, areas, cfg):
             "cards": cards, "search": search,
         })
     return {
-        "config": {"title": cfg["title"], "subtitle": cfg.get("subtitle", "")},
+        "config": {"title": cfg["title"], "subtitle": cfg.get("subtitle", ""),
+                   "philosophy": [r(p) for p in cfg.get("philosophy", [])],
+                   "feedback_url": cfg.get("feedback_url", ""), "repo": cfg.get("repo", "")},
         "areas": areas,
         "entries": out,
         "lenses": [{"key": k, "label": SECTION_LABELS[k]} for k in LENSES],

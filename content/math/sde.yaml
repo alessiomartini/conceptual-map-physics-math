@@ -1,0 +1,57 @@
+id: sde
+title: Stochastic Differential Equations
+short: SDE
+domain: math
+area: probability
+order: 495
+one_liner: Differential equations driven by noise, $dX = b(X)\,dt + \sigma(X)\,dW$ — deterministic drift plus random kicks.
+summary: >-
+  An SDE adds a Brownian forcing to an ODE. Because Brownian paths are nowhere differentiable, the equation only
+  makes sense through a stochastic integral (Itô or Stratonovich), and ordinary calculus is replaced by Itô's lemma.
+  Each SDE comes with two PDEs: the Fokker–Planck (forward) equation for the probability density and the backward
+  Kolmogorov equation for expectations (Feynman–Kac). The general theory of random processes lives in
+  [[stochastic-processes]]; this page is about the equations themselves.
+asks:
+  - When does a noise-driven equation have a unique solution, and in which sense (strong/pathwise or weak/in law)?
+  - How does the probability distribution of the state evolve, and what is its stationary state?
+  - Which stochastic integral is the right one for a given physical model (Itô or Stratonovich)?
+  - How do we simulate SDEs accurately, and how do we estimate their parameters from data?
+key_results:
+  - "Itô integral and Itô's lemma: $df(X) = f'(X)\\,dX + \\tfrac12 f''(X)\\,\\sigma^2 dt$ — the extra second-order term comes from $(dW)^2 = dt$."
+  - "Existence and uniqueness of strong solutions under Lipschitz and linear-growth conditions (Itô); weak solutions and the martingale problem (Stroock–Varadhan)."
+  - "Itô vs Stratonovich: same noise, different calculus; Stratonovich obeys the ordinary chain rule and is the limit of smooth (coloured) noise (Wong–Zakai theorem)."
+  - "Fokker–Planck (forward Kolmogorov) equation for the density; backward Kolmogorov equation and the Feynman–Kac formula for expectations."
+  - "Langevin equation and Ornstein–Uhlenbeck process: fluctuation–dissipation fixes the noise strength so the stationary law is Gibbs $\\propto e^{-V/k_BT}$."
+  - "Geometric Brownian motion $dS = \\mu S\\,dt + \\sigma S\\,dW$ and the Black–Scholes–Merton model."
+  - "Numerics: Euler–Maruyama (strong order 1/2), Milstein (order 1); weak vs strong convergence."
+  - "Stochastic PDEs: KPZ equation made rigorous by Hairer's regularity structures (Fields Medal 2014) and by paracontrolled calculus (Gubinelli–Imkeller–Perkowski)."
+motivating_examples:
+  - "Brownian motion of a pollen grain (Einstein 1905, Langevin 1908); Johnson–Nyquist noise in resistors."
+  - "Stock prices (Bachelier 1900, Black–Scholes 1973); population dynamics with environmental noise; neuron membrane potentials."
+limits:
+  - "The Itô/Stratonovich choice is a modelling decision; picking the wrong one changes the drift (noise-induced drift)."
+  - Real noise is often coloured, heavy-tailed or with jumps; Brownian SDEs then need Lévy-driven or rough-path generalisations.
+  - Nonlinear SDEs in high dimension rarely have closed-form densities; parameter inference from discrete data is hard.
+applications:
+  - "Option pricing and risk ([[econophysics]]), molecular dynamics thermostats, Kalman–Bucy filtering, MCMC (Langevin samplers), climate models (stochastic parametrisation), score-based diffusion models for image generation."
+frontiers:
+  - Singular SPDEs and renormalisation (regularity structures); rough volatility; SDEs on manifolds and in infinite dimensions; reverse-time SDEs behind generative diffusion models.
+connections: [stochastic-processes, ode, pde, probability-theory, non-equilibrium, statistical-mechanics, econophysics, numerical-analysis, dynamical-systems]
+prerequisites: [stochastic-processes, ode]
+resources:
+  - "Øksendal, *Stochastic Differential Equations*"
+  - "Gardiner, *Stochastic Methods* (physicist's viewpoint)"
+  - "Pavliotis, *Stochastic Processes and Applications*"
+cards:
+  - q: Why does an SDE need a special notion of integral?
+    a: Brownian paths have infinite variation and are nowhere differentiable, so $\int \sigma\,dW$ cannot be a Riemann–Stieltjes integral; Itô defines it as an $L^2$ limit with left-point evaluation.
+  - q: What is the difference between the Itô and Stratonovich interpretations?
+    a: Itô evaluates the integrand at the left endpoint (non-anticipating, martingale); Stratonovich at the midpoint (ordinary chain rule, limit of smooth noise). They differ by a drift term $\tfrac12\sigma\sigma'$.
+  - q: State the Fokker–Planck equation for $dX = b\,dt + \sigma\,dW$.
+    a: $\partial_t p = -\partial_x(b\,p) + \tfrac12\partial_x^2(\sigma^2 p)$.
+  - q: What is the Ornstein–Uhlenbeck process and its stationary distribution?
+    a: $dX = -\theta X\,dt + \sigma\,dW$; its stationary law is Gaussian with mean 0 and variance $\sigma^2/2\theta$.
+  - q: What is the strong order of convergence of Euler–Maruyama?
+    a: 1/2 (weak order 1); Milstein adds a correction term to reach strong order 1.
+  - q: How does the Langevin equation encode fluctuation–dissipation?
+    a: In $m\dot v = -\gamma v + \xi$, the noise strength must be $\langle\xi(t)\xi(t')\rangle = 2\gamma k_BT\,\delta(t-t')$ for the velocities to reach the Maxwell–Boltzmann distribution.

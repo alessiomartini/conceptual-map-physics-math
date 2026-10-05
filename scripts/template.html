@@ -36,7 +36,7 @@
 html, body { background: var(--bg); color: var(--ink); }
 body { font-family: var(--body); font-size: 15px; line-height: 1.55; margin: 0; }
 a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: none; opacity: .8; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 code { font-family: var(--mono); font-size: .88em; background: var(--panel); padding: 0 .3em; border-radius: 3px; }
 
@@ -95,6 +95,9 @@ h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0
 
 .hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; align-items: end; margin-bottom: 18px; }
 .hero p { margin: 0; color: var(--muted); max-width: 60ch; }
+.philo { margin: 0 0 18px; padding: 12px 16px; background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 6px; }
+.philo h2 { font-size: 17px; margin: 0 0 6px; }
+.philo ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
 .stats { display: flex; gap: 22px; font-family: var(--mono); font-size: 12px; color: var(--muted); flex-wrap: wrap; justify-content: flex-end; }
 .stats b { display: block; font-family: var(--display); font-weight: 400; font-size: 30px; color: var(--ink); font-variant-numeric: tabular-nums; }
 .mapbox { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; position: relative; }
@@ -117,6 +120,7 @@ h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0
 .mark { display: inline-block; width: 9px; height: 9px; background: var(--muted); }
 .mark-physics { border-radius: 50%; }
 .mark-math { transform: rotate(45deg) scale(.85); }
+.mark-concept { border-radius: 2px; }
 .mark-experiment { border-radius: 50%; background: transparent; border: 2px solid var(--muted); }
 
 .block { margin-top: 38px; }
@@ -165,8 +169,8 @@ h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0
 <div class="app">
   <nav class="rail" id="rail">
     <div class="brand"><a href="#home">%%TITLE%%</a><span>%%SUBTITLE%%</span></div>
-    <input class="search" id="q" type="search" placeholder="Search fields, experiments…" aria-label="Search">
-    <div class="navlinks"><a href="#home">Map</a><a href="#lens-limits">Lenses</a><a href="#timeline">Timeline</a></div>
+    <input class="search" id="q" type="search" placeholder="Search fields, experiments, threads…" aria-label="Search">
+    <div class="navlinks"><a href="#home">Map</a><a href="#lens-thread">Threads</a><a href="#lens-limits">Lenses</a><a href="#timeline">Timeline</a></div>
     <div id="nav"></div>
   </nav>
   <main id="main"></main>
@@ -252,12 +256,14 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
 
   /* ---------- home + map ---------- */
   function renderHome() {
-    const nFields = D.entries.filter(e => e.domain !== "experiment").length;
+    const nFields = D.entries.filter(e => e.domain === "physics" || e.domain === "math").length;
+    const nConcepts = D.entries.filter(e => e.domain === "concept").length;
     const nExp = D.entries.filter(e => e.domain === "experiment").length;
     let h = `<div class="wide">
       <div class="hero"><div><div class="eyebrow">An atlas for the long view</div><h1>${esc(D.config.title)}</h1>
       <p>${esc(D.config.subtitle)}. Each field answers the same questions: what it asks, what it has established, what it rests on, where it breaks, and where it is heading. Click a node to open it.</p></div>
-      <div class="stats"><div><b>${nFields}</b>fields</div><div><b>${nExp}</b>experiments</div><div><b>${D.nCards}</b>flashcards</div></div></div>
+      <div class="stats"><div><b>${nFields}</b>fields</div><div><b>${nExp}</b>experiments</div><div><b>${nConcepts}</b>threads</div><div><b>${D.nCards}</b>flashcards</div></div></div>
+      ${D.config.philosophy.length ? `<div class="philo"><h2>What this map is for</h2><ul>${D.config.philosophy.map(p => `<li>${p}</li>`).join("")}</ul></div>` : ""}
       <div class="mapbox"><div class="mapbar">${Object.entries(D.areas).map(([k, d]) => `<label><input type="checkbox" data-dom="${k}" checked> ${esc(d.label)} <span class="mark mark-${k}"></span></label>`).join("")}
         <span class="hint">Drag to pan · scroll to zoom (experiment names appear) · hover to trace links</span></div>
         <svg id="map" role="img" aria-label="Map of fields and their connections"></svg>
@@ -289,7 +295,7 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
       for (const e of D.entries) for (const c of e.connections || []) if (byId[c]) links.push({ source: e.id, target: c });
       const deg = {}; links.forEach(l => { deg[l.source] = (deg[l.source] || 0) + 1; deg[l.target] = (deg[l.target] || 0) + 1; });
       nodes.forEach(n => n.deg = deg[n.id] || 0);
-      const anchor = { physics: [-0.30, -0.08], math: [0.42, 0.02], experiment: [-0.22, 0.50] };
+      const anchor = { physics: [-0.30, -0.08], math: [0.42, 0.02], experiment: [-0.22, 0.50], concept: [0.08, -0.42] };
       nodes.forEach(n => { const [ax, ay] = anchor[n.e.domain]; n.x = ax * 1400 + (Math.random() - .5) * 300; n.y = ay * 700 + (Math.random() - .5) * 300; });
       const rad = d => d.e.domain === "experiment" ? 10 : 16 + Math.sqrt(d.deg) * 2;
       const sim = d3.forceSimulation(nodes)
@@ -318,7 +324,7 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
     const size = d => (d.e.domain === "experiment" ? 4 : 5.5) + Math.sqrt(d.deg) * 1.5;
     const sym = d3.symbol();
     N.append("path")
-      .attr("d", d => sym.type(d.e.domain === "math" ? d3.symbolDiamond : d3.symbolCircle).size(Math.PI * size(d) ** 2 * (d.e.domain === "math" ? 1.3 : 1))())
+      .attr("d", d => sym.type(d.e.domain === "math" ? d3.symbolDiamond : d.e.domain === "concept" ? d3.symbolSquare : d3.symbolCircle).size(Math.PI * size(d) ** 2 * (d.e.domain === "math" ? 1.3 : 1))())
       .attr("class", d => d.e.domain === "experiment" ? "hollow" : "")
       .style("fill", d => d.e.domain === "experiment" ? null : color(d.e.area))
       .style("stroke", d => d.e.domain === "experiment" ? color(d.e.area) : null)

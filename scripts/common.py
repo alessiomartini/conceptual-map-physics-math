@@ -18,6 +18,9 @@ CONTENT = ROOT / "content"
 # Order and labels of the "guiding question" sections. Unknown list/str keys
 # found in an entry are still rendered (title-cased) after these.
 SECTIONS = [
+    # concept entries: a chain of reasoning across fields, and its fine print
+    ("thread", "The thread"),
+    ("caveats", "Careful: nuances"),
     ("asks", "What questions does it try to answer?"),
     ("key_results", "Fundamental results"),
     ("experiments", "Empirical basis"),
@@ -43,7 +46,7 @@ META_KEYS = {
 }
 
 REQUIRED = ["id", "title", "domain", "area", "one_liner"]
-DOMAINS = ["physics", "math", "experiment"]
+DOMAINS = ["physics", "math", "experiment", "concept"]
 
 
 def load_areas() -> dict:
@@ -140,6 +143,27 @@ def validate(entries: list[dict], areas: dict) -> list[str]:
     return errors
 
 
+def warnings(entries: list[dict]) -> list[str]:
+    """Non-blocking checks for the project's aim: tie theory to experiment.
+
+    A physics field passes if it links an experiment or at least has an `experiments:` section
+    (which may honestly say "none directly")."""
+    dom = {e["id"]: e.get("domain") for e in entries}
+    has_exp_section = {e["id"] for e in entries if e.get("experiments")}
+    nb = {e["id"]: set() for e in entries}
+    for e in entries:
+        refs = set(e.get("connections", []) or []) | {m.group(1) for s in iter_text(e) for m in REF_RE.finditer(s)}
+        for r in refs & nb.keys():
+            nb[e["id"]].add(r); nb[r].add(e["id"])
+    out = []
+    for eid, d in dom.items():
+        if d == "physics" and eid not in has_exp_section and not any(dom[x] == "experiment" for x in nb[eid]):
+            out.append(f"physics '{eid}' links to no experiment")
+        if d == "experiment" and not any(dom[x] == "physics" for x in nb[eid]):
+            out.append(f"experiment '{eid}' links to no physics field")
+    return out
+
+
 def load_all(strict: bool = True):
     areas = load_areas()
     entries = load_entries()
@@ -150,6 +174,8 @@ def load_all(strict: bool = True):
             print("  - " + err, file=sys.stderr)
         if strict:
             sys.exit(1)
+    for w in warnings(entries):
+        print("  warning: " + w, file=sys.stderr)
     return entries, areas
 
 

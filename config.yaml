@@ -1,9 +1,16 @@
 # Project-wide settings.
 title: Big Picture
 subtitle: A map of physics, mathematics and the experiments behind them
+# The project's aim, shown on the home page (inline markup allowed).
+philosophy:
+  - "**Connect fields to each other.** Every field page lists what it builds on and what it touches; the map draws those links."
+  - "**Connect theory to reality.** Every physics field says which experiments it rests on, and every experiment says which theory it established or broke."
+  - "**Follow the recurring ideas.** *Threads* trace one fundamental concept (symmetry, the action, universality…) across fields, step by step, with the fine print kept in view."
 # Public URL of the site (GitHub Pages). Anki cards link back to it.
-# e.g. https://<your-github-user>.github.io/big-picture/
-site_url: ""
+site_url: "https://alessiomartini.github.io/conceptual-map-physics-math/"
+repo: "alessiomartini/conceptual-map-physics-math"
+# Write-only feedback endpoint (Cloudflare Worker, see worker/). Empty = feedback falls back to a GitHub issue.
+feedback_url: ""
 anki:
   deck_name: Big Picture
   # Auto-generate overview cards ("what is X in one sentence?",

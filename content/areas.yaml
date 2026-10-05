@@ -12,6 +12,7 @@ physics:
     - {id: matter,      label: "Statistical & condensed matter", hue: 155}
     - {id: scales,      label: "Atoms, nuclei, stars & life",    hue: 85}
     - {id: complex,     label: "Complex systems",                hue: 350}
+    - {id: phil-physics, label: "Philosophy of physics",         hue: 50}
 math:
   label: Mathematics
   areas:
@@ -21,6 +22,7 @@ math:
     - {id: analysis,    label: "Analysis",                       hue: 235}
     - {id: probability, label: "Probability & dynamics",         hue: 130}
     - {id: discrete,    label: "Discrete & computational",       hue: 60}
+    - {id: phil-math,   label: "Philosophy of mathematics",      hue: 280}
 experiment:
   label: Experiments
   areas:
@@ -30,3 +32,8 @@ experiment:
     - {id: exp-particle,  label: "Particles & nuclei",           hue: 260}
     - {id: exp-cosmo,     label: "Gravity & cosmology",          hue: 210}
     - {id: exp-matter,    label: "Condensed matter",             hue: 155}
+# Kept last: Anki subdeck ids follow the order of these top-level keys.
+concept:
+  label: Recurring concepts
+  areas:
+    - {id: concepts,      label: "Threads across fields",        hue: 100}

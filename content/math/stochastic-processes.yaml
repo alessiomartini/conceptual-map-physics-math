@@ -7,7 +7,7 @@ order: 490
 one_liner: Random functions of time — Brownian motion, Markov chains, Itô calculus.
 summary: >-
   The mathematics behind diffusion, noise, filtering and financial derivatives. Itô calculus makes sense of
-  differential equations driven by Brownian motion and links them to PDEs (Feynman–Kac).
+  differential equations driven by Brownian motion (see [[sde]]) and links them to PDEs (Feynman–Kac).
 asks:
   - How do we model and compute with continuous-time randomness?
   - How do random dynamics relate to PDEs and to equilibrium distributions?
@@ -26,7 +26,7 @@ applications:
   - Quantitative finance, filtering (Kalman), MCMC sampling, diffusion generative models, biology, physics of noise.
 frontiers:
   - Rough volatility models; singular SPDEs (KPZ via regularity structures); score-based diffusion models in ML.
-connections: [probability-theory, pde, non-equilibrium, econophysics, statistical-mechanics, dynamical-systems]
+connections: [sde, probability-theory, pde, non-equilibrium, econophysics, statistical-mechanics, dynamical-systems]
 prerequisites: [probability-theory]
 resources:
   - "Øksendal, *Stochastic Differential Equations*"
