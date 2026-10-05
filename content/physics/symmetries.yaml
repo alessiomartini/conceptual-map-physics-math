@@ -10,6 +10,15 @@ summary: >-
   Kapustin, Seiberg and Willett (2014) symmetries are seen as topological operators: they may act on
   lines and surfaces (higher-form), form higher groups, or have no inverse (non-invertible, fusion-category
   symmetries). Their anomalies give robust non-perturbative constraints on phases of matter and QFTs.
+definitions:
+  - "**'Anomaly' covers several different things.** Common thread: a symmetry of the classical theory that cannot be consistently kept, or gauged, in the quantum theory. They differ in what fails."
+  - "**Gauge anomaly** — the gauged symmetry itself is anomalous: the theory is inconsistent (loss of unitarity/gauge invariance). Must cancel. Example: Standard-Model hypercharges; Green–Schwarz mechanism in string theory."
+  - "**'t Hooft anomaly** — a *global* symmetry that cannot be coupled to background gauge fields in a gauge-invariant way. Harmless for consistency but RG-invariant, so the IR must reproduce it (massless fermions, Goldstone bosons, symmetry breaking, or topological order): 't Hooft anomaly matching."
+  - "**Mixed anomaly and ABJ** — an anomaly involving two symmetries at once (e.g. axial U(1)$_A$ and vector U(1)$_V$). Neither alone is anomalous. If one of them (U(1)$_V$, electromagnetism) is gauged, the other is broken explicitly: the Adler–Bell–Jackiw anomaly, $\\partial_\\mu j_A^\\mu \\propto F\\tilde F$, giving $\\pi^0\\to\\gamma\\gamma$ and the absence of a U(1)$_A$ Goldstone boson in QCD (via instantons, the $\\eta'$ mass). Recent twist: the broken symmetry can survive as a non-invertible one."
+  - "**Gravitational and mixed gauge–gravitational anomalies** — the symmetry clashes with coupling to curved spacetime (Alvarez-Gaumé–Witten 1984; pure gravitational anomalies exist in $d = 2$ mod 4). In the Standard Model the sum of hypercharges in each generation must vanish for the mixed U(1)$_Y$–gravity anomaly to cancel."
+  - "**Global (non-perturbative) anomalies** — invisible in Feynman diagrams, detected by large gauge transformations or topology: Witten's SU(2) anomaly (1982) requires an even number of doublets; modern classification by cobordism and invertible field theories in one dimension higher (anomaly inflow, Callan–Harvey; Freed–Hopkins)."
+  - "**Trace (Weyl/conformal) anomaly** — scale invariance broken by quantum effects ($T^\\mu_\\mu \\ne 0$ on curved backgrounds: coefficients $c$ in 2D, $a$ and $c$ in 4D). Same name, different role: it does not obstruct a symmetry being gauged, but its coefficients are monotonic along RG flows (c-theorem, a-theorem; [[renormalization]])."
+  - "**Overlap and modern unification:** gauge, 't Hooft, mixed and gravitational anomalies are all described by an invertible topological field theory in $d+1$ dimensions (anomaly inflow); what differs is which symmetries are dynamical (gauged) and which are background."
 asks:
   - What constrains the spectrum, dynamics and phases of a system independently of details?
   - How do symmetries and their anomalies classify phases of matter?
