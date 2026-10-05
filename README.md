@@ -1,7 +1,21 @@
 # Big Picture
 
 A personal atlas of physics (especially theoretical), mathematics and the experiments behind them.
-One source of truth — a YAML file per field — builds two things:
+
+**Live site:** https://alessiomartini.github.io/conceptual-map-physics-math/
+
+## Philosophy
+
+1. **Connect fields to each other.** Every field lists what it builds on and what it touches; the map draws the links.
+2. **Connect theory to reality.** Every physics field says which experiments it rests on (`experiments:`), every
+   experiment which theory it established or broke. `make check` warns when a physics field has neither.
+3. **Follow the recurring ideas.** *Threads* (`content/concepts/`) trace one fundamental concept — the action,
+   symmetry, universality, entropy, locality, duality, emergence — across fields, as a numbered chain of
+   claims (`thread:`), with the fine print and corrections kept visible (`caveats:`).
+
+Memorisation is left to Anki; the site is for seeing how things fit together.
+
+One source of truth — a YAML file per entry — builds two things:
 
 - **a static website** (`docs/index.html`): an interactive map of fields and their connections,
   one page per field, *lenses* that compare every field's answer to the same question, and a
@@ -40,7 +54,10 @@ python scripts/new_entry.py physics hep "Supersymmetry"   # creates content/phys
 make check                                                 # reports broken links / malformed YAML
 ```
 
-- Fields live in `content/physics/`, `content/math/`, `content/experiments/`; clusters in `content/areas.yaml`.
+- Fields live in `content/physics/`, `content/math/`, `content/experiments/`, threads in `content/concepts/`
+  (domain `concept`); clusters in `content/areas.yaml`.
+- A thread entry uses `thread:` (ordered steps, each with `[[links]]`) and `caveats:` (nuances, corrections).
+  See `content/concepts/eom-action-quantum.yaml` for the model.
 - See `templates/entry.yaml` for every available key. Any extra list key you invent
   (e.g. `famous_people:`) is rendered as an extra section automatically.
 - Inline markup in any text: `**bold**`, `*italic*`, `` `code` ``, `$\LaTeX$`, `[[entry-id]]` links,
@@ -56,13 +73,27 @@ make check                                                 # reports broken link
 - Tags are hierarchical: `bigpicture::physics::hep::qft`, `bigpicture::kind::atomic|overview`.
   Use them for filtered decks (e.g. `tag:bigpicture::math::*`).
 - Subdecks: `Big Picture::Physics`, `::Mathematics`, `::Experiments`.
-- Set `site_url` in `config.yaml` (your GitHub Pages URL) so each card links back to its page.
+- `site_url` in `config.yaml` points at the GitHub Pages URL, so each card links back to its page.
 - Turn off auto-generated overview cards with `anki.overview_cards: false`.
 
 ## Publishing the site
 
 Push to GitHub and enable Pages with "GitHub Actions" as source; `.github/workflows/build.yml`
 rebuilds the site and the deck on every push. (Alternatively serve the `docs/` folder from the main branch.)
+
+## Feedback
+
+The site has a **Feedback** button. Notes go to a write-only Cloudflare Worker (`worker/`,
+`https://conceptual-map-feedback.alemarti-2001.workers.dev`, `POST /notes`) that stores them in the D1
+database `conceptual-map-feedback`, together with the page and the active view/filters. There is no read
+endpoint; read them with:
+
+```bash
+cd worker && npx wrangler d1 execute conceptual-map-feedback --remote --command "select * from notes order by id desc"
+```
+
+If the Worker is unreachable the widget opens a pre-filled GitHub issue; a copy of each note also stays in
+the visitor's browser (`localStorage["bp-feedback"]`). Redeploy the Worker with `cd worker && npm install && npx wrangler deploy`.
 
 ## Suggested study loop
 

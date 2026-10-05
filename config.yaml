@@ -10,7 +10,7 @@ philosophy:
 site_url: "https://alessiomartini.github.io/conceptual-map-physics-math/"
 repo: "alessiomartini/conceptual-map-physics-math"
 # Write-only feedback endpoint (Cloudflare Worker, see worker/). Empty = feedback falls back to a GitHub issue.
-feedback_url: ""
+feedback_url: "https://conceptual-map-feedback.alemarti-2001.workers.dev"
 anki:
   deck_name: Big Picture
   # Auto-generate overview cards ("what is X in one sentence?",

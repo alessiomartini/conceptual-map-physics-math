@@ -1,0 +1,17 @@
+{
+  // Feedback collector for the Big Picture site (copied from markets-first-principles/worker).
+  // One route, POST /notes, writes a row to D1. No read endpoint on purpose:
+  // feedback is read with `wrangler d1 execute conceptual-map-feedback --remote ...`.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "conceptual-map-feedback",
+  "main": "src/index.js",
+  "compatibility_date": "2025-03-01",
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "conceptual-map-feedback",
+      "database_id": "4d3368c0-b9b7-43e9-ae92-49dd1b149ae8"
+    }
+  ]
+}

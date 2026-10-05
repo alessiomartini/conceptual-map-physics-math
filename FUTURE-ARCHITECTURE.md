@@ -1,0 +1,16 @@
+# Future architecture / ideas
+
+## Open
+- More threads (`content/concepts/`): variational principles beyond mechanics, linearity & superposition,
+  geometry/curvature (GR ↔ gauge ↔ Berry phase), randomness & typicality, Hamiltonian vs Lagrangian in depth,
+  "why mathematics fits physics".
+- Missing fields worth adding: supersymmetry (own page, now inside BSM), soft & active matter, optics/photonics,
+  geophysics & climate physics, statistics & inference (math), TQFT/mathematical physics.
+- Publish the `.apkg` as a GitHub Release on each push (now only a workflow artifact) so Anki users can
+  download it from a stable URL.
+- Scheduled job that syncs the D1 feedback into the repo (as in eating-amsterdam) instead of reading it by hand.
+- Map: optional "threads only" view that highlights the fields a selected thread passes through.
+
+## Done / history
+- 2026-10: project created by Cowork in `big-picture/big-picture/`; moved to repo root, ODE/SDE, philosophy
+  of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.

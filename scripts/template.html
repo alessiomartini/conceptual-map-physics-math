@@ -149,6 +149,18 @@ h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0
 .tl-item a { font-weight: 600; }
 .tl-item p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
 
+.fb-btn { position: fixed; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 30; font: inherit; font-size: 14px; font-weight: 600;
+  padding: 8px 14px; border-radius: 99px; border: 1px solid var(--accent); background: var(--surface); color: var(--accent); cursor: pointer; box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+.fb-btn:hover { background: var(--accent); color: var(--surface); }
+#fb { width: min(480px, calc(100vw - 32px)); border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); padding: 18px; }
+#fb::backdrop { background: rgba(0,0,0,.35); }
+#fb h2 { margin: 0 0 4px; }
+#fb textarea { width: 100%; min-height: 130px; margin: 10px 0; padding: 8px 10px; font: inherit; font-size: 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); resize: vertical; }
+#fb .row { display: flex; gap: 8px; justify-content: flex-end; align-items: center; flex-wrap: wrap; }
+#fb button { font: inherit; font-size: 14px; padding: 6px 14px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); cursor: pointer; }
+#fb button[type=submit] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+#fb .hp { position: absolute; left: -9999px; }
+#fb-status { margin-right: auto; font-size: 13px; color: var(--muted); }
 @media (max-width: 900px) {
   .app { grid-template-columns: minmax(0, 1fr); }
   .rail { position: fixed; inset: 0 auto 0 0; width: min(320px, 88vw); z-index: 20; transform: translateX(-102%);
@@ -177,6 +189,15 @@ h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0
   </nav>
   <main id="main"></main>
 </div>
+
+<button class="fb-btn" id="fb-open" type="button">Feedback</button>
+<dialog id="fb"><form id="fb-form" method="dialog">
+  <h2>Feedback</h2>
+  <p class="meta" style="margin:0">Report a mistake or suggest a change. The current page and filters are attached automatically.</p>
+  <textarea id="fb-text" required maxlength="2000" placeholder="What is wrong or missing?"></textarea>
+  <input class="hp" id="fb-website" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <div class="row"><span id="fb-status" role="status"></span><button type="button" id="fb-cancel">Close</button><button type="submit">Send</button></div>
+</form></dialog>
 
 <script id="data" type="application/json">%%DATA%%</script>
 <script>
@@ -385,6 +406,33 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
     typeset(main);
     window.scrollTo(0, 0);
   }
+  /* ---------- feedback (write-only Worker + D1; fallback: GitHub issue) ---------- */
+  const fb = document.getElementById("fb"), fbText = document.getElementById("fb-text"), fbStatus = document.getElementById("fb-status");
+  function fbContext() {
+    const h = decodeURIComponent(location.hash.slice(1)) || "home";
+    return JSON.stringify({ view: h, title: byId[h] ? byId[h].title : null, search: document.getElementById("q").value || null,
+      lensFilter: h.startsWith("lens-") ? [...lensDom] : null, width: innerWidth });
+  }
+  document.getElementById("fb-open").addEventListener("click", () => { fbStatus.textContent = ""; fb.showModal(); fbText.focus(); });
+  document.getElementById("fb-cancel").addEventListener("click", () => fb.close());
+  document.getElementById("fb-form").addEventListener("submit", async ev => {
+    ev.preventDefault();
+    const text = fbText.value.trim(); if (!text) return;
+    const note = { text, page: location.href.slice(0, 200), context: fbContext(), website: document.getElementById("fb-website").value };
+    try { const k = "bp-feedback"; const old = JSON.parse(localStorage.getItem(k) || "[]"); old.push({ ...note, at: new Date().toISOString() }); localStorage.setItem(k, JSON.stringify(old.slice(-50))); } catch (e) {}
+    fbStatus.textContent = "Sending…";
+    try {
+      if (!D.config.feedback_url) throw new Error("no endpoint");
+      const r = await fetch(D.config.feedback_url.replace(/\/$/, "") + "/notes", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(note) });
+      if (!r.ok) throw new Error(r.status);
+      fbText.value = ""; fbStatus.textContent = "Thanks — saved.";
+      setTimeout(() => fb.close(), 1200);
+    } catch (e) {
+      fbStatus.textContent = "Could not reach the server — opening a GitHub issue instead.";
+      if (D.config.repo) window.open(`https://github.com/${D.config.repo}/issues/new?title=${encodeURIComponent("Feedback: " + (note.page.split("#")[1] || "home"))}&body=${encodeURIComponent(text + "\n\n---\n" + note.context)}`, "_blank", "noopener");
+    }
+  });
+
   window.addEventListener("hashchange", route);
   let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (document.getElementById("map")) drawMap(); }, 200); });
   renderNav("");
