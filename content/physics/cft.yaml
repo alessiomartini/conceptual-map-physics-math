@@ -1,0 +1,48 @@
+id: cft
+title: Conformal Field Theory
+short: CFT
+domain: physics
+area: hep
+order: 740
+one_liner: Quantum field theories invariant under angle-preserving transformations; the fixed points of the renormalization group.
+summary: >-
+  CFTs describe critical points of phase transitions, the endpoints of RG flows, string worldsheets and,
+  through holography, quantum gravity in AdS. In 2D conformal symmetry is infinite-dimensional (Virasoro)
+  and many theories are exactly solvable. In higher dimensions the conformal bootstrap uses consistency
+  alone to compute critical exponents.
+asks:
+  - What are the possible scale-invariant quantum field theories?
+  - What data (operator spectrum, OPE coefficients) defines a CFT, and what consistency conditions constrain it?
+  - How do CFTs describe critical phenomena and quantum gravity?
+key_results:
+  - "Operator–state correspondence; operator product expansion; crossing symmetry."
+  - "2D: Virasoro algebra, central charge, minimal models (BPZ 1984), Cardy formula, modular invariance."
+  - "Unitarity bounds on scaling dimensions."
+  - "Conformal bootstrap (Rattazzi–Rychkov–Tonni–Vichi 2008): rigorous bounds; 3D Ising exponents to 6+ digits."
+  - "Most-precise 3D Ising: $\\Delta_\\sigma \\approx 0.5181489$, $\\Delta_\\epsilon \\approx 1.412625$."
+  - "Lightcone bootstrap: large-spin operators approach double-twist values (Fitzpatrick–Kaplan–Poland–Simmons-Duffin; Komargodski–Zhiboedov); Caron-Huot inversion formula."
+experiments:
+  - Critical exponents of liquid–gas, binary mixtures, uniaxial magnets (3D Ising class); superfluid helium (O(2)).
+limits:
+  - Higher-dimensional CFTs are rarely solvable; the landscape of CFTs is not classified.
+  - Scale vs conformal invariance equivalence proven in 2D (Polchinski/Zamolodchikov) but not in general dimensions.
+applications:
+  - Critical phenomena, string worldsheets, quantum Hall edges, holography, quantum critical points in materials.
+frontiers:
+  - Numerical bootstrap of gauge theories and fermionic CFTs; analytic bootstrap; conformal defects and boundaries; fuzzy-sphere regularization.
+connections: [renormalization, phase-transitions, holography, string-theory, qft, symmetries, integrability, complex-analysis]
+prerequisites: [qft, renormalization]
+resources:
+  - "Di Francesco, Mathieu, Sénéchal, *Conformal Field Theory*"
+  - "Poland, Rychkov, Vichi, *The conformal bootstrap* (RMP 2019)"
+cards:
+  - q: What data defines a CFT (locally)?
+    a: The spectrum of primary operators (dimensions and spins) and their OPE coefficients, subject to crossing symmetry.
+  - q: What is the Cardy formula?
+    a: The asymptotic density of states in a unitary 2D CFT, $S \approx 2\pi\sqrt{c L_0/6} + \ldots$, fixed by modular invariance; reproduces BTZ black-hole entropy.
+  - q: What made the conformal bootstrap numerically powerful after 2008?
+    a: Crossing symmetry + unitarity, cast as linear/semidefinite programming, gives rigorous bounds; islands pin down the 3D Ising CFT.
+  - q: What is the operator–state correspondence?
+    a: In a CFT, states on $S^{d-1}$ in radial quantization correspond one-to-one with local operators at the origin.
+  - q: What universality class do the liquid–gas critical point and uniaxial magnets share?
+    a: The 3D Ising universality class.

@@ -1,0 +1,38 @@
+id: optimization
+title: Optimization
+domain: math
+area: discrete
+order: 550
+one_liner: Finding the best solution under constraints, from linear programs to training neural networks.
+summary: >-
+  Convex optimization has a complete theory (duality, efficient algorithms); non-convex optimization is hard
+  in general yet works surprisingly well in deep learning. It connects to variational principles in physics and
+  portfolio theory in finance.
+asks:
+  - When can the optimum be found efficiently and certified?
+  - How do constraints shape optima (duality)?
+  - Why does gradient descent succeed on non-convex landscapes in practice?
+key_results:
+  - "Lagrange multipliers and KKT conditions; convex duality."
+  - "Simplex method (Dantzig); interior-point methods (Karmarkar 1984) — LP in polynomial time (Khachiyan 1979)."
+  - "Semidefinite programming; Goemans–Williamson MAX-CUT approximation."
+  - "Gradient descent rates; Nesterov acceleration; stochastic gradient descent."
+  - "Markowitz mean–variance portfolio optimization."
+motivating_examples:
+  - Resource allocation, shortest paths, least squares, portfolio selection.
+limits:
+  - Global non-convex optimization is NP-hard; sensitivity to estimation error (e.g. Markowitz).
+applications:
+  - Machine learning, operations research, finance, control, engineering design, conformal bootstrap (SDP).
+frontiers:
+  - Optimization theory of deep learning (implicit bias, edge of stability); quantum optimization algorithms; learning-to-optimize.
+connections: [computational-complexity, numerical-analysis, linear-algebra, cft, econophysics]
+resources:
+  - "Boyd & Vandenberghe, *Convex Optimization* (free online)"
+cards:
+  - q: What are the KKT conditions?
+    a: First-order optimality conditions with inequality constraints — stationarity, primal and dual feasibility, complementary slackness.
+  - q: What is strong duality and when does it hold?
+    a: Equality of primal and dual optimal values; holds for convex problems under constraint qualifications such as Slater's condition.
+  - q: Which optimization technique powers the numerical conformal bootstrap?
+    a: Semidefinite programming (e.g. SDPB).

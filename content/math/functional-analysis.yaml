@@ -1,0 +1,39 @@
+id: functional-analysis
+title: Functional Analysis
+domain: math
+area: analysis
+order: 460
+one_liner: Linear algebra in infinite dimensions — Banach and Hilbert spaces and operators on them.
+summary: >-
+  The mathematical setting of quantum mechanics and PDEs. Spectral theory of unbounded self-adjoint operators,
+  operator algebras (C* and von Neumann), and distributions are its main tools.
+asks:
+  - How do linear algebra and spectral theory extend to infinite-dimensional spaces?
+  - What are the possible algebras of observables?
+key_results:
+  - "Hahn–Banach, open mapping, closed graph, uniform boundedness theorems."
+  - "Riesz representation theorem; spectral theorem for (unbounded) self-adjoint operators; Stone's theorem on unitary groups."
+  - "Sobolev spaces and embedding theorems; distributions (Schwartz)."
+  - "Gelfand–Naimark: commutative C*-algebras ↔ locally compact Hausdorff spaces."
+  - "Murray–von Neumann classification of factors (types I, II, III); Tomita–Takesaki modular theory; Connes' classification of type III."
+motivating_examples:
+  - Fourier analysis on $L^2$; the Schrödinger operator; Green's functions.
+limits:
+  - Unbounded operators require careful domains; nonlinear problems need other tools.
+applications:
+  - Quantum mechanics and QFT (algebraic QFT), PDE theory, signal processing, machine learning (kernel methods, RKHS).
+frontiers:
+  - Von Neumann algebras in quantum gravity and holography (type II factors and generalized entropy); noncommutative geometry; free probability.
+connections: [linear-algebra, real-analysis, pde, quantum-mechanics, qft, probability-theory, quantum-gravity]
+resources:
+  - "Reed & Simon, *Methods of Modern Mathematical Physics*"
+  - "Brezis, *Functional Analysis, Sobolev Spaces and PDEs*"
+cards:
+  - q: What does Stone's theorem state?
+    a: 'Strongly continuous one-parameter unitary groups $U(t)$ correspond to self-adjoint generators: $U(t) = e^{-itH}$.'
+  - q: What are the three Murray–von Neumann types of factors?
+    a: Type I (bounded operators on a Hilbert space), type II (finite or semifinite trace, no minimal projections), type III (no semifinite trace; local QFT algebras are type III₁).
+  - q: What does the Gelfand–Naimark theorem say?
+    a: Commutative C*-algebras are exactly algebras of continuous functions vanishing at infinity on locally compact Hausdorff spaces (basis of noncommutative geometry).
+  - q: Why is self-adjointness (not just symmetry) important in quantum mechanics?
+    a: Only self-adjoint operators have a spectral decomposition and generate unitary time evolution (Stone).

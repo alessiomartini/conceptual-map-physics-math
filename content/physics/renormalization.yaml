@@ -1,0 +1,50 @@
+id: renormalization
+title: Renormalization & the Renormalization Group
+short: Renormalization
+domain: physics
+area: hep
+order: 710
+one_liner: How physics changes with the scale of observation, and why theories at long distances forget most microscopic details.
+summary: >-
+  Born as a trick to remove infinities in QED, transformed by Wilson into a physical idea: integrating
+  out short-distance modes generates a flow in the space of couplings. Fixed points are scale-invariant
+  theories; relevant and irrelevant directions explain universality in critical phenomena and why
+  effective theories work.
+asks:
+  - Why are low-energy physics predictions insensitive to unknown high-energy details?
+  - How do couplings depend on scale, and what are the fixed points?
+  - Why do very different systems share the same critical exponents (universality)?
+key_results:
+  - "Callan–Symanzik equation and beta functions $\\mu\\, dg/d\\mu = \\beta(g)$."
+  - "Wilsonian RG: relevant, marginal, irrelevant operators; universality classes."
+  - "Wilson–Fisher fixed point and the ε-expansion ($d = 4-\\varepsilon$)."
+  - "Kadanoff block-spin picture; Polchinski and Wetterich exact (functional) RG equations."
+  - "c-theorem (Zamolodchikov, 2D) and a-theorem (Komargodski–Schwimmer, 4D): RG flows are irreversible."
+  - Dimensional transmutation (Λ_QCD from a dimensionless coupling).
+experiments:
+  - Running of α_s measured from many processes; running of α_em.
+  - Critical exponents measured in fluids, magnets and superfluid helium (λ-point in space, Lipa et al.).
+limits:
+  - Non-perturbative RG flows are hard to compute; Landau poles signal theories that are incomplete (e.g. QED, φ⁴ in 4D).
+applications:
+  - Critical phenomena, polymer physics, turbulence models, machine-learning analogies, finance (scaling laws).
+frontiers:
+  - RG and entanglement (entanglement renormalization, MERA); RG in de Sitter; RG flows between CFTs and the space of QFTs.
+connections: [qft, effective-field-theory, phase-transitions, cft, statistical-mechanics, standard-model]
+prerequisites: [qft, statistical-mechanics]
+resources:
+  - "Wilson & Kogut, *The renormalization group and the ε expansion* (1974)"
+  - "Cardy, *Scaling and Renormalization in Statistical Physics*"
+cards:
+  - q: What is a relevant operator in Wilsonian RG?
+    a: An operator whose coupling grows towards the IR at a fixed point (scaling dimension $\Delta < d$); it must be tuned to reach the critical point.
+  - q: Why does universality occur?
+    a: Different microscopic systems flow to the same IR fixed point; irrelevant couplings that distinguish them die off.
+  - q: What does the c-theorem state?
+    a: In 2D unitary QFTs there is a function decreasing along RG flows that equals the central charge at fixed points, so $c_{UV} > c_{IR}$.
+  - q: What is the 4D analogue of the c-theorem?
+    a: 'The a-theorem (Komargodski–Schwimmer 2011): the Euler anomaly coefficient a decreases along RG flows.'
+  - q: What is dimensional transmutation?
+    a: A classically scale-invariant theory with a running dimensionless coupling generates a dynamical scale, e.g. $\Lambda_{QCD} \approx 200$–$300$ MeV.
+  - q: What does a Landau pole signal?
+    a: The coupling diverges at a finite UV scale; the theory is not UV complete and must be an effective theory.

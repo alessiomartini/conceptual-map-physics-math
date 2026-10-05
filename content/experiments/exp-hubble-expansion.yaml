@@ -1,0 +1,16 @@
+id: exp-hubble-expansion
+title: Expansion of the Universe
+domain: experiment
+area: exp-cosmo
+order: 210
+year: 1929
+who: Edwin Hubble (with Lemaître's 1927 analysis, Slipher's redshifts, Leavitt's Cepheid relation)
+one_liner: Distant galaxies recede with speeds proportional to distance — the universe is expanding.
+measured: Redshifts of galaxies versus distances from Cepheid variables.
+result: $v = H_0 d$ (Hubble–Lemaître law).
+significance:
+  - Foundation of Big Bang cosmology; today $H_0$ itself is contested (Hubble tension).
+connections: [cosmology, general-relativity]
+cards:
+  - q: Whose period–luminosity relation made Hubble's distances possible?
+    a: Henrietta Swan Leavitt's Cepheid relation (1912).

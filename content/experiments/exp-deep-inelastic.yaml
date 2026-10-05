@@ -1,0 +1,18 @@
+id: exp-deep-inelastic
+title: SLAC Deep Inelastic Scattering
+domain: experiment
+area: exp-particle
+order: 150
+year: 1968
+who: Friedman, Kendall, Taylor (SLAC–MIT)
+one_liner: High-energy electrons scattering off protons revealed point-like constituents — quarks.
+measured: Inelastic electron–proton cross sections at large momentum transfer.
+result: Bjorken scaling — structure functions depend only on $x$, indicating scattering off free point-like partons.
+significance:
+  - Evidence for quarks; scaling (and its logarithmic violation) required asymptotic freedom, leading to QCD.
+connections: [standard-model, qft, gauge-theory, nuclear-physics]
+cards:
+  - q: What is Bjorken scaling?
+    a: At large $Q^2$, proton structure functions depend (approximately) only on the dimensionless variable $x = Q^2/2M\nu$.
+  - q: Why did Bjorken scaling point to asymptotic freedom?
+    a: Quarks behave as nearly free at short distances, which only non-abelian gauge theories can produce.

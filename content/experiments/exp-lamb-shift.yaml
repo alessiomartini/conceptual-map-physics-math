@@ -1,0 +1,16 @@
+id: exp-lamb-shift
+title: Lamb Shift
+domain: experiment
+area: exp-quantum
+order: 120
+year: 1947
+who: Willis Lamb, Robert Retherford
+one_liner: A tiny splitting between hydrogen's 2S and 2P levels that Dirac's theory predicted to be degenerate.
+measured: Microwave transitions between the 2S₁/₂ and 2P₁/₂ levels of hydrogen.
+result: A shift of ≈ 1057 MHz.
+significance:
+  - Explained by vacuum fluctuations in QED (Bethe 1947); triggered the development of renormalization (Feynman, Schwinger, Tomonaga, Dyson).
+connections: [qft, renormalization, quantum-mechanics]
+cards:
+  - q: What theoretical development did the Lamb shift trigger?
+    a: Renormalized QED — the first quantitative success of removing infinities via renormalization.

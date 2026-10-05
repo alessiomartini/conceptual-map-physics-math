@@ -1,0 +1,16 @@
+id: exp-rutherford
+title: Rutherford (Geiger–Marsden) Scattering
+domain: experiment
+area: exp-particle
+order: 60
+year: 1911
+who: Hans Geiger, Ernest Marsden, Ernest Rutherford
+one_liner: Alpha particles bouncing back from gold foil revealed a tiny, dense atomic nucleus.
+measured: Angular distribution of alpha particles scattered by thin gold foil.
+result: Rare large-angle scattering following $d\sigma/d\Omega \propto 1/\sin^4(\theta/2)$.
+significance:
+  - Nuclear model of the atom; template for every later scattering experiment probing structure.
+connections: [nuclear-physics, quantum-mechanics]
+cards:
+  - q: What angular dependence characterizes Rutherford scattering?
+    a: $d\sigma/d\Omega \propto 1/\sin^4(\theta/2)$ (Coulomb scattering off a point charge).

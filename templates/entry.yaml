@@ -1,0 +1,34 @@
+# Template for a new field. Copy to content/<physics|math|experiments>/<id>.yaml
+# or run:  python scripts/new_entry.py <domain> <area> "Title"
+# Every list item is one bullet. Quote an item with '...' if it contains ": "
+# or starts with * [ { ` (YAML special characters).
+id: my-field                 # unique, lowercase-with-dashes; used in links [[my-field]]
+title: My Field
+short: My field              # optional: shorter label for the map
+domain: physics              # physics | math | experiment
+area: hep                    # an area id from content/areas.yaml
+order: 1000                  # optional: position inside its area
+one_liner: One sentence on what this field is.
+summary: >-
+  A short paragraph of context.
+asks:                        # What questions does it try to answer?
+  - ...
+key_results:                 # Fundamental results
+  - ...
+experiments:                 # Empirical basis (physics). Link experiments with [[exp-id]]
+  - ...
+motivating_examples:         # (math) where the field comes from
+  - ...
+limits:                      # Limits & open problems
+  - ...
+applications:
+  - ...
+frontiers:                   # Where research is going
+  - ...
+connections: []              # ids of related entries (draws edges on the map)
+prerequisites: []            # ids of entries this builds on
+resources:
+  - "Author, *Book title*"
+cards:                       # Anki flashcards: atomic question -> short answer
+  - q: Question?
+    a: Answer.

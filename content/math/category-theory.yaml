@@ -1,0 +1,42 @@
+id: category-theory
+title: Category Theory
+domain: math
+area: foundations
+order: 360
+one_liner: The mathematics of structure and composition — objects, morphisms, functors and universal properties.
+summary: >-
+  Introduced by Eilenberg and Mac Lane (1945) for algebraic topology, it became the organizing language of
+  algebraic geometry (Grothendieck), homological algebra, logic and now physics (TQFTs, generalized symmetries)
+  and computer science. Higher categories capture homotopy-coherent structure.
+asks:
+  - What is common to constructions across different fields?
+  - How can mathematical objects be characterized by their relations (universal properties)?
+  - What is the right framework for homotopy-coherent and higher-dimensional algebra?
+key_results:
+  - "Yoneda lemma: an object is determined by the functor it represents."
+  - "Adjoint functors; limits and colimits; equivalence of categories."
+  - "Abelian and derived categories; homological algebra."
+  - "Grothendieck toposes and sheaves; elementary topos as foundations of logic."
+  - "Atiyah–Segal axioms: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces; cobordism hypothesis (Baez–Dolan; Lurie)."
+  - "∞-categories (Joyal, Lurie) for homotopy theory."
+motivating_examples:
+  - Homology as a functor from spaces to groups; fundamental group; duality of vector spaces.
+limits:
+  - Abstraction can obscure concrete computation; higher-categorical foundations are technically heavy.
+applications:
+  - Functional programming (monads), database theory, TQFT and anyons (modular tensor categories), generalized symmetries, applied category theory.
+frontiers:
+  - Higher categories in physics (fusion 2-categories for symmetries), condensed mathematics (Clausen–Scholze), univalent foundations.
+connections: [logic-set-theory, topology, algebraic-geometry, group-theory, symmetries, topological-phases]
+resources:
+  - "Riehl, *Category Theory in Context* (free online)"
+  - "Mac Lane, *Categories for the Working Mathematician*"
+cards:
+  - q: State the Yoneda lemma.
+    a: 'For a functor $F: C^{op} \to \mathbf{Set}$, natural transformations $\mathrm{Hom}(-,A) \Rightarrow F$ correspond bijectively to elements of $F(A)$; hence $A \mapsto \mathrm{Hom}(-,A)$ is fully faithful.'
+  - q: What is an adjunction?
+    a: Functors $F \dashv G$ with natural bijections $\mathrm{Hom}(FX, Y) \cong \mathrm{Hom}(X, GY)$ (e.g. free ⊣ forgetful).
+  - q: What is a TQFT in categorical terms?
+    a: A symmetric monoidal functor from a cobordism category to vector spaces (Atiyah–Segal).
+  - q: What category describes anyons in a 2D topological phase?
+    a: A unitary modular tensor category.

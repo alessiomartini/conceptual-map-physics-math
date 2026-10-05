@@ -1,0 +1,16 @@
+id: exp-stern-gerlach
+title: Stern–Gerlach Experiment
+domain: experiment
+area: exp-quantum
+order: 80
+year: 1922
+who: Otto Stern, Walther Gerlach
+one_liner: Silver atoms in an inhomogeneous magnetic field split into two beams — angular momentum is quantized.
+measured: Deflection of a silver atom beam passing through an inhomogeneous magnetic field.
+result: Two discrete spots rather than a continuous smear.
+significance:
+  - Direct evidence of space quantization; later understood as electron spin-1/2. The archetype of a quantum measurement.
+connections: [quantum-mechanics, quantum-foundations]
+cards:
+  - q: Why did silver atoms split into exactly two beams?
+    a: Silver's magnetic moment comes from a single unpaired electron with spin 1/2 (two projections).

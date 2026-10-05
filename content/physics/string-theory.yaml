@@ -1,0 +1,50 @@
+id: string-theory
+title: String Theory
+domain: physics
+area: gravity
+order: 820
+one_liner: One-dimensional strings whose vibrations include the graviton, giving a finite perturbative quantum gravity unified with gauge forces.
+summary: >-
+  Consistency requires supersymmetry and ten dimensions (superstrings); compactification yields 4D physics.
+  Strings unify via dualities into M-theory, contain D-branes, and led to AdS/CFT. Its mathematical
+  output (mirror symmetry, enumerative geometry) is huge; its experimental confirmation is absent and the
+  landscape of vacua complicates prediction.
+asks:
+  - Can gravity and gauge forces be unified in a single quantum theory?
+  - Which low-energy physics can emerge, and is our universe in the landscape?
+  - What is the non-perturbative definition of the theory (M-theory)?
+key_results:
+  - "Graviton in the closed-string spectrum; critical dimensions 26 (bosonic) and 10 (superstring)."
+  - "Green–Schwarz anomaly cancellation (1984): SO(32) and E₈×E₈."
+  - "Calabi–Yau compactifications; heterotic phenomenology."
+  - "Dualities (T, S, U) and M-theory in 11D (Witten 1995); D-branes (Polchinski 1995)."
+  - "Strominger–Vafa black-hole entropy; AdS/CFT (Maldacena 1997)."
+  - "Mirror symmetry predicted rational curve counts on the quintic (Candelas et al. 1991)."
+  - "KKLT and LVS constructions of de Sitter vacua (contested)."
+experiments:
+  - None direct. Indirect support only through its consistency and its role in holography.
+limits:
+  - Huge landscape (~10^500 or more vacua), unclear predictivity; no non-perturbative background-independent formulation; de Sitter constructions disputed.
+applications:
+  - "Mathematics (mirror symmetry, Gromov–Witten theory, moonshine); holographic models of QCD and condensed matter; amplitudes techniques."
+frontiers:
+  - Swampland program; string compactifications with controlled moduli stabilization; celestial and flat-space holography; string field theory; machine learning on Calabi–Yau data.
+connections: [quantum-gravity, holography, cft, gauge-theory, black-holes, algebraic-geometry, differential-geometry, scattering-amplitudes, beyond-standard-model]
+prerequisites: [qft, general-relativity, cft]
+resources:
+  - "Polchinski, *String Theory* (2 vols)"
+  - "Tong, *Lectures on String Theory* (free online)"
+  - "Becker, Becker, Schwarz, *String Theory and M-Theory*"
+cards:
+  - q: Why does string theory necessarily include gravity?
+    a: The closed-string spectrum always contains a massless spin-2 state, whose interactions reproduce GR at low energy.
+  - q: What are the critical dimensions of bosonic and superstring theory?
+    a: '26 and 10 (M-theory: 11).'
+  - q: What did Green and Schwarz show in 1984?
+    a: Gauge and gravitational anomalies cancel in type I superstrings for gauge group SO(32) (also E₈×E₈), starting the first superstring revolution.
+  - q: What is a D-brane?
+    a: A dynamical hypersurface on which open strings end (Dirichlet boundary conditions); carries RR charge and supports gauge theories.
+  - q: What is the string landscape?
+    a: The vast set of metastable vacua from flux compactifications, each with different low-energy physics.
+  - q: What spectacular mathematical prediction came from mirror symmetry?
+    a: The number of rational curves of each degree on the quintic Calabi–Yau threefold (e.g. 2875 lines, 609250 conics), later proven.

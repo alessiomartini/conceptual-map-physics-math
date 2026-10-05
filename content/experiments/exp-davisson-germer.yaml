@@ -1,0 +1,16 @@
+id: exp-davisson-germer
+title: Davisson–Germer Experiment
+domain: experiment
+area: exp-quantum
+order: 100
+year: 1927
+who: Clinton Davisson, Lester Germer (also G. P. Thomson)
+one_liner: Electrons diffract from a crystal like waves, confirming de Broglie's hypothesis.
+measured: Angular intensity of electrons scattered from a nickel crystal.
+result: Diffraction peaks at angles given by $\lambda = h/p$.
+significance:
+  - Wave–particle duality of matter; basis of electron microscopy.
+connections: [quantum-mechanics]
+cards:
+  - q: What is the de Broglie wavelength?
+    a: $\lambda = h/p$.

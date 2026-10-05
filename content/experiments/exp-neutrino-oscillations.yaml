@@ -1,0 +1,20 @@
+id: exp-neutrino-oscillations
+title: Neutrino Oscillations
+domain: experiment
+area: exp-particle
+order: 190
+year: 1998
+who: Super-Kamiokande (1998, atmospheric), SNO (2001, solar); Kajita and McDonald, Nobel 2015
+one_liner: Neutrinos change flavour while travelling, so they must have mass.
+measured: Up/down asymmetry of atmospheric muon neutrinos (Super-K); solar ⁸B neutrinos via charged and neutral currents (SNO).
+result: Disappearance of ν_μ depending on path length; total solar flux matches the solar model, with electron neutrinos converted to other flavours.
+significance:
+  - First established physics beyond the minimal Standard Model; resolved the solar neutrino problem.
+connections: [standard-model, beyond-standard-model, astrophysics]
+cards:
+  - q: What does neutrino oscillation imply about neutrino masses?
+    a: At least two neutrinos are massive and flavour states are mixtures of mass states (PMNS matrix).
+  - q: What can oscillation experiments not measure?
+    a: The absolute neutrino mass scale (only mass-squared differences) and whether neutrinos are Majorana.
+  - q: How did SNO resolve the solar neutrino problem?
+    a: Its neutral-current channel measured the total flux of all flavours, matching the solar model, while the charged current showed a deficit of ν_e.

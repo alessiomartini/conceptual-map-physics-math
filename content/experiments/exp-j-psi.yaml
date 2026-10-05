@@ -1,0 +1,16 @@
+id: exp-j-psi
+title: Discovery of the J/ψ
+domain: experiment
+area: exp-particle
+order: 160
+year: 1974
+who: Samuel Ting (BNL), Burton Richter (SLAC)
+one_liner: A narrow resonance at 3.1 GeV revealed the charm quark — the "November revolution".
+measured: Simultaneous observation in p–Be collisions and e⁺e⁻ annihilation.
+result: A very narrow $c\bar c$ bound state at 3.097 GeV.
+significance:
+  - Confirmed the quark model and the GIM mechanism; charmonium spectroscopy as a QCD test.
+connections: [standard-model]
+cards:
+  - q: Why was the J/ψ so narrow?
+    a: Decays to charmed mesons are kinematically forbidden; OZI-suppressed gluonic decays dominate.

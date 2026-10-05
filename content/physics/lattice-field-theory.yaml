@@ -1,0 +1,37 @@
+id: lattice-field-theory
+title: Lattice Field Theory
+short: Lattice QFT
+domain: physics
+area: hep
+order: 770
+one_liner: Defining quantum field theories on a discrete spacetime lattice to compute non-perturbatively on computers.
+summary: >-
+  Wilson's lattice gauge theory (1974) gave a non-perturbative definition of QCD and, with Monte Carlo
+  simulation in Euclidean time, first-principles hadron masses, quark masses, the QCD phase diagram at zero
+  density and hadronic contributions to precision observables.
+asks:
+  - How can we compute strongly coupled QFT from first principles?
+  - What are hadron masses and matrix elements predicted by QCD?
+key_results:
+  - Wilson action; strong-coupling confinement; gauge invariance preserved on the lattice.
+  - "Nielsen–Ninomiya theorem (fermion doubling); Ginsparg–Wilson fermions; domain-wall and overlap fermions."
+  - "Ab initio light hadron spectrum (BMW 2008); proton–neutron mass difference (2015)."
+  - "QCD transition at μ=0 is a crossover at $T_c \\approx 155$ MeV."
+  - "Lattice HVP contribution to muon g−2 (BMW 2021, confirmed by others)."
+experiments:
+  - Agreement with measured hadron spectrum; heavy-ion phenomenology; flavour physics form factors.
+limits:
+  - "Sign problem: finite density QCD and real-time dynamics are inaccessible to Monte Carlo."
+  - Chiral fermions and supersymmetry are hard to put on the lattice.
+applications:
+  - Precision flavour physics, nuclear physics from QCD, neutron-star equation of state inputs.
+frontiers:
+  - Quantum simulation of lattice gauge theories; machine-learned samplers (normalizing flows); tensor networks to avoid the sign problem.
+connections: [qft, gauge-theory, standard-model, quantum-information, statistical-mechanics, nuclear-physics, numerical-analysis]
+cards:
+  - q: What is the fermion sign problem?
+    a: When the Euclidean weight is not positive (e.g. finite baryon density), Monte Carlo importance sampling fails and cancellations grow exponentially with volume.
+  - q: What does the Nielsen–Ninomiya theorem state?
+    a: A local, hermitian, translation-invariant lattice fermion action with exact chiral symmetry must have doublers (equal numbers of left and right movers).
+  - q: What is the nature of the QCD transition at zero baryon density?
+    a: A smooth crossover around 155 MeV (lattice QCD).

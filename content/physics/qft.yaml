@@ -1,0 +1,55 @@
+id: qft
+title: Quantum Field Theory
+short: QFT
+domain: physics
+area: hep
+order: 670
+one_liner: The framework combining quantum mechanics and special relativity, where particles are excitations of quantum fields.
+summary: >-
+  QFT is the language of particle physics, condensed matter and much of cosmology. Locality, Lorentz
+  invariance and unitarity force particles to be created and destroyed, imply antiparticles and the
+  spin–statistics connection, and make infinities appear that are tamed by [[renormalization]].
+  It is extremely successful perturbatively but lacks a complete mathematical definition in four dimensions.
+asks:
+  - How do we describe relativistic quantum systems with variable particle number?
+  - How do interactions modify particle properties and scattering?
+  - What are the possible phases and dynamics of quantum fields (confinement, symmetry breaking, conformality)?
+key_results:
+  - Canonical and path-integral quantization; Feynman diagrams; LSZ reduction.
+  - "CPT theorem and spin–statistics theorem."
+  - "QED: electron $g-2$ agrees with experiment to about one part in $10^{12}$."
+  - "Renormalizability and the renormalization group; asymptotic freedom of non-abelian gauge theories (Gross–Wilczek, Politzer 1973)."
+  - "Anomalies (ABJ) and anomaly matching (’t Hooft)."
+  - "Coleman–Mandula theorem: spacetime and internal symmetries cannot mix nontrivially (loophole: supersymmetry, Haag–Łopuszański–Sohnius)."
+  - "Wightman and Osterwalder–Schrader axioms; Reeh–Schlieder theorem."
+experiments:
+  - "[[exp-lamb-shift]], [[exp-g-2]] (electron and muon), [[exp-deep-inelastic]], LEP precision electroweak tests, [[exp-higgs]]."
+limits:
+  - "No rigorous construction of interacting 4D QFTs (Yang–Mills existence and mass gap is a Millennium problem)."
+  - Perturbation series are asymptotic, not convergent; strong coupling needs lattice, dualities or bootstrap.
+  - Does not include gravity consistently beyond effective field theory.
+applications:
+  - Particle physics, condensed matter (quasiparticles, critical phenomena), cosmology (inflationary perturbations), statistical mechanics.
+frontiers:
+  - Generalized symmetries and anomalies; non-perturbative methods (bootstrap, resurgence, lattice); amplitudes.
+  - QFT in de Sitter and cosmological correlators; mathematical QFT (factorization algebras, TQFT).
+connections: [gauge-theory, standard-model, renormalization, effective-field-theory, symmetries, cft, scattering-amplitudes, lattice-field-theory, condensed-matter, quantum-gravity, functional-analysis]
+prerequisites: [quantum-mechanics, special-relativity, classical-field-theory]
+resources:
+  - "Peskin & Schroeder, *An Introduction to QFT*"
+  - "Schwartz, *Quantum Field Theory and the Standard Model*"
+  - "Weinberg, *The Quantum Theory of Fields* (3 vols)"
+  - "Tong, *Lectures on Quantum Field Theory* (free online)"
+cards:
+  - q: Why does combining quantum mechanics with special relativity require fields?
+    a: Relativistic energies allow particle creation and causality requires local commuting observables; fields provide local operators and variable particle number.
+  - q: What does the CPT theorem state?
+    a: Any Lorentz-invariant local QFT with a Hermitian Hamiltonian is invariant under the combined operation of charge conjugation, parity and time reversal.
+  - q: What does the Coleman–Mandula theorem forbid, and what is the loophole?
+    a: A nontrivial mixing of Poincaré and internal symmetries in an interacting theory with a mass gap; supersymmetry (fermionic generators) evades it.
+  - q: What is asymptotic freedom?
+    a: The coupling of non-abelian gauge theories (with few enough fermions) decreases at high energy; discovered 1973 by Gross, Wilczek, Politzer.
+  - q: What is the Reeh–Schlieder theorem?
+    a: Acting with operators localized in any open region on the vacuum produces a dense set of states; the vacuum is highly entangled across regions.
+  - q: Are perturbative QFT series convergent?
+    a: No, they are generally asymptotic (factorial growth of coefficients; Dyson's argument for QED), connected to instantons and renormalons.

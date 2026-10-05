@@ -1,0 +1,18 @@
+id: exp-g-2
+title: Muon and Electron g−2
+domain: experiment
+area: exp-particle
+order: 180
+year: 2025
+who: Fermilab Muon g−2 (final result 2025); Harvard/Northwestern electron g−2 (Gabrielse et al.)
+one_liner: Ultra-precise anomalous magnetic moments testing QED and the Standard Model through quantum loops.
+measured: Spin precession of muons in a storage ring; quantum jump spectroscopy of single electrons in a Penning trap.
+result: Electron $a_e$ to 0.13 ppt; muon $a_\mu$ to 127 ppb, now consistent with the lattice-QCD-based SM prediction.
+significance:
+  - Most precise test of QED; constraint on new particles coupling to leptons. The muon anomaly (once ~5σ) mostly dissolved with lattice HVP.
+connections: [qft, standard-model, lattice-field-theory, beyond-standard-model]
+cards:
+  - q: What is the Schwinger term in the anomalous magnetic moment?
+    a: The one-loop QED contribution $a = \alpha/2\pi \approx 0.00116$.
+  - q: What theory input dominated the uncertainty in the muon g−2 prediction?
+    a: Hadronic vacuum polarization (and hadronic light-by-light), now computed with lattice QCD.

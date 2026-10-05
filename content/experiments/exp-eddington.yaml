@@ -1,0 +1,16 @@
+id: exp-eddington
+title: Eddington's Eclipse Expedition
+domain: experiment
+area: exp-cosmo
+order: 70
+year: 1919
+who: Arthur Eddington, Frank Dyson
+one_liner: Starlight bending near the Sun during an eclipse matched Einstein's prediction.
+measured: Apparent shifts in star positions near the Sun during the total solar eclipse of 29 May 1919.
+result: Deflection ≈ 1.75″ at the solar limb, twice the Newtonian value.
+significance:
+  - Made general relativity famous; today gravitational lensing is a precision tool (VLBI confirms GR to ~10⁻⁴).
+connections: [general-relativity]
+cards:
+  - q: What deflection of light at the Sun's limb does GR predict?
+    a: 1.75 arcseconds — twice the "Newtonian" corpuscular value.

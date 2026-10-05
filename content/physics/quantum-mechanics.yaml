@@ -1,0 +1,50 @@
+id: quantum-mechanics
+title: Quantum Mechanics
+domain: physics
+area: quantum
+order: 640
+one_liner: States are vectors in a Hilbert space, observables are operators, and probabilities come from amplitudes squared.
+summary: >-
+  Built 1900–1930 to explain blackbody radiation, atomic spectra and the photoelectric effect.
+  Its formal core (Hilbert space, unitary evolution, Born rule, tensor products) is extremely well
+  tested and underlies chemistry, materials and electronics. What it says about reality (measurement)
+  is still debated: see [[quantum-foundations]].
+asks:
+  - What are the possible states and measurement outcomes of microscopic systems, and with which probabilities?
+  - Why are atomic spectra discrete and why is matter stable?
+  - How do composite systems behave (entanglement, identical particles)?
+key_results:
+  - "Schrödinger equation $i\\hbar\\,\\partial_t\\psi = H\\psi$; Heisenberg picture; path integral (Feynman)."
+  - "Canonical commutation $[x,p]=i\\hbar$ and the uncertainty relation $\\Delta x\\,\\Delta p \\ge \\hbar/2$."
+  - "Born rule: $P(a) = |\\langle a|\\psi\\rangle|^2$."
+  - Hydrogen spectrum; spin; Pauli exclusion; spin–statistics connection (proved in QFT).
+  - Perturbation theory, variational principle, WKB, scattering theory, Berry phase.
+  - "Stone–von Neumann theorem: the canonical commutation relations have an essentially unique irreducible representation (finitely many degrees of freedom)."
+  - "Bell's theorem: no local hidden-variable theory reproduces quantum predictions."
+experiments:
+  - "[[exp-photoelectric]], [[exp-stern-gerlach]], [[exp-davisson-germer]], [[exp-double-slit]], [[exp-bell-tests]]"
+  - Atomic spectroscopy (Balmer series, fine and hyperfine structure); [[exp-lamb-shift]] showed its limits.
+limits:
+  - Non-relativistic, fixed particle number → [[qft]].
+  - The measurement problem; the classical limit and decoherence.
+  - Exact solution of many-body problems is exponentially hard classically.
+applications:
+  - Chemistry, semiconductors and transistors, lasers, MRI, atomic clocks, quantum technologies.
+frontiers:
+  - Quantum control and engineered many-body systems; tests of macroscopic superpositions; quantum metrology.
+connections: [quantum-foundations, quantum-information, qft, amo-physics, condensed-matter, functional-analysis, classical-mechanics, random-matrix-theory]
+prerequisites: [classical-mechanics, linear-algebra]
+resources:
+  - "Sakurai & Napolitano, *Modern Quantum Mechanics*"
+  - "Weinberg, *Lectures on Quantum Mechanics*"
+cards:
+  - q: State the Born rule.
+    a: The probability of outcome $a$ when measuring an observable in state $|\psi\rangle$ is $|\langle a|\psi\rangle|^2$ (for non-degenerate $a$).
+  - q: What does the Stone–von Neumann theorem say?
+    a: Any irreducible representation of the Weyl form of the canonical commutation relations with finitely many degrees of freedom is unitarily equivalent to the Schrödinger representation.
+  - q: Why does Stone–von Neumann fail in QFT, and why does it matter?
+    a: With infinitely many degrees of freedom there are unitarily inequivalent representations, which is what allows spontaneous symmetry breaking and different phases.
+  - q: What is the Berry phase?
+    a: A geometric phase acquired under adiabatic cyclic evolution, equal to the holonomy of the Berry connection on parameter space.
+  - q: Which experiment demonstrated the wave nature of electrons?
+    a: Davisson–Germer (1927), electron diffraction from a nickel crystal.

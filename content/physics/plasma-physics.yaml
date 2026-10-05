@@ -1,0 +1,30 @@
+id: plasma-physics
+title: Plasma Physics
+domain: physics
+area: scales
+order: 930
+one_liner: Ionized gases governed by collective electromagnetic forces — 99% of visible matter and the route to fusion energy.
+summary: >-
+  Plasmas are described by kinetic theory (Vlasov) and magnetohydrodynamics. The field underpins
+  controlled fusion, space weather and much of astrophysics.
+asks:
+  - How do charged-particle collective effects and magnetic fields shape plasma dynamics?
+  - Can a hot plasma be confined long enough for net fusion energy?
+key_results:
+  - "Debye screening; plasma frequency; Landau damping (collisionless damping, Landau 1946)."
+  - "Magnetohydrodynamics; Alfvén waves (Nobel 1970); magnetic reconnection."
+  - "Lawson criterion for fusion ignition."
+experiments:
+  - "National Ignition Facility achieved target gain > 1 (Dec 2022); JET and tokamak records; Parker Solar Probe."
+limits:
+  - Turbulent transport and instabilities make confinement hard to predict.
+applications:
+  - Fusion energy (ITER, stellarators, private ventures), semiconductor etching, space weather forecasting.
+frontiers:
+  - High-field compact tokamaks with HTS magnets; stellarator optimization (W7-X); AI control of plasmas.
+connections: [electromagnetism, hydrodynamics, astrophysics, non-equilibrium]
+cards:
+  - q: What is Landau damping?
+    a: Collisionless damping of plasma waves due to resonant energy exchange with particles moving near the phase velocity.
+  - q: What is the Lawson criterion?
+    a: The condition on the product of density, temperature and confinement time ($nT\tau_E$) for fusion power to exceed losses.

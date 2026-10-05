@@ -1,0 +1,42 @@
+id: group-theory
+title: Algebra (Groups, Rings, Fields)
+short: Algebra
+domain: math
+area: algebra
+order: 370
+one_liner: The study of algebraic structures and their symmetries, from groups to rings, fields and modules.
+summary: >-
+  Abstract algebra formalizes symmetry (groups), arithmetic (rings and fields) and linear structure
+  (modules). Galois theory links field extensions to groups; the classification of finite simple groups is one of
+  the largest collective proofs ever.
+asks:
+  - What are the possible symmetry groups and how are they built from simple pieces?
+  - When can polynomial equations be solved by radicals?
+  - What are the structures of rings, fields and their ideals?
+key_results:
+  - "Lagrange, Sylow theorems; Jordan–Hölder; isomorphism theorems."
+  - "Galois theory: the general quintic is not solvable by radicals (Abel–Ruffini; Galois)."
+  - "Classification of finite simple groups (completed ~2004): cyclic, alternating, Lie type, 26 sporadic (largest: the Monster)."
+  - "Structure theorem for finitely generated modules over a PID; Hilbert's basis theorem and Nullstellensatz."
+  - "Monstrous moonshine (Borcherds 1992): Monster representations ↔ coefficients of the j-function, via a vertex operator algebra (a CFT)."
+motivating_examples:
+  - Symmetries of crystals and molecules; Rubik's cube; solving cubic and quartic equations.
+limits:
+  - Infinite groups are wildly diverse; many classification problems are undecidable (word problem, Novikov–Boone).
+applications:
+  - Cryptography (finite fields, elliptic curves), coding theory, crystallography, particle physics symmetries.
+frontiers:
+  - Geometric group theory, representation stability, condensed mathematics.
+connections: [linear-algebra, lie-theory, number-theory, algebraic-geometry, symmetries, category-theory]
+resources:
+  - "Dummit & Foote, *Abstract Algebra*"
+  - "Artin, *Algebra*"
+cards:
+  - q: Why is the general quintic not solvable by radicals?
+    a: Its Galois group $S_5$ is not solvable ($A_5$ is simple and non-abelian).
+  - q: What are the families in the classification of finite simple groups?
+    a: Cyclic groups of prime order, alternating groups $A_n$ ($n\ge5$), groups of Lie type, and 26 sporadic groups.
+  - q: What is monstrous moonshine?
+    a: The coefficients of the modular j-function decompose into dimensions of Monster group representations, explained by Borcherds via a vertex operator algebra (string-theory/CFT construction).
+  - q: State Sylow's first theorem.
+    a: If $p^k$ is the highest power of a prime $p$ dividing $|G|$, then $G$ has a subgroup of order $p^k$.

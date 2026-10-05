@@ -1,0 +1,16 @@
+id: exp-double-slit
+title: Single-Particle Double-Slit Interference
+domain: experiment
+area: exp-quantum
+order: 110
+year: 1974
+who: Merli, Missiroli, Pozzi (1974); Tonomura et al. (1989); with molecules, Arndt & Zeilinger (1999)
+one_liner: Particles sent one at a time build up an interference pattern — each one interferes with itself.
+measured: Arrival positions of individual electrons (or photons, molecules) behind two slits.
+result: Single dots accumulating into fringes; which-path information destroys the fringes.
+significance:
+  - The clearest demonstration of superposition and complementarity; extended to molecules of thousands of atoms.
+connections: [quantum-mechanics, quantum-foundations]
+cards:
+  - q: What happens to the interference pattern if which-path information is available?
+    a: The fringes disappear (decoherence/complementarity), even if no one reads the information.

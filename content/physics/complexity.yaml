@@ -1,0 +1,38 @@
+id: complexity
+title: Complexity (Algorithmic, Computational & Physical)
+short: Complexity
+domain: physics
+area: complex
+order: 960
+one_liner: Quantifying how hard something is to describe, compute or prepare — and why this matters for physics.
+summary: >-
+  Different notions: Kolmogorov (description length), computational (resources to solve problems), and
+  physical (circuit complexity of quantum states, statistical complexity of processes). Computational
+  complexity limits simulability of physical systems; quantum circuit complexity has been proposed to
+  track the growth of black-hole interiors.
+asks:
+  - How much information or computation is needed to describe or simulate a system?
+  - Which physical problems are intractable (e.g. NP-hard spin glasses, QMA-hard ground states)?
+  - Does complexity have a geometric or gravitational meaning?
+key_results:
+  - "Kolmogorov complexity is uncomputable; connections to Shannon entropy."
+  - "Finding Ising spin-glass ground states is NP-hard (Barahona 1982); local Hamiltonian problem is QMA-complete (Kitaev)."
+  - "Nielsen's geometric approach to circuit complexity."
+  - "Complexity = volume / action conjectures (Susskind et al.) for black-hole interiors; Brown–Susskind second law of complexity."
+  - "Krylov complexity and operator growth (Parker et al. 2019)."
+experiments:
+  - Quantum advantage experiments test where classical simulation becomes intractable.
+limits:
+  - Holographic complexity lacks a precise boundary definition; many notions are not observable.
+applications:
+  - Limits of simulation, cryptography, quantum computing benchmarks.
+frontiers:
+  - Complexity in holography; pseudorandom quantum states and the hardness of the AdS/CFT dictionary; complexity of learning.
+connections: [computational-complexity, information-theory, quantum-information, holography, chaos, complex-systems]
+cards:
+  - q: Is Kolmogorov complexity computable?
+    a: No — there is no algorithm that computes the shortest description length of an arbitrary string.
+  - q: What is the complexity class of finding the ground-state energy of a local Hamiltonian?
+    a: QMA-complete (Kitaev), the quantum analogue of NP.
+  - q: What do "complexity = volume" conjectures propose?
+    a: The volume of the maximal slice through a black-hole interior is dual to the quantum circuit complexity of the boundary state, growing linearly for exponentially long times.

@@ -1,0 +1,16 @@
+id: exp-photoelectric
+title: Photoelectric Effect
+domain: experiment
+area: exp-quantum
+order: 50
+year: 1905
+who: Lenard (data, 1902); Einstein (theory, 1905); Millikan (precision test, 1916)
+one_liner: Light ejects electrons with energies set by its frequency, not its intensity — light comes in photons.
+measured: Kinetic energy of photoelectrons versus light frequency and intensity.
+result: $E_{\max} = h\nu - \phi$; a threshold frequency; intensity changes only the number of electrons.
+significance:
+  - Established the photon (Einstein's Nobel 1921) and quantization of the electromagnetic field.
+connections: [quantum-mechanics, electromagnetism]
+cards:
+  - q: What is Einstein's photoelectric equation?
+    a: $E_{k,\max} = h\nu - \phi$, with φ the work function.

@@ -1,0 +1,43 @@
+id: topological-phases
+title: Topological Phases of Matter
+short: Topological phases
+domain: physics
+area: matter
+order: 870
+one_liner: Phases distinguished not by symmetry breaking but by global, topological properties of their quantum wavefunctions.
+summary: >-
+  From the quantum Hall effect onward, robust quantized responses arise from topology: Chern numbers,
+  symmetry-protected invariants, and long-range entanglement with anyonic excitations. Described by
+  topological quantum field theories, they are candidates for fault-tolerant quantum memory.
+asks:
+  - Which gapped phases exist beyond the Landau symmetry-breaking paradigm?
+  - Why are some responses (Hall conductance) quantized exactly?
+  - Can topological order store quantum information robustly?
+key_results:
+  - "TKNN (1982): Hall conductance is a Chern number."
+  - "Haldane model (1988): Chern insulator without net field."
+  - "Kane–Mele / BHZ: Z₂ topological insulators (2005–2006); periodic table of topological insulators and superconductors (Kitaev; Schnyder et al. 2008)."
+  - "Topological order (Wen): ground-state degeneracy on tori, anyons, long-range entanglement; topological entanglement entropy."
+  - "Kitaev chain (Majorana zero modes) and Kitaev honeycomb model."
+  - "SPT phases classified by group cohomology and cobordism."
+experiments:
+  - "[[exp-quantum-hall]]; HgTe quantum wells (König 2007); ARPES of Bi₂Se₃ surface states; anyon braiding in FQH interferometers (2020)."
+limits:
+  - Majorana detection in nanowires has been contested; non-abelian anyons not yet used for computing.
+applications:
+  - Resistance standard (quantum Hall); topological quantum computation; spintronics.
+frontiers:
+  - Non-abelian anyons on quantum processors; fracton phases; topological phases in non-equilibrium (Floquet, time crystals); classification via higher categories.
+connections: [condensed-matter, symmetries, quantum-information, topology, category-theory, gauge-theory, phase-transitions]
+prerequisites: [condensed-matter]
+cards:
+  - q: What topological invariant gives the integer quantum Hall conductance?
+    a: The first Chern number of the occupied Bloch bands, $\sigma_{xy} = C\, e^2/h$ (TKNN).
+  - q: What is topological order?
+    a: Long-range entangled gapped phases with ground-state degeneracy depending on topology and anyonic excitations, not captured by local order parameters.
+  - q: What is an SPT phase?
+    a: A symmetry-protected topological phase — short-range entangled, trivial without symmetry, but not deformable to a product state while preserving the symmetry (e.g. Haldane chain, TIs).
+  - q: What is the topological entanglement entropy?
+    a: A constant correction $-\gamma$ in $S_A = \alpha |\partial A| - \gamma$, with $\gamma = \ln \mathcal{D}$ (total quantum dimension).
+  - q: What is a Majorana zero mode?
+    a: A zero-energy bound state that is its own antiparticle, appearing at ends of topological superconducting wires; pairs encode a non-local qubit.

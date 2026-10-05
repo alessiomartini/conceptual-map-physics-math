@@ -1,0 +1,16 @@
+id: exp-mercury-perihelion
+title: Perihelion Precession of Mercury
+domain: experiment
+area: exp-classical
+order: 20
+year: 1859
+who: Urbain Le Verrier (anomaly); explained by Einstein, 1915
+one_liner: An unexplained 43 arcseconds per century in Mercury's orbit that GR explained exactly.
+measured: The precession of Mercury's perihelion, after subtracting the effects of other planets.
+result: An excess of ≈ 43″ per century unexplained by Newtonian gravity.
+significance:
+  - First success of general relativity (1915), computed by Einstein from first principles without free parameters.
+connections: [general-relativity, classical-mechanics]
+cards:
+  - q: How large is Mercury's anomalous perihelion precession?
+    a: About 43 arcseconds per century, out of ~574″ total (the rest from planetary perturbations).

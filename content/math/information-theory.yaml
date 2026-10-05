@@ -1,0 +1,41 @@
+id: information-theory
+title: Information Theory
+domain: math
+area: probability
+order: 510
+one_liner: Quantifying information, compression and communication over noisy channels.
+summary: >-
+  Shannon (1948) defined entropy and proved the limits of compression and reliable communication. Information-theoretic
+  quantities now appear everywhere: statistical inference, machine learning, thermodynamics, quantum information,
+  black holes and finance (Kelly criterion).
+asks:
+  - How much can data be compressed?
+  - How fast can information be sent reliably through noisy channels?
+  - How do we measure dependence and distinguishability between distributions?
+key_results:
+  - "Shannon entropy $H = -\\sum p\\log p$; mutual information; KL divergence."
+  - "Source coding theorem; channel coding theorem with capacity $C = \\max I(X;Y)$."
+  - "Data processing inequality; Fano's inequality."
+  - "Kelly criterion: maximizing expected log growth relates bet sizing to mutual information."
+  - "Quantum versions: von Neumann entropy, Holevo bound, strong subadditivity (Lieb–Ruskai)."
+motivating_examples:
+  - Telegraph codes; Morse code efficiency; error-correcting codes in deep-space communication.
+limits:
+  - Shannon information ignores meaning; finite-blocklength regimes need refined analysis.
+applications:
+  - Compression (ZIP, JPEG), telecommunications (5G uses LDPC and polar codes), ML losses (cross-entropy), portfolio theory, cryptography.
+frontiers:
+  - Information theory of deep learning; quantum Shannon theory; entropy in holography.
+connections: [probability-theory, thermodynamics, statistical-mechanics, quantum-information, complexity, logic-set-theory]
+resources:
+  - "Cover & Thomas, *Elements of Information Theory*"
+  - "MacKay, *Information Theory, Inference, and Learning Algorithms* (free online)"
+cards:
+  - q: Define the Kullback–Leibler divergence.
+    a: $D(P\|Q) = \sum_x P(x)\log\frac{P(x)}{Q(x)} \ge 0$, zero iff P = Q; not symmetric.
+  - q: State Shannon's channel coding theorem.
+    a: Rates below capacity $C = \max_{p(x)} I(X;Y)$ can be achieved with arbitrarily small error; rates above cannot.
+  - q: What is the Kelly criterion?
+    a: Bet the fraction that maximizes expected log wealth; for a simple bet, $f^* = p - q/b$; growth rate is tied to information advantage.
+  - q: What does strong subadditivity of von Neumann entropy state?
+    a: $S(AB) + S(BC) \ge S(ABC) + S(B)$ (Lieb–Ruskai 1973).

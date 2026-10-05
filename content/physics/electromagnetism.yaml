@@ -1,0 +1,40 @@
+id: electromagnetism
+title: Classical Electromagnetism
+domain: physics
+area: classical
+order: 590
+one_liner: Maxwell's equations unify electricity, magnetism and light as one Lorentz-invariant gauge field.
+summary: >-
+  Maxwell's theory is the prototype of every field theory: local, relativistic, and a U(1) gauge theory.
+  Light is an electromagnetic wave. The potentials $A_\mu$ carry gauge redundancy, a structure later
+  generalized to Yang–Mills theory.
+asks:
+  - How do charges and currents create fields, and how do fields act on charges?
+  - What is light?
+  - How does electromagnetic energy and momentum propagate?
+key_results:
+  - "Maxwell's equations; in covariant form $\\partial_\\mu F^{\\mu\\nu} = J^\\nu$, $dF = 0$."
+  - Electromagnetic waves travel at $c = 1/\\sqrt{\\mu_0\\epsilon_0}$.
+  - Gauge invariance $A_\\mu \\to A_\\mu + \\partial_\\mu \\lambda$; charge conservation.
+  - Poynting theorem; radiation from accelerated charges (Larmor formula).
+  - "Electric–magnetic duality of the source-free equations; Dirac's argument that a magnetic monopole would quantize charge."
+experiments:
+  - Faraday's induction (1831), Hertz's radio waves (1887), Ørsted's deflected compass.
+  - "[[exp-michelson-morley]] (no medium for light)."
+limits:
+  - Self-force of a point charge (Abraham–Lorentz) is pathological; resolved only partly by QED.
+  - Cannot explain blackbody radiation, photoelectric effect, atomic stability → [[quantum-mechanics]].
+applications:
+  - All of electrical engineering, optics, telecommunications, antennas, MRI, accelerators.
+frontiers:
+  - Metamaterials and transformation optics; topological photonics; nonlinear and strong-field electrodynamics.
+connections: [special-relativity, classical-field-theory, gauge-theory, qft, amo-physics, plasma-physics]
+cards:
+  - q: Write Maxwell's equations in covariant form.
+    a: "$\\partial_\\mu F^{\\mu\\nu} = J^\\nu$ and $\\partial_{[\\lambda} F_{\\mu\\nu]} = 0$ (i.e. $dF=0$), with $F = dA$."
+  - q: What is the gauge symmetry of electromagnetism?
+    a: "U(1): $A_\\mu \\to A_\\mu + \\partial_\\mu\\lambda$ leaves $F_{\\mu\\nu}$ invariant."
+  - q: What did Dirac show about magnetic monopoles?
+    a: The existence of a single monopole would force electric charge to be quantized ($eg = 2\\pi n$ in natural units).
+  - q: Why did electromagnetism push physics towards relativity?
+    a: Maxwell's equations are Lorentz-invariant, not Galilean-invariant, and predict a fixed speed of light.

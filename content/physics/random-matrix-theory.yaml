@@ -1,0 +1,44 @@
+id: random-matrix-theory
+title: Random Matrix Theory
+short: RMT
+domain: physics
+area: matter
+order: 880
+one_liner: The universal statistics of eigenvalues of large random matrices, from nuclei to the Riemann zeta function.
+summary: >-
+  Wigner introduced random Hamiltonians to model heavy nuclei. The spectra depend only on symmetry class
+  (Dyson's threefold way, later tenfold), producing universal level repulsion. RMT appears in quantum chaos,
+  disordered conductors, number theory, 2D gravity, wireless communication, statistics and finance.
+asks:
+  - What are the universal statistical properties of spectra of complex systems?
+  - Which symmetry classes exist and what are their universal laws?
+  - Why do zeros of the Riemann zeta function look like GUE eigenvalues?
+key_results:
+  - "Wigner semicircle law; Marchenko–Pastur law for covariance matrices."
+  - "Dyson's threefold way (GOE, GUE, GSE; β = 1, 2, 4); Altland–Zirnbauer tenfold classification."
+  - "Level spacing: Wigner surmise $p(s) \\propto s^\\beta e^{-c s^2}$; Tracy–Widom distribution for the largest eigenvalue."
+  - "Montgomery–Odlyzko: pair correlation of zeta zeros matches GUE."
+  - "Matrix models ↔ 2D quantum gravity; JT gravity ↔ double-scaled matrix integral (Saad–Shenker–Stanford 2019)."
+  - "Universality theorems (Erdős–Yau, Tao–Vu)."
+experiments:
+  - Neutron resonance spectra of heavy nuclei; microwave billiards; universal conductance fluctuations.
+limits:
+  - Describes universal statistics, not system-specific features; short-range correlated or sparse matrices need extensions.
+applications:
+  - Covariance cleaning in finance (Marchenko–Pastur), MIMO wireless capacity, neural network loss landscapes, quantum chaos diagnostics.
+frontiers:
+  - Spectral form factor and ramp in many-body chaos and black holes; free probability in deep learning; heavy-tailed RMT.
+connections: [chaos, quantum-mechanics, number-theory, probability-theory, holography, condensed-matter, statistical-mechanics, econophysics]
+cards:
+  - q: What is the Wigner semicircle law?
+    a: The eigenvalue density of large Wigner matrices (properly normalized) converges to $\rho(x) = \frac{1}{2\pi}\sqrt{4-x^2}$.
+  - q: What do the Dyson indices β = 1, 2, 4 correspond to?
+    a: GOE (time-reversal invariant, real symmetric), GUE (broken time reversal, complex Hermitian), GSE (time-reversal with half-integer spin, quaternion self-dual).
+  - q: What is the Marchenko–Pastur law used for in finance?
+    a: It gives the eigenvalue spectrum of pure-noise sample covariance matrices, used to separate signal eigenvalues from noise in correlation matrices.
+  - q: What is the Tracy–Widom distribution?
+    a: The limiting fluctuation law of the largest eigenvalue of Gaussian ensembles; also appears in KPZ growth and longest increasing subsequences.
+  - q: What is the Montgomery–Odlyzko law?
+    a: Normalized spacings of nontrivial zeros of the Riemann zeta function follow GUE statistics.
+  - q: What is the spectral form factor's "ramp" a signature of?
+    a: Random-matrix-like spectral rigidity (long-range level correlations), a hallmark of quantum chaos.

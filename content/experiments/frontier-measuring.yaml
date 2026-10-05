@@ -1,0 +1,32 @@
+id: frontier-measuring
+title: What We Are Trying to Measure Now
+short: Open measurements
+domain: experiment
+area: exp-overview
+order: 330
+one_liner: The major open measurements across fundamental physics as of 2026.
+summary: >-
+  A checklist of quantities that experiments are actively chasing, each tied to a theoretical question.
+measuring_now:
+  - "**Neutrino properties** — absolute mass (KATRIN bound $m_\\nu < 0.45$ eV; Project 8; cosmology), mass ordering (JUNO, running since 2025), leptonic CP phase (DUNE, Hyper-K), Majorana nature via 0νββ (LEGEND, nEXO, KamLAND-Zen)."
+  - "**Dark matter** — direct detection (LZ, XENONnT, PandaX, DARWIN/XLZD), axions (ADMX, haloscopes, helioscopes like IAXO), indirect signals, collider production."
+  - "**Dark energy equation of state** $w(z)$ — DESI, Euclid, Rubin LSST, Roman."
+  - "**Hubble constant** — distance ladder (Cepheids, TRGB, JAGB with JWST) vs CMB/BAO; standard sirens."
+  - "**Primordial gravitational waves** — CMB B-modes (BICEP/Keck, Simons Observatory, LiteBIRD) for the tensor ratio $r$."
+  - "**Higgs sector** — couplings to second-generation fermions, self-coupling, invisible decays (HL-LHC from ~2030)."
+  - "**CP violation and EDMs** — electron and neutron EDMs probe new physics at 10–100 TeV scales."
+  - "**Proton decay** (Hyper-K, DUNE, JUNO) — test of grand unification."
+  - "**Gravitational-wave spectrum** — LIGO/Virgo/KAGRA O5, LISA (2030s), pulsar timing arrays, Einstein Telescope/Cosmic Explorer."
+  - "**Fundamental constants and their variation** — optical and nuclear clocks; fine-structure constant; $G$."
+  - "**Quantum gravity signatures** — gravitationally induced entanglement in tabletop experiments; Lorentz violation; black-hole ringdown spectroscopy."
+  - "**Nuclear and QCD** — proton structure (EIC), neutron lifetime, neutron-star equation of state (NICER, GW tidal deformability)."
+connections: [beyond-standard-model, cosmology, standard-model, quantum-gravity, general-relativity, astrophysics]
+cards:
+  - q: Which experiment aims to determine the neutrino mass ordering with reactor antineutrinos?
+    a: JUNO (China), taking data since 2025.
+  - q: What is KATRIN's (2025) upper bound on the effective electron-antineutrino mass?
+    a: $m_\nu < 0.45$ eV (90% CL).
+  - q: What two quantities do CMB B-mode experiments and LISA respectively target?
+    a: B-modes target the primordial tensor-to-scalar ratio $r$ (inflation); LISA targets mHz gravitational waves from massive black-hole binaries and early-universe sources.
+  - q: Why are electron EDM experiments sensitive to very heavy new physics?
+    a: EDMs require CP violation beyond the SM's (negligible) contribution; loop effects of TeV-scale particles produce measurable EDMs.

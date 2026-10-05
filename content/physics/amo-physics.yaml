@@ -1,0 +1,39 @@
+id: amo-physics
+title: Atomic, Molecular & Optical Physics
+short: AMO & quantum optics
+domain: physics
+area: scales
+order: 900
+one_liner: Controlling single atoms, molecules and photons with lasers, the most precise measurements in physics.
+summary: >-
+  AMO physics gave lasers, laser cooling, atomic clocks and Bose–Einstein condensates, and now builds
+  programmable quantum simulators and computers from neutral atoms and ions. Its precision makes it a
+  probe of fundamental physics (fine-structure constant, EDMs, variation of constants, dark matter).
+asks:
+  - How do light and matter interact at the single-quantum level?
+  - How precisely can we measure time, frequency and fundamental constants?
+  - Can controllable atomic systems simulate hard many-body problems?
+key_results:
+  - "Einstein's A and B coefficients; laser principle; Jaynes–Cummings model; cavity QED."
+  - "Laser cooling and trapping (Nobel 1997); evaporative cooling to BEC (1995)."
+  - "Optical frequency comb (Hall, Hänsch; Nobel 2005)."
+  - "Optical lattice clocks with fractional uncertainty below 10⁻¹⁸."
+  - Feshbach resonances to tune interactions; BEC–BCS crossover.
+experiments:
+  - "[[exp-bec]]; quantum gas microscopes; Rydberg-atom arrays; electron EDM bound (ACME, JILA)."
+limits:
+  - Scaling quantum simulators while keeping fidelity; decoherence.
+applications:
+  - GPS and timekeeping, quantum sensing (gravimeters, magnetometers), quantum computing, spectroscopy, attosecond science (Nobel 2023).
+frontiers:
+  - Nuclear clock with thorium-229 (2024); redefinition of the SI second with optical clocks; tweezer arrays with thousands of atoms; tests of new physics with clocks.
+connections: [quantum-mechanics, quantum-information, electromagnetism, condensed-matter, beyond-standard-model]
+cards:
+  - q: What made Bose–Einstein condensation of atoms possible in 1995?
+    a: Laser cooling followed by evaporative cooling in magnetic traps to ~100 nK (Cornell, Wieman, Ketterle).
+  - q: What is an optical frequency comb?
+    a: A mode-locked laser producing equally spaced frequencies, linking optical frequencies to microwave standards for precise frequency measurement.
+  - q: What is the Jaynes–Cummings model?
+    a: A two-level atom coupled to a single quantized cavity mode; the basic model of cavity QED (vacuum Rabi oscillations).
+  - q: What is a Feshbach resonance used for?
+    a: Tuning the scattering length of ultracold atoms with a magnetic field, controlling interaction strength and sign.

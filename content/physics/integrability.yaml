@@ -1,0 +1,36 @@
+id: integrability
+title: Integrability
+domain: physics
+area: hep
+order: 760
+one_liner: Systems with enough conserved quantities to be solved exactly, from spin chains to planar N=4 Yang–Mills.
+summary: >-
+  Quantum integrable systems have factorized scattering and infinitely many commuting charges. Bethe ansatz,
+  Yang–Baxter equation and quantum groups solve 1+1D models exactly. Integrability solved the spectrum
+  of planar N=4 SYM and supplies exact benchmarks for many-body physics.
+asks:
+  - Which interacting systems can be solved exactly, and what structure makes it possible?
+  - How do integrable systems thermalize (or fail to)?
+key_results:
+  - "Bethe ansatz (1931) for the Heisenberg chain; Lieb–Liniger; Yang–Baxter equation."
+  - "Onsager's solution of the 2D Ising model (1944)."
+  - "Factorized S-matrices (Zamolodchikov); quantum groups."
+  - "Quantum spectral curve for planar N=4 SYM (Gromov–Kazakov–Leurent–Volin)."
+  - "Generalized Gibbs ensemble and generalized hydrodynamics (2016) for integrable relaxation."
+experiments:
+  - "Quantum Newton's cradle (Kinoshita–Wenger–Weiss 2006): 1D Bose gas does not thermalize."
+  - Spin-chain materials measured by neutron scattering; KPZ superdiffusion in Heisenberg chains.
+limits:
+  - Fine-tuned; most realistic systems are non-integrable; mostly low-dimensional.
+applications:
+  - Exact benchmarks for numerics; cold-atom physics; strings in AdS₅×S⁵.
+frontiers:
+  - Generalized hydrodynamics; weak integrability breaking; integrability in AdS₃ and fishnet theories.
+connections: [classical-mechanics, cft, statistical-mechanics, condensed-matter, holography, chaos, scattering-amplitudes]
+cards:
+  - q: What is the Yang–Baxter equation?
+    a: "$R_{12}R_{13}R_{23} = R_{23}R_{13}R_{12}$; consistency of factorized scattering and of commuting transfer matrices."
+  - q: What is the generalized Gibbs ensemble?
+    a: The stationary state of integrable systems, $\rho \propto e^{-\sum_i \beta_i Q_i}$ including all conserved charges.
+  - q: What did the quantum Newton's cradle experiment show?
+    a: A 1D Bose gas (nearly integrable Lieb–Liniger) did not thermalize over thousands of collisions.

@@ -1,0 +1,17 @@
+id: exp-cavendish
+title: Cavendish Torsion Balance
+domain: experiment
+area: exp-classical
+order: 10
+year: 1798
+who: Henry Cavendish
+one_liner: First laboratory measurement of the gravitational attraction between masses.
+measured: The tiny twist of a torsion balance as lead spheres attracted smaller ones.
+result: Earth's density ≈ 5.45 g/cm³ (implying $G$, later extracted, within ~1% of today's value).
+significance:
+  - Made gravity a laboratory force and fixed the scale of Newtonian gravity.
+  - "$G$ remains the least precisely known fundamental constant (~20 ppm), with puzzling disagreements between modern experiments."
+connections: [classical-mechanics, general-relativity]
+cards:
+  - q: Why is $G$ hard to measure precisely?
+    a: Gravity is extremely weak and cannot be shielded; modern measurements disagree beyond their quoted errors (~10⁻⁴ spread).

@@ -1,0 +1,16 @@
+id: exp-hulse-taylor
+title: Hulse–Taylor Binary Pulsar
+domain: experiment
+area: exp-cosmo
+order: 250
+year: 1974
+who: Russell Hulse, Joseph Taylor (Nobel 1993)
+one_liner: A pulsar orbiting a neutron star loses energy exactly as GR predicts for gravitational-wave emission.
+measured: Pulse arrival times of PSR B1913+16 over decades.
+result: Orbital period decay matching the quadrupole formula to ~0.2%.
+significance:
+  - First evidence of gravitational waves; binary pulsars now test GR in strong fields (double pulsar 2003).
+connections: [general-relativity, astrophysics]
+cards:
+  - q: What is the significance of the Hulse–Taylor pulsar's orbital decay?
+    a: It agrees with energy loss by gravitational radiation predicted by GR — indirect proof of gravitational waves.

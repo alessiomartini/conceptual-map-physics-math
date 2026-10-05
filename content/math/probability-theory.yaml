@@ -1,0 +1,42 @@
+id: probability-theory
+title: Probability Theory
+short: Probability
+domain: math
+area: probability
+order: 480
+one_liner: The mathematics of uncertainty, built on measure theory since Kolmogorov (1933).
+summary: >-
+  From limit theorems and large deviations to random walks, martingales and random structures. Probability is the
+  foundation of statistics, statistical physics, information theory and quantitative finance.
+asks:
+  - What laws govern sums and extremes of random variables?
+  - How do random processes and random structures behave in high dimension?
+  - How do we quantify rare events?
+key_results:
+  - "Kolmogorov axioms; laws of large numbers; central limit theorem."
+  - "Large deviations (Cramér, Sanov); rate functions ≈ entropy."
+  - "Martingale convergence and optional stopping; concentration inequalities."
+  - "Lévy stable laws and generalized CLT for heavy tails; extreme value theory (Fisher–Tippett–Gnedenko)."
+  - "de Finetti's theorem; Bayesian inference."
+  - "Schramm–Loewner evolution describes 2D critical interfaces (Fields Medals 2006, 2010)."
+motivating_examples:
+  - Gambling problems (Pascal–Fermat); Brownian motion; random walks.
+limits:
+  - Interpretation (frequentist vs Bayesian) is debated; heavy-tailed and dependent phenomena break naive CLT reasoning.
+applications:
+  - Statistics, machine learning, physics, finance and risk, insurance, algorithms (randomized).
+frontiers:
+  - High-dimensional probability; random geometry (Liouville quantum gravity); probabilistic methods in combinatorics and learning theory.
+connections: [real-analysis, stochastic-processes, statistical-mechanics, information-theory, random-matrix-theory, combinatorics]
+resources:
+  - "Durrett, *Probability: Theory and Examples* (free online)"
+  - "Vershynin, *High-Dimensional Probability* (free online)"
+cards:
+  - q: State the central limit theorem.
+    a: For i.i.d. variables with finite variance σ², $(S_n - n\mu)/(\sigma\sqrt n) \to \mathcal{N}(0,1)$ in distribution.
+  - q: What is a large deviation principle?
+    a: Probabilities of rare events decay exponentially, $P(S_n/n \approx x) \asymp e^{-n I(x)}$, with rate function I (Cramér).
+  - q: What are the three extreme value distributions?
+    a: Gumbel, Fréchet (heavy tails), Weibull (bounded tails) — unified in the generalized extreme value distribution.
+  - q: What is SLE (Schramm–Loewner evolution)?
+    a: A one-parameter family of random curves describing scaling limits of 2D critical interfaces (percolation κ=6, Ising κ=3).

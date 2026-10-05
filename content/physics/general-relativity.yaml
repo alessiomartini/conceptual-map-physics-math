@@ -1,0 +1,51 @@
+id: general-relativity
+title: General Relativity
+short: GR
+domain: physics
+area: gravity
+order: 780
+one_liner: Gravity is the curvature of spacetime, sourced by energy and momentum.
+summary: >-
+  Einstein's 1915 theory: free fall follows geodesics of a dynamical Lorentzian metric obeying
+  $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}$. It predicts black holes, gravitational waves and an
+  expanding universe, and has passed every test from the lab to merging black holes.
+asks:
+  - What is gravity, and how do matter and spacetime geometry influence each other?
+  - What happens in strong gravitational fields (black holes, neutron stars, the Big Bang)?
+  - How does the universe as a whole evolve?
+key_results:
+  - "Equivalence principle; Einstein field equations; Einstein–Hilbert action $\\frac{1}{16\\pi G}\\int \\sqrt{-g}\\,(R - 2\\Lambda)$."
+  - "Schwarzschild (1916) and Kerr (1963) solutions; FLRW cosmologies."
+  - "Penrose (1965) and Hawking singularity theorems."
+  - "No-hair theorems; black-hole uniqueness; Hawking area theorem."
+  - "ADM formalism and positive energy theorem (Schoen–Yau, Witten)."
+  - Gravitational waves as linearized solutions; quadrupole formula.
+experiments:
+  - "[[exp-eddington]], perihelion of Mercury, [[exp-pound-rebka]], Shapiro delay, [[exp-hulse-taylor]], Gravity Probe B, [[exp-ligo]], [[exp-eht]]."
+limits:
+  - Singularities signal breakdown; non-renormalizable as a quantum theory (fine as EFT).
+  - Requires dark matter and dark energy to fit cosmology, or must be modified.
+applications:
+  - GPS, gravitational lensing as a cosmological tool, gravitational-wave astronomy, timing of pulsars.
+frontiers:
+  - Numerical relativity and precision waveforms; tests with LISA (2030s), pulsar timing arrays, EHT.
+  - Mathematical GR (stability of Kerr, cosmic censorship); modified gravity constraints.
+connections: [special-relativity, differential-geometry, cosmology, black-holes, quantum-gravity, effective-field-theory, astrophysics, pde]
+prerequisites: [special-relativity, differential-geometry]
+resources:
+  - "Carroll, *Spacetime and Geometry*"
+  - "Wald, *General Relativity*"
+  - "Misner, Thorne, Wheeler, *Gravitation*"
+cards:
+  - q: Write Einstein's field equations with cosmological constant.
+    a: $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G\, T_{\mu\nu}/c^4$
+  - q: What does the Penrose singularity theorem state (informally)?
+    a: If a trapped surface forms and the null energy condition holds (with global hyperbolicity), spacetime is geodesically incomplete.
+  - q: What does the black hole no-hair theorem say?
+    a: Stationary black holes in 4D Einstein–Maxwell theory are fully characterized by mass, angular momentum and charge (Kerr–Newman).
+  - q: What is the equivalence principle?
+    a: Locally, gravity is indistinguishable from acceleration; all bodies fall the same way (universality of free fall).
+  - q: Which binary pulsar provided the first indirect evidence of gravitational waves?
+    a: PSR B1913+16 (Hulse–Taylor, 1974), whose orbital decay matches GW emission; Nobel 1993.
+  - q: Is GR renormalizable?
+    a: No — the coupling $G$ has negative mass dimension; two-loop divergence found by Goroff–Sagnotti (1986). It is a fine EFT below the Planck scale.

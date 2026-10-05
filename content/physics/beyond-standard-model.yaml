@@ -1,0 +1,46 @@
+id: beyond-standard-model
+title: Beyond the Standard Model
+short: BSM
+domain: physics
+area: hep
+order: 700
+one_liner: Searches for the physics that must complete the Standard Model.
+summary: >-
+  Motivated by hard data (neutrino masses, dark matter, baryon asymmetry, dark energy) and by puzzles of
+  naturalness (hierarchy, strong CP, flavour). Candidates include supersymmetry, composite Higgs, axions,
+  grand unification, extra dimensions and dark sectors. The LHC has found no new particles so far, pushing
+  the field towards precision, low-mass hidden sectors and cosmology.
+asks:
+  - What is dark matter?
+  - Where do neutrino masses come from?
+  - Why is there more matter than antimatter?
+  - Why is the electroweak scale so small compared to the Planck scale (and is naturalness a good guide)?
+key_results:
+  - "Grand unification ideas (Georgi–Glashow SU(5), SO(10)); gauge coupling running; proton decay predictions (minimal SU(5) excluded)."
+  - Seesaw mechanism for small neutrino masses.
+  - "Peccei–Quinn mechanism and the axion as a solution to strong CP and a dark-matter candidate."
+  - "Sakharov conditions for baryogenesis; leptogenesis."
+  - "Supersymmetry: cancellation of quadratic divergences; gauge coupling unification in the MSSM."
+experiments:
+  - LHC searches; direct dark-matter detection (XENONnT, LZ, PandaX); axion haloscopes (ADMX); proton decay (Super-K); EDMs; [[exp-g-2]].
+limits:
+  - Huge model space with weak experimental guidance; naturalness has so far failed as a predictor at the LHC.
+applications:
+  - Drives detector and accelerator technology; cosmology model building.
+frontiers:
+  - "Feebly interacting particles and dark sectors; axion searches across many mass decades; neutrino mass ordering (JUNO), CP phase (DUNE, Hyper-K); 0νββ."
+  - Muon g−2 tension largely resolved by lattice QCD (2025); flavour physics at Belle II and LHCb.
+  - Relaxion, swampland-inspired and anthropic approaches to naturalness.
+connections: [standard-model, cosmology, string-theory, effective-field-theory, astrophysics, nuclear-physics]
+prerequisites: [standard-model]
+cards:
+  - q: What are the three Sakharov conditions?
+    a: Baryon number violation; C and CP violation; departure from thermal equilibrium.
+  - q: How does the type-I seesaw make neutrinos light?
+    a: Heavy right-handed Majorana neutrinos of mass $M$ give light masses $m_\nu \sim m_D^2/M$.
+  - q: What problem does the axion solve?
+    a: The strong CP problem — the Peccei–Quinn field dynamically relaxes θ̄ to zero; the axion is also a dark-matter candidate.
+  - q: What happened to the muon g−2 anomaly by 2025?
+    a: Fermilab's final measurement (0.127 ppm) agrees with the 2025 Theory Initiative prediction based on lattice-QCD hadronic vacuum polarization; the anomaly largely disappeared, though data-driven e⁺e⁻ inputs remain in tension.
+  - q: What would observing neutrinoless double beta decay prove?
+    a: Neutrinos are Majorana particles and lepton number is violated.

@@ -1,0 +1,46 @@
+id: gauge-theory
+title: Gauge Theory
+domain: physics
+area: hep
+order: 680
+one_liner: Forces arise from requiring symmetries to hold locally; mathematically, connections on principal bundles.
+summary: >-
+  Gauge symmetry is a redundancy of description, not a physical symmetry, but it dictates the form of
+  interactions. Yang–Mills theory with a compact Lie group underlies the strong and electroweak forces.
+  Physically, gauge theories show confinement, Higgsing and topological phases.
+asks:
+  - Which interactions are consistent with local symmetry, and why are force carriers spin-1?
+  - What are the phases of gauge theories (Coulomb, Higgs, confining, topological)?
+  - Why are quarks confined and what generates the mass gap?
+key_results:
+  - Yang–Mills action $\\frac{1}{4g^2}\\int \\mathrm{tr}\\,F\\wedge\\star F$; covariant derivative; non-abelian field strength.
+  - "’t Hooft–Veltman (1971): renormalizability of spontaneously broken gauge theories."
+  - Faddeev–Popov quantization and BRST symmetry.
+  - Wilson loops as order parameters; area law ⇔ confinement.
+  - Instantons, θ-vacua, the strong CP problem.
+  - "’t Hooft large-N expansion: planar diagrams dominate, suggesting a string description."
+  - "Seiberg–Witten (1994): exact low-energy solution of N=2 SU(2) gauge theory; Seiberg duality in N=1."
+experiments:
+  - All of electroweak and QCD phenomenology; jets at colliders; lattice QCD hadron masses agree with experiment.
+  - "Aharonov–Bohm effect: potentials have physical (holonomy) effects ([[exp-aharonov-bohm]])."
+limits:
+  - Confinement and the mass gap are not proven analytically for 4D Yang–Mills.
+applications:
+  - Standard Model; emergent gauge fields in condensed matter (spin liquids, quantum Hall); Donaldson and Seiberg–Witten invariants of 4-manifolds.
+frontiers:
+  - Generalized (higher-form, non-invertible) symmetries diagnosing confinement; IR phases of QCD-like theories; dualities in 3D.
+connections: [qft, standard-model, differential-geometry, lie-theory, symmetries, lattice-field-theory, string-theory, topology, electromagnetism]
+prerequisites: [qft, lie-theory]
+cards:
+  - q: Geometrically, what is a gauge field?
+    a: A connection on a principal $G$-bundle; its curvature is the field strength $F = dA + A\wedge A$.
+  - q: What criterion distinguishes confinement using Wilson loops?
+    a: An area law $\langle W(C)\rangle \sim e^{-\sigma\,\mathrm{Area}}$ signals confinement (linear potential); a perimeter law signals deconfinement/Higgs phases.
+  - q: What did ’t Hooft and Veltman prove in 1971?
+    a: Yang–Mills theories with spontaneous symmetry breaking (Higgs mechanism) are renormalizable.
+  - q: What is the large-N limit of ’t Hooft?
+    a: Take $N\to\infty$ with $\lambda = g^2N$ fixed; planar diagrams dominate and the expansion in $1/N$ resembles a string genus expansion.
+  - q: What is the strong CP problem?
+    a: QCD allows a CP-violating $\theta F\tilde F$ term, but the neutron EDM bounds $|\bar\theta| \lesssim 10^{-10}$; why so small?
+  - q: What did Seiberg and Witten solve in 1994?
+    a: The exact low-energy effective action (prepotential) of N=2 supersymmetric SU(2) Yang–Mills via an auxiliary elliptic curve, exhibiting monopole condensation and confinement.

@@ -1,0 +1,38 @@
+id: lie-theory
+title: Lie Groups & Lie Algebras
+short: Lie theory
+domain: math
+area: algebra
+order: 390
+one_liner: Continuous symmetry groups and their infinitesimal generators.
+summary: >-
+  Lie groups are groups that are smooth manifolds; their Lie algebras linearize them. Cartan and Killing
+  classified simple Lie algebras via root systems and Dynkin diagrams. Lie theory is the mathematical
+  backbone of gauge theory and particle classification.
+asks:
+  - What are the continuous symmetry groups and how are they classified?
+  - What are their representations?
+key_results:
+  - "Lie's correspondence: simply connected Lie groups ↔ Lie algebras."
+  - "Killing–Cartan classification of complex simple Lie algebras: $A_n, B_n, C_n, D_n$ and exceptional $G_2, F_4, E_6, E_7, E_8$."
+  - "Highest-weight theory; Weyl character formula; Borel–Weil–Bott."
+  - "Kac–Moody and affine Lie algebras; Virasoro algebra."
+motivating_examples:
+  - Rotation group SO(3) and spin SU(2); Lorentz group; SU(3) flavour (Eightfold Way).
+limits:
+  - Unitary representations of non-compact groups (e.g. Lorentz) are infinite-dimensional and subtle.
+applications:
+  - Gauge theories and the Standard Model, quantum mechanics (angular momentum), robotics, control theory.
+frontiers:
+  - Geometric Langlands; quantum groups; exceptional structures in physics (E₈ in heterotic strings).
+connections: [group-theory, linear-algebra, differential-geometry, gauge-theory, symmetries, number-theory]
+prerequisites: [group-theory, linear-algebra]
+cards:
+  - q: What are the exceptional simple Lie algebras?
+    a: $G_2, F_4, E_6, E_7, E_8$.
+  - q: Which Lie group double-covers SO(3), and why does it matter physically?
+    a: SU(2); its half-integer representations describe spin-1/2 particles.
+  - q: What does a Dynkin diagram encode?
+    a: The simple roots of a semisimple Lie algebra and the angles between them (Cartan matrix).
+  - q: Which gauge group did Gell-Mann's Eightfold Way use (as flavour symmetry)?
+    a: SU(3), with hadrons in octets and decuplets; predicted the Ω⁻.

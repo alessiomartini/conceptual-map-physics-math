@@ -1,0 +1,43 @@
+id: networks
+title: Network Science
+short: Networks
+domain: physics
+area: complex
+order: 970
+one_liner: The structure and dynamics of systems best described as nodes and links.
+summary: >-
+  Real networks (internet, social, biological, financial) share small-world and heavy-tailed degree properties
+  that shape spreading, robustness and synchronization. Statistical physics provides random-graph ensembles,
+  percolation, and community detection methods.
+asks:
+  - What universal structures do real networks share and why?
+  - How do processes (epidemics, cascades, synchronization) depend on network structure?
+  - How robust are networks to failures and attacks?
+key_results:
+  - "Erdős–Rényi random graphs and the giant-component transition at mean degree 1."
+  - "Small-world networks (Watts–Strogatz 1998)."
+  - "Scale-free networks via preferential attachment (Barabási–Albert 1999)."
+  - "Vanishing epidemic threshold on scale-free networks (Pastor-Satorras–Vespignani 2001)."
+  - "Robust-yet-fragile: resilient to random failure, vulnerable to targeted hub attacks."
+  - "Kuramoto model of synchronization; community detection via modularity and stochastic block models."
+experiments:
+  - Empirical datasets (WWW, citation, protein interaction, airline, interbank networks).
+limits:
+  - Many scale-free claims weak under rigorous statistics (Broido–Clauset 2019); networks ignore higher-order and temporal structure.
+applications:
+  - Epidemic modelling, systemic risk in banking, recommendation systems, power grids, neuroscience (connectome).
+frontiers:
+  - Higher-order networks (simplicial complexes, hypergraphs), multilayer and temporal networks, network geometry, graph neural networks.
+connections: [graph-theory, complex-systems, phase-transitions, sociophysics, econophysics, statistical-mechanics, probability-theory]
+resources:
+  - "Barabási, *Network Science* (free online)"
+  - "Newman, *Networks*"
+cards:
+  - q: At what mean degree does a giant component appear in an Erdős–Rényi graph?
+    a: At mean degree $\langle k\rangle = 1$ (percolation transition).
+  - q: What mechanism generates scale-free degree distributions in the Barabási–Albert model?
+    a: Growth with preferential attachment (new nodes link proportionally to degree), giving $P(k) \sim k^{-3}$.
+  - q: Why do scale-free networks have a vanishing epidemic threshold?
+    a: The threshold scales as $\langle k\rangle/\langle k^2\rangle$, and $\langle k^2\rangle$ diverges for degree exponents ≤ 3.
+  - q: What does the Kuramoto model describe?
+    a: Synchronization of coupled phase oscillators with distributed natural frequencies; above a critical coupling a macroscopic fraction locks.

@@ -1,0 +1,45 @@
+id: logic-set-theory
+title: Logic & Set Theory
+short: Logic & sets
+domain: math
+area: foundations
+order: 350
+one_liner: What a proof is, what can be proven, and the universe of sets in which most mathematics is built.
+summary: >-
+  Mathematical logic studies formal systems: proof theory, model theory, computability and set theory. Its
+  landmark results are limitative — Gödel, Turing, Cohen — showing that no consistent formal system captures
+  all mathematical truth and that some questions (the continuum hypothesis) are independent of ZFC.
+asks:
+  - What is a proof, and what can formal systems prove?
+  - What is computable?
+  - What are the foundations of mathematics (sets, types, categories), and which axioms should we accept?
+key_results:
+  - "Gödel's completeness theorem (1929) and incompleteness theorems (1931)."
+  - "Turing (1936): the halting problem is undecidable; Church–Turing thesis."
+  - "ZFC axioms; Cantor's diagonal argument; cardinal and ordinal arithmetic."
+  - "Gödel (1940) and Cohen (1963, forcing): the continuum hypothesis is independent of ZFC."
+  - "Löwenheim–Skolem and compactness theorems in model theory."
+  - "Curry–Howard correspondence: proofs as programs; homotopy type theory as alternative foundation."
+motivating_examples:
+  - Russell's paradox prompting axiomatic set theory; Hilbert's program for a complete consistent foundation.
+limits:
+  - Incompleteness shows no single formal system settles all questions; large-cardinal axioms are needed for some statements.
+applications:
+  - Theory of computation, programming language semantics, proof assistants (Lean, Coq), databases, verification.
+frontiers:
+  - Formalization of mathematics in Lean (mathlib, Fermat's Last Theorem project); large cardinals and inner model theory; AI-assisted theorem proving.
+connections: [category-theory, computational-complexity, information-theory]
+resources:
+  - "Enderton, *A Mathematical Introduction to Logic*"
+  - "Kunen, *Set Theory*"
+cards:
+  - q: State Gödel's first incompleteness theorem.
+    a: Any consistent, effectively axiomatized theory containing basic arithmetic has true statements it cannot prove.
+  - q: What does Gödel's second incompleteness theorem say?
+    a: Such a theory cannot prove its own consistency.
+  - q: What is the status of the continuum hypothesis?
+    a: Independent of ZFC — consistent (Gödel, constructible universe) and its negation consistent (Cohen, forcing).
+  - q: What is the Curry–Howard correspondence?
+    a: Propositions correspond to types and proofs to programs (terms) of those types.
+  - q: What did Turing prove in 1936?
+    a: No algorithm decides whether an arbitrary Turing machine halts; hence Hilbert's Entscheidungsproblem is unsolvable.

@@ -1,0 +1,18 @@
+id: exp-rubin-dark-matter
+title: Evidence for Dark Matter
+domain: experiment
+area: exp-cosmo
+order: 240
+year: 1970
+who: Zwicky (clusters, 1933); Rubin & Ford (rotation curves, 1970s); Clowe et al. (Bullet Cluster, 2006)
+one_liner: Galaxies and clusters contain far more gravitating mass than visible matter.
+measured: Galaxy rotation curves (21 cm and optical); cluster velocity dispersions; gravitational lensing; CMB peaks.
+result: Flat rotation curves; lensing mass offset from hot gas in colliding clusters.
+significance:
+  - Dark matter is ~85% of matter; the Bullet Cluster disfavours simple modified-gravity explanations.
+connections: [cosmology, astrophysics, beyond-standard-model]
+cards:
+  - q: Why is the Bullet Cluster important for dark matter?
+    a: Lensing shows most mass separated from the X-ray emitting gas after the collision, as expected for collisionless dark matter.
+  - q: What does a flat rotation curve imply?
+    a: Enclosed mass grows linearly with radius far beyond the visible disk — a dark halo.

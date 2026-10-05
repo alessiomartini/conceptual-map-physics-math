@@ -1,0 +1,16 @@
+id: exp-compton
+title: Compton Scattering
+domain: experiment
+area: exp-quantum
+order: 90
+year: 1923
+who: Arthur Compton
+one_liner: X-rays scattering off electrons change wavelength exactly as if photons carry momentum.
+measured: Wavelength shift of X-rays scattered from graphite as a function of angle.
+result: $\Delta\lambda = \frac{h}{m_ec}(1-\cos\theta)$.
+significance:
+  - Confirmed that photons carry momentum $p = h/\lambda$; particle nature of light.
+connections: [quantum-mechanics, special-relativity]
+cards:
+  - q: What is the Compton wavelength of the electron?
+    a: $h/m_ec \approx 2.43$ pm.

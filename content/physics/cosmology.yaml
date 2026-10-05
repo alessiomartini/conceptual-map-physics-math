@@ -1,0 +1,49 @@
+id: cosmology
+title: Cosmology
+domain: physics
+area: gravity
+order: 790
+one_liner: The origin, composition and evolution of the universe as a whole.
+summary: >-
+  The ΛCDM model fits the cosmic microwave background, large-scale structure, Big Bang nucleosynthesis and
+  supernova distances with six parameters, but 95% of its energy budget (dark matter, dark energy) is unexplained
+  and tensions (Hubble constant, possibly evolving dark energy) are under active scrutiny.
+asks:
+  - How did the universe begin and evolve, and what is it made of?
+  - What are dark matter and dark energy?
+  - What produced the initial fluctuations that seeded galaxies (inflation or alternatives)?
+key_results:
+  - "Hubble–Lemaître law; FLRW model and Friedmann equations."
+  - Big Bang nucleosynthesis predicts light-element abundances.
+  - "CMB: near-perfect blackbody at 2.7255 K; acoustic peaks; anisotropies ~10⁻⁵."
+  - "ΛCDM: ~5% baryons, ~27% dark matter, ~68% dark energy; six-parameter fit (Planck 2018)."
+  - Inflation (Guth, Linde, Starobinsky) solves horizon/flatness problems and predicts nearly scale-invariant adiabatic Gaussian perturbations, $n_s \approx 0.965$.
+experiments:
+  - "[[exp-cmb]], [[exp-supernovae-acceleration]], BAO surveys (SDSS, DESI), galaxy rotation curves and the Bullet Cluster, BBN abundances."
+limits:
+  - Nature of dark matter and dark energy unknown; cosmological constant problem.
+  - "Hubble tension: local distance ladder ~73 vs CMB-inferred ~67 km/s/Mpc."
+  - Initial singularity; inflation's UV completion and measure problem.
+applications:
+  - Constraints on particle physics (neutrino masses, light relics $N_{\rm eff}$, dark matter properties).
+frontiers:
+  - "DESI DR2 (2025) BAO, combined with CMB and supernovae, prefers evolving dark energy $(w_0, w_a)$ at ~3–4σ; Euclid, Rubin LSST, Simons Observatory and CMB-S4-class experiments will test it."
+  - Primordial gravitational waves (tensor-to-scalar ratio $r$); 21-cm cosmology; JWST early galaxies.
+connections: [general-relativity, beyond-standard-model, astrophysics, quantum-gravity, string-theory, standard-model]
+prerequisites: [general-relativity]
+resources:
+  - "Baumann, *Cosmology* (2022)"
+  - "Weinberg, *Cosmology*"
+cards:
+  - q: What are the approximate energy fractions in ΛCDM today?
+    a: ~68% dark energy, ~27% cold dark matter, ~5% ordinary matter.
+  - q: What is the Hubble tension?
+    a: Distance-ladder measurements (SH0ES) give $H_0 \approx 73$ km/s/Mpc, while ΛCDM fits to the CMB give ≈ 67; the discrepancy is ~5σ.
+  - q: What does inflation predict for primordial perturbations?
+    a: Nearly scale-invariant ($n_s \approx 0.965$ measured), adiabatic, nearly Gaussian scalar perturbations, plus tensor modes of unknown amplitude $r$.
+  - q: What did DESI DR2 (2025) suggest about dark energy?
+    a: Combined with CMB and supernova data, a preference (≈3–4σ depending on dataset) for time-varying dark energy over a cosmological constant.
+  - q: What does Big Bang nucleosynthesis predict and test?
+    a: Primordial abundances of D, ³He, ⁴He (~25% by mass) and ⁷Li from the baryon-to-photon ratio; the lithium abundance remains discrepant.
+  - q: What is the CMB temperature today?
+    a: 2.7255 K, a near-perfect blackbody (COBE FIRAS).

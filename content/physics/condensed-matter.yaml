@@ -1,0 +1,50 @@
+id: condensed-matter
+title: Condensed Matter Theory
+short: Condensed matter
+domain: physics
+area: matter
+order: 860
+one_liner: Emergent collective behaviour of many interacting electrons, spins and atoms.
+summary: >-
+  "More is different" (Anderson): band theory, Fermi liquids, superconductivity, magnetism and their breakdowns.
+  It has the largest community in physics and continuously produces new phases (quantum Hall, topological
+  insulators, moiré materials) together with conceptual tools (RG, anomalies, entanglement) shared with high energy.
+asks:
+  - What phases can many-body quantum matter form, and what are their low-energy excitations?
+  - Why do some materials superconduct, and at what temperatures?
+  - What happens when interactions are strong and quasiparticle pictures fail (strange metals)?
+key_results:
+  - "Bloch's theorem and band theory; metals, insulators, semiconductors."
+  - "Landau Fermi-liquid theory: interacting electrons as quasiparticles."
+  - "BCS theory (1957): Cooper pairing via phonons; Anderson–Higgs mechanism in superconductors."
+  - "Anderson localization (1958): disorder can localize all states (in 1D, 2D)."
+  - "Integer and fractional quantum Hall effects; Laughlin wavefunction; anyons."
+  - "Luttinger liquids in 1D; Kondo effect and Wilson's numerical RG."
+  - "Kohn–Hohenberg density functional theory (Nobel Chemistry 1998)."
+experiments:
+  - "[[exp-superconductivity]], [[exp-quantum-hall]], cuprate high-Tc (1986), graphene (2004), twisted bilayer graphene superconductivity (2018)."
+limits:
+  - No consensus theory of high-Tc cuprates and strange metals; strongly correlated systems resist both analytic and numerical methods.
+applications:
+  - Transistors, magnetic storage, superconducting magnets and qubits, LEDs, photovoltaics, metrology standards.
+frontiers:
+  - Moiré materials and fractional Chern insulators (observed 2023 in twisted MoTe₂ and rhombohedral graphene); nickelate superconductors; altermagnets; quantum spin liquids.
+connections: [statistical-mechanics, phase-transitions, topological-phases, qft, effective-field-theory, quantum-information, holography, random-matrix-theory, gauge-theory, amo-physics]
+prerequisites: [quantum-mechanics, statistical-mechanics]
+resources:
+  - "Ashcroft & Mermin, *Solid State Physics*"
+  - "Altland & Simons, *Condensed Matter Field Theory*"
+  - "Anderson, *More is different* (Science 1972)"
+cards:
+  - q: What does Bloch's theorem state?
+    a: Eigenstates in a periodic potential can be written $\psi_k(r) = e^{ik\cdot r}u_k(r)$ with $u_k$ periodic.
+  - q: What is a Landau Fermi liquid?
+    a: A metal whose low-energy excitations are long-lived quasiparticles adiabatically connected to free fermions, with renormalized parameters.
+  - q: What is the mechanism of BCS superconductivity?
+    a: Phonon-mediated attraction binds electrons into Cooper pairs that condense, opening a gap at the Fermi surface.
+  - q: What is Anderson localization?
+    a: Interference in a disordered potential makes electron wavefunctions exponentially localized, suppressing diffusion.
+  - q: What is a strange metal?
+    a: A metallic state (e.g. in cuprates) with resistivity linear in T over a wide range and no well-defined quasiparticles.
+  - q: What is a fractional Chern insulator?
+    a: A lattice analogue of the fractional quantum Hall state in a flat Chern band without external magnetic field; observed in 2023 in moiré materials.

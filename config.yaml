@@ -1,0 +1,11 @@
+# Project-wide settings.
+title: Big Picture
+subtitle: A map of physics, mathematics and the experiments behind them
+# Public URL of the site (GitHub Pages). Anki cards link back to it.
+# e.g. https://<your-github-user>.github.io/big-picture/
+site_url: ""
+anki:
+  deck_name: Big Picture
+  # Auto-generate overview cards ("what is X in one sentence?",
+  # "what questions does X try to answer?") on top of the hand-written ones.
+  overview_cards: true

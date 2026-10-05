@@ -1,0 +1,42 @@
+id: econophysics
+title: Econophysics & Physics of Finance
+short: Econophysics
+domain: physics
+area: complex
+order: 990
+one_liner: Statistical-physics methods applied to markets, prices and wealth.
+summary: >-
+  Born from the observation that asset returns have heavy tails and volatility clustering, econophysics
+  imports scaling, random-matrix and agent-based ideas into finance. Its toolbox overlaps strongly with
+  quantitative research: stochastic processes, RMT cleaning, market microstructure and price impact.
+asks:
+  - What are the universal statistical properties (stylized facts) of financial markets?
+  - How do prices form from order flow, and what is the impact of trades?
+  - Where do crises and instabilities come from?
+key_results:
+  - "Bachelier (1900): random-walk model of prices, five years before Einstein's Brownian motion."
+  - "Stylized facts: fat-tailed returns (tail exponent ≈ 3, Gopikrishnan et al.), volatility clustering, absence of linear autocorrelation, leverage effect."
+  - "Square-root law of market impact: $\\Delta p \\propto \\sigma\\sqrt{Q/V}$."
+  - "RMT cleaning of correlation matrices (Laloux, Bouchaud et al. 1999)."
+  - "Minority game and agent-based models; Pareto law of wealth."
+experiments:
+  - High-frequency order-book data; flash crash of 2010 as empirical case study.
+limits:
+  - Markets are reflexive and non-stationary; universal laws are approximate.
+applications:
+  - Risk management, portfolio construction, execution algorithms, systemic-risk monitoring.
+frontiers:
+  - Microstructure with large datasets; endogeneity and Hawkes processes; deep learning for limit order books; climate-finance risk.
+connections: [stochastic-processes, random-matrix-theory, complex-systems, networks, statistical-mechanics, sociophysics, probability-theory]
+resources:
+  - "Bouchaud & Potters, *Theory of Financial Risk and Derivative Pricing*"
+  - "Bouchaud, Bonart, Donier, Gould, *Trades, Quotes and Prices*"
+cards:
+  - q: Name three stylized facts of asset returns.
+    a: Heavy-tailed distributions (tail exponent ≈ 3), volatility clustering (long memory in |r|), and near-zero linear autocorrelation of returns.
+  - q: What is the square-root law of market impact?
+    a: The price impact of a metaorder of size Q scales as $\sigma\sqrt{Q/V}$, where V is daily volume.
+  - q: Who first modelled prices as a random walk?
+    a: Louis Bachelier, in his 1900 thesis *Théorie de la spéculation*.
+  - q: What is a Hawkes process used for in finance?
+    a: Self-exciting point process modelling clustered arrivals of orders/trades; its near-critical branching ratio reflects market endogeneity.

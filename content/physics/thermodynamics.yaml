@@ -1,0 +1,40 @@
+id: thermodynamics
+title: Thermodynamics
+domain: physics
+area: classical
+order: 610
+one_liner: Universal laws for energy, heat and entropy that hold regardless of microscopic details.
+summary: >-
+  A phenomenological theory of equilibrium built on four laws. Its universality is the reason it survived
+  every revolution: it constrains black holes, information processing and the early universe alike.
+  [[statistical-mechanics]] explains it microscopically.
+asks:
+  - What can and cannot be done with heat and work?
+  - Why do processes have a direction in time?
+  - What are the equilibrium states of macroscopic systems and their response functions?
+key_results:
+  - "Zeroth to third laws; entropy as a state function; $dU = TdS - pdV + \\mu dN$."
+  - Carnot efficiency $1 - T_c/T_h$ is the maximum for any heat engine.
+  - Thermodynamic potentials, Legendre transforms and Maxwell relations.
+  - "Landauer's principle: erasing one bit costs at least $k_BT\\ln 2$ of dissipated heat."
+  - "Black-hole thermodynamics: $S = A/4G\\hbar$ (Bekenstein–Hawking)."
+experiments:
+  - Joule's mechanical equivalent of heat; calorimetry; low-temperature physics approaching absolute zero.
+  - Experimental tests of Landauer's principle with colloidal particles (Bérut et al. 2012).
+limits:
+  - Describes equilibrium; far-from-equilibrium systems need [[non-equilibrium]] statistical physics.
+  - Fluctuations matter for small systems (stochastic thermodynamics).
+applications:
+  - Engines, refrigeration, chemistry, materials, climate, computation energy bounds.
+frontiers:
+  - "Quantum thermodynamics (resource theories, quantum heat engines), stochastic thermodynamics, thermodynamics of computation and of black holes."
+connections: [statistical-mechanics, black-holes, quantum-information, non-equilibrium]
+cards:
+  - q: State the second law in terms of entropy.
+    a: The entropy of an isolated system never decreases.
+  - q: What is the Carnot efficiency?
+    a: $\\eta = 1 - T_c/T_h$, the maximum efficiency of any heat engine between two reservoirs.
+  - q: What is Landauer's principle?
+    a: Logically irreversible erasure of one bit dissipates at least $k_B T \\ln 2$ of heat.
+  - q: What is the Bekenstein–Hawking entropy?
+    a: "$S_{BH} = \\frac{k_B c^3 A}{4 G \\hbar}$: a quarter of the horizon area in Planck units."

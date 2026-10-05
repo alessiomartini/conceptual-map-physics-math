@@ -1,0 +1,20 @@
+id: exp-quantum-hall
+title: Quantum Hall Effects
+domain: experiment
+area: exp-matter
+order: 310
+year: 1980
+who: Klaus von Klitzing (integer, 1980); Tsui, Störmer, Gossard (fractional, 1982)
+one_liner: 2D electrons in strong magnetic fields show Hall conductance quantized in units of $e^2/h$ to parts per billion.
+measured: Hall resistance of 2D electron gases in silicon MOSFETs and GaAs heterostructures at low temperature.
+result: Plateaus at $R_H = h/(\nu e^2)$ with integer ν; later fractional ν = 1/3, 2/5, ...
+significance:
+  - First topological phase of matter (Chern numbers); fractional states have anyons. Resistance standard; defines SI ohm.
+connections: [topological-phases, condensed-matter, gauge-theory]
+cards:
+  - q: Why is the integer quantum Hall conductance quantized so precisely?
+    a: It equals a topological invariant (Chern number) and is insensitive to disorder and sample details.
+  - q: What is the von Klitzing constant?
+    a: $R_K = h/e^2 \approx 25812.807$ Ω.
+  - q: What explained the ν = 1/3 fractional quantum Hall state?
+    a: Laughlin's wavefunction (1983), with fractionally charged quasiparticles (e/3) and anyonic statistics.

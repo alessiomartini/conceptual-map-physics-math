@@ -1,0 +1,44 @@
+id: non-equilibrium
+title: Non-Equilibrium Statistical Physics
+short: Non-equilibrium
+domain: physics
+area: matter
+order: 890
+one_liner: Systems driven, relaxing or living away from thermal equilibrium, from fluctuating molecules to active matter.
+summary: >-
+  Most of nature is out of equilibrium. The field ranges from linear response and kinetic theory to exact
+  fluctuation theorems, stochastic thermodynamics, non-equilibrium phase transitions, active matter and the
+  thermalization of isolated quantum systems.
+asks:
+  - What general laws govern systems away from equilibrium?
+  - How do isolated quantum systems thermalize, or avoid it?
+  - What new collective phases appear in driven and active systems?
+key_results:
+  - "Boltzmann equation; Onsager reciprocal relations; Green–Kubo formulas."
+  - "Fluctuation theorems (Evans–Searles, Gallavotti–Cohen, Crooks) and Jarzynski equality $\\langle e^{-\\beta W}\\rangle = e^{-\\beta \\Delta F}$."
+  - "KPZ universality for growing interfaces; directed percolation universality."
+  - "Eigenstate thermalization hypothesis (Deutsch 1991, Srednicki 1994)."
+  - "Many-body localization; quantum many-body scars; discrete time crystals."
+  - "Thermodynamic uncertainty relations (Barato–Seifert 2015)."
+  - "Vicsek model and Toner–Tu theory: flocking with long-range order in 2D."
+experiments:
+  - Single-molecule pulling verifying Jarzynski/Crooks; cold-atom thermalization experiments; time crystals on qubit platforms; bacterial and active colloid suspensions.
+limits:
+  - No general variational principle comparable to free-energy minimization; stability of MBL in the thermodynamic limit debated.
+applications:
+  - Molecular motors and biophysics, chemical reaction networks, nanoscale engines, climate, traffic.
+frontiers:
+  - Active matter, non-reciprocal interactions and phase transitions; stochastic thermodynamics of computation; prethermalization and Floquet engineering.
+connections: [statistical-mechanics, thermodynamics, hydrodynamics, phase-transitions, complex-systems, stochastic-processes, chaos, biophysics]
+prerequisites: [statistical-mechanics]
+cards:
+  - q: State the Jarzynski equality.
+    a: $\langle e^{-\beta W} \rangle = e^{-\beta \Delta F}$ for work done in arbitrary non-equilibrium driving between equilibrium states.
+  - q: What is the eigenstate thermalization hypothesis?
+    a: Matrix elements of local observables in energy eigenstates of chaotic systems are smooth functions of energy on the diagonal plus exponentially small random off-diagonal terms, so single eigenstates look thermal.
+  - q: What is the KPZ equation?
+    a: $\partial_t h = \nu \nabla^2 h + \frac{\lambda}{2}(\nabla h)^2 + \eta$; in 1+1D it has exponents $z = 3/2$ and Tracy–Widom fluctuations.
+  - q: What do Green–Kubo relations give?
+    a: Transport coefficients as time integrals of equilibrium current–current correlation functions.
+  - q: What is a thermodynamic uncertainty relation?
+    a: A bound relating precision of a current to dissipation, $\mathrm{Var}(J)/\langle J\rangle^2 \ge 2k_B/\Sigma$ (entropy production).

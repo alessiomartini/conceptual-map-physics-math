@@ -1,0 +1,44 @@
+id: stochastic-processes
+title: Stochastic Processes & Stochastic Calculus
+short: Stochastic processes
+domain: math
+area: probability
+order: 490
+one_liner: Random functions of time — Brownian motion, Markov chains, Itô calculus.
+summary: >-
+  The mathematics behind diffusion, noise, filtering and financial derivatives. Itô calculus makes sense of
+  differential equations driven by Brownian motion and links them to PDEs (Feynman–Kac).
+asks:
+  - How do we model and compute with continuous-time randomness?
+  - How do random dynamics relate to PDEs and to equilibrium distributions?
+key_results:
+  - "Brownian motion (Wiener measure); Markov chains and ergodic theorems."
+  - "Itô's lemma $df = f'\\,dX + \\tfrac12 f''\\,d\\langle X\\rangle$; stochastic differential equations."
+  - "Feynman–Kac formula linking expectations and parabolic PDEs; Fokker–Planck equation."
+  - "Girsanov theorem: change of drift by change of measure."
+  - "Fundamental theorem of asset pricing: no arbitrage ⇔ existence of an equivalent martingale measure; Black–Scholes–Merton."
+  - "Poisson, Lévy, Hawkes processes; rough paths (Lyons) and regularity structures (Hairer)."
+motivating_examples:
+  - Pollen grains in water (Brown, Einstein); stock prices; queueing.
+limits:
+  - Real data often non-Markovian, non-stationary, heavy-tailed; model risk in finance.
+applications:
+  - Quantitative finance, filtering (Kalman), MCMC sampling, diffusion generative models, biology, physics of noise.
+frontiers:
+  - Rough volatility models; singular SPDEs (KPZ via regularity structures); score-based diffusion models in ML.
+connections: [probability-theory, pde, non-equilibrium, econophysics, statistical-mechanics, dynamical-systems]
+prerequisites: [probability-theory]
+resources:
+  - "Øksendal, *Stochastic Differential Equations*"
+  - "Shreve, *Stochastic Calculus for Finance II*"
+cards:
+  - q: State Itô's lemma for $f(t, X_t)$ with $dX = \mu\,dt + \sigma\,dW$.
+    a: $df = (\partial_t f + \mu\,\partial_x f + \tfrac12\sigma^2\partial_x^2 f)\,dt + \sigma\,\partial_x f\,dW$.
+  - q: What does the Feynman–Kac formula state?
+    a: Solutions of parabolic PDEs like $\partial_t u + \mu u_x + \tfrac12\sigma^2 u_{xx} - ru = 0$ are expectations $u = E[e^{-\int r}\, g(X_T)]$ over the associated diffusion.
+  - q: What is the fundamental theorem of asset pricing?
+    a: A market has no arbitrage iff there exists an equivalent martingale (risk-neutral) measure; completeness iff it is unique.
+  - q: What does Girsanov's theorem allow?
+    a: Changing the drift of a Brownian motion by changing to an equivalent probability measure with an explicit density.
+  - q: What is the Fokker–Planck equation?
+    a: The forward Kolmogorov PDE for the probability density of a diffusion, $\partial_t p = -\partial_x(\mu p) + \tfrac12\partial_x^2(\sigma^2 p)$.

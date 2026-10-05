@@ -1,0 +1,385 @@
+<title>%%TITLE%%</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: an atlas — fixed index rail on the left, reading column on the right; the map is the home page. */
+:root {
+  --bg: #f2f4f6;
+  --panel: #e8ecf0;
+  --surface: #fbfcfd;
+  --ink: #16202b;
+  --muted: #586678;
+  --line: #d3d9e0;
+  --accent: #2c4bc7;
+  --accent-soft: #e2e7fb;
+  --node-l: 0.62;
+  --node-c: 0.14;
+  --edge: rgba(40, 55, 80, 0.16);
+  --display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10151c; --panel: #151b24; --surface: #19202a; --ink: #e2e7ee; --muted: #93a0b1;
+    --line: #2a3340; --accent: #93a8ff; --accent-soft: #1f2a4a; --node-l: 0.72; --node-c: 0.12;
+    --edge: rgba(200, 215, 240, 0.13); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10151c; --panel: #151b24; --surface: #19202a; --ink: #e2e7ee; --muted: #93a0b1;
+  --line: #2a3340; --accent: #93a8ff; --accent-soft: #1f2a4a; --node-l: 0.72; --node-c: 0.12;
+  --edge: rgba(200, 215, 240, 0.13); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--bg); color: var(--ink); }
+body { font-family: var(--body); font-size: 15px; line-height: 1.55; margin: 0; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+code { font-family: var(--mono); font-size: .88em; background: var(--panel); padding: 0 .3em; border-radius: 3px; }
+
+.app { display: grid; grid-template-columns: 290px minmax(0, 1fr); min-height: 100vh; }
+.rail { background: var(--panel); border-right: 1px solid var(--line); position: sticky; top: env(safe-area-inset-top, 0px);
+  height: 100vh; overflow-y: auto; padding: 22px 18px 40px; display: flex; flex-direction: column; gap: 18px; }
+.brand { display: flex; flex-direction: column; gap: 2px; }
+.brand a { font-family: var(--display); font-size: 26px; color: var(--ink); letter-spacing: -.01em; }
+.brand a:hover { text-decoration: none; }
+.brand span { font-size: 12px; color: var(--muted); }
+.search { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface);
+  color: var(--ink); font: inherit; font-size: 14px; }
+.navlinks { display: flex; flex-wrap: wrap; gap: 6px; }
+.navlinks a { font-size: 13px; padding: 3px 9px; border: 1px solid var(--line); border-radius: 99px; color: var(--ink); background: var(--surface); }
+.navlinks a:hover { border-color: var(--accent); text-decoration: none; }
+.dom h3 { font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--muted); margin: 0 0 6px; }
+.area { margin: 0 0 10px; }
+.area-label { display: flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 600; margin: 8px 0 3px; }
+.swatch { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.area ul { list-style: none; margin: 0; padding: 0 0 0 16px; }
+.area li a { display: block; font-size: 13.5px; color: var(--ink); padding: 2px 6px; border-radius: 4px; }
+.area li a:hover { background: var(--surface); text-decoration: none; }
+.area li a.on { background: var(--accent-soft); color: var(--accent); }
+.empty-search { font-size: 13px; color: var(--muted); }
+
+.topbar { display: none; }
+main { padding-block: 34px 80px; padding-inline: clamp(16px, 4vw, 56px); min-width: 0; }
+.col { max-width: 760px; }
+.wide { max-width: 1180px; }
+
+.eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+  display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(32px, 4.6vw, 48px); line-height: 1.08;
+  letter-spacing: -.015em; margin: 10px 0 12px; text-wrap: balance; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0 8px; text-wrap: balance; }
+.lede { font-family: var(--display); font-size: 21px; line-height: 1.4; color: var(--ink); margin: 0 0 14px; }
+.summary { color: var(--ink); margin: 0 0 8px; }
+.meta { color: var(--muted); font-size: 13.5px; }
+
+.sections { display: flex; flex-direction: column; gap: 26px; margin-top: 30px; }
+.sec { border-top: 1px solid var(--line); padding-top: 14px; }
+.sec h2 { font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+.sec ul { margin: 0; padding-left: 1.15em; display: flex; flex-direction: column; gap: 6px; }
+.sec p { margin: 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; padding: 3px 10px 3px 8px; border: 1px solid var(--line);
+  border-radius: 99px; background: var(--surface); color: var(--ink); }
+.chip:hover { border-color: var(--accent); text-decoration: none; }
+.cards { display: flex; flex-direction: column; gap: 6px; }
+.cards details { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 9px 12px; }
+.cards summary { cursor: pointer; font-weight: 500; }
+.cards details > div { margin-top: 8px; color: var(--ink); }
+.cards details ul { margin: 0; }
+.pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 40px; font-size: 14px; flex-wrap: wrap; }
+
+.hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; align-items: end; margin-bottom: 18px; }
+.hero p { margin: 0; color: var(--muted); max-width: 60ch; }
+.stats { display: flex; gap: 22px; font-family: var(--mono); font-size: 12px; color: var(--muted); flex-wrap: wrap; justify-content: flex-end; }
+.stats b { display: block; font-family: var(--display); font-weight: 400; font-size: 30px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.mapbox { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; position: relative; }
+.mapbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: 13px; }
+.mapbar label { display: inline-flex; gap: 5px; align-items: center; cursor: pointer; }
+.mapbar .hint { margin-left: auto; color: var(--muted); font-size: 12px; }
+#map { display: block; width: 100%; height: 600px; cursor: grab; }
+#map text { font-family: var(--body); fill: var(--ink); pointer-events: none; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; }
+#map .n path { stroke: var(--surface); stroke-width: 1.5px; cursor: pointer; }
+#map .n path.hollow { fill: var(--surface); stroke-width: 2px; }
+#map .lbl-exp { opacity: 0; }
+#map .n.lit .lbl-exp, #map.zoomed .lbl-exp { opacity: 1; }
+#map .n.dim, #map line.dim { opacity: .12; }
+#map line { stroke: var(--edge); }
+#map line.hot { stroke: var(--accent); opacity: .7; }
+.legend { display: flex; flex-direction: column; gap: 6px; padding: 10px 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+.lg { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; }
+.lg b { font-family: var(--mono); font-weight: 500; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; min-width: 96px; }
+.lg span { display: inline-flex; align-items: center; gap: 5px; }
+.mark { display: inline-block; width: 9px; height: 9px; background: var(--muted); }
+.mark-physics { border-radius: 50%; }
+.mark-math { transform: rotate(45deg) scale(.85); }
+.mark-experiment { border-radius: 50%; background: transparent; border: 2px solid var(--muted); }
+
+.block { margin-top: 38px; }
+.lenses { display: flex; flex-wrap: wrap; gap: 8px; }
+.lenses a { padding: 7px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); font-size: 14px; }
+.lenses a:hover, .lenses a.on { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.tile h3 { margin: 0; font-size: 14px; display: flex; align-items: center; gap: 7px; }
+.tile ul { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13.5px; }
+
+.lens-entry { border-top: 1px solid var(--line); padding: 14px 0; display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 18px; }
+.lens-entry h3 { margin: 0; font-family: var(--display); font-weight: 600; font-size: 18px; }
+.lens-entry ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
+.filters { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 8px; }
+.filters button { font: inherit; font-size: 13px; padding: 4px 11px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+
+.tl { position: relative; margin-top: 18px; padding-left: 92px; }
+.tl-item { position: relative; padding: 0 0 18px; }
+.tl-year { position: absolute; left: -92px; width: 74px; text-align: right; font-family: var(--mono); font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; top: 2px; }
+.tl-item::before { content: ""; position: absolute; left: -11px; top: 9px; width: 8px; height: 8px; border-radius: 50%; background: var(--dot, var(--accent)); }
+.tl::before { content: ""; position: absolute; left: 84px; top: 6px; bottom: 10px; width: 1px; background: var(--line); }
+.tl-item a { font-weight: 600; }
+.tl-item p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+
+@media (max-width: 900px) {
+  .app { grid-template-columns: minmax(0, 1fr); }
+  .rail { position: fixed; inset: 0 auto 0 0; width: min(320px, 88vw); z-index: 20; transform: translateX(-102%);
+    transition: transform .2s ease; padding-top: calc(22px + env(safe-area-inset-top, 0px)); }
+  .rail.open { transform: none; box-shadow: 0 0 0 100vmax rgba(0,0,0,.35); }
+  .topbar { display: flex; align-items: center; gap: 12px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10;
+    background: var(--panel); border-bottom: 1px solid var(--line); padding: 10px 16px; }
+  .topbar button { font: inherit; font-size: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 6px; padding: 5px 10px; }
+  .topbar a { font-family: var(--display); font-size: 20px; color: var(--ink); }
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .stats { justify-content: flex-start; }
+  #map { height: 440px; }
+  .lens-entry { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .tl { padding-left: 70px; } .tl-year { left: -70px; width: 56px; } .tl::before { left: 62px; }
+}
+@media (prefers-reduced-motion: reduce) { .rail { transition: none; } }
+</style>
+
+<div class="topbar"><button id="menu" aria-label="Open index">Index</button><a href="#home">%%TITLE%%</a></div>
+<div class="app">
+  <nav class="rail" id="rail">
+    <div class="brand"><a href="#home">%%TITLE%%</a><span>%%SUBTITLE%%</span></div>
+    <input class="search" id="q" type="search" placeholder="Search fields, experiments…" aria-label="Search">
+    <div class="navlinks"><a href="#home">Map</a><a href="#lens-limits">Lenses</a><a href="#timeline">Timeline</a></div>
+    <div id="nav"></div>
+  </nav>
+  <main id="main"></main>
+</div>
+
+<script id="data" type="application/json">%%DATA%%</script>
+<script>
+window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global" }, startup: { typeset: false } };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg-full.js" async id="mj"></script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const byId = Object.fromEntries(D.entries.map(e => [e.id, e]));
+  const areaOf = {}; const areaOrder = [];
+  for (const [dom, d] of Object.entries(D.areas)) for (const a of d.areas) { areaOf[a.id] = { ...a, domain: dom, domLabel: d.label }; areaOrder.push(a.id); }
+  const color = a => `oklch(var(--node-l) var(--node-c) ${areaOf[a].hue})`;
+  const incoming = {};
+  for (const e of D.entries) for (const c of e.connections || []) (incoming[c] = incoming[c] || []).push(e.id);
+  const main = document.getElementById("main");
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const strip = s => String(s).replace(/<[^>]+>/g, "");
+
+  /* ---------- index rail ---------- */
+  function renderNav(filter) {
+    const f = (filter || "").trim().toLowerCase();
+    let html = "", hits = 0;
+    for (const [dom, d] of Object.entries(D.areas)) {
+      let domHtml = "";
+      for (const a of d.areas) {
+        const items = D.entries.filter(e => e.area === a.id && (!f || e.search.includes(f)));
+        if (!items.length) continue;
+        hits += items.length;
+        domHtml += `<div class="area"><div class="area-label"><span class="swatch" style="background:${color(a.id)}"></span>${esc(a.label)}</div><ul>` +
+          items.map(e => `<li><a href="#${e.id}" data-id="${e.id}">${esc(e.title)}</a></li>`).join("") + `</ul></div>`;
+      }
+      if (domHtml) html += `<div class="dom"><h3>${esc(d.label)}</h3>${domHtml}</div>`;
+    }
+    document.getElementById("nav").innerHTML = hits ? html : `<p class="empty-search">Nothing matches “${esc(filter)}”.</p>`;
+    markNav();
+  }
+  function markNav() {
+    const id = location.hash.slice(1);
+    document.querySelectorAll("#nav a").forEach(a => a.classList.toggle("on", a.dataset.id === id));
+  }
+  document.getElementById("q").addEventListener("input", e => renderNav(e.target.value));
+  const rail = document.getElementById("rail");
+  document.getElementById("menu").addEventListener("click", () => rail.classList.toggle("open"));
+  rail.addEventListener("click", e => { if (e.target.closest("a")) rail.classList.remove("open"); });
+
+  /* ---------- helpers ---------- */
+  const sectionHtml = s => Array.isArray(s.value) ? `<ul>${s.value.map(v => `<li>${v}</li>`).join("")}</ul>` : `<p>${s.value}</p>`;
+  const chip = id => byId[id] ? `<a class="chip" href="#${id}"><span class="swatch" style="background:${color(byId[id].area)}"></span>${esc(byId[id].title)}</a>` : "";
+  function typeset(el) {
+    if (window.MathJax && MathJax.typesetPromise) MathJax.typesetPromise([el]).catch(() => {});
+    else document.getElementById("mj").addEventListener("load", () => setTimeout(() => MathJax.typesetPromise && MathJax.typesetPromise([el]), 50), { once: true });
+  }
+
+  /* ---------- entry page ---------- */
+  function renderEntry(e) {
+    const a = areaOf[e.area];
+    const siblings = D.entries.filter(x => x.area === e.area);
+    const i = siblings.indexOf(e);
+    const prev = siblings[i - 1], next = siblings[i + 1];
+    const inc = (incoming[e.id] || []).filter(x => !(e.connections || []).includes(x));
+    let h = `<article class="col">
+      <div class="eyebrow"><span>${esc(a.domLabel)}</span><span>·</span><span class="swatch" style="background:${color(e.area)}"></span><span>${esc(a.label)}</span>${e.year ? `<span>·</span><span>${esc(e.year)}</span>` : ""}</div>
+      <h1>${esc(e.title)}</h1>
+      <p class="lede">${e.one_liner}</p>
+      ${e.who ? `<p class="meta">${e.who}</p>` : ""}
+      ${e.summary ? `<p class="summary">${e.summary}</p>` : ""}
+      <div class="sections">`;
+    for (const s of e.sections) h += `<section class="sec"><h2>${esc(s.label)}</h2>${sectionHtml(s)}</section>`;
+    if (e.prerequisites && e.prerequisites.length) h += `<section class="sec"><h2>Builds on</h2><div class="chips">${e.prerequisites.map(chip).join("")}</div></section>`;
+    if ((e.connections || []).length || inc.length) h += `<section class="sec"><h2>Connected to</h2><div class="chips">${[...(e.connections || []), ...inc].map(chip).join("")}</div></section>`;
+    if (e.resources && e.resources.length) h += `<section class="sec"><h2>Where to read more</h2><ul>${e.resources.map(r => `<li>${r}</li>`).join("")}</ul></section>`;
+    if (e.cards.length) h += `<section class="sec"><h2>Flashcards · ${e.cards.length}</h2><div class="cards">${e.cards.map(c => `<details><summary>${c.q}</summary><div>${c.a}</div></details>`).join("")}</div></section>`;
+    h += `</div><nav class="pager"><span>${prev ? `← <a href="#${prev.id}">${esc(prev.title)}</a>` : ""}</span><span>${next ? `<a href="#${next.id}">${esc(next.title)}</a> →` : ""}</span></nav></article>`;
+    main.innerHTML = h;
+    document.title = `${e.title} · ${D.config.title}`;
+  }
+
+  /* ---------- home + map ---------- */
+  function renderHome() {
+    const nFields = D.entries.filter(e => e.domain !== "experiment").length;
+    const nExp = D.entries.filter(e => e.domain === "experiment").length;
+    let h = `<div class="wide">
+      <div class="hero"><div><div class="eyebrow">An atlas for the long view</div><h1>${esc(D.config.title)}</h1>
+      <p>${esc(D.config.subtitle)}. Each field answers the same questions: what it asks, what it has established, what it rests on, where it breaks, and where it is heading. Click a node to open it.</p></div>
+      <div class="stats"><div><b>${nFields}</b>fields</div><div><b>${nExp}</b>experiments</div><div><b>${D.nCards}</b>flashcards</div></div></div>
+      <div class="mapbox"><div class="mapbar">${Object.entries(D.areas).map(([k, d]) => `<label><input type="checkbox" data-dom="${k}" checked> ${esc(d.label)} <span class="mark mark-${k}"></span></label>`).join("")}
+        <span class="hint">Drag to pan · scroll to zoom (experiment names appear) · hover to trace links</span></div>
+        <svg id="map" role="img" aria-label="Map of fields and their connections"></svg>
+        <div class="legend">${Object.entries(D.areas).map(([k, d]) => `<div class="lg"><b>${esc(d.label)}</b>${d.areas.map(a => `<span><span class="swatch" style="background:${color(a.id)}"></span>${esc(a.label)}</span>`).join("")}</div>`).join("")}</div></div>
+      <div class="block"><h2>Read across fields</h2><p class="meta" style="margin:0 0 10px">A lens shows every field's answer to one question side by side.</p>
+        <div class="lenses">${D.lenses.map(l => `<a href="#lens-${l.key}">${esc(l.label)}</a>`).join("")}</div></div>
+      <div class="block"><h2>All areas</h2><div class="grid">`;
+    for (const id of areaOrder) {
+      const items = D.entries.filter(e => e.area === id);
+      if (!items.length) continue;
+      h += `<div class="tile"><h3><span class="swatch" style="background:${color(id)}"></span>${esc(areaOf[id].label)}</h3><ul>${items.map(e => `<li><a href="#${e.id}">${esc(e.title)}</a></li>`).join("")}</ul></div>`;
+    }
+    h += `</div></div></div>`;
+    main.innerHTML = h;
+    document.title = D.config.title;
+    drawMap();
+    main.querySelectorAll(".mapbar input").forEach(cb => cb.addEventListener("change", drawMap));
+  }
+
+  let layoutCache = null;
+  function drawMap() {
+    if (!window.d3) { setTimeout(drawMap, 120); return; }
+    const svg = d3.select("#map"); if (svg.empty()) return;
+    const on = new Set([...main.querySelectorAll(".mapbar input:checked")].map(i => i.dataset.dom));
+    const el = svg.node(); const W = el.clientWidth || 900, H = el.clientHeight || 600;
+    if (!layoutCache) {
+      const nodes = D.entries.map(e => ({ id: e.id, e }));
+      const links = [];
+      for (const e of D.entries) for (const c of e.connections || []) if (byId[c]) links.push({ source: e.id, target: c });
+      const deg = {}; links.forEach(l => { deg[l.source] = (deg[l.source] || 0) + 1; deg[l.target] = (deg[l.target] || 0) + 1; });
+      nodes.forEach(n => n.deg = deg[n.id] || 0);
+      const anchor = { physics: [-0.30, -0.08], math: [0.42, 0.02], experiment: [-0.22, 0.50] };
+      nodes.forEach(n => { const [ax, ay] = anchor[n.e.domain]; n.x = ax * 1400 + (Math.random() - .5) * 300; n.y = ay * 700 + (Math.random() - .5) * 300; });
+      const rad = d => d.e.domain === "experiment" ? 10 : 16 + Math.sqrt(d.deg) * 2;
+      const sim = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(85).strength(0.18))
+        .force("charge", d3.forceManyBody().strength(d => d.e.domain === "experiment" ? -120 : -340))
+        .force("collide", d3.forceCollide(rad).iterations(2))
+        .force("x", d3.forceX(d => anchor[d.e.domain][0] * 1400).strength(0.07))
+        .force("y", d3.forceY(d => anchor[d.e.domain][1] * 650).strength(0.09))
+        .stop();
+      for (let i = 0; i < 500; i++) sim.tick();
+      layoutCache = { nodes, links };
+    }
+    const { nodes, links } = layoutCache;
+    const vis = nodes.filter(n => on.has(n.e.domain));
+    const visIds = new Set(vis.map(n => n.id));
+    const vlinks = links.filter(l => visIds.has(l.source.id) && visIds.has(l.target.id));
+    svg.selectAll("*").remove();
+    const xs = d3.extent(vis, d => d.x), ys = d3.extent(vis, d => d.y);
+    const pad = 60, sc = Math.min(W / ((xs[1] - xs[0]) + 2 * pad || 1), H / ((ys[1] - ys[0]) + 2 * pad || 1), 1.6);
+    const g = svg.append("g");
+    const zoom = d3.zoom().scaleExtent([0.3, 5]).on("zoom", ev => { g.attr("transform", ev.transform); svg.classed("zoomed", ev.transform.k > 1.6); });
+    svg.call(zoom).call(zoom.transform, d3.zoomIdentity.translate(W / 2 - sc * (xs[0] + xs[1]) / 2, H / 2 - sc * (ys[0] + ys[1]) / 2).scale(sc));
+    const L = g.append("g").selectAll("line").data(vlinks).join("line")
+      .attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+    const N = g.append("g").selectAll("g").data(vis).join("g").attr("class", "n").attr("transform", d => `translate(${d.x},${d.y})`);
+    const size = d => (d.e.domain === "experiment" ? 4 : 5.5) + Math.sqrt(d.deg) * 1.5;
+    const sym = d3.symbol();
+    N.append("path")
+      .attr("d", d => sym.type(d.e.domain === "math" ? d3.symbolDiamond : d3.symbolCircle).size(Math.PI * size(d) ** 2 * (d.e.domain === "math" ? 1.3 : 1))())
+      .attr("class", d => d.e.domain === "experiment" ? "hollow" : "")
+      .style("fill", d => d.e.domain === "experiment" ? null : color(d.e.area))
+      .style("stroke", d => d.e.domain === "experiment" ? color(d.e.area) : null)
+      .on("click", (ev, d) => { location.hash = d.id; });
+    N.append("title").text(d => `${d.e.title} — ${strip(d.e.one_liner)}`);
+    N.append("text").attr("dy", d => -(size(d) + 4)).attr("text-anchor", "middle")
+      .attr("class", d => d.e.domain === "experiment" ? "lbl-exp" : "")
+      .attr("font-size", d => d.e.domain === "experiment" ? 10 : 11.5).text(d => d.e.short || d.e.title);
+    N.on("mouseenter", (ev, d) => {
+      const nb = new Set([d.id]);
+      vlinks.forEach(l => { if (l.source.id === d.id) nb.add(l.target.id); if (l.target.id === d.id) nb.add(l.source.id); });
+      N.classed("dim", n => !nb.has(n.id)).classed("lit", n => nb.has(n.id));
+      L.classed("dim", l => l.source.id !== d.id && l.target.id !== d.id).classed("hot", l => l.source.id === d.id || l.target.id === d.id);
+    }).on("mouseleave", () => { N.classed("dim", false).classed("lit", false); L.classed("dim", false).classed("hot", false); });
+  }
+
+  /* ---------- lens ---------- */
+  let lensDom = new Set(Object.keys(D.areas));
+  function renderLens(key) {
+    const lens = D.lenses.find(l => l.key === key) || D.lenses[0];
+    const rows = D.entries.filter(e => lensDom.has(e.domain) && e.sections.some(s => s.key === lens.key));
+    let h = `<div class="wide"><div class="eyebrow">Lens</div><h1>${esc(lens.label)}</h1>
+      <div class="lenses">${D.lenses.map(l => `<a class="${l.key === lens.key ? "on" : ""}" href="#lens-${l.key}">${esc(l.label)}</a>`).join("")}</div>
+      <div class="filters">${Object.entries(D.areas).map(([k, d]) => `<button type="button" data-dom="${k}" aria-pressed="${lensDom.has(k)}">${esc(d.label)}</button>`).join("")}</div>
+      <p class="meta">${rows.length} entries</p>`;
+    for (const e of rows) {
+      const s = e.sections.find(s => s.key === lens.key);
+      h += `<div class="lens-entry"><div><div class="eyebrow"><span class="swatch" style="background:${color(e.area)}"></span>${esc(areaOf[e.area].label)}</div><h3><a href="#${e.id}">${esc(e.title)}</a></h3></div><div>${sectionHtml(s)}</div></div>`;
+    }
+    main.innerHTML = h + `</div>`;
+    main.querySelectorAll(".filters button").forEach(b => b.addEventListener("click", () => {
+      const k = b.dataset.dom; lensDom.has(k) ? lensDom.delete(k) : lensDom.add(k); if (!lensDom.size) lensDom.add(k); renderLens(lens.key);
+    }));
+    document.title = `${lens.label} · ${D.config.title}`;
+  }
+
+  /* ---------- timeline ---------- */
+  function renderTimeline() {
+    const items = D.entries.filter(e => e.year).sort((a, b) => parseInt(a.year) - parseInt(b.year));
+    let h = `<div class="col"><div class="eyebrow">Experiments</div><h1>The experiments modern physics rests on</h1>
+      <p class="meta">Ordered by year. Each one links to the theory it established or tested.</p><div class="tl">`;
+    for (const e of items) h += `<div class="tl-item" style="--dot:${color(e.area)}"><span class="tl-year">${esc(e.year)}</span><a href="#${e.id}">${esc(e.title)}</a><p>${e.one_liner}</p></div>`;
+    main.innerHTML = h + `</div></div>`;
+    document.title = `Timeline · ${D.config.title}`;
+  }
+
+  /* ---------- router ---------- */
+  function route() {
+    const h = decodeURIComponent(location.hash.slice(1)) || "home";
+    if (h === "home") renderHome();
+    else if (h === "timeline") renderTimeline();
+    else if (h.startsWith("lens-")) renderLens(h.slice(5));
+    else if (byId[h]) renderEntry(byId[h]);
+    else renderHome();
+    markNav();
+    typeset(main);
+    window.scrollTo(0, 0);
+  }
+  window.addEventListener("hashchange", route);
+  let rz; window.addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => { if (document.getElementById("map")) drawMap(); }, 200); });
+  renderNav("");
+  route();
+})();
+</script>

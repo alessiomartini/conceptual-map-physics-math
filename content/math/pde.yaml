@@ -1,0 +1,41 @@
+id: pde
+title: Partial Differential Equations
+short: PDE
+domain: math
+area: analysis
+order: 470
+one_liner: Equations relating rates of change in several variables — the language of almost every physical law.
+summary: >-
+  Elliptic (Laplace), parabolic (heat) and hyperbolic (wave) equations behave differently. The core questions are
+  existence, uniqueness, regularity and long-time behaviour, especially for nonlinear equations like Navier–Stokes,
+  Einstein and Yang–Mills.
+asks:
+  - Do solutions exist, are they unique, and do they depend continuously on data (well-posedness)?
+  - Do solutions stay smooth or develop singularities?
+  - What is the long-time behaviour (stability, scattering, blow-up)?
+key_results:
+  - "Classification into elliptic, parabolic, hyperbolic; maximum principles; energy methods."
+  - "Cauchy–Kovalevskaya theorem; Lax–Milgram; Sobolev regularity theory."
+  - "De Giorgi–Nash–Moser regularity for elliptic equations with rough coefficients."
+  - "Choquet-Bruhat (1952): well-posedness of Einstein's equations; Christodoulou–Klainerman stability of Minkowski."
+  - "Nash embedding theorem; convex integration (Nash–Kuiper, and Isett's proof of Onsager's conjecture 2018)."
+motivating_examples:
+  - Heat equation (Fourier), wave equation, Laplace equation, Schrödinger and Navier–Stokes equations.
+limits:
+  - "No general theory for nonlinear PDEs; Navier–Stokes regularity is a Millennium problem."
+applications:
+  - Physics everywhere, engineering simulations, Black–Scholes equation, image processing, weather prediction.
+frontiers:
+  - Blow-up for Euler (computer-assisted proof by Chen–Hou), stability of Kerr black holes, PDE-based machine learning (PINNs, neural operators).
+connections: [functional-analysis, real-analysis, differential-geometry, hydrodynamics, general-relativity, numerical-analysis, stochastic-processes]
+resources:
+  - "Evans, *Partial Differential Equations*"
+cards:
+  - q: What are the three classical types of second-order linear PDE and their prototypes?
+    a: Elliptic (Laplace), parabolic (heat), hyperbolic (wave).
+  - q: What does well-posedness (Hadamard) mean?
+    a: A solution exists, is unique, and depends continuously on the data.
+  - q: What is Onsager's conjecture, and who proved its sharp form?
+    a: Weak solutions of 3D Euler with Hölder regularity < 1/3 can dissipate energy (≥ 1/3 conserve it); Isett (2018) built dissipative solutions via convex integration.
+  - q: How is the Black–Scholes equation related to the heat equation?
+    a: By a change of variables (log-price and time to maturity), it reduces to the heat equation.

@@ -1,0 +1,44 @@
+id: topology
+title: Topology
+domain: math
+area: geometry
+order: 420
+one_liner: Properties of spaces that survive continuous deformation — connectivity, holes, knots.
+summary: >-
+  General topology formalizes continuity; algebraic topology attaches algebraic invariants (homotopy groups,
+  homology, cohomology, K-theory) to spaces; geometric topology studies manifolds and knots. Topology now
+  classifies phases of matter and anomalies.
+asks:
+  - When are two spaces equivalent up to deformation?
+  - What invariants detect holes, twisting and knotting?
+  - How are manifolds classified in each dimension?
+key_results:
+  - "Brouwer fixed point theorem; Euler characteristic; classification of surfaces."
+  - "Homology and cohomology; Poincaré duality; homotopy groups."
+  - "Poincaré conjecture: proved by Perelman (2003) via Ricci flow with surgery."
+  - "Smale (h-cobordism, dim ≥ 5); Freedman (dim 4, topological); Donaldson: exotic smooth $\\mathbb{R}^4$."
+  - "Atiyah–Singer index theorem relates analysis and topology."
+  - "Jones polynomial (1984); Witten's Chern–Simons interpretation (1989)."
+motivating_examples:
+  - Königsberg bridges; Möbius strip; hairy ball theorem.
+limits:
+  - "Smooth 4D Poincaré conjecture is open; computing homotopy groups of spheres is extremely hard."
+applications:
+  - Topological phases and band theory, defects in ordered media, topological data analysis, robotics configuration spaces.
+frontiers:
+  - Stable homotopy theory (Kervaire invariant in dimension 126 resolved 2024); 4-manifolds; TDA in machine learning.
+connections: [differential-geometry, algebraic-geometry, category-theory, topological-phases, gauge-theory, classical-field-theory]
+resources:
+  - "Hatcher, *Algebraic Topology* (free online)"
+  - "Nakahara, *Geometry, Topology and Physics*"
+cards:
+  - q: Who proved the Poincaré conjecture and how?
+    a: Grigori Perelman (2002–2003), using Hamilton's Ricci flow with surgery; also proving Thurston's geometrization.
+  - q: What does the Atiyah–Singer index theorem state?
+    a: The analytic index of an elliptic operator on a compact manifold (dim ker − dim coker) equals a topological index computed from characteristic classes.
+  - q: What does the hairy ball theorem state?
+    a: There is no nowhere-vanishing continuous tangent vector field on $S^2$ (on even-dimensional spheres).
+  - q: What surprising fact did Donaldson's work imply about $\mathbb{R}^4$?
+    a: It admits exotic smooth structures (uncountably many), unlike $\mathbb{R}^n$ for $n \ne 4$.
+  - q: How did Witten interpret the Jones polynomial?
+    a: As expectation values of Wilson loops in 3D Chern–Simons gauge theory.

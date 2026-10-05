@@ -1,0 +1,19 @@
+id: exp-blackbody
+title: Blackbody Spectrum & Planck's Quantum
+domain: experiment
+area: exp-quantum
+order: 40
+year: 1900
+who: Max Planck (theory), Lummer, Pringsheim, Rubens, Kurlbaum (data)
+one_liner: Precise measurements of thermal radiation forced the hypothesis that energy comes in quanta $E = h\nu$.
+measured: The spectral energy density of cavity radiation at different temperatures, especially in the infrared.
+result: Classical Rayleigh–Jeans law failed (ultraviolet catastrophe); Planck's law fit perfectly.
+significance:
+  - Birth of quantum theory; introduced Planck's constant $h$.
+  - The CMB is the most perfect blackbody ever measured.
+connections: [quantum-mechanics, statistical-mechanics, thermodynamics]
+cards:
+  - q: Write Planck's law for blackbody radiation.
+    a: $u(\nu,T) = \dfrac{8\pi h\nu^3}{c^3}\dfrac{1}{e^{h\nu/k_BT}-1}$
+  - q: What was the ultraviolet catastrophe?
+    a: Classical equipartition predicts energy density growing as ν² without bound — infinite total energy.

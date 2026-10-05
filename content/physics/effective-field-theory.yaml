@@ -1,0 +1,44 @@
+id: effective-field-theory
+title: Effective Field Theory
+short: EFT
+domain: physics
+area: hep
+order: 720
+one_liner: Write the most general theory allowed by symmetries at a given scale and organize it as an expansion in energy over cutoff.
+summary: >-
+  EFT is the modern philosophy of QFT: every theory is effective below some scale. Heavy physics shows
+  up as higher-dimension operators suppressed by powers of the heavy scale. This explains why the
+  Standard Model works, makes General Relativity a sensible quantum EFT, and gives systematic tools
+  from pion physics to gravitational-wave templates.
+asks:
+  - How can we make predictions without knowing the UV completion?
+  - Which low-energy observables carry information about high-energy physics?
+  - Which EFTs can be UV completed at all (positivity, swampland)?
+key_results:
+  - "Decoupling theorem (Appelquist–Carazzone)."
+  - Power counting; matching and running; Weinberg's folk theorem.
+  - "Chiral perturbation theory for pions; Fermi theory as the EFT of weak interactions; SMEFT (dimension-6 operators)."
+  - "Heavy-quark EFT, soft-collinear EFT, NRQED/NRQCD, non-relativistic EFTs for nuclear forces."
+  - "GR as an EFT: computable quantum corrections at long distances (Donoghue)."
+  - "Positivity bounds: unitarity, causality and analyticity constrain EFT coefficients (Adams et al. 2006)."
+experiments:
+  - Fermi theory predicted weak decays before the W was found; SMEFT fits to LHC data constrain new physics scales.
+limits:
+  - Breaks down near its cutoff; cannot by itself explain unnaturally small parameters (hierarchy, cosmological constant).
+applications:
+  - Gravitational-wave templates (post-Newtonian EFT, worldline EFT), effective field theory of inflation and of large-scale structure, condensed matter (Fermi liquid).
+frontiers:
+  - EFT-hedron and positivity; swampland constraints from quantum gravity; UV/IR mixing challenges to naturalness.
+connections: [renormalization, qft, standard-model, general-relativity, quantum-gravity, hydrodynamics, condensed-matter, string-theory]
+prerequisites: [qft, renormalization]
+cards:
+  - q: What does the decoupling theorem say?
+    a: Heavy particles of mass $M$ affect low-energy physics only through renormalization of couplings and operators suppressed by powers of $1/M$.
+  - q: What is SMEFT?
+    a: The Standard Model extended by all higher-dimension operators built from SM fields with SM symmetries (2499 baryon-number-conserving dimension-6 operators for three generations).
+  - q: Why was Fermi's theory a successful EFT?
+    a: It described weak decays with the dimension-6 four-fermion operator suppressed by $G_F \sim 1/M_W^2$; its breakdown at ~100 GeV pointed to the W boson.
+  - q: What are positivity bounds in EFT?
+    a: Constraints on signs/sizes of EFT coefficients (e.g. $(\partial\phi)^4$ coefficient > 0) following from unitarity, causality, and analyticity of the UV completion.
+  - q: Name the main EFT used to model inspiralling compact binaries.
+    a: Post-Newtonian/post-Minkowskian worldline EFT (Goldberger–Rothstein NRGR) and the EFT-inspired amplitude methods.

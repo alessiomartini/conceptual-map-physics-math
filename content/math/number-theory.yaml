@@ -1,0 +1,43 @@
+id: number-theory
+title: Number Theory
+domain: math
+area: algebra
+order: 400
+one_liner: Properties of the integers and primes, studied with tools from algebra, analysis and geometry.
+summary: >-
+  Simple questions with deep answers. Analytic number theory studies prime distribution via the zeta function;
+  algebraic number theory studies number fields; arithmetic geometry studies Diophantine equations through
+  geometry. The Langlands program connects them all with representation theory.
+asks:
+  - How are the primes distributed?
+  - When do polynomial equations have integer or rational solutions?
+  - What hidden symmetries link Galois representations, automorphic forms and L-functions?
+key_results:
+  - "Prime number theorem $\\pi(x) \\sim x/\\ln x$ (Hadamard, de la Vallée Poussin 1896)."
+  - "Quadratic reciprocity; class field theory."
+  - "Fermat's Last Theorem (Wiles 1995) via modularity of semistable elliptic curves."
+  - "Mordell conjecture (Faltings 1983): curves of genus ≥ 2 have finitely many rational points."
+  - "Green–Tao: primes contain arbitrarily long arithmetic progressions; Zhang/Maynard bounded gaps between primes."
+  - "Geometric Langlands conjecture proved (Gaitsgory, Raskin et al., 2024)."
+motivating_examples:
+  - Pythagorean triples; Fermat's equation; distribution of primes; RSA.
+limits:
+  - "Riemann hypothesis, twin primes, Goldbach, Birch–Swinnerton-Dyer, abc (claimed proof disputed) remain open."
+applications:
+  - Cryptography (RSA, elliptic curves, lattice-based post-quantum), pseudorandom generators, error-correcting codes.
+frontiers:
+  - Langlands program (arithmetic), p-adic geometry (perfectoids, Scholze), formalization of FLT in Lean.
+connections: [group-theory, algebraic-geometry, complex-analysis, random-matrix-theory, lie-theory]
+resources:
+  - "Ireland & Rosen, *A Classical Introduction to Modern Number Theory*"
+cards:
+  - q: State the prime number theorem.
+    a: The number of primes up to x satisfies $\pi(x) \sim x/\ln x$.
+  - q: State the Riemann hypothesis.
+    a: All nontrivial zeros of $\zeta(s)$ have real part 1/2; equivalent to optimal error bounds in the prime number theorem.
+  - q: How was Fermat's Last Theorem proved?
+    a: Wiles (with Taylor) proved semistable elliptic curves over ℚ are modular; a Fermat solution would give a non-modular Frey curve (Ribet).
+  - q: What is the Langlands program, in one line?
+    a: A web of conjectures relating Galois representations and automorphic representations via L-functions — a non-abelian generalization of class field theory.
+  - q: What did Faltings prove in 1983?
+    a: The Mordell conjecture — a curve of genus ≥ 2 over a number field has finitely many rational points.

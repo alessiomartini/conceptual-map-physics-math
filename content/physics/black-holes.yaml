@@ -1,0 +1,44 @@
+id: black-holes
+title: Black Holes & Black-Hole Thermodynamics
+short: Black holes
+domain: physics
+area: gravity
+order: 800
+one_liner: Regions of no escape that behave as thermodynamic objects and sit at the crossroads of gravity, quantum theory and information.
+summary: >-
+  Astrophysically, black holes power quasars and merge in gravitational-wave events. Theoretically,
+  Hawking radiation and Bekenstein–Hawking entropy make them the key testing ground for quantum gravity,
+  culminating in the information paradox and its recent partial resolution through quantum extremal surfaces.
+asks:
+  - What is the microscopic origin of black-hole entropy?
+  - Is information lost when a black hole evaporates?
+  - What happens at the singularity and near the horizon?
+key_results:
+  - "Laws of black-hole mechanics (Bardeen–Carter–Hawking 1973)."
+  - "Hawking radiation (1974): $T_H = \\hbar c^3 / 8\\pi G M k_B$."
+  - "Strominger–Vafa (1996): microscopic counting of entropy for extremal string black holes."
+  - "Page curve; island formula / quantum extremal surfaces reproduce unitary entropy curves (Penington; Almheiri–Engelhardt–Marolf–Maxfield 2019)."
+  - "Firewall paradox (AMPS 2012); ER = EPR proposal."
+experiments:
+  - "[[exp-ligo]] (mergers, ringdown, area theorem test), [[exp-eht]] (shadows), stellar orbits around Sgr A* (Nobel 2020)."
+  - Analog Hawking radiation in BECs (Steinhauer).
+limits:
+  - Hawking radiation of astrophysical black holes is far too cold to observe.
+  - The fate of interior and singularity remains unclear; island derivations rely on semiclassical gravity/replica wormholes.
+applications:
+  - Gravitational-wave astronomy, galaxy evolution (AGN feedback), tests of GR; theoretical laboratory for quantum gravity.
+frontiers:
+  - Microscopic understanding of the interior; black holes as quantum error-correcting codes; precision tests of Kerr with next-generation GW detectors.
+connections: [general-relativity, quantum-gravity, holography, thermodynamics, string-theory, quantum-information, astrophysics, chaos]
+prerequisites: [general-relativity, qft]
+cards:
+  - q: What is the Hawking temperature of a Schwarzschild black hole?
+    a: $T_H = \dfrac{\hbar c^3}{8\pi G M k_B}$ (≈ 60 nK for a solar mass).
+  - q: What is the black-hole information paradox?
+    a: Hawking radiation computed semiclassically is thermal, so evaporation seems to turn pure states into mixed ones, contradicting unitarity.
+  - q: What is the Page curve?
+    a: 'The entanglement entropy of radiation for unitary evaporation: rises, peaks at the Page time (~half evaporation), then falls to zero.'
+  - q: What did Strominger and Vafa achieve in 1996?
+    a: A microscopic count of D-brane bound states reproducing the Bekenstein–Hawking entropy of certain 5D extremal black holes.
+  - q: What is the island formula?
+    a: "$S(R) = \\min\\,\\mathrm{ext}_I \\big[\\frac{\\mathrm{Area}(\\partial I)}{4G} + S_{\\rm matter}(R \\cup I)\\big]$; including islands reproduces the Page curve."

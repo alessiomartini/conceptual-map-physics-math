@@ -1,0 +1,48 @@
+id: holography
+title: Holography & AdS/CFT
+short: Holography
+domain: physics
+area: gravity
+order: 830
+one_liner: Quantum gravity in a spacetime is equivalent to a non-gravitational quantum field theory on its boundary.
+summary: >-
+  Maldacena's AdS/CFT correspondence (1997) relates type IIB strings on AdS₅×S⁵ to N=4 SYM. It is the best
+  understood non-perturbative definition of quantum gravity, a tool for strongly coupled systems, and the
+  source of the idea that spacetime emerges from entanglement (Ryu–Takayanagi).
+asks:
+  - How does a gravitational bulk emerge from boundary quantum degrees of freedom?
+  - How do we compute strongly coupled dynamics with classical gravity?
+  - Does holography extend to flat and de Sitter spacetimes?
+key_results:
+  - "GKP–Witten dictionary: $Z_{\\rm CFT}[\\phi_0] = Z_{\\rm grav}[\\phi \\to \\phi_0]$."
+  - "Large N and strong coupling ↔ classical gravity; $\\lambda^{-1/2}$ ~ string corrections."
+  - "Ryu–Takayanagi (2006): $S_A = \\mathrm{Area}(\\gamma_A)/4G_N$; HRT and quantum extremal surfaces."
+  - "Hawking–Page transition ↔ confinement/deconfinement; black-hole horizon ↔ thermal state."
+  - "η/s = 1/4π; fluid/gravity correspondence."
+  - "Holographic quantum error correction (Almheiri–Dong–Harlow 2015); entanglement wedge reconstruction."
+  - "JT gravity and SYK as a solvable low-dimensional example; ensemble averaging and replica wormholes."
+experiments:
+  - None directly; holographic models qualitatively match QGP viscosity and some strange-metal phenomenology.
+limits:
+  - Best established in AdS with supersymmetry and large N; our universe is approximately de Sitter.
+applications:
+  - QGP physics, strange metals, quantum chaos (fast scrambling), information paradox, quantum error correction.
+frontiers:
+  - Flat-space (celestial, Carrollian) and de Sitter holography; bulk reconstruction and complexity; factorization puzzles and baby universes.
+connections: [string-theory, cft, quantum-gravity, black-holes, quantum-information, hydrodynamics, gauge-theory, condensed-matter, integrability]
+prerequisites: [cft, general-relativity, string-theory]
+resources:
+  - "Hartman, *Lectures on Quantum Gravity and Black Holes* (Cornell notes)"
+  - "Harlow, *Jerusalem lectures on black holes and quantum information* (2014)"
+  - "Ammon & Erdmenger, *Gauge/Gravity Duality*"
+cards:
+  - q: What is the original AdS/CFT duality?
+    a: Type IIB string theory on AdS₅×S⁵ ≡ 4D N=4 SU(N) super-Yang–Mills, with $g_s \sim g^2_{YM}$ and $L^4/\alpha'^2 = \lambda = g^2_{YM}N$.
+  - q: State the Ryu–Takayanagi formula.
+    a: The entanglement entropy of boundary region A equals the area of the minimal bulk surface homologous to A, divided by $4G_N$.
+  - q: What does the Hawking–Page transition correspond to in the CFT?
+    a: The confinement/deconfinement transition of the large-N gauge theory on a sphere.
+  - q: Why is holography described as quantum error correction?
+    a: Bulk operators can be reconstructed from many different boundary regions, like logical qubits encoded redundantly in physical qubits.
+  - q: What is the SYK model and why does it matter for holography?
+    a: N Majorana fermions with random all-to-all q-body couplings; solvable at large N, maximally chaotic, with low-energy Schwarzian dynamics dual to JT gravity in AdS₂.

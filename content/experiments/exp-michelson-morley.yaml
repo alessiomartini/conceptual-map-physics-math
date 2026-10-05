@@ -1,0 +1,17 @@
+id: exp-michelson-morley
+title: Michelson–Morley Experiment
+domain: experiment
+area: exp-classical
+order: 30
+year: 1887
+who: Albert Michelson, Edward Morley
+one_liner: An interferometer found no motion of Earth through the luminiferous ether.
+measured: Shifts of interference fringes between perpendicular arms as the apparatus rotated.
+result: Null result — far below the expected shift from Earth's orbital speed.
+significance:
+  - Undermined the ether; consistent with the constancy of the speed of light, a postulate of special relativity.
+  - Modern versions with optical cavities bound anisotropy of $c$ to ~10⁻¹⁸.
+connections: [special-relativity, electromagnetism]
+cards:
+  - q: What did the Michelson–Morley experiment show?
+    a: No detectable difference in the speed of light along perpendicular directions — no ether wind.

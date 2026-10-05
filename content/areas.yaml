@@ -1,0 +1,32 @@
+# Clusters used to group entries on the map, in the sidebar and in Anki tags.
+# Add an area here before using it in an entry's `area:` field.
+# `hue` is an OKLCH hue angle (0-360) used to colour the cluster on the map.
+# Quote labels: commas inside {...} would otherwise split them.
+physics:
+  label: Physics
+  areas:
+    - {id: classical,   label: "Classical physics",              hue: 35}
+    - {id: quantum,     label: "Quantum theory & information",   hue: 300}
+    - {id: hep,         label: "Fields, particles & symmetry",   hue: 260}
+    - {id: gravity,     label: "Gravity, cosmology & strings",   hue: 210}
+    - {id: matter,      label: "Statistical & condensed matter", hue: 155}
+    - {id: scales,      label: "Atoms, nuclei, stars & life",    hue: 85}
+    - {id: complex,     label: "Complex systems",                hue: 350}
+math:
+  label: Mathematics
+  areas:
+    - {id: foundations, label: "Foundations",                    hue: 15}
+    - {id: algebra,     label: "Algebra & number theory",        hue: 320}
+    - {id: geometry,    label: "Geometry & topology",            hue: 185}
+    - {id: analysis,    label: "Analysis",                       hue: 235}
+    - {id: probability, label: "Probability & dynamics",         hue: 130}
+    - {id: discrete,    label: "Discrete & computational",       hue: 60}
+experiment:
+  label: Experiments
+  areas:
+    - {id: exp-overview,  label: "Measurement frontier",         hue: 0}
+    - {id: exp-classical, label: "Relativity & classical era",   hue: 35}
+    - {id: exp-quantum,   label: "Quantum & atomic",             hue: 300}
+    - {id: exp-particle,  label: "Particles & nuclei",           hue: 260}
+    - {id: exp-cosmo,     label: "Gravity & cosmology",          hue: 210}
+    - {id: exp-matter,    label: "Condensed matter",             hue: 155}

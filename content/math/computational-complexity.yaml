@@ -1,0 +1,41 @@
+id: computational-complexity
+title: Computational Complexity
+short: Complexity theory
+domain: math
+area: discrete
+order: 540
+one_liner: Which problems can be solved efficiently, and which resources (time, space, randomness, quantumness) make a difference.
+summary: >-
+  Classifies problems into complexity classes (P, NP, PSPACE, BQP...). Its central open question, P vs NP, is
+  a Millennium problem. Complexity shapes cryptography, limits of simulation in physics, and quantum advantage.
+asks:
+  - Which problems are efficiently solvable?
+  - Is finding a solution fundamentally harder than checking one (P vs NP)?
+  - What do randomness and quantum mechanics add to computation?
+key_results:
+  - "Cook–Levin theorem: SAT is NP-complete; Karp's 21 NP-complete problems."
+  - "Time and space hierarchy theorems; PSPACE = IP; PCP theorem."
+  - "Primality in P (AKS 2002)."
+  - "Relativization, natural proofs and algebrization barriers to proving P ≠ NP."
+  - "BQP contains factoring (Shor); MIP* = RE (2020) links complexity to Connes' embedding problem."
+motivating_examples:
+  - Travelling salesman; scheduling; protein folding; cryptographic hardness.
+limits:
+  - Almost all separations between major classes remain unproven.
+applications:
+  - Cryptography, algorithm design, limits of physical simulation, quantum advantage arguments.
+frontiers:
+  - Fine-grained complexity; quantum complexity (supremacy foundations); complexity of learning and of LLM reasoning.
+connections: [logic-set-theory, combinatorics, graph-theory, quantum-information, complexity, optimization, information-theory]
+resources:
+  - "Arora & Barak, *Computational Complexity: A Modern Approach*"
+  - "Aaronson, *Quantum Computing Since Democritus*"
+cards:
+  - q: What does the Cook–Levin theorem state?
+    a: Boolean satisfiability (SAT) is NP-complete.
+  - q: What is BQP?
+    a: Problems solvable by a quantum computer in polynomial time with bounded error; contains P and factoring, believed not to contain NP-complete problems.
+  - q: What does MIP* = RE (2020) imply?
+    a: Multi-prover interactive proofs with entangled provers can verify all recursively enumerable languages; as a consequence Connes' embedding conjecture is false.
+  - q: Name the three known barriers to proving P ≠ NP.
+    a: Relativization (Baker–Gill–Solovay), natural proofs (Razborov–Rudich), algebrization (Aaronson–Wigderson).

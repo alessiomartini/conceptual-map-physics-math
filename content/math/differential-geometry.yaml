@@ -1,0 +1,43 @@
+id: differential-geometry
+title: Differential Geometry
+short: Diff. geometry
+domain: math
+area: geometry
+order: 430
+one_liner: Calculus on curved spaces — manifolds, metrics, connections and curvature.
+summary: >-
+  The language of general relativity (Riemannian/Lorentzian geometry) and gauge theory (fibre bundles and
+  connections). Global results link local curvature to topology; geometric analysis (Ricci flow, minimal surfaces)
+  proved major conjectures.
+asks:
+  - How do we do calculus and measure distances on curved spaces?
+  - How does curvature constrain topology?
+  - What special geometric structures exist (Kähler, Calabi–Yau, special holonomy)?
+key_results:
+  - "Gauss's Theorema Egregium: Gaussian curvature is intrinsic."
+  - "Gauss–Bonnet: $\\int_M K\\,dA = 2\\pi\\chi(M)$; Chern–Gauss–Bonnet in higher dimensions."
+  - "Levi-Civita connection; Riemann tensor; geodesics; Jacobi fields."
+  - "Fibre bundles, connections, characteristic classes (Chern–Weil)."
+  - "Yau's proof of the Calabi conjecture (1977); Berger's holonomy classification."
+  - "Hamilton's Ricci flow; Perelman's entropy."
+motivating_examples:
+  - Geodesics on the sphere; map projections (Gauss); curved spacetime.
+limits:
+  - Many existence questions for Einstein and special-holonomy metrics are open; PDEs are nonlinear and hard.
+applications:
+  - General relativity, gauge theory, robotics, computer graphics, information geometry, optimization on manifolds.
+frontiers:
+  - G₂ manifolds and M-theory; geometric flows; Lorentzian geometric analysis (stability of Kerr).
+connections: [topology, general-relativity, gauge-theory, lie-theory, pde, classical-mechanics, string-theory, algebraic-geometry]
+resources:
+  - "Lee, *Introduction to Smooth Manifolds*"
+  - "Nakahara, *Geometry, Topology and Physics*"
+cards:
+  - q: State the Gauss–Bonnet theorem for a closed surface.
+    a: $\int_M K\, dA = 2\pi\chi(M)$, linking total curvature to the Euler characteristic.
+  - q: What is the Theorema Egregium?
+    a: Gaussian curvature depends only on the intrinsic metric, not on how the surface is embedded.
+  - q: What did Yau prove in 1977?
+    a: The Calabi conjecture — compact Kähler manifolds with vanishing first Chern class admit Ricci-flat Kähler metrics.
+  - q: What is a connection on a fibre bundle?
+    a: A rule for parallel transport (horizontal subspaces); locally a Lie-algebra-valued 1-form, physically a gauge field.

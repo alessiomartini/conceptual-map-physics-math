@@ -1,0 +1,36 @@
+id: astrophysics
+title: Astrophysics
+domain: physics
+area: scales
+order: 920
+one_liner: Stars, galaxies, compact objects and the high-energy universe, used as both objects of study and natural laboratories.
+summary: >-
+  Applying all of physics to the cosmos: stellar structure and evolution, compact objects, galaxies and
+  their dynamics, high-energy astrophysics, and multi-messenger astronomy combining light, neutrinos,
+  cosmic rays and gravitational waves.
+asks:
+  - How do stars form, live and die?
+  - How do galaxies and supermassive black holes form and co-evolve?
+  - What accelerates the highest-energy cosmic rays?
+key_results:
+  - "Stellar structure equations; Hertzsprung–Russell diagram; Chandrasekhar limit ~1.4 M☉."
+  - "Pulsars as neutron stars (Bell Burnell, Hewish 1967)."
+  - Galaxy rotation curves imply dark matter (Rubin, Ford).
+  - "Solar neutrino problem resolved by oscillations (SNO 2001)."
+  - "Multi-messenger GW170817: GW + gamma rays + kilonova, $c_{GW} = c$ to 10⁻¹⁵."
+experiments:
+  - "JWST, Gaia, Chandra, Fermi, IceCube, Pierre Auger, [[exp-ligo]], [[exp-eht]], NANOGrav."
+limits:
+  - Observational (no controlled experiments); complex baryonic feedback in galaxy formation.
+applications:
+  - Tests of fundamental physics, cosmology, origin of elements, exoplanets.
+frontiers:
+  - JWST early massive galaxies; nanohertz gravitational-wave background (2023); fast radio bursts; exoplanet atmospheres; Rubin Observatory transient sky.
+connections: [general-relativity, cosmology, nuclear-physics, plasma-physics, black-holes, beyond-standard-model]
+cards:
+  - q: What is the Chandrasekhar limit?
+    a: The maximum mass (~1.4 M☉) of a white dwarf supported by electron degeneracy pressure.
+  - q: What did GW170817 establish?
+    a: First binary neutron-star merger, with electromagnetic counterparts; GW speed equals c to ~10⁻¹⁵, kilonova r-process, independent H₀ estimate.
+  - q: What did pulsar timing arrays report in 2023?
+    a: Evidence for a nanohertz stochastic gravitational-wave background (Hellings–Downs correlation), likely from supermassive black-hole binaries.

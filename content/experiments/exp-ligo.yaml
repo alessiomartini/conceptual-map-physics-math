@@ -1,0 +1,22 @@
+id: exp-ligo
+title: Gravitational-Wave Detection (LIGO/Virgo/KAGRA)
+short: LIGO
+domain: experiment
+area: exp-cosmo
+order: 270
+year: 2015
+who: LIGO Scientific Collaboration and Virgo (Weiss, Barish, Thorne — Nobel 2017)
+one_liner: Laser interferometers measured spacetime ripples from merging black holes, strain ~10⁻²¹.
+measured: Differential arm length changes in 4 km Michelson interferometers.
+result: GW150914 (binary black-hole merger, 1.3 billion light-years away); GW170817 (neutron stars + kilonova); hundreds of events through run O4 (ended 2025).
+significance:
+  - Direct detection of gravitational waves; tests of strong-field GR; black-hole population science; standard sirens for $H_0$.
+  - GW250114 confirmed Hawking's area theorem with high significance.
+connections: [general-relativity, black-holes, astrophysics, cosmology]
+cards:
+  - q: What was the first directly detected gravitational-wave event?
+    a: GW150914, on 14 September 2015, from two ~30 M☉ black holes merging.
+  - q: What strain sensitivity does LIGO reach?
+    a: About $10^{-21}$–$10^{-23}$ — length changes far smaller than a proton over 4 km.
+  - q: What is a standard siren?
+    a: A GW source whose distance follows from the waveform amplitude; with redshift from a counterpart it measures $H_0$.

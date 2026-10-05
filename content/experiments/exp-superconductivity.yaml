@@ -1,0 +1,18 @@
+id: exp-superconductivity
+title: Discovery of Superconductivity
+domain: experiment
+area: exp-matter
+order: 290
+year: 1911
+who: Heike Kamerlingh Onnes (1911); Meissner & Ochsenfeld (1933); Bednorz & Müller (high-Tc, 1986)
+one_liner: Mercury's resistance vanished below 4.2 K — the first macroscopic quantum state.
+measured: Electrical resistance of mercury cooled with liquid helium; later magnetic flux expulsion.
+result: Zero resistance below $T_c$; the Meissner effect shows it is a thermodynamic phase.
+significance:
+  - Explained by BCS (1957) for conventional superconductors; high-Tc cuprates remain unexplained. Superconducting magnets and qubits.
+connections: [condensed-matter, gauge-theory, quantum-information]
+cards:
+  - q: What is the Meissner effect?
+    a: Superconductors expel magnetic fields (perfect diamagnetism), showing superconductivity is a distinct thermodynamic phase, not just perfect conductivity.
+  - q: What is the highest Tc material class at ambient pressure?
+    a: Cuprates (Hg-based, ~133–138 K).

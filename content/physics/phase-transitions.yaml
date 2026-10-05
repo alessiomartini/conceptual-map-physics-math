@@ -1,0 +1,43 @@
+id: phase-transitions
+title: Phase Transitions & Critical Phenomena
+short: Phase transitions
+domain: physics
+area: matter
+order: 850
+one_liner: How matter changes state, and why systems at critical points become scale-invariant and universal.
+summary: >-
+  First-order transitions have latent heat; continuous ones have diverging correlation lengths and power laws
+  with universal exponents. Landau theory, scaling and the RG explain universality. Quantum phase transitions
+  at zero temperature and transitions beyond the Landau paradigm (topological, deconfined) extend the story.
+asks:
+  - Why do sharp phase transitions exist in the thermodynamic limit?
+  - Why do critical exponents depend only on dimension, symmetry and range of interactions?
+  - Which transitions fall outside symmetry-breaking order parameters?
+key_results:
+  - "Landau theory of order parameters; Ginzburg criterion; upper critical dimension 4 (for φ⁴)."
+  - "Scaling hypothesis (Widom, Kadanoff) and scaling relations; RG derivation of exponents (Wilson 1971)."
+  - "Mermin–Wagner theorem: no continuous symmetry breaking at T>0 in d ≤ 2 (short-range)."
+  - "Berezinskii–Kosterlitz–Thouless transition by vortex unbinding (Nobel 2016)."
+  - "Quantum phase transitions; quantum criticality (Sachdev)."
+  - "Deconfined quantum criticality proposal (Senthil et al. 2004)."
+experiments:
+  - "Liquid–gas critical opalescence; λ-transition of He-4; superfluid films (BKT, Bishop–Reppy 1978); heavy-fermion quantum critical points."
+limits:
+  - Non-equilibrium transitions (directed percolation etc.) and glass transition lack complete theory.
+applications:
+  - Materials design, superconductors, magnetism, percolation in networks and epidemics, early-universe transitions.
+frontiers:
+  - Measurement-induced phase transitions in monitored quantum circuits; transitions between topological orders; fuzzy-sphere numerics of 3D CFTs.
+connections: [statistical-mechanics, renormalization, cft, condensed-matter, topological-phases, symmetries, non-equilibrium, networks]
+prerequisites: [statistical-mechanics]
+cards:
+  - q: What is the Mermin–Wagner theorem?
+    a: Continuous symmetries cannot be spontaneously broken at finite temperature in $d \le 2$ with short-range interactions.
+  - q: What drives the BKT transition?
+    a: Unbinding of vortex–antivortex pairs in 2D XY systems, giving a transition to quasi-long-range order without symmetry breaking.
+  - q: What is the upper critical dimension of the Ising/φ⁴ universality class, and what happens above it?
+    a: $d_c = 4$; above it mean-field exponents are exact.
+  - q: What is a quantum phase transition?
+    a: A non-analytic change of the ground state as a parameter (pressure, field, doping) is tuned at T=0, driven by quantum fluctuations.
+  - q: What are the critical exponents ν and η?
+    a: $\xi \sim |t|^{-\nu}$ for the correlation length; $G(r) \sim r^{-(d-2+\eta)}$ at criticality.

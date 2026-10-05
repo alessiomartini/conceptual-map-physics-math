@@ -1,0 +1,44 @@
+id: special-relativity
+title: Special Relativity
+domain: physics
+area: classical
+order: 580
+one_liner: Physics is the same in all inertial frames and the speed of light is invariant, so space and time merge into Minkowski spacetime.
+summary: >-
+  Einstein (1905) replaced Galilean invariance with Lorentz invariance. Simultaneity becomes relative,
+  time dilates and lengths contract, and energy and mass are equivalent. Lorentz (Poincaré) symmetry is
+  a non-negotiable input for every fundamental theory built later.
+asks:
+  - How do measurements of space and time relate between observers in uniform motion?
+  - What is the correct dynamics at speeds close to $c$?
+  - How do energy, momentum and mass relate?
+key_results:
+  - "Lorentz transformations; the invariant interval $ds^2 = -c^2dt^2 + d\\vec x^2$."
+  - Relativity of simultaneity, time dilation, length contraction.
+  - "$E^2 = (pc)^2 + (mc^2)^2$; $E = mc^2$ at rest."
+  - "Maxwell's equations are already Lorentz invariant; mechanics had to change."
+  - "The Poincaré group as the symmetry of flat spacetime; particles classified by its representations (Wigner)."
+experiments:
+  - "[[exp-michelson-morley]]: no ether wind."
+  - Time dilation of cosmic-ray muons; Ives–Stilwell experiment; atomic clocks on aircraft (Hafele–Keating 1971).
+  - Particle accelerators verify relativistic kinematics daily.
+limits:
+  - Assumes flat spacetime; gravity requires [[general-relativity]].
+  - Classical; combining it with quantum mechanics forces [[qft]] (particle number is not conserved).
+applications:
+  - GPS (together with GR corrections), accelerator design, nuclear energy bookkeeping, synchrotron radiation.
+frontiers:
+  - Precision tests of Lorentz invariance (Standard-Model Extension), motivated by quantum-gravity models that might break it.
+connections: [electromagnetism, general-relativity, qft, symmetries, classical-mechanics]
+prerequisites: [classical-mechanics, electromagnetism]
+cards:
+  - q: What are the two postulates of special relativity?
+    a: The laws of physics are the same in all inertial frames; the speed of light in vacuum is the same for all inertial observers.
+  - q: Write the relativistic energy–momentum relation.
+    a: "$E^2 = (pc)^2 + (mc^2)^2$"
+  - q: What group is the full symmetry of Minkowski spacetime?
+    a: The Poincaré group (Lorentz transformations + translations).
+  - q: How did Wigner use the Poincaré group?
+    a: Elementary particles are unitary irreducible representations of the Poincaré group, labelled by mass and spin (or helicity if massless).
+  - q: Which everyday technology needs both special and general relativistic clock corrections?
+    a: GPS (SR slows satellite clocks by ~7 μs/day, GR speeds them up by ~45 μs/day).

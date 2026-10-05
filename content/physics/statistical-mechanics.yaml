@@ -1,0 +1,46 @@
+id: statistical-mechanics
+title: Statistical Mechanics
+short: Stat mech
+domain: physics
+area: matter
+order: 840
+one_liner: Deriving macroscopic laws from the statistics of enormous numbers of microscopic degrees of freedom.
+summary: >-
+  Boltzmann and Gibbs explained thermodynamics through ensembles and entropy as counting. Partition functions
+  connect microscopic Hamiltonians to free energies, and the same mathematics (path integrals, RG) is shared
+  with QFT. It extends beyond physics to inference, machine learning and finance.
+asks:
+  - How do macroscopic properties emerge from microscopic dynamics?
+  - Why and how do systems reach equilibrium?
+  - What determines the phases of matter?
+key_results:
+  - "Boltzmann entropy $S = k_B \\ln W$; Gibbs ensembles; partition function $Z = \\mathrm{Tr}\\,e^{-\\beta H}$."
+  - "Equipartition; fluctuation–response relations; Bose–Einstein and Fermi–Dirac statistics."
+  - "Boltzmann's H-theorem and the debate on irreversibility (Loschmidt, Zermelo)."
+  - "Onsager's exact 2D Ising solution; mean-field theory; Lee–Yang zeros."
+  - "Quantum–classical mapping: a d-dimensional quantum system at T=0 ↔ (d+1)-dimensional classical system."
+  - "Spin glasses: Parisi's replica symmetry breaking (Nobel 2021)."
+experiments:
+  - "Brownian motion (Perrin 1908 confirms atoms via Einstein's theory); specific heats of solids; [[exp-bec]]."
+limits:
+  - Foundations of ergodicity and the arrow of time remain subtle; non-equilibrium needs other tools.
+applications:
+  - Materials, chemistry, biophysics, information theory and inference, neural networks (Hopfield, Boltzmann machines; Nobel 2024), finance.
+frontiers:
+  - Statistical physics of learning (high-dimensional inference, glassy landscapes), eigenstate thermalization, quantum many-body thermodynamics.
+connections: [thermodynamics, phase-transitions, renormalization, condensed-matter, non-equilibrium, probability-theory, information-theory, complex-systems, random-matrix-theory]
+prerequisites: [classical-mechanics, quantum-mechanics, probability-theory]
+resources:
+  - "Kardar, *Statistical Physics of Particles* and *of Fields*"
+  - "Sethna, *Entropy, Order Parameters, and Complexity* (free online)"
+cards:
+  - q: What is the canonical partition function and how is free energy obtained from it?
+    a: $Z = \mathrm{Tr}\, e^{-\beta H}$, and $F = -k_B T \ln Z$.
+  - q: What is the fluctuation–dissipation theorem?
+    a: The linear response of a system in equilibrium is determined by its equilibrium fluctuations (e.g. $\chi'' \propto (1-e^{-\beta\omega}) S(\omega)$).
+  - q: What is the quantum–classical correspondence in stat mech?
+    a: A quantum system in d dimensions at temperature T maps to a classical system in d+1 dimensions with imaginary-time extent $\hbar/k_BT$.
+  - q: What did Parisi contribute to spin glass theory?
+    a: The replica-symmetry-breaking solution of the Sherrington–Kirkpatrick model, revealing a hierarchical landscape of many pure states.
+  - q: How did Perrin's experiments (1908) matter?
+    a: Measuring Brownian motion confirmed Einstein's theory and gave Avogadro's number, settling the existence of atoms.

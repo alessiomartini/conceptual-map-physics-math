@@ -1,0 +1,17 @@
+id: exp-bec
+title: Bose–Einstein Condensation of Atoms
+short: BEC
+domain: experiment
+area: exp-matter
+order: 320
+year: 1995
+who: Cornell & Wieman (rubidium), Ketterle (sodium); Nobel 2001
+one_liner: Ultracold atoms collapse into a single macroscopic quantum state predicted in 1924–25.
+measured: Velocity distribution of laser- and evaporatively-cooled atomic gases at ~100 nK.
+result: A sharp peak at zero velocity emerging below a critical temperature.
+significance:
+  - Opened ultracold-atom quantum simulation — superfluidity, Mott insulators, BEC–BCS crossover, synthetic gauge fields.
+connections: [amo-physics, statistical-mechanics, condensed-matter, quantum-information]
+cards:
+  - q: Why was BEC in atoms so hard to achieve?
+    a: It requires phase-space density ~1, reached only at ~100 nK with laser cooling plus evaporative cooling while avoiding molecule formation.

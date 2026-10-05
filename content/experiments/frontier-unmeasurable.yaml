@@ -1,0 +1,31 @@
+id: frontier-unmeasurable
+title: What We Cannot (Yet) Measure
+short: Limits of measurement
+domain: experiment
+area: exp-overview
+order: 340
+one_liner: Questions that are beyond experiment in practice or in principle, and why.
+summary: >-
+  Some limits are technological (energy, sensitivity), some are cosmic (horizons, a single universe),
+  and some are in principle (quantum mechanics, gauge redundancy). Knowing which is which shapes what
+  theory can hope to test.
+cannot_measure:
+  - "**The Planck scale directly** — $10^{19}$ GeV is ~15 orders of magnitude above the LHC; a collider would need galactic size."
+  - "**Single gravitons** — Dyson argued a graviton detector would need to be so massive it collapses into a black hole, or would be swamped by neutrino backgrounds."
+  - "**Hawking radiation of astrophysical black holes** — temperatures are nanokelvin or less, far below the CMB."
+  - "**Beyond our cosmological horizon** — regions never in causal contact; other bubbles of eternal inflation or the string landscape."
+  - "**The cosmic neutrino background directly** — predicted at 1.95 K; PTOLEMY-like capture proposals face severe challenges."
+  - "**Cosmic variance** — only one universe; large-angle CMB multipoles have irreducible statistical error."
+  - "**The wavefunction in a single shot** — no-cloning and measurement back-action; only ensembles or weak/protective measurements reconstruct it."
+  - "**Gauge-dependent quantities** — potentials themselves, only holonomies and field strengths are physical."
+  - "**Inside a black hole horizon** — no signal escapes; interior physics is inferred, not observed."
+  - "**Before recombination with light** — the universe was opaque; earlier epochs need neutrinos or gravitational waves."
+  - "**The interpretation of quantum mechanics** — most interpretations are empirically equivalent (collapse models are the exception)."
+connections: [quantum-gravity, cosmology, black-holes, quantum-foundations, gauge-theory]
+cards:
+  - q: Why is detecting a single graviton considered practically impossible?
+    a: Gravitational coupling is so weak that a detector with reasonable efficiency would need Jupiter-scale mass close to a source; Dyson argued shielding and background make it effectively impossible.
+  - q: What is cosmic variance?
+    a: The irreducible uncertainty from observing a single realization of the universe; it dominates large-angle CMB measurements.
+  - q: Why can't we see the universe before recombination in light?
+    a: The plasma was opaque to photons until ~380,000 years; earlier epochs require neutrinos or gravitational waves.

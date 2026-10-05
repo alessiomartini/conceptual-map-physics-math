@@ -1,0 +1,43 @@
+id: quantum-gravity
+title: Quantum Gravity
+domain: physics
+area: gravity
+order: 810
+one_liner: The search for a consistent quantum theory of spacetime itself.
+summary: >-
+  GR works as an EFT below the Planck scale ($\sim 10^{19}$ GeV), but its UV completion is unknown. Approaches
+  include string theory, holography, loop quantum gravity, asymptotic safety, causal dynamical triangulations and
+  causal sets. Evidence is mostly theoretical: black-hole entropy, consistency, and the hope of testable relics.
+asks:
+  - What are the microscopic degrees of freedom of spacetime?
+  - What replaces singularities (Big Bang, black hole interiors)?
+  - Is spacetime emergent, and from what (entanglement)?
+key_results:
+  - Non-renormalizability of perturbative GR; GR as a valid EFT at low energies.
+  - "Bekenstein–Hawking entropy and the holographic principle (’t Hooft, Susskind)."
+  - "AdS/CFT gives a non-perturbative definition of quantum gravity in AdS ([[holography]])."
+  - "Loop quantum gravity: discrete area and volume spectra; spin networks."
+  - "Asymptotic safety (Weinberg 1979; Reuter): evidence for a UV fixed point in truncations."
+  - "Swampland conjectures: no global symmetries, weak gravity conjecture, distance conjecture."
+experiments:
+  - No direct evidence. Constraints from Lorentz-invariance tests (GRB timing), CMB tensor modes, tabletop proposals for gravitationally mediated entanglement.
+limits:
+  - The Planck scale is ~15 orders beyond colliders; quantum gravity in de Sitter (our universe) is poorly understood.
+applications:
+  - Conceptual, but has driven advances in mathematics, QFT and quantum information.
+frontiers:
+  - De Sitter holography and observers; algebras of observables (type II von Neumann algebras, Chandrasekaran–Longo–Penington–Witten 2022); swampland vs data (DESI hints).
+  - Tabletop tests of quantum nature of gravity.
+connections: [general-relativity, string-theory, holography, black-holes, effective-field-theory, quantum-information, cosmology, quantum-foundations]
+prerequisites: [general-relativity, qft]
+cards:
+  - q: What is the Planck energy?
+    a: $E_P = \sqrt{\hbar c^5/G} \approx 1.2\times 10^{19}$ GeV.
+  - q: What does the holographic principle claim?
+    a: The number of degrees of freedom in a region of quantum gravity scales with the area of its boundary in Planck units, not its volume.
+  - q: What is the weak gravity conjecture?
+    a: In any consistent quantum gravity with a U(1) gauge field, there exists a state with charge-to-mass ratio at least that of an extremal black hole (gravity is the weakest force).
+  - q: Name four approaches to quantum gravity.
+    a: String theory/holography, loop quantum gravity, asymptotic safety, causal dynamical triangulations (also causal sets, group field theory).
+  - q: What type of von Neumann algebra appears for observables outside a black hole when gravity is included perturbatively?
+    a: Type II (crossed product of the type III₁ QFT algebra), allowing finite entropy differences (Witten; Chandrasekaran–Penington–Witten).

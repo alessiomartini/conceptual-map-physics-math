@@ -1,0 +1,39 @@
+id: real-analysis
+title: Real Analysis & Measure Theory
+short: Real analysis
+domain: math
+area: analysis
+order: 440
+one_liner: Rigorous foundations of limits, continuity, integration and the size of sets.
+summary: >-
+  Makes calculus rigorous (ε–δ), builds the real numbers, and generalizes integration via Lebesgue measure,
+  which is the foundation of probability theory and of function spaces.
+asks:
+  - What does it mean for a limit, sum or integral to exist?
+  - Which sets and functions can be measured and integrated?
+  - When can limits and integrals be exchanged?
+key_results:
+  - "Completeness of ℝ; Bolzano–Weierstrass; Heine–Borel."
+  - "Lebesgue integral; monotone and dominated convergence theorems; Fubini–Tonelli."
+  - "Radon–Nikodym theorem; $L^p$ spaces and their completeness."
+  - "Vitali's non-measurable set (needs the axiom of choice)."
+  - "Weierstrass approximation; Arzelà–Ascoli; Baire category theorem."
+motivating_examples:
+  - Fourier series convergence problems that motivated rigorous analysis; continuous nowhere-differentiable functions.
+limits:
+  - Pathologies require care; infinite-dimensional analogues need functional analysis.
+applications:
+  - Probability, statistics, PDE theory, numerical analysis, mathematical finance (change of measure).
+frontiers:
+  - Geometric measure theory; analysis on metric spaces; fractal geometry.
+connections: [functional-analysis, probability-theory, complex-analysis, pde, logic-set-theory]
+resources:
+  - "Rudin, *Principles of Mathematical Analysis* and *Real and Complex Analysis*"
+  - "Tao, *An Introduction to Measure Theory* (free online)"
+cards:
+  - q: State the dominated convergence theorem.
+    a: If $f_n \to f$ pointwise a.e. and $|f_n| \le g$ with $g$ integrable, then $\int f_n \to \int f$.
+  - q: What is the Radon–Nikodym theorem, and why does it matter in finance?
+    a: If $\nu \ll \mu$ (σ-finite), then $d\nu = f\, d\mu$ for some density f; in finance, the risk-neutral measure is defined through such a density (Girsanov).
+  - q: What does the Baire category theorem state?
+    a: A complete metric space is not a countable union of nowhere-dense sets.

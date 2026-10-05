@@ -1,0 +1,40 @@
+id: complex-analysis
+title: Complex Analysis
+domain: math
+area: analysis
+order: 450
+one_liner: Calculus of functions of a complex variable, where differentiability forces extraordinary rigidity.
+summary: >-
+  Holomorphic functions are analytic, determined by their values on small sets, and computable through contour
+  integrals and residues. The theory feeds number theory (zeta function), physics (analyticity of S-matrix,
+  dispersion relations), and 2D conformal field theory.
+asks:
+  - What are the properties of complex-differentiable functions?
+  - How do singularities and analytic continuation determine a function?
+key_results:
+  - "Cauchy–Riemann equations; Cauchy's integral theorem and formula; residue theorem."
+  - "Liouville's theorem; maximum modulus principle; identity theorem."
+  - "Riemann mapping theorem; uniformization theorem for Riemann surfaces."
+  - "Picard's theorems; Weierstrass and Hadamard factorization."
+  - "Analytic continuation; monodromy; Riemann surfaces."
+motivating_examples:
+  - Evaluating real integrals by residues; conformal maps in 2D fluid flow and electrostatics.
+limits:
+  - Several complex variables behave very differently (Hartogs phenomenon).
+applications:
+  - Dispersion relations (Kramers–Kronig), S-matrix analyticity, Wick rotation, signal processing (Laplace transforms), 2D CFT, aerodynamics (Joukowski).
+frontiers:
+  - Complex dynamics (Mandelbrot set, MLC conjecture), Teichmüller theory, resurgence.
+connections: [real-analysis, number-theory, cft, algebraic-geometry, functional-analysis, scattering-amplitudes]
+resources:
+  - "Ahlfors, *Complex Analysis*"
+  - "Needham, *Visual Complex Analysis*"
+cards:
+  - q: State the residue theorem.
+    a: $\oint_\gamma f\,dz = 2\pi i \sum \mathrm{Res}(f, a_k)$ over poles enclosed by γ (counted with winding number).
+  - q: What does Liouville's theorem (complex analysis) say?
+    a: Every bounded entire function is constant.
+  - q: What does the Riemann mapping theorem state?
+    a: Every simply connected proper open subset of ℂ is conformally equivalent to the unit disk.
+  - q: What physics principle do Kramers–Kronig relations encode?
+    a: Causality — response functions analytic in the upper half-plane have real and imaginary parts related by Hilbert transforms.

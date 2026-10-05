@@ -1,0 +1,42 @@
+id: algebraic-geometry
+title: Algebraic Geometry
+domain: math
+area: algebra
+order: 410
+one_liner: Geometry of solution sets of polynomial equations, rebuilt by Grothendieck on schemes and sheaves.
+summary: >-
+  From classical curves and surfaces to schemes, stacks and derived geometry. It unifies geometry and number
+  theory (arithmetic geometry) and is the natural home of mirror symmetry, moduli spaces and much of string theory.
+asks:
+  - What are the geometric properties of solution sets of polynomials?
+  - How do we classify varieties (moduli spaces)?
+  - How can geometry over finite fields and number fields inform arithmetic?
+key_results:
+  - "Hilbert's Nullstellensatz: ideals ↔ varieties."
+  - "Riemann–Roch theorem and Hirzebruch–Riemann–Roch, Grothendieck–Riemann–Roch."
+  - "Schemes and étale cohomology (Grothendieck); Weil conjectures proved by Deligne (1974)."
+  - "Resolution of singularities in characteristic 0 (Hironaka 1964)."
+  - "Minimal model program; classification of surfaces."
+  - "Hodge theory; Hodge conjecture open."
+motivating_examples:
+  - Conic sections; elliptic curves; Bézout's theorem counting intersections.
+limits:
+  - Hodge conjecture open; resolution of singularities in positive characteristic open in general.
+applications:
+  - Elliptic-curve cryptography, coding theory (algebraic geometry codes), string compactifications, robotics kinematics, algebraic statistics.
+frontiers:
+  - Derived and spectral algebraic geometry; enumerative geometry and mirror symmetry; p-adic Hodge theory.
+connections: [number-theory, group-theory, category-theory, topology, differential-geometry, string-theory, complex-analysis, scattering-amplitudes]
+prerequisites: [group-theory]
+resources:
+  - "Hartshorne, *Algebraic Geometry*"
+  - "Vakil, *The Rising Sea* (free online)"
+cards:
+  - q: What does Hilbert's Nullstellensatz state?
+    a: Over an algebraically closed field, radical ideals correspond bijectively to affine varieties ($I(V(J)) = \sqrt{J}$).
+  - q: What are the Weil conjectures and who completed their proof?
+    a: Statements about zeta functions of varieties over finite fields (rationality, functional equation, Riemann hypothesis analogue); Deligne completed them in 1974 using étale cohomology.
+  - q: What is the Hodge conjecture?
+    a: On a projective complex manifold, every rational Hodge class of type (p,p) is a rational combination of classes of algebraic cycles.
+  - q: What is a Calabi–Yau manifold?
+    a: A compact Kähler manifold with trivial canonical bundle (equivalently a Ricci-flat Kähler metric, by Yau's theorem).

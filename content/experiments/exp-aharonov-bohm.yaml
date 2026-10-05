@@ -1,0 +1,16 @@
+id: exp-aharonov-bohm
+title: Aharonov–Bohm Effect
+domain: experiment
+area: exp-quantum
+order: 300
+year: 1986
+who: Aharonov & Bohm (prediction, 1959); Chambers (1960); Tonomura et al. (definitive, 1986)
+one_liner: Electrons are affected by a vector potential in regions where the magnetic field is zero.
+measured: Interference phase shift of electrons passing around a shielded toroidal magnet.
+result: Phase shift $e\Phi/\hbar$ with the field fully confined.
+significance:
+  - Gauge potentials have physical, topological consequences (holonomy); underpins flux quantization and topological phases.
+connections: [gauge-theory, quantum-mechanics, topology, electromagnetism]
+cards:
+  - q: What phase do charged particles acquire in the Aharonov–Bohm effect?
+    a: $\varphi = \frac{q}{\hbar}\oint A\cdot dl = q\Phi/\hbar$, the holonomy of the gauge field.

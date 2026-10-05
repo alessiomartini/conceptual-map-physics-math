@@ -1,0 +1,35 @@
+id: numerical-analysis
+title: Numerical Analysis & Scientific Computing
+short: Numerical analysis
+domain: math
+area: discrete
+order: 560
+one_liner: Designing and analysing algorithms for continuous mathematics on finite computers.
+summary: >-
+  Approximation, stability and convergence of algorithms for linear algebra, ODEs, PDEs, integration and
+  optimization. Monte Carlo methods and structure-preserving integrators are central for physics and finance.
+asks:
+  - How accurately and stably can continuous problems be approximated?
+  - How do errors and costs scale with problem size?
+key_results:
+  - "Condition numbers and backward stability (Wilkinson)."
+  - "Lax equivalence theorem: consistency + stability ⇔ convergence (linear PDE)."
+  - "Runge–Kutta methods; symplectic integrators preserve Hamiltonian structure."
+  - "Fast Fourier transform (Cooley–Tukey 1965); fast multipole method; multigrid."
+  - "Monte Carlo error ~ $1/\\sqrt N$ independent of dimension; Metropolis algorithm (1953); quasi-Monte Carlo."
+motivating_examples:
+  - Solving large linear systems; simulating planetary orbits; pricing derivatives by Monte Carlo.
+limits:
+  - Curse of dimensionality for grid methods; sign problem for quantum Monte Carlo.
+applications:
+  - Engineering, climate models, lattice QCD, quantitative finance, machine learning infrastructure.
+frontiers:
+  - Neural PDE solvers, randomized linear algebra, mixed-precision computing, tensor-network methods.
+connections: [linear-algebra, pde, optimization, lattice-field-theory, stochastic-processes, classical-mechanics]
+cards:
+  - q: State the Lax equivalence theorem.
+    a: For a consistent finite-difference scheme for a well-posed linear initial value problem, stability is equivalent to convergence.
+  - q: Why are symplectic integrators preferred for long Hamiltonian simulations?
+    a: They exactly preserve the symplectic structure, so energy errors stay bounded instead of drifting.
+  - q: How does the Monte Carlo error scale?
+    a: As $\sigma/\sqrt{N}$, independent of dimension.

@@ -1,0 +1,39 @@
+id: dynamical-systems
+title: Dynamical Systems & Ergodic Theory
+short: Dynamical systems
+domain: math
+area: probability
+order: 500
+one_liner: Long-term behaviour of systems evolving by fixed rules, and the statistics of their orbits.
+summary: >-
+  Studies flows and maps qualitatively: stability, bifurcations, attractors, chaos. Ergodic theory studies
+  invariant measures, connecting dynamics to probability and number theory.
+asks:
+  - What are the possible long-term behaviours of a system?
+  - When do time averages equal space averages?
+  - How do qualitative behaviours change with parameters (bifurcations)?
+key_results:
+  - "Poincaré–Bendixson theorem (no chaos in 2D flows); Hartman–Grobman; stable manifold theorem."
+  - "Birkhoff ergodic theorem; mixing; Kolmogorov–Sinai entropy."
+  - "Smale horseshoe; hyperbolic dynamics; structural stability."
+  - "KAM theory; Arnold diffusion."
+  - "Furstenberg's ergodic proof of Szemerédi's theorem; Ratner's theorems; homogeneous dynamics (Margulis, Lindenstrauss)."
+motivating_examples:
+  - Three-body problem; logistic map; Lorenz system; billiards.
+limits:
+  - Generic high-dimensional systems are hard to analyse; ergodicity of physical systems rarely provable.
+applications:
+  - Celestial mechanics, climate models, population dynamics, control theory, neural dynamics.
+frontiers:
+  - Smooth ergodic theory, data-driven dynamics (Koopman operator), rigidity in homogeneous dynamics.
+connections: [chaos, classical-mechanics, probability-theory, number-theory, complex-systems, stochastic-processes]
+resources:
+  - "Strogatz, *Nonlinear Dynamics and Chaos*"
+  - "Katok & Hasselblatt, *Introduction to the Modern Theory of Dynamical Systems*"
+cards:
+  - q: What does the Poincaré–Bendixson theorem imply?
+    a: Bounded trajectories of planar continuous flows approach fixed points or periodic orbits — no chaos in 2D autonomous ODEs.
+  - q: State Birkhoff's ergodic theorem.
+    a: For an ergodic measure-preserving system, time averages $\frac1N\sum f(T^n x)$ converge to the space average $\int f\,d\mu$ for almost every x.
+  - q: What is the Koopman operator?
+    a: The linear (infinite-dimensional) operator $f \mapsto f\circ T$ on observables, turning nonlinear dynamics into linear spectral analysis.

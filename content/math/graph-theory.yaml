@@ -1,0 +1,35 @@
+id: graph-theory
+title: Graph Theory
+domain: math
+area: discrete
+order: 530
+one_liner: The mathematics of networks — vertices joined by edges.
+summary: >-
+  From Euler's bridges to spectral graph theory, graph minors and random graphs. It underpins network science,
+  algorithms and combinatorial optimization.
+asks:
+  - What structural properties (connectivity, colouring, planarity, flows) do graphs have?
+  - How do spectra of graph matrices reflect structure?
+key_results:
+  - "Euler's theorem on Eulerian circuits (1736); Kuratowski's planarity theorem."
+  - "Four colour theorem (Appel–Haken 1976, computer-assisted)."
+  - "Max-flow min-cut theorem; Hall's marriage theorem."
+  - "Robertson–Seymour graph minor theorem."
+  - "Cheeger inequality: spectral gap ↔ expansion; expander graphs."
+  - "Erdős–Rényi phase transitions in random graphs."
+motivating_examples:
+  - Königsberg bridges; map colouring; transport networks.
+limits:
+  - Many graph problems are NP-hard (colouring, Hamiltonian cycle, max clique).
+applications:
+  - Routing, scheduling, social and biological networks, error-correcting codes (expanders, LDPC), graph neural networks.
+frontiers:
+  - Graph limits (graphons); structural graph theory; spectral methods in learning.
+connections: [combinatorics, networks, computational-complexity, linear-algebra, topology]
+cards:
+  - q: State the max-flow min-cut theorem.
+    a: In a flow network, the maximum flow from source to sink equals the minimum capacity of a cut separating them.
+  - q: What is the Cheeger inequality for graphs?
+    a: The spectral gap of the Laplacian bounds the edge expansion $h$ from both sides, $\lambda_2/2 \le h \le \sqrt{2\lambda_2}$ (normalized).
+  - q: Why was the four colour theorem's proof controversial?
+    a: It relied on computer verification of ~1,900 reducible configurations (Appel–Haken 1976); later formally verified in Coq (Gonthier 2005).

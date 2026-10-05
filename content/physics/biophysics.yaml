@@ -1,0 +1,33 @@
+id: biophysics
+title: Biological Physics
+short: Biophysics
+domain: physics
+area: scales
+order: 940
+one_liner: Physical principles of living matter, from molecular machines to collective behaviour of cells and organisms.
+summary: >-
+  Uses statistical mechanics, information theory and non-equilibrium physics to understand how life
+  computes, senses, moves and organizes itself.
+asks:
+  - How do molecular machines work reliably in a noisy thermal environment?
+  - How do cells sense, compute and make decisions near physical limits?
+  - What physical principles govern morphogenesis and collective motion?
+key_results:
+  - "Berg–Purcell limit on chemical sensing; kinetic proofreading (Hopfield, Ninio 1974)."
+  - "Turing patterns (1952) for morphogenesis."
+  - "Protein folding funnels; AlphaFold structure prediction (Nobel Chemistry 2024)."
+  - "Hopfield networks as associative memory (Nobel Physics 2024)."
+experiments:
+  - Optical tweezers on molecular motors (kinesin steps of 8 nm); single-molecule fluorescence; flocking of starlings (STARFLAG).
+limits:
+  - Biological complexity resists minimal models; data-rich but theory-poor.
+applications:
+  - Drug design, synthetic biology, neuroscience, medical imaging.
+frontiers:
+  - Physics of learning in neural systems; active matter in tissues; information-theoretic optimality in development.
+connections: [statistical-mechanics, non-equilibrium, complex-systems, information-theory, networks]
+cards:
+  - q: What is kinetic proofreading?
+    a: Spending free energy (e.g. GTP hydrolysis) on irreversible intermediate steps to amplify discrimination beyond equilibrium limits (Hopfield 1974).
+  - q: What is a Turing pattern?
+    a: A stationary spatial pattern arising from diffusion-driven instability in a reaction–diffusion system with a slowly diffusing activator and a fast inhibitor.

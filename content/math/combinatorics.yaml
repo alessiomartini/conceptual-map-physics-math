@@ -1,0 +1,35 @@
+id: combinatorics
+title: Combinatorics
+domain: math
+area: discrete
+order: 520
+one_liner: Counting, arranging and finding structure in finite objects.
+summary: >-
+  Enumerative, extremal, probabilistic and algebraic combinatorics. Ramsey theory shows that complete
+  disorder is impossible; the probabilistic method proves existence without construction.
+asks:
+  - How many configurations of a given kind exist?
+  - How large can a structure be while avoiding a pattern (extremal problems)?
+  - Does sufficient size always force order (Ramsey theory)?
+key_results:
+  - "Generating functions; inclusion–exclusion; Pólya enumeration."
+  - "Ramsey's theorem; Szemerédi's theorem on arithmetic progressions."
+  - "Probabilistic method (Erdős); Lovász local lemma."
+  - "Sperner, Erdős–Ko–Rado; sunflower and cap-set breakthroughs (polynomial method, 2016)."
+  - "Kahn–Kalai conjecture proved (Park–Pham 2022); exponential improvement on diagonal Ramsey (Campos–Griffiths–Morris–Sahasrabudhe 2023)."
+motivating_examples:
+  - Counting permutations, lattice paths, Catalan structures; the party problem R(3,3) = 6.
+limits:
+  - Many exact values (e.g. R(5,5)) unknown; problems are easy to state, hard to solve.
+applications:
+  - Algorithms, coding theory, statistical physics (lattice counting), network design.
+frontiers:
+  - Additive combinatorics; random graphs and thresholds; combinatorial approaches with computer and AI assistance.
+connections: [graph-theory, probability-theory, number-theory, computational-complexity, statistical-mechanics]
+cards:
+  - q: What does Ramsey's theorem guarantee?
+    a: For any k, l, every sufficiently large complete graph 2-coloured contains a red $K_k$ or blue $K_l$; e.g. $R(3,3) = 6$.
+  - q: What is the probabilistic method?
+    a: Proving existence of an object by showing a random construction has the property with positive probability (Erdős).
+  - q: What does Szemerédi's theorem state?
+    a: Every subset of the integers with positive upper density contains arbitrarily long arithmetic progressions.

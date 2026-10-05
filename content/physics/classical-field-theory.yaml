@@ -1,0 +1,37 @@
+id: classical-field-theory
+title: Classical Field Theory
+domain: physics
+area: classical
+order: 600
+one_liner: Dynamics of continuous fields defined at every point of spacetime, derived from a local action.
+summary: >-
+  The Lagrangian formalism extended to infinitely many degrees of freedom. Fields, Lagrangian densities,
+  Noether currents, solitons and instantons all live here. It is the classical starting point that
+  [[qft]] quantizes and [[general-relativity]] geometrizes.
+asks:
+  - How do we describe systems with infinitely many degrees of freedom and local interactions?
+  - What are the conserved currents and stress-energy of a field?
+  - What non-perturbative classical solutions (solitons, instantons, vortices) exist?
+key_results:
+  - "Field Euler–Lagrange equations from $S = \\int d^4x\\, \\mathcal{L}(\\phi, \\partial\\phi)$."
+  - Noether currents and the canonical/Belinfante stress-energy tensor.
+  - Klein–Gordon, Dirac (as classical field), Maxwell, Yang–Mills, Einstein–Hilbert actions.
+  - "Spontaneous symmetry breaking at the classical level; Goldstone modes; Higgs mechanism."
+  - "Topological solitons: kinks, vortices, monopoles (’t Hooft–Polyakov), instantons; classification by homotopy groups."
+experiments:
+  - Indirect, through electromagnetism, elasticity, fluids and gravity, which are all classical field theories.
+limits:
+  - Classical; quantum fluctuations and renormalization require [[qft]].
+applications:
+  - Elasticity, fluid dynamics, electromagnetism, gravitational waves, nonlinear optics, cosmological scalar fields (inflation).
+frontiers:
+  - Soliton dynamics, integrable field theories, geometric formulations (jet bundles, covariant phase space).
+connections: [classical-mechanics, electromagnetism, qft, gauge-theory, hydrodynamics, topology, symmetries]
+prerequisites: [classical-mechanics, special-relativity]
+cards:
+  - q: What labels topological solitons in a field theory?
+    a: Homotopy classes of maps from the boundary at infinity to the vacuum manifold (e.g. $\\pi_0$ kinks, $\\pi_1$ vortices, $\\pi_2$ monopoles, $\\pi_3$ instantons/skyrmions).
+  - q: What is the Higgs mechanism at the classical level?
+    a: When a gauged symmetry is spontaneously broken, the would-be Goldstone bosons are absorbed as longitudinal modes of massive gauge fields.
+  - q: What is the Goldstone theorem (classical statement)?
+    a: Each spontaneously broken continuous global symmetry generator gives a massless mode (in Lorentz-invariant theories).

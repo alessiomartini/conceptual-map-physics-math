@@ -1,0 +1,47 @@
+id: hydrodynamics
+title: Hydrodynamics
+domain: physics
+area: classical
+order: 620
+one_liner: The universal effective theory of conserved quantities at long wavelengths and late times.
+summary: >-
+  Classically, the Navier–Stokes equations for fluids. In modern language hydrodynamics is an
+  [[effective-field-theory]]: a gradient expansion of conserved currents around local equilibrium.
+  It describes water and air, but also the quark–gluon plasma, electron fluids in graphene, and
+  black-hole horizons (fluid/gravity correspondence).
+asks:
+  - How do conserved densities (energy, momentum, charge) relax at long distances and late times?
+  - How does turbulence arise and what are its statistical laws?
+  - Which systems behave as nearly perfect fluids, and why?
+key_results:
+  - Euler and Navier–Stokes equations; Reynolds number as control parameter.
+  - "Kolmogorov 1941: energy cascade with spectrum $E(k) \\propto k^{-5/3}$ in the inertial range."
+  - Relativistic hydrodynamics (Israel–Stewart, BRSSS) and the gradient expansion.
+  - "Holography: $\\eta/s = 1/4\\pi$ for a large class of strongly coupled plasmas (KSS)."
+  - "Hydrodynamics as EFT: Schwinger–Keldysh effective actions (Crossley–Glorioso–Liu, Haehl–Loganayagam–Rangamani)."
+experiments:
+  - Wind tunnels, turbulence experiments (von Kármán flow, grid turbulence).
+  - "RHIC and LHC heavy-ion collisions: elliptic flow shows the quark–gluon plasma is an almost perfect fluid."
+  - Electron hydrodynamics in graphene (viscous flow, negative nonlocal resistance).
+limits:
+  - "Global regularity of 3D Navier–Stokes is an open Millennium problem."
+  - Turbulence has no first-principles theory of intermittency (deviations from K41).
+  - Breaks down when gradients are comparable to the mean free path.
+applications:
+  - Aerodynamics, weather and climate, oceanography, astrophysical flows, blood flow, heavy-ion physics.
+frontiers:
+  - Hydrodynamic EFTs with fluctuations; hydrodynamic attractors; fracton and dipole-conserving hydrodynamics.
+  - Machine learning for turbulence closure; rigorous results on Euler blow-up (computer-assisted proofs).
+connections: [effective-field-theory, holography, statistical-mechanics, non-equilibrium, chaos, pde, nuclear-physics]
+prerequisites: [classical-field-theory, thermodynamics]
+cards:
+  - q: In modern language, what is hydrodynamics?
+    a: The effective theory of conserved currents organized as a derivative expansion around local thermal equilibrium.
+  - q: What is the Kolmogorov 1941 energy spectrum of turbulence?
+    a: "$E(k) \\propto \\varepsilon^{2/3} k^{-5/3}$ in the inertial range."
+  - q: What value of $\\eta/s$ does holography give, and why is it interesting?
+    a: "$\\eta/s = \\hbar/(4\\pi k_B)$; the quark–gluon plasma at RHIC/LHC is measured close to this, making it nearly a perfect fluid."
+  - q: Which observable in heavy-ion collisions revealed fluid behaviour of the QGP?
+    a: 'Elliptic flow $v_2$: anisotropic momentum distribution from pressure gradients of the almond-shaped overlap region.'
+  - q: Which Millennium problem concerns hydrodynamics?
+    a: Existence and smoothness of solutions of the 3D incompressible Navier–Stokes equations.

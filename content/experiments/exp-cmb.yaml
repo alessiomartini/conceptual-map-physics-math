@@ -1,0 +1,20 @@
+id: exp-cmb
+title: Cosmic Microwave Background
+domain: experiment
+area: exp-cosmo
+order: 230
+year: 1965
+who: Penzias & Wilson (1965); COBE (1992), WMAP (2003–), Planck (2013–2018), ACT/SPT
+one_liner: Relic radiation from 380,000 years after the Big Bang, the richest dataset in cosmology.
+measured: Spectrum, temperature anisotropies and polarization of the microwave sky.
+result: Blackbody at 2.7255 K; anisotropies ~10⁻⁵ with acoustic peaks; fit by six-parameter ΛCDM.
+significance:
+  - Confirmed the hot Big Bang; measured geometry (flat), baryon and dark matter densities, $n_s \approx 0.965$ (evidence for inflation-like initial conditions).
+connections: [cosmology, general-relativity, statistical-mechanics]
+cards:
+  - q: When was the CMB released, and what event is it?
+    a: About 380,000 years after the Big Bang, at recombination when neutral hydrogen formed and photons decoupled.
+  - q: What do the CMB acoustic peaks encode?
+    a: Sound waves in the photon–baryon fluid; their positions and heights fix curvature, baryon density and dark matter density.
+  - q: What CMB signal would indicate primordial gravitational waves?
+    a: Large-angle B-mode polarization (tensor-to-scalar ratio r; current bound r < ~0.036).

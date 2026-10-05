@@ -1,0 +1,41 @@
+id: scattering-amplitudes
+title: Scattering Amplitudes
+short: Amplitudes
+domain: physics
+area: hep
+order: 750
+one_liner: Computing particle scattering directly from symmetry, unitarity and analyticity, bypassing Feynman diagrams.
+summary: >-
+  On-shell methods revealed that gauge and gravity amplitudes are far simpler than their Feynman
+  diagram expansions. This led to new computational tools for colliders and gravitational waves and to
+  geometric reformulations (amplituhedron) in which locality and unitarity emerge.
+asks:
+  - What is the simplest way to compute and understand S-matrix elements?
+  - What hidden structures (dualities, geometry) do amplitudes have?
+  - How are gauge theory and gravity amplitudes related?
+key_results:
+  - "Parke–Taylor formula for MHV gluon amplitudes."
+  - "BCFW recursion relations; generalized unitarity; spinor-helicity formalism."
+  - "Double copy / BCJ: gravity amplitudes ≈ (gauge amplitudes)² (KLT relations from strings)."
+  - "Dual superconformal / Yangian symmetry of planar N=4 SYM; amplitudes ↔ Wilson loops duality."
+  - "Amplituhedron (Arkani-Hamed–Trnka 2013); positive geometry; CHY formulas."
+  - "S-matrix bootstrap: bounds on couplings from unitarity and crossing."
+experiments:
+  - NNLO/N3LO QCD predictions used for LHC precision; post-Minkowskian binary dynamics used for gravitational-wave modelling.
+limits:
+  - Strongest results in highly symmetric (planar, supersymmetric) theories; massive and loop-level generalization is harder.
+applications:
+  - LHC background predictions; gravitational-wave waveforms; constraints on EFTs.
+frontiers:
+  - Amplitudes for gravitational waves (scattering-to-bound maps); cosmological correlators and the cosmological bootstrap; surfaceology and kinematic-space geometries for non-supersymmetric theories.
+connections: [qft, gauge-theory, string-theory, effective-field-theory, general-relativity, integrability, algebraic-geometry]
+prerequisites: [qft]
+cards:
+  - q: What is the Parke–Taylor formula?
+    a: "The tree-level MHV n-gluon amplitude is $\\frac{\\langle ij\\rangle^4}{\\langle 12\\rangle\\langle 23\\rangle\\cdots\\langle n1\\rangle}$ (times couplings and momentum conservation)."
+  - q: What is the double copy?
+    a: Gravity amplitudes can be obtained from gauge-theory amplitudes by replacing colour factors with kinematic numerators that obey colour–kinematics duality (BCJ).
+  - q: What is BCFW recursion?
+    a: Tree amplitudes are built from lower-point on-shell amplitudes by complex-shifting two momenta and using Cauchy's theorem on the poles.
+  - q: What is the amplituhedron?
+    a: A positive geometry whose canonical form gives the planar N=4 SYM integrand; locality and unitarity emerge from its geometry.

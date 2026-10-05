@@ -1,0 +1,47 @@
+id: chaos
+title: Chaos
+short: Chaos
+domain: physics
+area: classical
+order: 630
+one_liner: Deterministic systems whose sensitivity to initial conditions makes long-term prediction impossible.
+summary: >-
+  Classical chaos is exponential divergence of nearby trajectories (positive Lyapunov exponents) combined
+  with mixing. Quantum chaos asks what replaces this in quantum systems: level statistics of [[random-matrix-theory]],
+  the eigenstate thermalization hypothesis, and out-of-time-order correlators, with a bound on the
+  quantum Lyapunov exponent saturated by black holes.
+asks:
+  - When does deterministic dynamics become unpredictable?
+  - What universal routes to chaos exist?
+  - What is the quantum analogue of chaos and how do isolated quantum systems thermalize?
+key_results:
+  - Poincaré's discovery of homoclinic tangles in the three-body problem.
+  - Lorenz attractor (1963); strange attractors with fractal dimension.
+  - "Feigenbaum universality in period-doubling ($\\delta \\approx 4.669$)."
+  - Lyapunov exponents, Kolmogorov–Sinai entropy, ergodic hierarchy.
+  - "Bohigas–Giannoni–Schmit conjecture: chaotic quantum spectra follow RMT statistics; integrable ones are Poissonian."
+  - "Maldacena–Shenker–Stanford bound: $\\lambda_L \\le 2\\pi k_B T/\\hbar$, saturated by black holes and the SYK model."
+experiments:
+  - Chaotic circuits and lasers; Rayleigh–Bénard convection showing period doubling (Libchaber).
+  - Microwave billiards and nuclear spectra confirming RMT level statistics.
+  - OTOC measurements on trapped ions and superconducting qubits.
+limits:
+  - Few general theorems for realistic high-dimensional systems; ergodicity is rarely provable.
+  - Quantum chaos has no single agreed definition.
+applications:
+  - Weather forecasting limits and ensemble prediction, secure communication, mixing in engineering, celestial mechanics (asteroid dynamics).
+frontiers:
+  - Many-body quantum chaos, operator growth and Krylov complexity, scrambling, deep thermalization.
+  - Links with black holes (fast scramblers) and quantum error correction.
+connections: [classical-mechanics, dynamical-systems, random-matrix-theory, statistical-mechanics, black-holes, complex-systems, hydrodynamics]
+cards:
+  - q: What quantity measures sensitivity to initial conditions?
+    a: The (maximal) Lyapunov exponent $\\lambda$; separations grow as $e^{\\lambda t}$.
+  - q: What is the Feigenbaum constant $\\delta$?
+    a: The universal ratio ($\\approx 4.669$) of successive period-doubling intervals for unimodal maps.
+  - q: What does the Bohigas–Giannoni–Schmit conjecture state?
+    a: Quantum systems with chaotic classical limits have energy-level statistics described by random matrix ensembles (level repulsion); integrable ones show Poisson statistics.
+  - q: What is the chaos bound of Maldacena, Shenker and Stanford?
+    a: "The quantum Lyapunov exponent from OTOCs obeys $\\lambda_L \\le 2\\pi k_B T / \\hbar$."
+  - q: What is an OTOC used for?
+    a: Out-of-time-order correlators $\\langle [W(t),V]^\\dagger[W(t),V]\\rangle$ diagnose operator growth and scrambling (quantum butterfly effect).

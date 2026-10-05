@@ -1,0 +1,33 @@
+id: sociophysics
+title: Sociophysics
+domain: physics
+area: complex
+order: 980
+one_liner: Statistical-physics models of opinions, culture, crowds and collective human behaviour.
+summary: >-
+  Treats individuals as interacting agents with simple rules, looking for collective phases (consensus,
+  polarization) and universal statistics in social data, increasingly validated with digital trace data.
+asks:
+  - How do opinions, norms and languages spread and reach consensus or polarize?
+  - Are there quantitative regularities in human collective behaviour?
+key_results:
+  - "Voter model; Sznajd model; bounded-confidence models (Deffuant, Hegselmann–Krause) producing polarization."
+  - "Schelling segregation model (1971): mild preferences give strong segregation."
+  - "Axelrod culture model; Ising-like models of social influence; pedestrian social-force model (Helbing)."
+  - "Universal statistics: turnout distributions, city sizes (Zipf), human mobility scaling."
+experiments:
+  - Social-media data, mobile-phone mobility traces, online controlled experiments (e.g. MusicLab, Salganik et al. 2006).
+limits:
+  - Humans are not spins; model validation is weak; ethical and data-access constraints.
+applications:
+  - Crowd safety, misinformation dynamics, policy design, epidemics with behaviour.
+frontiers:
+  - Echo chambers and algorithmic feedback; higher-order social interactions; computational social science with large-scale data and LLM agents.
+connections: [complex-systems, networks, statistical-mechanics, econophysics, phase-transitions]
+cards:
+  - q: What does Schelling's segregation model show?
+    a: Even mild individual preferences for similar neighbours lead to strong macroscopic segregation.
+  - q: What is the voter model?
+    a: Agents adopt a random neighbour's opinion; on lattices in d ≤ 2 it coarsens to consensus.
+  - q: What do bounded-confidence models produce?
+    a: Agents only interact if opinions are close enough, leading to clustering into consensus, polarization or fragmentation depending on the confidence threshold.

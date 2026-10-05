@@ -1,0 +1,38 @@
+id: nuclear-physics
+title: Nuclear Physics
+domain: physics
+area: scales
+order: 910
+one_liner: The structure of atomic nuclei and of strongly interacting matter, from QCD to neutron stars.
+summary: >-
+  Nuclei are bound by the residual strong force. The field spans nuclear structure (shell model, collective
+  models), nuclear reactions and astrophysics (nucleosynthesis), hot QCD matter in heavy-ion collisions,
+  and the dense matter in neutron stars.
+asks:
+  - How do protons and neutrons emerge from quarks and gluons, and how do they bind into nuclei?
+  - What are the limits of nuclear existence (drip lines, superheavy elements)?
+  - What is the equation of state of dense nuclear matter?
+key_results:
+  - "Semi-empirical mass formula; shell model with spin–orbit coupling and magic numbers (Mayer, Jensen)."
+  - "Yukawa's meson exchange; chiral EFT for nuclear forces."
+  - "Stellar nucleosynthesis (B²FH 1957); r-process in neutron-star mergers (GW170817 kilonova)."
+  - "Quark–gluon plasma created at RHIC/LHC behaves as a near-perfect liquid."
+  - "Proton spin crisis (EMC 1988): quarks carry only ~30% of the proton spin."
+experiments:
+  - "Rutherford scattering ([[exp-rutherford]]), fission (1938), heavy-ion collisions, FRIB rare isotopes, neutron-star mass/radius from NICER."
+limits:
+  - Ab initio calculations of heavy nuclei are hard; the dense-matter phase diagram at high baryon density is largely unknown.
+applications:
+  - Nuclear energy, medicine (PET, radiotherapy), dating, nuclear weapons policy, astrophysics.
+frontiers:
+  - Electron–Ion Collider (EIC) for nucleon structure; proton radius puzzle (mostly resolved towards the smaller value); neutron lifetime puzzle; neutron-star EOS from GW and NICER.
+connections: [standard-model, lattice-field-theory, astrophysics, effective-field-theory, hydrodynamics]
+cards:
+  - q: What are the nuclear magic numbers?
+    a: 2, 8, 20, 28, 50, 82, 126 — closed shells explained by the shell model with strong spin–orbit coupling.
+  - q: Where are most elements heavier than iron produced?
+    a: By neutron capture — the slow s-process in AGB stars and the rapid r-process, e.g. in neutron-star mergers (kilonova of GW170817).
+  - q: What is the neutron lifetime puzzle?
+    a: Beam experiments measure ~888 s while trap experiments measure ~878 s, a ~4σ discrepancy.
+  - q: What was the proton spin crisis?
+    a: EMC (1988) found quark spins contribute only a small fraction of the proton's spin; the remainder comes from gluon spin and orbital angular momentum.

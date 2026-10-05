@@ -1,0 +1,53 @@
+id: quantum-information
+title: Quantum Information & Computation
+short: Quantum information
+domain: physics
+area: quantum
+order: 660
+one_liner: Entanglement and superposition as resources for computing, communicating and sensing.
+summary: >-
+  Treats quantum states as information carriers. It produced quantum algorithms, error correction,
+  entanglement theory and cryptography, and its language (entanglement entropy, tensor networks,
+  error-correcting codes, complexity) now organizes condensed matter and quantum gravity.
+asks:
+  - What can quantum computers compute efficiently that classical ones cannot?
+  - How can fragile quantum information be protected from noise?
+  - How do we quantify and manipulate entanglement?
+key_results:
+  - "Shor's algorithm (1994): factoring in polynomial time; Grover search with quadratic speedup."
+  - "Quantum error correction (Shor, Steane, CSS codes, stabilizer formalism); threshold theorem: below a noise threshold, arbitrarily long computation is possible."
+  - "Topological codes: toric/surface code (Kitaev)."
+  - No-cloning; teleportation; superdense coding; BB84 quantum key distribution.
+  - "Entanglement entropy, area laws for gapped ground states (1D: Hastings)."
+  - "Gottesman–Knill: Clifford circuits are classically simulable; magic (non-stabilizerness) is the resource."
+experiments:
+  - Superconducting and trapped-ion processors; random-circuit sampling claims (Google 2019 and later).
+  - Below-threshold surface-code memory (Google Willow, 2024); logical qubits on neutral-atom arrays.
+  - Satellite QKD (Micius 2017).
+limits:
+  - Error rates and overheads; no proven exponential speedup for most practical problems.
+  - "BQP vs classical complexity classes is unproven (see [[computational-complexity]])."
+applications:
+  - Cryptanalysis (RSA, ECC) motivating post-quantum cryptography; quantum simulation of chemistry and materials; quantum sensing; QKD.
+frontiers:
+  - Fault-tolerant architectures, qLDPC codes, magic-state distillation and cultivation.
+  - Useful quantum advantage in simulation; quantum learning theory.
+  - Holographic codes and the view of spacetime as an error-correcting code.
+connections: [quantum-mechanics, quantum-foundations, computational-complexity, information-theory, holography, condensed-matter, topological-phases, amo-physics]
+prerequisites: [quantum-mechanics, linear-algebra]
+resources:
+  - "Nielsen & Chuang, *Quantum Computation and Quantum Information*"
+  - "Preskill, Caltech Ph219 lecture notes"
+cards:
+  - q: What does the quantum threshold theorem state?
+    a: If physical error rates are below a constant threshold (and noise is suitably local), logical errors can be suppressed arbitrarily with polylogarithmic overhead.
+  - q: What is the Gottesman–Knill theorem?
+    a: Circuits of Clifford gates, stabilizer-state preparation and Pauli measurements can be efficiently simulated classically.
+  - q: What problem does Shor's algorithm solve and how fast?
+    a: Integer factoring and discrete logarithms in polynomial time (via period finding with the quantum Fourier transform).
+  - q: What is the area law for entanglement?
+    a: For ground states of gapped local Hamiltonians, the entanglement entropy of a region scales with its boundary, not its volume (proved in 1D by Hastings).
+  - q: What is the surface code?
+    a: A topological stabilizer code on a 2D lattice with only nearest-neighbour checks and a high (~1%) threshold; leading candidate for fault tolerance.
+  - q: What is BB84?
+    a: The first quantum key distribution protocol (Bennett–Brassard 1984); security comes from disturbance caused by measuring non-orthogonal states.

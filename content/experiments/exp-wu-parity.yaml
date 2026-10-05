@@ -1,0 +1,16 @@
+id: exp-wu-parity
+title: Wu Experiment (Parity Violation)
+domain: experiment
+area: exp-particle
+order: 130
+year: 1957
+who: Chien-Shiung Wu et al. (proposed by Lee and Yang, 1956)
+one_liner: Electrons from polarized cobalt-60 nuclei are emitted preferentially opposite the spin — the weak force violates parity.
+measured: Angular distribution of beta-decay electrons from polarized ⁶⁰Co at ~10 mK.
+result: Strong asymmetry relative to nuclear spin direction.
+significance:
+  - Nature distinguishes left from right; led to the V−A theory and the chiral structure of the Standard Model.
+connections: [standard-model, symmetries]
+cards:
+  - q: What symmetry did the Wu experiment show to be violated, and by which force?
+    a: Parity (P), maximally violated by the weak interaction.

@@ -1,0 +1,16 @@
+id: exp-supernovae-acceleration
+title: Accelerating Expansion from Supernovae
+domain: experiment
+area: exp-cosmo
+order: 260
+year: 1998
+who: Supernova Cosmology Project (Perlmutter), High-z Supernova Search (Riess, Schmidt); Nobel 2011
+one_liner: Distant type Ia supernovae are fainter than expected — the expansion is accelerating.
+measured: Luminosity distances of type Ia supernovae (standardizable candles) versus redshift.
+result: Data require a positive cosmological constant / dark energy (~70% of energy density).
+significance:
+  - Discovery of dark energy; the cosmological constant problem became observational.
+connections: [cosmology, general-relativity]
+cards:
+  - q: Why are type Ia supernovae standardizable candles?
+    a: Their peak luminosity correlates with light-curve width (Phillips relation), allowing calibration.

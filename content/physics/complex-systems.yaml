@@ -1,0 +1,41 @@
+id: complex-systems
+title: Complex Systems
+domain: physics
+area: complex
+order: 950
+one_liner: Many interacting parts producing emergent, often unpredictable collective behaviour — across physics, biology, economics and society.
+summary: >-
+  A meta-field (associated with the Santa Fe Institute) studying emergence, self-organization, adaptation and
+  heavy-tailed statistics. Tools come from statistical physics, nonlinear dynamics, network theory, agent-based
+  modelling and information theory.
+asks:
+  - How does collective behaviour emerge from simple local rules?
+  - Are there universal laws (scaling, criticality) across complex systems?
+  - How predictable and controllable are complex adaptive systems?
+key_results:
+  - "Self-organized criticality (Bak–Tang–Wiesenfeld 1987, sandpile model)."
+  - "Scaling laws in biology (Kleiber's law, West–Brown–Enquist) and cities (Bettencourt–West)."
+  - "Cellular automata and computational universality (Rule 110, Game of Life)."
+  - "Emergence of cooperation in evolutionary games (Axelrod)."
+  - "Power laws and their generative mechanisms (preferential attachment, multiplicative processes)."
+experiments:
+  - Mostly empirical data analysis (ecosystems, markets, cities, earthquakes — Gutenberg–Richter law) and simulations.
+limits:
+  - Risk of vague universality claims; power laws often over-claimed; models are hard to validate.
+applications:
+  - Epidemiology, ecology, urban planning, financial systemic risk, climate, organizational science.
+frontiers:
+  - Higher-order interactions (hypergraphs); data-driven model discovery; tipping points and early-warning signals; AI systems as complex systems.
+connections: [statistical-mechanics, networks, chaos, sociophysics, econophysics, complexity, non-equilibrium, biophysics, dynamical-systems]
+resources:
+  - "Mitchell, *Complexity: A Guided Tour*"
+  - "Thurner, Hanel, Klimek, *Introduction to the Theory of Complex Systems*"
+cards:
+  - q: What is self-organized criticality?
+    a: Driven dissipative systems that spontaneously evolve to a critical state with power-law avalanches, without parameter tuning (BTW sandpile).
+  - q: What is Kleiber's law?
+    a: Metabolic rate scales with body mass as $M^{3/4}$ across organisms.
+  - q: What is the Gutenberg–Richter law?
+    a: The number of earthquakes of magnitude ≥ M falls as $10^{-bM}$ with $b \approx 1$ — a power law in released energy.
+  - q: How do cities scale according to Bettencourt and West?
+    a: Socioeconomic outputs scale superlinearly with population (exponent ≈ 1.15), infrastructure sublinearly (≈ 0.85).

@@ -1,0 +1,45 @@
+id: quantum-foundations
+title: Quantum Foundations
+domain: physics
+area: quantum
+order: 650
+one_liner: What quantum mechanics says about reality, measurement and probability.
+summary: >-
+  The formalism works; its interpretation does not command consensus. Foundations studies the
+  measurement problem, nonlocality, contextuality and the status of the wavefunction, and has
+  turned philosophical questions into experiments (Bell tests) and resources (quantum information).
+asks:
+  - What happens during a measurement, and why do we see definite outcomes?
+  - Is the wavefunction physical (ontic) or knowledge (epistemic)?
+  - What kinds of correlations does nature allow, and why exactly the quantum ones?
+key_results:
+  - "Bell (1964) and CHSH inequalities; Tsirelson bound $2\\sqrt{2}$ on quantum CHSH correlations."
+  - "Kochen–Specker theorem: quantum mechanics is contextual."
+  - "Gleason's theorem: in dimension ≥ 3 the Born rule is the only consistent probability measure on projectors."
+  - "Decoherence (Zeh, Zurek): environment-induced loss of interference explains the appearance of classicality but not unique outcomes."
+  - "PBR theorem: under preparation independence, the wavefunction is ontic."
+  - "No-cloning and no-signalling theorems."
+experiments:
+  - "[[exp-bell-tests]] (Aspect 1982; loophole-free 2015)."
+  - Matter-wave interference with large molecules (>25,000 amu); macroscopic superpositions in superconducting circuits and mechanical oscillators.
+limits:
+  - Interpretations (Copenhagen, many-worlds, Bohmian mechanics, QBism, objective collapse) mostly make identical predictions.
+applications:
+  - Device-independent cryptography and certified randomness grew directly out of Bell nonlocality.
+frontiers:
+  - Tests of objective collapse models (GRW, Diósi–Penrose) with optomechanics and underground detectors.
+  - Gravitationally induced entanglement proposals (Bose et al., Marletto–Vedral) to test whether gravity is quantum.
+  - Reconstructions of quantum theory from information-theoretic axioms; Wigner's friend no-go theorems.
+connections: [quantum-mechanics, quantum-information, quantum-gravity, probability-theory]
+prerequisites: [quantum-mechanics]
+cards:
+  - q: What is the measurement problem?
+    a: Unitary evolution produces superpositions of pointer states, yet measurements yield single definite outcomes; the theory does not say when or how this happens.
+  - q: What is the Tsirelson bound?
+    a: The maximum quantum value of the CHSH expression, $2\sqrt{2}$ (local hidden variables give at most 2, no-signalling allows 4).
+  - q: What does decoherence explain, and what does it not?
+    a: It explains suppression of interference between pointer states and the emergence of classical behaviour; it does not by itself explain why one outcome occurs.
+  - q: What does the Kochen–Specker theorem rule out?
+    a: Non-contextual hidden-variable models (in Hilbert-space dimension ≥ 3).
+  - q: What does the PBR theorem claim?
+    a: Assuming independent preparations have independent physical states, the quantum state must be ontic (distinct states correspond to disjoint distributions over reality).

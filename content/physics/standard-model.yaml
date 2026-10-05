@@ -1,0 +1,48 @@
+id: standard-model
+title: The Standard Model
+short: Standard Model
+domain: physics
+area: hep
+order: 690
+one_liner: The $SU(3)\times SU(2)\times U(1)$ gauge theory of all known particles and three of the four forces.
+summary: >-
+  Three generations of quarks and leptons, gauge bosons, and one Higgs doublet, with about 19 free
+  parameters (more with neutrino masses). It has passed every collider test, with the Higgs boson
+  discovered in 2012. It is known to be incomplete: no gravity, no dark matter, no neutrino mass mechanism,
+  no explanation for its parameters.
+asks:
+  - What are the elementary constituents of matter and their interactions?
+  - How do particles get mass?
+  - Why do matter and antimatter behave differently?
+key_results:
+  - "Glashow–Weinberg–Salam electroweak theory; Higgs mechanism; prediction of W, Z and neutral currents."
+  - QCD with quarks and gluons; asymptotic freedom; confinement; chiral symmetry breaking (pions as pseudo-Goldstone bosons).
+  - "CKM matrix: three generations allow CP violation (Kobayashi–Maskawa)."
+  - Anomaly cancellation within each generation (fixes hypercharges).
+  - "Accidental symmetries: baryon and lepton number (anomalous; violated by sphalerons)."
+experiments:
+  - "[[exp-wu-parity]], neutral currents (Gargamelle 1973), W/Z discovery (UA1/UA2 1983), [[exp-deep-inelastic]], top quark (Tevatron 1995), [[exp-higgs]], LEP Z-pole (3 light neutrinos)."
+limits:
+  - Massless neutrinos in the minimal version, contradicted by [[exp-neutrino-oscillations]].
+  - No dark matter candidate; insufficient CP violation for baryogenesis.
+  - Hierarchy problem (Higgs mass sensitivity), strong CP problem, flavour puzzle, metastable vacuum.
+applications:
+  - Predicts all collider physics, nuclear and atomic processes, early-universe evolution after ~10⁻¹² s.
+frontiers:
+  - Higgs couplings and self-coupling at the HL-LHC (from ~2030 after Long Shutdown 3); flavour anomalies; electroweak precision.
+  - Future colliders (FCC-ee, CEPC, muon collider) under discussion.
+connections: [gauge-theory, qft, beyond-standard-model, effective-field-theory, symmetries, cosmology, nuclear-physics, lattice-field-theory]
+prerequisites: [qft, gauge-theory]
+cards:
+  - q: What is the gauge group of the Standard Model?
+    a: $SU(3)_c \times SU(2)_L \times U(1)_Y$ (modulo a discrete quotient).
+  - q: What is the minimum number of generations for CP violation in the CKM matrix, and who showed it?
+    a: Three; Kobayashi and Maskawa (1973), before the third generation was found.
+  - q: Which precise Z-pole measurement fixed the number of light neutrino species?
+    a: The Z invisible width measured at LEP gives $N_\nu = 2.98 \pm 0.01$, i.e. three.
+  - q: Approximately how many free parameters does the Standard Model have?
+    a: About 19 (masses, mixing angles, couplings, θ_QCD), plus ~7–9 more for massive neutrinos.
+  - q: What is the hierarchy problem?
+    a: The Higgs mass receives quadratically sensitive corrections from heavy scales; why is it so far below the Planck scale without fine-tuning?
+  - q: What fixes the hypercharges of the fermions in each generation?
+    a: Cancellation of gauge and gravitational anomalies (together with the observed representations).

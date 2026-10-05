@@ -1,0 +1,41 @@
+id: linear-algebra
+title: Linear Algebra & Representation Theory
+short: Linear algebra
+domain: math
+area: algebra
+order: 380
+one_liner: Vector spaces, linear maps and how groups and algebras act on them.
+summary: >-
+  The most-used mathematics in science: eigenvalues, decompositions and tensor products are the language
+  of quantum mechanics, data analysis and numerical computation. Representation theory studies groups acting
+  linearly, decomposing symmetry into irreducible pieces.
+asks:
+  - How can linear maps be classified and decomposed?
+  - How do groups act on vector spaces, and what are their irreducible representations?
+key_results:
+  - "Spectral theorem; Jordan normal form; singular value decomposition; Cayley–Hamilton."
+  - "Tensor products, exterior algebras, determinants."
+  - "Maschke's theorem: representations of finite groups (char 0) are completely reducible."
+  - "Character theory: number of irreps = number of conjugacy classes; Schur's lemma; orthogonality relations."
+  - "Peter–Weyl theorem for compact groups."
+motivating_examples:
+  - Normal modes of oscillation; principal component analysis; angular momentum addition (Clebsch–Gordan).
+limits:
+  - Infinite-dimensional and modular (char p) representation theory are much harder.
+applications:
+  - Quantum mechanics, machine learning, signal processing, graph spectral methods, numerical simulation.
+frontiers:
+  - Geometric representation theory; randomized numerical linear algebra; tensor decompositions.
+connections: [group-theory, lie-theory, functional-analysis, quantum-mechanics, numerical-analysis, random-matrix-theory]
+resources:
+  - "Axler, *Linear Algebra Done Right*"
+  - "Fulton & Harris, *Representation Theory*"
+cards:
+  - q: What is the singular value decomposition?
+    a: Any real/complex matrix factors as $A = U\Sigma V^\dagger$ with unitary U, V and non-negative diagonal Σ.
+  - q: What does Schur's lemma say?
+    a: Intertwiners between irreducible representations are zero or isomorphisms; over ℂ, self-intertwiners of an irrep are scalars.
+  - q: How many irreducible complex representations does a finite group have?
+    a: As many as conjugacy classes.
+  - q: What does the Peter–Weyl theorem state?
+    a: Matrix coefficients of irreps of a compact group form an orthonormal basis of $L^2(G)$, generalizing Fourier series.
