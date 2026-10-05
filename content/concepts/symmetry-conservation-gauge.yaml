@@ -1,0 +1,40 @@
+id: symmetry-conservation-gauge
+title: "Symmetry: from conservation laws to gauge redundancy"
+short: Symmetry → gauge
+domain: concept
+area: concepts
+order: 20
+one_liner: Global symmetries give conservation laws and selection rules; local (gauge) "symmetries" are redundancies of description that dictate the forces.
+summary: >-
+  The most productive idea in physics, followed from Noether to the Standard Model and to today's generalised
+  symmetries. The thread shows how the meaning of "symmetry" shifted along the way.
+thread:
+  - "**Noether (1918):** every continuous symmetry of the action gives a conserved current. Time translations → energy, space translations → momentum, rotations → angular momentum, phase rotations → charge ([[classical-mechanics]], [[classical-field-theory]])."
+  - "**Wigner (1931–39):** in quantum mechanics symmetries act as unitary (or antiunitary) operators; elementary particles are irreducible representations of the Poincaré group, labelled by mass and spin ([[group-theory]], [[lie-theory]], [[quantum-mechanics]])."
+  - "**Selection rules and spectra:** representation theory explains degeneracies and forbidden transitions — the hydrogen spectrum's hidden SO(4), the eightfold way (SU(3) flavour) predicting the $\\Omega^-$."
+  - "**Symmetry can be hidden:** the laws can be symmetric while the ground state is not (spontaneous breaking). Goldstone: each broken continuous global symmetry gives a massless mode (phonons, magnons, pions). Landau classified phases by their symmetry-breaking pattern ([[phase-transitions]])."
+  - "**Gauge symmetry is different:** making a phase rotation local forces a connection field — the photon. Gauge transformations relate different descriptions of the *same* physical state; they are redundancies, not symmetries with observable charges. Only gauge-invariant quantities (field strengths, Wilson loops) are physical — yet potentials matter through holonomies: [[exp-aharonov-bohm]] ([[gauge-theory]])."
+  - "**Gauge principle builds the Standard Model:** $SU(3)\\times SU(2)\\times U(1)$; the Higgs mechanism gives mass to W and Z without breaking the redundancy ([[standard-model]], [[exp-higgs]])."
+  - "**Symmetries can fail quantum mechanically (anomalies):** chiral anomaly explains $\\pi^0\\to\\gamma\\gamma$; gauge anomalies must cancel, which fixes the charges of quarks and leptons in each generation."
+  - "**Discrete symmetries are broken by nature:** parity ([[exp-wu-parity]]), CP ([[exp-kaon-cp]]); CPT is guaranteed by Lorentz invariance and locality."
+  - "**Generalised symmetries (2014–):** a symmetry is a topological operator; it can act on lines and surfaces (higher-form), be non-invertible, and its anomalies constrain strongly coupled dynamics ([[symmetries]], [[category-theory]])."
+  - "**In quantum gravity, no global symmetries** are expected: everything is gauged or broken ([[quantum-gravity]])."
+caveats:
+  - "Noether's first theorem needs a Lagrangian; symmetries of EOM without an action need not give conservation laws. Her second theorem (local symmetries) gives identities (e.g. Bianchi), not new conserved charges — which is why energy in GR is subtle."
+  - "\"Spontaneously broken gauge symmetry\" is a convenient phrase but strictly a gauge redundancy cannot be broken (Elitzur's theorem); the Higgs mechanism is better described as the global part being broken or as a change of variables."
+  - "Goldstone's theorem assumes Lorentz invariance or counts differently without it: in non-relativistic systems one mode can correspond to two broken generators (ferromagnet magnons, Watanabe–Murayama counting)."
+connections: [classical-mechanics, classical-field-theory, quantum-mechanics, group-theory, lie-theory, phase-transitions, gauge-theory, standard-model, symmetries, qft, quantum-gravity, category-theory, exp-aharonov-bohm, exp-wu-parity, exp-kaon-cp, exp-higgs, general-relativity]
+resources:
+  - "Zee, *Group Theory in a Nutshell for Physicists*"
+  - "Tong, *Lectures on Gauge Theory*"
+cards:
+  - q: What is the difference between a global symmetry and a gauge symmetry?
+    a: A global symmetry maps physical states to different physical states and gives conserved charges; a gauge symmetry relates different descriptions of the same state (redundancy) and forces the existence of gauge fields.
+  - q: What did Wigner's classification show about particles?
+    a: Elementary particles are unitary irreducible representations of the Poincaré group, labelled by mass and spin (or helicity).
+  - q: What does Goldstone's theorem state?
+    a: Spontaneous breaking of a continuous global symmetry gives gapless modes (one per broken generator in relativistic theories).
+  - q: What is an anomaly and give a physical consequence?
+    a: A classical symmetry not preserved by quantisation; the chiral anomaly gives the $\pi^0\to\gamma\gamma$ rate, and gauge-anomaly cancellation fixes Standard-Model charges.
+  - q: Why does Noether's second theorem not give new conserved quantities?
+    a: For local (gauge) symmetries it yields identities among the EOM (like the Bianchi identity), not independent conservation laws.

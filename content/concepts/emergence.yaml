@@ -1,0 +1,36 @@
+id: emergence
+title: "Emergence: more is different"
+short: Emergence
+domain: concept
+area: concepts
+order: 50
+one_liner: Collective behaviour — phases, quasiparticles, even spacetime — can have its own laws, not deducible in practice from the parts.
+summary: >-
+  Anderson's slogan "more is different" (1972): knowing the fundamental laws does not mean being able to
+  reconstruct the universe. The thread follows emergent objects from thermodynamics to spacetime.
+thread:
+  - "**Thermodynamics from mechanics:** temperature and pressure are properties of ensembles, not of molecules; irreversibility emerges from reversible laws plus a low-entropy initial state ([[statistical-mechanics]], [[philosophy-of-physics]])."
+  - "**Phases and order parameters:** a crystal's rigidity, a magnet's magnetisation and a superconductor's zero resistance are collective; broken symmetry gives them robust properties ([[phase-transitions]], [[exp-superconductivity]])."
+  - "**Quasiparticles:** phonons, magnons, holes, Cooper pairs behave like particles but exist only as excitations of a many-body state; electrons in solids can fractionalise into charge $e/3$ anyons ([[condensed-matter]], [[exp-quantum-hall]])."
+  - "**Topological order:** phases not described by symmetry breaking — ground-state degeneracy on a torus, long-range entanglement ([[topological-phases]])."
+  - "**Emergent gauge fields and emergent relativity:** gauge fields and Lorentz invariance appear at low energy in spin liquids and in graphene (massless Dirac electrons)."
+  - "**Hydrodynamics:** at long wavelengths any system relaxes to a few conserved densities; fluid equations are universal ([[hydrodynamics]], [[universality]])."
+  - "**Complex systems:** flocks, markets, traffic and brains show collective patterns from simple rules ([[complex-systems]], [[sociophysics]], [[networks]])."
+  - "**Emergent spacetime:** in holography, the bulk geometry and gravity emerge from a boundary quantum system; distance is related to entanglement ([[holography]], [[entropy-information]])."
+caveats:
+  - "'Weak' emergence (deducible in principle, not in practice) vs 'strong' emergence (not deducible even in principle) — physics generally only supports the weak sense."
+  - "Emergent spacetime is established in specific holographic models (AdS); whether our universe works this way is open."
+connections: [statistical-mechanics, phase-transitions, condensed-matter, topological-phases, hydrodynamics, complex-systems, sociophysics, networks, holography, philosophy-of-physics, universality, entropy-information, exp-superconductivity, exp-quantum-hall]
+resources:
+  - "Anderson, *More is Different*, Science 177 (1972)"
+  - "Wen, *Quantum Field Theory of Many-Body Systems*"
+  - "Laughlin, *A Different Universe*"
+cards:
+  - q: What did Anderson mean by "more is different"?
+    a: Collective systems obey new laws (broken symmetry, rigidity, quasiparticles) that cannot be practically reconstructed from the fundamental laws of their parts.
+  - q: What is a quasiparticle?
+    a: A long-lived collective excitation of a many-body system that behaves like a particle (phonon, magnon, hole, Laughlin quasiparticle).
+  - q: What distinguishes topological order from symmetry-breaking order?
+    a: It is characterised by long-range entanglement, ground-state degeneracy depending on topology and anyonic excitations, not by a local order parameter.
+  - q: What is the difference between weak and strong emergence?
+    a: Weak emergent properties are deducible from the micro-laws in principle but not in practice; strong ones would not be deducible even in principle.

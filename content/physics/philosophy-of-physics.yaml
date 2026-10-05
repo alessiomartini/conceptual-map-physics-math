@@ -1,0 +1,54 @@
+id: philosophy-of-physics
+title: Philosophy of Physics
+short: Philosophy of physics
+domain: physics
+area: phil-physics
+order: 1100
+one_liner: What our best physical theories say about what exists, how we know it, and what counts as an explanation.
+summary: >-
+  Philosophy of physics takes theories at face value and asks what they commit us to: is spacetime a thing or a
+  set of relations? Is the wavefunction real? Where does the direction of time come from if the laws are
+  time-symmetric? When is a gauge symmetry a fact about the world and when is it just redundancy in our
+  description? It also studies physics as a practice — how theories are tested, chosen and reduced to one another.
+  The interpretation of quantum mechanics has its own page, [[quantum-foundations]].
+asks:
+  - "Realism vs instrumentalism: do theories describe unobservable reality, or are they tools for predicting observations?"
+  - What is the ontology of a theory — particles, fields, spacetime points, wavefunctions, information?
+  - Why does time have a direction if the fundamental laws are (almost) time-reversal invariant?
+  - Is spacetime substantival (a thing in itself) or relational (a network of relations between events)?
+  - What does it mean for one theory to reduce to another, and are some properties genuinely emergent?
+  - How should we use non-empirical criteria — simplicity, naturalness, beauty, uniqueness — to choose theories?
+key_results:
+  - "Hole argument (Einstein 1913–15; revived by Earman–Norton 1987): diffeomorphism invariance makes spacetime points without physical identity — favours relationalist or structuralist readings of GR."
+  - "Boltzmann's account of irreversibility: the second law is statistical and needs a low-entropy initial condition (the past hypothesis, Albert 2000)."
+  - "Bell's theorem turned the metaphysics of locality and realism into an experimental question."
+  - "Duhem–Quine thesis: hypotheses are tested only in bundles; underdetermination of theory by evidence."
+  - "Structural realism (Worrall 1989): what survives theory change is mathematical structure (e.g. Fresnel's equations survive in Maxwell's theory)."
+  - "Gauge as redundancy: in Yang–Mills only gauge-invariant quantities are observable; the Aharonov–Bohm effect shows potentials still matter through holonomies."
+  - "Effective-field-theory view: theories are valid within energy ranges, which recasts reduction and fundamentality as questions of scale."
+experiments:
+  - "[[exp-bell-tests]] tested local realism directly; [[exp-aharonov-bohm]] bears on the reality of gauge potentials; [[exp-michelson-morley]] removed the ether as substance."
+limits:
+  - Many debates (interpretations of QM, substantivalism) have no empirical consequence and may remain open.
+  - Arguments from naturalness and fine-tuning have weakened after the LHC found no new physics at the TeV scale.
+applications:
+  - Sharpens what is open in physics (measurement problem, problem of time in quantum gravity, cosmological measure problem) and guides which questions are worth testing.
+frontiers:
+  - "Problem of time and emergence of spacetime in quantum gravity; status of the multiverse and anthropic reasoning; naturalness after the LHC; philosophy of effective field theories; is quantum mechanics about information?"
+connections: [quantum-foundations, general-relativity, statistical-mechanics, thermodynamics, gauge-theory, effective-field-theory, quantum-gravity, cosmology, philosophy-of-mathematics]
+resources:
+  - "Maudlin, *Philosophy of Physics: Space and Time* and *Quantum Theory*"
+  - "Albert, *Time and Chance*"
+  - "Butterfield & Earman (eds.), *Philosophy of Physics* (Handbook)"
+  - "Wallace, *The Emergent Multiverse*"
+cards:
+  - q: What is the hole argument and what does it suggest?
+    a: In GR, a diffeomorphism that acts only inside a region gives another solution with the same data outside, so a substantival reading makes GR indeterministic; it suggests spacetime points have no identity beyond their relations.
+  - q: What is the past hypothesis?
+    a: The assumption that the universe began in a very low-entropy state; together with statistical mechanics it explains the arrow of time from time-symmetric laws.
+  - q: What is underdetermination of theory by evidence?
+    a: Different theories can fit all available evidence equally well, so data alone do not single out one theory (Duhem–Quine).
+  - q: What is structural realism?
+    a: The view that our theories correctly capture the mathematical structure of the world, which is what survives theory change, rather than the nature of the entities.
+  - q: Why is gauge symmetry not a "real" symmetry in the usual sense?
+    a: It relates different descriptions of the same physical state (a redundancy); only gauge-invariant quantities like holonomies (Wilson loops) are observable.

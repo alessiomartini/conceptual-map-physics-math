@@ -1,0 +1,35 @@
+id: duality
+title: "Duality: one theory, two descriptions"
+short: Duality
+domain: concept
+area: concepts
+order: 60
+one_liner: Two descriptions that look completely different — often one weakly and one strongly coupled — turn out to be the same physics.
+summary: >-
+  Dualities show that a Lagrangian is a description, not the theory: the same physics can have several, each
+  useful in a different regime. They are among the strongest tools for strong coupling.
+thread:
+  - "**Wave–particle and Fourier duality:** position and momentum descriptions are related by a Fourier transform; uncertainty is a theorem about Fourier pairs ([[quantum-mechanics]], [[exp-double-slit]])."
+  - "**Electric–magnetic duality:** Maxwell's equations in vacuum are symmetric under $E\\to B$, $B\\to -E$; with monopoles, Dirac's quantisation $eg \\in 2\\pi\\mathbb Z$ ([[electromagnetism]])."
+  - "**Kramers–Wannier (1941):** the 2D Ising model at high temperature equals the model at low temperature, fixing the critical point exactly ([[phase-transitions]]); today understood as a non-invertible symmetry ([[symmetries]])."
+  - "**Particle–vortex and bosonisation:** in 2D, fermions and bosons are equivalent descriptions; in 3D a web of dualities relates Dirac fermions and scalars with Chern–Simons terms ([[condensed-matter]])."
+  - "**Seiberg–Witten and S-duality:** in supersymmetric gauge theories strong coupling of one theory is weak coupling of another ($g \\to 1/g$); electric charges and monopoles swap roles ([[gauge-theory]])."
+  - "**String dualities:** T-duality ($R\\to\\alpha'/R$) and the web of string theories as limits of M-theory ([[string-theory]])."
+  - "**Holography:** a gravitational theory in AdS is dual to a non-gravitational CFT on its boundary — the most radical duality ([[holography]], [[cft]])."
+  - "**In mathematics:** Pontryagin and Poincaré duality, Langlands duality (the geometric Langlands programme is S-duality in disguise, Kapustin–Witten 2006), mirror symmetry ([[algebraic-geometry]], [[topology]], [[number-theory]])."
+caveats:
+  - "Many dualities in QFT are conjectures supported by overwhelming evidence (matching of symmetries, anomalies, protected quantities), not theorems."
+  - "A duality is only useful when one side is tractable; weak–strong dualities are hard to test precisely because the strong side is hard."
+connections: [quantum-mechanics, electromagnetism, phase-transitions, symmetries, condensed-matter, gauge-theory, string-theory, holography, cft, algebraic-geometry, topology, number-theory, exp-double-slit, philosophy-of-physics]
+resources:
+  - "Polchinski, *Dualities of Fields and Strings* (2014)"
+  - "Seiberg, Senthil, Wang & Witten, *A Duality Web in 2+1 Dimensions* (2016)"
+cards:
+  - q: How does Kramers–Wannier duality fix the 2D Ising critical point?
+    a: It maps high temperature to low temperature; if there is a single transition it must sit at the self-dual point, $\sinh(2J/k_BT_c) = 1$.
+  - q: What is S-duality?
+    a: An equivalence of gauge theories under $g\to1/g$ (more generally $SL(2,\mathbb Z)$ on $\tau$) exchanging electric and magnetic charges.
+  - q: What is T-duality in string theory?
+    a: String theory on a circle of radius $R$ is equivalent to one on radius $\alpha'/R$, with momentum and winding modes exchanged.
+  - q: Why do dualities show that a Lagrangian is not the theory?
+    a: The same physics admits several Lagrangians with different fields and couplings, each weakly coupled in a different regime.

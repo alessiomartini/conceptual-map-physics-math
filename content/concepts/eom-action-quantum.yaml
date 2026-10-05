@@ -1,0 +1,50 @@
+id: eom-action-quantum
+title: "Equations of motion, the action, and what quantum theory adds"
+short: EOM → action → quantum
+domain: concept
+area: concepts
+order: 10
+one_liner: Classically the action is a device for producing equations of motion; quantum mechanically it is the theory itself — and some quantum theories have no classical action or no particles at all.
+summary: >-
+  A chain of ideas that starts from how we experience reality (one instant after another) and ends with quantum
+  systems that have neither a classical limit nor particles. Each step is a claim you should be able to defend;
+  the fine print is collected below under "Careful".
+thread:
+  - "**We live in time slices.** Experience comes as a sequence of instants: a state now, then a state later. The **Hamiltonian** formulation mirrors this — a state is a point in phase space (or a vector in Hilbert space) on one time slice, and $H$ generates the evolution to the next. In field theory this means choosing a foliation of spacetime into slices (a Cauchy surface plus time evolution), see [[classical-mechanics]], [[general-relativity]]."
+  - "The **Lagrangian/action** formulation is instead a statement about whole histories: $\\delta S = 0$ with endpoints fixed at two times is a boundary-value problem, not an initial-value one. It is manifestly Lorentz/diffeomorphism covariant because it treats space and time together — closer to the structure of the theory, further from experience."
+  - "**Predictivity constrains the equations of motion.** If the present state must determine the future, the EOM must have a well-posed initial-value (Cauchy) problem: existence, uniqueness, continuous dependence on data ([[ode]], [[pde]]). For fields we also want hyperbolic equations with finite propagation speed (causality)."
+  - "**Why second order?** By Ostrogradsky's theorem, a non-degenerate Lagrangian with higher than first time derivatives gives a Hamiltonian linear in some momenta, hence unbounded below: the theory is unstable. So fundamental EOM are (at most) second order in time, and the state on a slice is positions and velocities — exactly the data we can prepare."
+  - "**The EOM are the classical model; the action is optional.** Not every system of EOM comes from an action (inverse problem of the calculus of variations, Helmholtz conditions). Classically, when an action exists it is a *tool*: a compact way to generate the EOM, see symmetries via Noether, and couple systems consistently. Any two actions with the same EOM are classically equivalent."
+  - "**Quantum mechanically the action is fundamental.** In the path integral $\\int \\mathcal{D}\\phi\\; e^{iS[\\phi]/\\hbar}$ every history contributes, not just the classical one; the classical path is only the stationary-phase point as $\\hbar \\to 0$. So actions that agree on the classical solutions but differ off-shell give different quantum theories: different fluctuations, loop corrections, tunnelling, interference ([[quantum-mechanics]], [[qft]])."
+  - "**Simplest examples.** (i) $S$ and $cS$ have the same EOM, but $e^{icS/\\hbar}$ is the theory with $\\hbar \\to \\hbar/c$: different size of quantum fluctuations. (ii) A total-derivative term changes nothing classically but can matter quantum mechanically: a particle on a ring with $L = \\tfrac12 mR^2\\dot\\varphi^2 + \\tfrac{\\theta}{2\\pi}\\dot\\varphi$ has energies $\\propto (n - \\theta/2\\pi)^2$. The same mechanism gives the QCD $\\theta$-term (instantons, strong CP problem) and the [[exp-aharonov-bohm]] phase."
+  - "**Topological terms with no classical dynamics.** Chern–Simons theory has no local degrees of freedom classically ($F=0$), yet its quantisation gives anyons and knot invariants; it is the low-energy theory of the fractional [[exp-quantum-hall]] states ([[topological-phases]])."
+  - "**Not every quantum theory has a classical limit.** A classical limit needs a parameter that makes fluctuations small (effective $\\hbar \\to 0$, large spin, large $N$). Without it there is no regime where the quantum theory looks classical — a single spin-½, or many strongly coupled systems at fixed coupling. Some QFTs have **no known Lagrangian at all** (the 6d $(2,0)$ theory, Argyres–Douglas and Minahan–Nemeschansky theories) and are defined by their operator data ([[cft]])."
+  - "**Not every quantum theory has particles.** A particle is a sharp pole in the spectral function: a long-lived excitation. Fermi liquids have quasiparticles; but at a quantum critical point the low-energy theory is a CFT with a continuum instead of poles, and in strange metals, the SYK model and holographic matter quasiparticles decay as fast as they are created ($\\tau \\sim \\hbar/k_BT$). Then the right language is [[hydrodynamics]], operator spectra and [[holography]], not particles — even though the low-energy theory is still an [[effective-field-theory]] ([[condensed-matter]])."
+caveats:
+  - "*Your formulation* \"strongly correlated systems have no classical limit\" is too broad. QCD is strongly coupled at low energy but has a perfectly classical Lagrangian; what it lacks is a regime where the classical picture describes confinement. The precise statements are: (a) some theories have no small parameter making them semiclassical; (b) some theories have no known Lagrangian (often only conjecturally none — e.g. some Argyres–Douglas theories were later found to be IR limits of Lagrangian $\\mathcal N=1$ theories, Maruyoshi–Song 2016)."
+  - "*\"No particles\"*: correct for the theories above, with care: the concept is energy-scale dependent (quasiparticles can exist at some scales and not others) and also observer-dependent in curved spacetime (Unruh effect, Hawking radiation)."
+  - "Ostrogradsky assumes non-degeneracy: degenerate higher-derivative theories (Horndeski, Lovelock gravity) evade it because constraints remove the ghost; higher-derivative terms are also harmless when treated perturbatively in an EFT."
+  - "The inverse problem: in one degree of freedom every second-order ODE admits a Lagrangian, possibly time-dependent (e.g. damped oscillator, $L = e^{\\gamma t/m}(\\tfrac12 m\\dot x^2 - \\tfrac12 kx^2)$); obstructions appear from two degrees of freedom on (Douglas 1941). Genuinely dissipative field theories need doubled-variable (Schwinger–Keldysh) actions."
+  - "\"Hamiltonian is closer to experience\" is an intuition, not a theorem: in quantum gravity there is no preferred time slicing (problem of time), and covariant phase space recovers the Hamiltonian picture from the action without choosing a slice."
+  - "Path integrals over $e^{iS}$ are mathematically rigorous only in special cases (Euclidean, low dimension); the statement is about the physics, not about a theorem."
+connections: [classical-mechanics, quantum-mechanics, qft, ode, pde, effective-field-theory, cft, holography, condensed-matter, topological-phases, hydrodynamics, gauge-theory, general-relativity, symmetries, exp-aharonov-bohm, exp-quantum-hall, philosophy-of-physics]
+resources:
+  - "Weinberg, *The Quantum Theory of Fields* vol. 1, ch. 7 (from Hamiltonian to path integral)"
+  - "Tong, *Lectures on Gauge Theory* (θ-terms, particle on a ring)"
+  - "Woodard, *Ostrogradsky's theorem on Hamiltonian instability*, Scholarpedia (2015)"
+  - "Hartnoll, Lucas & Sachdev, *Holographic Quantum Matter* (systems without quasiparticles)"
+cards:
+  - q: Why is the Hamiltonian formulation closer to how we experience time than the Lagrangian one?
+    a: It describes a state on one time slice and evolves it step by step (initial-value problem); the action describes whole histories with fixed endpoints (boundary-value problem).
+  - q: What does Ostrogradsky's theorem say, and why does it matter for physical laws?
+    a: Non-degenerate Lagrangians with higher than first time derivatives give Hamiltonians unbounded below (instability); hence fundamental EOM are at most second order in time.
+  - q: Why is the action "just a tool" classically but fundamental quantum mechanically?
+    a: Classically only its stationary points (the EOM) matter; in the path integral every history contributes with weight $e^{iS/\hbar}$, so the off-shell action determines fluctuations, tunnelling and interference.
+  - q: Give an example of a term that changes nothing classically but changes the quantum theory.
+    a: A total derivative like $\tfrac{\theta}{2\pi}\dot\varphi$ for a particle on a ring shifts the spectrum $E_n \propto (n - \theta/2\pi)^2$; in 4D gauge theory, the θ-term $F\tilde F$.
+  - q: What does a quantum theory need in order to have a classical limit?
+    a: A parameter that suppresses fluctuations (effective $\hbar\to0$, large spin, large N); without one there is no classical regime.
+  - q: Name quantum field theories with no known Lagrangian.
+    a: The 6d $(2,0)$ superconformal theory; Argyres–Douglas and Minahan–Nemeschansky 4d $\mathcal N=2$ theories.
+  - q: What does it mean that a system has no quasiparticles?
+    a: Its spectral function has no sharp poles at low energy; excitations decay on the shortest possible time scale $\sim\hbar/k_BT$ (strange metals, SYK, quantum critical CFTs), so hydrodynamics and operator spectra replace particles.

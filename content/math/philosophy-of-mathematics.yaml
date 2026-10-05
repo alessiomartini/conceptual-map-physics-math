@@ -1,0 +1,52 @@
+id: philosophy-of-mathematics
+title: Philosophy of Mathematics
+short: Philosophy of math
+domain: math
+area: phil-math
+order: 1100
+one_liner: What mathematical objects are, how we come to know them, and why mathematics describes the physical world so well.
+summary: >-
+  Numbers, sets and spaces are not seen or touched, yet mathematical knowledge seems the most certain we have.
+  The foundational crisis of 1900–1930 produced the classic schools (logicism, formalism, intuitionism); Gödel
+  showed none of them could be completed as hoped. Today's questions include structuralism, the role of proof by
+  computer and formal verification, and Wigner's "unreasonable effectiveness" of mathematics in physics.
+  The technical side lives in [[logic-set-theory]] and [[category-theory]].
+asks:
+  - Do mathematical objects exist independently of us (platonism), or are they constructions, fictions or rules for symbols?
+  - How do we know mathematical truths, given that we have no causal contact with abstract objects (Benacerraf's dilemma)?
+  - What should count as a proof — and are computer-assisted or formally verified proofs different in kind?
+  - Which axioms should we accept beyond ZFC, and can questions like the continuum hypothesis have a determinate answer?
+  - Why is mathematics developed for its own sake so effective in physics?
+key_results:
+  - "Logicism (Frege, Russell–Whitehead): mathematics reduces to logic — broken by Russell's paradox (1901), partly rescued by type theory."
+  - "Formalism (Hilbert's programme): prove consistency of mathematics by finitary means — shown impossible by Gödel's second incompleteness theorem (1931)."
+  - "Intuitionism (Brouwer, Heyting): mathematics is mental construction; rejects the law of excluded middle for infinite domains; lives on in constructive mathematics and type theory."
+  - "Independence: the continuum hypothesis is neither provable nor refutable from ZFC (Gödel 1940, Cohen 1963)."
+  - "Benacerraf (1965, 1973): numbers can be modelled by many set-theoretic structures, motivating structuralism; and the access problem for platonism."
+  - "Wigner, *The Unreasonable Effectiveness of Mathematics in the Natural Sciences* (1960)."
+  - "Computer-assisted proofs (four-colour theorem 1976, Kepler conjecture 2014 via Flyspeck in HOL Light/Isabelle) and large formal libraries (Lean's mathlib) changed what a proof can be."
+motivating_examples:
+  - "Paradoxes of naive set theory (Russell's); non-Euclidean geometry breaking the idea that axioms are self-evident truths about space; Cantor's different sizes of infinity."
+limits:
+  - The main positions are underdetermined by mathematical practice; working mathematicians largely act as platonists and defend formalism when pressed.
+applications:
+  - Constructive logic underlies proof assistants and programming-language type systems (Curry–Howard correspondence).
+  - Clarifies what physics assumes when it uses continuum, infinity and real numbers.
+frontiers:
+  - Univalent foundations / homotopy type theory as an alternative to set-theoretic foundations; formalisation of research mathematics (Liquid Tensor Experiment 2022, Fermat's Last Theorem project); AI-generated proofs; new axioms (large cardinals, forcing axioms).
+connections: [logic-set-theory, category-theory, computational-complexity, philosophy-of-physics, number-theory]
+resources:
+  - "Shapiro, *Thinking about Mathematics*"
+  - "Benacerraf & Putnam (eds.), *Philosophy of Mathematics: Selected Readings*"
+  - "Wigner, *The Unreasonable Effectiveness of Mathematics in the Natural Sciences* (1960)"
+cards:
+  - q: What are the three classic schools of the foundational crisis, and their core claim?
+    a: "Logicism: mathematics is logic. Formalism: mathematics is the manipulation of symbols by rules, to be proven consistent. Intuitionism: mathematics is mental construction (no unrestricted excluded middle)."
+  - q: How did Gödel's incompleteness theorems affect Hilbert's programme?
+    a: Any consistent, effectively axiomatised theory containing arithmetic cannot prove its own consistency, so a finitary consistency proof of all mathematics is impossible.
+  - q: What is Benacerraf's identification problem?
+    a: The natural numbers can be identified with different set-theoretic objects (von Neumann vs Zermelo ordinals) with no fact deciding which, suggesting numbers are positions in a structure.
+  - q: What is the Curry–Howard correspondence?
+    a: Proofs are programs and propositions are types — the basis of proof assistants like Coq and Lean.
+  - q: What does "unreasonable effectiveness" refer to?
+    a: Wigner's observation (1960) that mathematics developed without physical motivation often turns out to describe nature precisely (e.g. complex Hilbert spaces, Riemannian geometry).

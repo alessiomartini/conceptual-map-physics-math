@@ -1,0 +1,39 @@
+id: entropy-information
+title: "Entropy and information: one idea in five fields"
+short: Entropy & information
+domain: concept
+area: concepts
+order: 40
+one_liner: Entropy measures missing information — and the same formula runs through thermodynamics, communication, quantum entanglement and black holes.
+summary: >-
+  Born as a quantity in steam-engine theory, entropy became counting of microstates, then missing information,
+  then entanglement, then a property of spacetime. Following it connects thermodynamics to quantum gravity.
+thread:
+  - "**Clausius (1865):** $dS = \\delta Q/T$; the second law forbids perpetual motion of the second kind ([[thermodynamics]])."
+  - "**Boltzmann and Gibbs:** $S = k_B \\ln W$, $S = -k_B\\sum p_i \\ln p_i$ — entropy counts the microstates compatible with what we know; the second law becomes overwhelmingly probable rather than certain ([[statistical-mechanics]])."
+  - "**Shannon (1948):** the same formula measures information in a message and sets the limits of compression and of reliable communication over a noisy channel ([[information-theory]])."
+  - "**Maxwell's demon and Landauer (1961):** erasing one bit costs at least $k_BT\\ln 2$ of heat — information is physical. Measured directly in colloidal-particle experiments (Bérut et al. 2012) ([[non-equilibrium]])."
+  - "**Von Neumann entropy and entanglement:** $S = -\\mathrm{Tr}\\,\\rho\\ln\\rho$; for a pure global state, the entropy of a part measures its entanglement with the rest ([[quantum-information]], [[exp-bell-tests]])."
+  - "**Area laws:** ground states of local Hamiltonians typically have entanglement entropy proportional to the boundary area, not the volume — why tensor networks work ([[condensed-matter]])."
+  - "**Black holes (Bekenstein–Hawking 1973–75):** $S = k_B A/4\\ell_P^2$, an entropy proportional to horizon area; Hawking radiation makes it thermodynamic ([[black-holes]])."
+  - "**Holography (Ryu–Takayanagi 2006):** entanglement entropy of a boundary region equals the area of a bulk minimal surface — spacetime geometry is built from entanglement ([[holography]]). The Page curve from quantum extremal surfaces (2019) recovered unitarity in black-hole evaporation ([[quantum-gravity]])."
+caveats:
+  - "Thermodynamic entropy is defined for equilibrium; entropy of non-equilibrium states and of the universe as a whole is a matter of definition (Boltzmann vs Gibbs entropy behave differently)."
+  - "Entanglement entropy in QFT is UV divergent; only differences or mutual information are finite."
+  - "The black-hole entropy formula is derived semiclassically; a microscopic counting exists only for special (supersymmetric, extremal) black holes in string theory (Strominger–Vafa 1996)."
+connections: [thermodynamics, statistical-mechanics, information-theory, quantum-information, non-equilibrium, condensed-matter, black-holes, holography, quantum-gravity, string-theory, exp-bell-tests, probability-theory]
+resources:
+  - "Cover & Thomas, *Elements of Information Theory*"
+  - "Nielsen & Chuang, *Quantum Computation and Quantum Information*"
+  - "Harlow, *Jerusalem lectures on black holes and quantum information* (2014)"
+cards:
+  - q: What is Landauer's principle?
+    a: Erasing one bit of information dissipates at least $k_BT\ln2$ of heat; it resolves Maxwell's demon and was verified experimentally (Bérut et al. 2012).
+  - q: What does the entanglement entropy of a subsystem measure?
+    a: For a pure global state, how entangled the subsystem is with its complement, $S = -\mathrm{Tr}\rho_A\ln\rho_A$.
+  - q: What is an area law for entanglement?
+    a: Ground states of gapped local Hamiltonians have subsystem entanglement scaling with the boundary area, not the volume.
+  - q: What is the Bekenstein–Hawking entropy?
+    a: $S = k_B c^3 A/(4G\hbar)$ — black-hole entropy proportional to horizon area.
+  - q: How does the Ryu–Takayanagi formula connect entropy and geometry?
+    a: The entanglement entropy of a boundary region equals the area of the minimal bulk surface anchored on it, divided by $4G_N$.

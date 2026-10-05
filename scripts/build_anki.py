@@ -67,7 +67,7 @@ def main():
     ap.add_argument("--out", default=str(ROOT / "dist" / "big-picture.apkg"))
     args = ap.parse_args()
 
-    cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
+    cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
     entries, areas = load_all()
     titles = {e["id"]: e["title"] for e in entries}
     area_label = {a["id"]: a["label"] for d in areas.values() for a in d["areas"]}

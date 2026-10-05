@@ -1,0 +1,34 @@
+id: locality
+title: "Locality: what can influence what"
+short: Locality
+domain: concept
+area: concepts
+order: 70
+one_liner: Influences propagate through neighbouring points at finite speed — a principle that shapes field theory, is subtly violated by entanglement correlations, and may fail in quantum gravity.
+summary: >-
+  From Newton's discomfort with action at a distance to Bell's theorem and the black-hole information
+  problem, locality is the assumption physicists most rely on and most often re-examine.
+thread:
+  - "**Action at a distance to fields:** Newtonian gravity acts instantly; Faraday and Maxwell replaced it with fields carrying energy at finite speed $c$ ([[electromagnetism]], [[classical-field-theory]])."
+  - "**Relativity makes locality causal structure:** no signal outside the light cone; equations of motion must be hyperbolic ([[special-relativity]], [[pde]])."
+  - "**Locality in QFT:** fields at spacelike separation commute (microcausality); Lagrangians are integrals of local densities; cluster decomposition — distant experiments give independent results ([[qft]])."
+  - "**Bell nonlocality:** quantum correlations violate Bell inequalities, so no local hidden-variable theory reproduces them; yet no-signalling holds — entanglement cannot transmit information ([[quantum-foundations]], [[exp-bell-tests]])."
+  - "**Gauge theories:** physical observables like Wilson loops and the AB phase are non-local in the gauge-invariant description, while the theory remains local ([[gauge-theory]], [[exp-aharonov-bohm]])."
+  - "**Lattices and Lieb–Robinson:** even non-relativistic lattice systems have an effective light cone for information spreading ([[condensed-matter]], [[quantum-information]])."
+  - "**Quantum gravity strains locality:** diffeomorphism invariance leaves no local gauge-invariant observables; the information paradox and holography suggest bulk locality is approximate ([[quantum-gravity]], [[holography]], [[black-holes]])."
+caveats:
+  - "'Nonlocal' in Bell's sense (no local hidden variables) is different from 'nonlocal' in field theory (interactions at a distance). Quantum mechanics is nonlocal in the first sense but QFT is local in the second."
+  - "Effective theories can look non-local (integrating out light fields gives non-local terms); locality is a property of the full description."
+connections: [electromagnetism, classical-field-theory, special-relativity, pde, qft, quantum-foundations, gauge-theory, condensed-matter, quantum-information, quantum-gravity, holography, black-holes, exp-bell-tests, exp-aharonov-bohm, philosophy-of-physics]
+resources:
+  - "Bell, *Speakable and Unspeakable in Quantum Mechanics*"
+  - "Haag, *Local Quantum Physics*"
+cards:
+  - q: What is microcausality in QFT?
+    a: Observables at spacelike separation commute, so measurements there cannot influence each other.
+  - q: How can quantum mechanics be "nonlocal" yet forbid faster-than-light signalling?
+    a: Bell-violating correlations rule out local hidden variables, but the marginal statistics at each side are independent of the distant choice (no-signalling).
+  - q: What is the Lieb–Robinson bound?
+    a: In lattice systems with local interactions, correlations and information spread within an effective light cone with finite velocity.
+  - q: Why is locality problematic in quantum gravity?
+    a: Diffeomorphism invariance means there are no local gauge-invariant observables, and holography/black-hole information suggest bulk locality is only approximate.

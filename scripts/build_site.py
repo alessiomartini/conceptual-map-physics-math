@@ -71,7 +71,7 @@ def build_data(entries, areas, cfg):
 
 
 def main():
-    cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
+    cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
     entries, areas = load_all()
     data = build_data(entries, areas, cfg)
     payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")

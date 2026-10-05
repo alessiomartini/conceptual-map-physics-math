@@ -1,0 +1,38 @@
+id: universality
+title: "Universality: why microscopic details don't matter"
+short: Universality & scales
+domain: concept
+area: concepts
+order: 30
+one_liner: Physics at one scale depends on the physics at shorter scales only through a few parameters — which is why physics is possible at all.
+summary: >-
+  We do chemistry without quantum gravity and fluid dynamics without knowing molecules. The renormalisation group
+  turns this observation into a theory: details flow away, and only symmetries, dimension and a few couplings
+  survive. The same idea links critical phenomena, particle physics, random matrices and central-limit theorems.
+thread:
+  - "**Separation of scales:** effects of short-distance physics are suppressed by powers of (energy/heavy scale). Fluids obey [[hydrodynamics]] whatever their molecules; atoms do not feel the quark structure of nuclei except as tiny corrections."
+  - "**Central limit theorem as the first universality:** sums of many independent variables become Gaussian whatever their distribution — the Gaussian is a fixed point of 'adding and rescaling' ([[probability-theory]])."
+  - "**Critical points:** near a continuous phase transition water, magnets and binary alloys share the same critical exponents. Only dimension, symmetry and range of interaction matter ([[phase-transitions]], [[statistical-mechanics]])."
+  - "**Wilson's renormalisation group (1971):** integrate out short-distance fluctuations and rescale; couplings flow. Fixed points are scale invariant; 'irrelevant' couplings die out, which is why details don't matter; universality classes are basins of attraction ([[renormalization]])."
+  - "**Effective field theory:** write the most general theory with the low-energy degrees of freedom and symmetries, ordered by dimension. The Fermi theory of weak decay, chiral perturbation theory, general relativity as a quantum EFT ([[effective-field-theory]])."
+  - "**Fixed points are conformal:** scale-invariant fixed points are typically [[cft]]s; the 3D Ising exponents are now computed to high precision by the conformal bootstrap."
+  - "**Universality in mathematics:** eigenvalue statistics of large random matrices (Wigner–Dyson), zeros of the Riemann zeta function, and energy levels of chaotic quantum systems share the same local statistics ([[random-matrix-theory]], [[number-theory]], [[chaos]]); KPZ universality for growing interfaces."
+  - "**Experimental anchor:** the critical exponents of liquid–gas transitions and of uniaxial magnets agree; the superfluid-helium specific-heat exponent was measured in space to test the 3D XY class."
+caveats:
+  - "Universality concerns *long-distance* behaviour near fixed points; non-universal quantities (critical temperature, amplitudes) depend on details."
+  - "The flip side of decoupling is the naturalness problem: relevant operators (Higgs mass, cosmological constant) are sensitive to high scales, and why they are small is unexplained."
+  - "UV/IR mixing in quantum gravity and in some exotic (fracton) phases violates naive decoupling."
+connections: [renormalization, effective-field-theory, phase-transitions, statistical-mechanics, cft, hydrodynamics, probability-theory, random-matrix-theory, number-theory, chaos, standard-model, philosophy-of-physics]
+resources:
+  - "Kadanoff, *Statics, Dynamics and Renormalization*"
+  - "Cardy, *Scaling and Renormalization in Statistical Physics*"
+  - "Batterman, *The Devil in the Details* (philosophy of universality)"
+cards:
+  - q: Why is the renormalisation group an explanation of universality?
+    a: Under coarse-graining, irrelevant couplings shrink, so systems flow to the same fixed point; the long-distance behaviour depends only on the fixed point (dimension, symmetry, range), not on the microscopic details.
+  - q: In what sense is the central limit theorem a universality statement?
+    a: Sums of many independent variables with finite variance converge to the Gaussian regardless of their distribution — the Gaussian is the attracting fixed point of adding and rescaling.
+  - q: What determines a universality class?
+    a: Spatial dimension, symmetry of the order parameter, and range of interactions (plus conservation laws for dynamics).
+  - q: What is the naturalness problem in RG language?
+    a: Relevant operators like the Higgs mass term grow towards the IR and are sensitive to UV physics, so their small observed values look fine-tuned.
