@@ -17,7 +17,7 @@ key_results:
   - "Yukawa's meson exchange; chiral EFT for nuclear forces."
   - "Stellar nucleosynthesis (B²FH 1957); r-process in neutron-star mergers (GW170817 kilonova)."
   - "Quark–gluon plasma created at RHIC/LHC behaves as a near-perfect liquid."
-  - "Proton spin crisis (EMC 1988): quarks carry only ~30% of the proton spin."
+  - "Proton spin crisis (EMC 1988): quark spins carry only a small fraction of the proton spin (EMC: compatible with zero; modern value ~30%)."
 experiments:
   - "Rutherford scattering ([[exp-rutherford]]), fission (1938), heavy-ion collisions, FRIB rare isotopes, neutron-star mass/radius from NICER."
 limits:

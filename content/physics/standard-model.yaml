@@ -39,7 +39,7 @@ cards:
   - q: What is the minimum number of generations for CP violation in the CKM matrix, and who showed it?
     a: Three; Kobayashi and Maskawa (1973), before the third generation was found.
   - q: Which precise Z-pole measurement fixed the number of light neutrino species?
-    a: The Z invisible width measured at LEP gives $N_\nu = 2.98 \pm 0.01$, i.e. three.
+    a: The Z invisible width measured at LEP gives $N_\nu = 2.984 \pm 0.008$ (2.996 ± 0.007 after a 2019 luminosity reanalysis), i.e. three.
   - q: Approximately how many free parameters does the Standard Model have?
     a: About 19 (masses, mixing angles, couplings, θ_QCD), plus ~7–9 more for massive neutrinos.
   - q: What is the hierarchy problem?

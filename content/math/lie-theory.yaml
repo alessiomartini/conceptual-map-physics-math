@@ -34,5 +34,5 @@ cards:
     a: SU(2); its half-integer representations describe spin-1/2 particles.
   - q: What does a Dynkin diagram encode?
     a: The simple roots of a semisimple Lie algebra and the angles between them (Cartan matrix).
-  - q: Which gauge group did Gell-Mann's Eightfold Way use (as flavour symmetry)?
-    a: SU(3), with hadrons in octets and decuplets; predicted the Ω⁻.
+  - q: Which symmetry group underlies Gell-Mann's Eightfold Way?
+    a: SU(3) flavour — an approximate global symmetry of the light quarks, not a gauge symmetry (that is SU(3) colour); hadrons fall in octets and decuplets, predicting the Ω⁻.
