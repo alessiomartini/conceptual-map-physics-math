@@ -13,7 +13,7 @@ asks:
   - How fast can information be sent reliably through noisy channels?
   - How do we measure dependence and distinguishability between distributions?
 key_results:
-  - "Shannon entropy $H = -\\sum p\\log p$; mutual information; KL divergence."
+  - "Shannon entropy $H = -\\sum p\\log p$; mutual information; KL divergence. ([Shannon 1948](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x))"
   - "Source coding theorem; channel coding theorem with capacity $C = \\max I(X;Y)$."
   - "Data processing inequality; Fano's inequality."
   - "Kelly criterion: maximizing expected log growth relates bet sizing to mutual information."

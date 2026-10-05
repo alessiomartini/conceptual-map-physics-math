@@ -7,7 +7,7 @@ year: 1922
 who: Otto Stern, Walther Gerlach
 one_liner: Silver atoms in an inhomogeneous magnetic field split into two beams — angular momentum is quantized.
 measured: Deflection of a silver atom beam passing through an inhomogeneous magnetic field.
-result: Two discrete spots rather than a continuous smear.
+result: Two discrete spots rather than a continuous smear. ([Gerlach–Stern 1922](https://doi.org/10.1007/BF01326983))
 significance:
   - Direct evidence of space quantization; later understood as electron spin-1/2. The archetype of a quantum measurement.
 connections: [quantum-mechanics, quantum-foundations]

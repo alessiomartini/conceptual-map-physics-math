@@ -19,8 +19,8 @@ key_results:
   - "Fermat's principle of least time; Huygens–Fresnel principle; Young's double slit (1801) establishing the wave theory."
   - "Light as an electromagnetic wave (Maxwell 1865); polarization; Fresnel equations."
   - "Abbe diffraction limit $d \\approx \\lambda/2\\,\\mathrm{NA}$; circumvented by super-resolution microscopy (STED, PALM/STORM; Nobel Chemistry 2014)."
-  - "Coherence theory and the Hanbury Brown–Twiss effect (1956); Glauber's quantum theory of optical coherence (1963, Nobel 2005)."
-  - "The laser (Maiman 1960); nonlinear optics from second-harmonic generation (Franken 1961)."
+  - "Coherence theory and the Hanbury Brown–Twiss effect (1956); Glauber's quantum theory of optical coherence (1963, Nobel 2005). ([Glauber 1963](https://doi.org/10.1103/PhysRev.130.2529))"
+  - "The laser (Maiman 1960); nonlinear optics from second-harmonic generation (Franken 1961). ([Maiman 1960](https://doi.org/10.1038/187493a0))"
   - "Optical fibres for communication (Kao, Nobel 2009); photonic crystals (Yablonovitch, John 1987); negative refraction and metamaterials (Pendry 2000)."
   - "Squeezed light reduces quantum noise below the shot-noise limit; used in gravitational-wave detectors."
 experiments:

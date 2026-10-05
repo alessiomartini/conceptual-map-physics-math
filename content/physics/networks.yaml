@@ -15,8 +15,8 @@ asks:
   - How robust are networks to failures and attacks?
 key_results:
   - "Erdős–Rényi random graphs and the giant-component transition at mean degree 1."
-  - "Small-world networks (Watts–Strogatz 1998)."
-  - "Scale-free networks via preferential attachment (Barabási–Albert 1999)."
+  - "Small-world networks (Watts–Strogatz 1998). ([Watts–Strogatz 1998](https://doi.org/10.1038/30918))"
+  - "Scale-free networks via preferential attachment (Barabási–Albert 1999). ([Barabási–Albert 1999](https://doi.org/10.1126/science.286.5439.509))"
   - "Vanishing epidemic threshold on scale-free networks (Pastor-Satorras–Vespignani 2001)."
   - "Robust-yet-fragile: resilient to random failure, vulnerable to targeted hub attacks."
   - "Kuramoto model of synchronization; community detection via modularity and stochastic block models."

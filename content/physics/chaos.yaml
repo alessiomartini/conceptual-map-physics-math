@@ -24,11 +24,11 @@ asks:
   - What is the quantum analogue of chaos and how do isolated quantum systems thermalize?
 key_results:
   - Poincaré's discovery of homoclinic tangles in the three-body problem.
-  - Lorenz attractor (1963); strange attractors with fractal dimension.
-  - "Feigenbaum universality in period-doubling ($\\delta \\approx 4.669$)."
+  - Lorenz attractor (1963); strange attractors with fractal dimension. ([Lorenz 1963](https://doi.org/10.1175/1520-0469%281963%29020%3C0130:DNF%3E2.0.CO;2))
+  - "Feigenbaum universality in period-doubling ($\\delta \\approx 4.669$). ([Feigenbaum 1978](https://doi.org/10.1007/BF01020332))"
   - Lyapunov exponents, Kolmogorov–Sinai entropy, ergodic hierarchy.
-  - "Bohigas–Giannoni–Schmit conjecture: chaotic quantum spectra follow RMT statistics; integrable ones are Poissonian."
-  - "Maldacena–Shenker–Stanford bound: $\\lambda_L \\le 2\\pi k_B T/\\hbar$, saturated by black holes and the SYK model."
+  - "Bohigas–Giannoni–Schmit conjecture: chaotic quantum spectra follow RMT statistics; integrable ones are Poissonian. ([BGS 1984](https://doi.org/10.1103/PhysRevLett.52.1))"
+  - "Maldacena–Shenker–Stanford bound: $\\lambda_L \\le 2\\pi k_B T/\\hbar$, saturated by black holes and the SYK model. ([MSS 2015](https://arxiv.org/abs/1503.01409))"
 experiments:
   - Chaotic circuits and lasers; Rayleigh–Bénard convection showing period doubling (Libchaber).
   - Microwave billiards and nuclear spectra confirming RMT level statistics.

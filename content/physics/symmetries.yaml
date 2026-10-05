@@ -18,7 +18,7 @@ key_results:
   - "Noether's theorem; Wigner's theorem (symmetries are unitary or antiunitary); Goldstone theorem."
   - "Landau paradigm: phases classified by symmetry breaking patterns."
   - "’t Hooft anomaly matching: UV anomalies must be reproduced in the IR."
-  - "Higher-form symmetries act on extended objects; 1-form center symmetry is the order parameter for confinement."
+  - "Higher-form symmetries act on extended objects; 1-form center symmetry is the order parameter for confinement. ([GKSW 2014](https://arxiv.org/abs/1412.5148))"
   - "Non-invertible symmetries exist in 4D (e.g. in QED and pion theory) and constrain dynamics (Choi–Lam–Shao, Córdova–Ohmori)."
   - "Symmetry TFT / SymTFT: symmetries of a d-dimensional theory encoded in a (d+1)-dimensional topological theory."
 experiments:

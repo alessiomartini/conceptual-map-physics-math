@@ -16,7 +16,7 @@ key_results:
   - "Hubble–Lemaître law; FLRW model and Friedmann equations."
   - Big Bang nucleosynthesis predicts light-element abundances.
   - "CMB: near-perfect blackbody at 2.7255 K; acoustic peaks; anisotropies ~10⁻⁵."
-  - "ΛCDM: ~5% baryons, ~27% dark matter, ~68% dark energy; six-parameter fit (Planck 2018)."
+  - "ΛCDM: ~5% baryons, ~27% dark matter, ~68% dark energy; six-parameter fit (Planck 2018). ([Planck 2018](https://arxiv.org/abs/1807.06209))"
   - Inflation (Guth, Linde, Starobinsky) solves horizon/flatness problems and predicts nearly scale-invariant adiabatic Gaussian perturbations, $n_s \approx 0.965$.
 experiments:
   - "[[exp-cmb]], [[exp-supernovae-acceleration]], BAO surveys (SDSS, DESI), galaxy rotation curves and the Bullet Cluster, BBN abundances."
@@ -27,7 +27,7 @@ limits:
 applications:
   - Constraints on particle physics (neutrino masses, light relics $N_{\rm eff}$, dark matter properties).
 frontiers:
-  - "DESI DR2 (2025) BAO, combined with CMB and supernovae, prefers evolving dark energy $(w_0, w_a)$ at ~3–4σ; Euclid, Rubin LSST, Simons Observatory and CMB-S4-class experiments will test it."
+  - "DESI DR2 (2025) BAO, combined with CMB and supernovae, prefers evolving dark energy $(w_0, w_a)$ at ~3–4σ; Euclid, Rubin LSST, Simons Observatory and CMB-S4-class experiments will test it. ([DESI DR2](https://arxiv.org/abs/2503.14738))"
   - Primordial gravitational waves (tensor-to-scalar ratio $r$); 21-cm cosmology; JWST early galaxies.
 connections: [general-relativity, beyond-standard-model, astrophysics, quantum-gravity, string-theory, standard-model]
 prerequisites: [general-relativity]

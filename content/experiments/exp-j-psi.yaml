@@ -7,7 +7,7 @@ year: 1974
 who: Samuel Ting (BNL), Burton Richter (SLAC)
 one_liner: A narrow resonance at 3.1 GeV revealed the charm quark — the "November revolution".
 measured: Simultaneous observation in p–Be collisions and e⁺e⁻ annihilation.
-result: A very narrow $c\bar c$ bound state at 3.097 GeV.
+result: A very narrow $c\bar c$ bound state at 3.097 GeV. ([Aubert et al. 1974](https://doi.org/10.1103/PhysRevLett.33.1404), [Augustin et al. 1974](https://doi.org/10.1103/PhysRevLett.33.1406))
 significance:
   - Confirmed the quark model and the GIM mechanism; charmonium spectroscopy as a QCD test.
 connections: [standard-model]

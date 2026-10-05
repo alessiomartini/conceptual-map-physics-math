@@ -7,7 +7,7 @@ year: 1974
 who: Russell Hulse, Joseph Taylor (Nobel 1993)
 one_liner: A pulsar orbiting a neutron star loses energy exactly as GR predicts for gravitational-wave emission.
 measured: Pulse arrival times of PSR B1913+16 over decades.
-result: Orbital period decay matching the quadrupole formula to ~0.2%.
+result: Orbital period decay matching the quadrupole formula to ~0.2%. ([Hulse–Taylor 1975](https://doi.org/10.1086/181708))
 significance:
   - First evidence of gravitational waves; binary pulsars now test GR in strong fields (double pulsar 2003).
 connections: [general-relativity, astrophysics]

@@ -13,7 +13,7 @@ asks:
   - Is the wavefunction physical (ontic) or knowledge (epistemic)?
   - What kinds of correlations does nature allow, and why exactly the quantum ones?
 key_results:
-  - "Bell (1964) and CHSH inequalities; Tsirelson bound $2\\sqrt{2}$ on quantum CHSH correlations."
+  - "Bell (1964) and CHSH inequalities; Tsirelson bound $2\\sqrt{2}$ on quantum CHSH correlations. ([Bell 1964](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195))"
   - "Kochen–Specker theorem: quantum mechanics is contextual."
   - "Gleason's theorem: in dimension ≥ 3 the Born rule is the only consistent probability measure on projectors."
   - "Decoherence (Zeh, Zurek): environment-induced loss of interference explains the appearance of classicality but not unique outcomes."

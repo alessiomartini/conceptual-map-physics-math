@@ -7,7 +7,7 @@ year: 1998
 who: Super-Kamiokande (1998, atmospheric), SNO (2001, solar); Kajita and McDonald, Nobel 2015
 one_liner: Neutrinos change flavour while travelling, so they must have mass.
 measured: Up/down asymmetry of atmospheric muon neutrinos (Super-K); solar ⁸B neutrinos via charged and neutral currents (SNO).
-result: Disappearance of ν_μ depending on path length; total solar flux matches the solar model, with electron neutrinos converted to other flavours.
+result: Disappearance of ν_μ depending on path length; total solar flux matches the solar model, with electron neutrinos converted to other flavours. ([Super-K 1998](https://arxiv.org/abs/hep-ex/9807003), [SNO 2001](https://arxiv.org/abs/nucl-ex/0106015))
 significance:
   - First established physics beyond the minimal Standard Model; resolved the solar neutrino problem.
 connections: [standard-model, beyond-standard-model, astrophysics]

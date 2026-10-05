@@ -18,7 +18,7 @@ key_results:
   - "Dyson's threefold way (GOE, GUE, GSE; β = 1, 2, 4); Altland–Zirnbauer tenfold classification."
   - "Level spacing: Wigner surmise $p(s) \\propto s^\\beta e^{-c s^2}$; Tracy–Widom distribution for the largest eigenvalue."
   - "Montgomery–Odlyzko: pair correlation of zeta zeros matches GUE."
-  - "Matrix models ↔ 2D quantum gravity; JT gravity ↔ double-scaled matrix integral (Saad–Shenker–Stanford 2019)."
+  - "Matrix models ↔ 2D quantum gravity; JT gravity ↔ double-scaled matrix integral (Saad–Shenker–Stanford 2019). ([SSS 2019](https://arxiv.org/abs/1903.11115))"
   - "Universality theorems (Erdős–Yau, Tao–Vu)."
 experiments:
   - Neutron resonance spectra of heavy nuclei; microwave billiards; universal conductance fluctuations.

@@ -7,7 +7,7 @@ year: 1982
 who: Freedman–Clauser (1972), Aspect (1982), loophole-free tests (Hensen et al., Giustina et al., Shalm et al. 2015); Nobel 2022
 one_liner: Entangled particles violate Bell inequalities — no local hidden-variable theory can describe nature.
 measured: Correlations between polarization/spin measurements on entangled pairs with randomly chosen settings at spacelike separation.
-result: CHSH values above 2, in agreement with quantum mechanics; locality and detection loopholes closed simultaneously in 2015.
+result: CHSH values above 2, in agreement with quantum mechanics; locality and detection loopholes closed simultaneously in 2015. ([Aspect et al. 1982](https://doi.org/10.1103/PhysRevLett.49.1804), [Hensen et al. 2015](https://arxiv.org/abs/1508.05949))
 significance:
   - Nonlocal correlations are real; foundation of device-independent quantum cryptography and randomness certification.
 connections: [quantum-foundations, quantum-mechanics, quantum-information]

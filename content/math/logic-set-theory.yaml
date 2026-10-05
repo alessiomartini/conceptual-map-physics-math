@@ -14,10 +14,10 @@ asks:
   - What is computable?
   - What are the foundations of mathematics (sets, types, categories), and which axioms should we accept?
 key_results:
-  - "Gödel's completeness theorem (1929) and incompleteness theorems (1931)."
-  - "Turing (1936): the halting problem is undecidable; Church–Turing thesis."
+  - "Gödel's completeness theorem (1929) and incompleteness theorems (1931). ([Gödel 1931](https://doi.org/10.1007/BF01700692))"
+  - "Turing (1936): the halting problem is undecidable; Church–Turing thesis. ([Turing 1936](https://doi.org/10.1112/plms/s2-42.1.230))"
   - "ZFC axioms; Cantor's diagonal argument; cardinal and ordinal arithmetic."
-  - "Gödel (1940) and Cohen (1963, forcing): the continuum hypothesis is independent of ZFC."
+  - "Gödel (1940) and Cohen (1963, forcing): the continuum hypothesis is independent of ZFC. ([Cohen 1963](https://doi.org/10.1073/pnas.50.6.1143))"
   - "Löwenheim–Skolem and compactness theorems in model theory."
   - "Curry–Howard correspondence: proofs as programs; homotopy type theory as alternative foundation."
 motivating_examples:

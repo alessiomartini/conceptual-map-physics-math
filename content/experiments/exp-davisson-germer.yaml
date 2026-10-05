@@ -7,7 +7,7 @@ year: 1927
 who: Clinton Davisson, Lester Germer (also G. P. Thomson)
 one_liner: Electrons diffract from a crystal like waves, confirming de Broglie's hypothesis.
 measured: Angular intensity of electrons scattered from a nickel crystal.
-result: Diffraction peaks at angles given by $\lambda = h/p$.
+result: Diffraction peaks at angles given by $\lambda = h/p$. ([Davisson–Germer 1927](https://doi.org/10.1103/PhysRev.30.705))
 significance:
   - Wave–particle duality of matter; basis of electron microscopy.
 connections: [quantum-mechanics]

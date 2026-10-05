@@ -15,10 +15,10 @@ asks:
   - What happens at the singularity and near the horizon?
 key_results:
   - "Laws of black-hole mechanics (Bardeen–Carter–Hawking 1973)."
-  - "Hawking radiation (1974): $T_H = \\hbar c^3 / 8\\pi G M k_B$."
-  - "Strominger–Vafa (1996): microscopic counting of entropy for extremal string black holes."
-  - "Page curve; island formula / quantum extremal surfaces reproduce unitary entropy curves (Penington; Almheiri–Engelhardt–Marolf–Maxfield 2019)."
-  - "Firewall paradox (AMPS 2012); ER = EPR proposal."
+  - "Hawking radiation (1974): $T_H = \\hbar c^3 / 8\\pi G M k_B$. ([Hawking 1974](https://doi.org/10.1038/248030a0))"
+  - "Strominger–Vafa (1996): microscopic counting of entropy for extremal string black holes. ([Strominger–Vafa 1996](https://arxiv.org/abs/hep-th/9601029))"
+  - "Page curve; island formula / quantum extremal surfaces reproduce unitary entropy curves (Penington; Almheiri–Engelhardt–Marolf–Maxfield 2019). ([Penington 2019](https://arxiv.org/abs/1905.08255), [AEMM 2019](https://arxiv.org/abs/1905.08762))"
+  - "Firewall paradox (AMPS 2012); ER = EPR proposal. ([AMPS 2012](https://arxiv.org/abs/1207.3123))"
 experiments:
   - "[[exp-ligo]] (mergers, ringdown, area theorem test), [[exp-eht]] (shadows), stellar orbits around Sgr A* (Nobel 2020)."
   - Analog Hawking radiation in BECs (Steinhauer).

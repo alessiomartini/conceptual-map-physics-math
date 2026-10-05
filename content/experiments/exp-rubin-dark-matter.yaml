@@ -7,7 +7,7 @@ year: 1970
 who: Zwicky (clusters, 1933); Rubin & Ford (rotation curves, 1970s); Clowe et al. (Bullet Cluster, 2006)
 one_liner: Galaxies and clusters contain far more gravitating mass than visible matter.
 measured: Galaxy rotation curves (21 cm and optical); cluster velocity dispersions; gravitational lensing; CMB peaks.
-result: Flat rotation curves; lensing mass offset from hot gas in colliding clusters.
+result: Flat rotation curves; lensing mass offset from hot gas in colliding clusters. ([Rubin–Ford 1970](https://doi.org/10.1086/150317), [Clowe et al. 2006](https://arxiv.org/abs/astro-ph/0608407))
 significance:
   - Dark matter is ~85% of matter; the Bullet Cluster disfavours simple modified-gravity explanations.
 connections: [cosmology, astrophysics, beyond-standard-model]

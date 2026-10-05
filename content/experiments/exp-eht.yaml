@@ -8,7 +8,7 @@ year: 2019
 who: Event Horizon Telescope collaboration
 one_liner: Earth-sized radio interferometry imaged the shadows of M87* and Sgr A*.
 measured: VLBI at 1.3 mm wavelength combining telescopes worldwide.
-result: Rings of ~42 μas (M87*, 2019) and ~52 μas (Sgr A*, 2022) consistent with Kerr black-hole shadows.
+result: Rings of ~42 μas (M87*, 2019) and ~52 μas (Sgr A*, 2022) consistent with Kerr black-hole shadows. ([EHT 2019](https://arxiv.org/abs/1906.11238))
 significance:
   - Direct imaging of horizon-scale structure; tests of GR and accretion/jet physics.
 connections: [black-holes, general-relativity, astrophysics]

@@ -7,7 +7,7 @@ year: 1964
 who: James Cronin, Val Fitch, Christenson, Turlay
 one_liner: The long-lived neutral kaon occasionally decays to two pions, violating CP symmetry.
 measured: Decays $K_L \to \pi^+\pi^-$ at Brookhaven.
-result: Branching ratio ~2×10⁻³, forbidden if CP were exact.
+result: Branching ratio ~2×10⁻³, forbidden if CP were exact. ([Christenson et al. 1964](https://doi.org/10.1103/PhysRevLett.13.138))
 significance:
   - Matter and antimatter differ; via CPT, also T violation. Led to Kobayashi–Maskawa's prediction of a third generation; a Sakharov condition for baryogenesis.
 connections: [standard-model, symmetries, beyond-standard-model]

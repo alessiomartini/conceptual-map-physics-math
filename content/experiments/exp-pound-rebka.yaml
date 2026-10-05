@@ -7,7 +7,7 @@ year: 1959
 who: Robert Pound, Glen Rebka
 one_liner: Gamma rays climbing a 22.5 m tower were redshifted by gravity, exactly as predicted.
 measured: Mössbauer-resonance frequency shift of ⁵⁷Fe gamma rays over the height of the Harvard tower.
-result: Fractional shift $gh/c^2 \approx 2.5\times10^{-15}$, confirmed to ~10% (later 1%).
+result: Fractional shift $gh/c^2 \approx 2.5\times10^{-15}$, confirmed to ~10% (later 1%). ([Pound–Rebka 1960](https://doi.org/10.1103/PhysRevLett.4.337))
 significance:
   - First laboratory test of gravitational redshift; today optical clocks see it over centimetres.
 connections: [general-relativity]

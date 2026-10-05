@@ -7,7 +7,7 @@ year: 1929
 who: Edwin Hubble (with Lemaître's 1927 analysis, Slipher's redshifts, Leavitt's Cepheid relation)
 one_liner: Distant galaxies recede with speeds proportional to distance — the universe is expanding.
 measured: Redshifts of galaxies versus distances from Cepheid variables.
-result: $v = H_0 d$ (Hubble–Lemaître law).
+result: $v = H_0 d$ (Hubble–Lemaître law). ([Hubble 1929](https://doi.org/10.1073/pnas.15.3.168))
 significance:
   - Foundation of Big Bang cosmology; today $H_0$ itself is contested (Hubble tension).
 connections: [cosmology, general-relativity]

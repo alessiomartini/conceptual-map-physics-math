@@ -17,10 +17,10 @@ key_results:
   - "Graviton in the closed-string spectrum; critical dimensions 26 (bosonic) and 10 (superstring)."
   - "Green–Schwarz anomaly cancellation (1984): SO(32) and E₈×E₈."
   - "Calabi–Yau compactifications; heterotic phenomenology."
-  - "Dualities (T, S, U) and M-theory in 11D (Witten 1995); D-branes (Polchinski 1995)."
+  - "Dualities (T, S, U) and M-theory in 11D (Witten 1995); D-branes (Polchinski 1995). ([Witten 1995](https://arxiv.org/abs/hep-th/9503124), [Polchinski 1995](https://arxiv.org/abs/hep-th/9510017))"
   - "Strominger–Vafa black-hole entropy; AdS/CFT (Maldacena 1997)."
   - "Mirror symmetry predicted rational curve counts on the quintic (Candelas et al. 1991)."
-  - "KKLT and LVS constructions of de Sitter vacua (contested)."
+  - "KKLT and LVS constructions of de Sitter vacua (contested). ([KKLT 2003](https://arxiv.org/abs/hep-th/0301240))"
 experiments:
   - None direct. Indirect support only through its consistency and its role in holography.
 limits:

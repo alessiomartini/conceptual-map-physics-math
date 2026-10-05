@@ -16,11 +16,11 @@ asks:
   - Why are some responses (Hall conductance) quantized exactly?
   - Can topological order store quantum information robustly?
 key_results:
-  - "TKNN (1982): Hall conductance is a Chern number."
-  - "Haldane model (1988): Chern insulator without net field."
-  - "Kane–Mele / BHZ: Z₂ topological insulators (2005–2006); periodic table of topological insulators and superconductors (Kitaev; Schnyder et al. 2008)."
+  - "TKNN (1982): Hall conductance is a Chern number. ([TKNN 1982](https://doi.org/10.1103/PhysRevLett.49.405))"
+  - "Haldane model (1988): Chern insulator without net field. ([Haldane 1988](https://doi.org/10.1103/PhysRevLett.61.2015))"
+  - "Kane–Mele / BHZ: Z₂ topological insulators (2005–2006); periodic table of topological insulators and superconductors (Kitaev; Schnyder et al. 2008). ([Kane–Mele 2005](https://arxiv.org/abs/cond-mat/0411737))"
   - "Topological order (Wen): ground-state degeneracy on tori, anyons, long-range entanglement; topological entanglement entropy."
-  - "Kitaev chain (Majorana zero modes) and Kitaev honeycomb model."
+  - "Kitaev chain (Majorana zero modes) and Kitaev honeycomb model. ([Kitaev 2001](https://arxiv.org/abs/cond-mat/0010440))"
   - "SPT phases classified by group cohomology and cobordism."
 experiments:
   - "[[exp-quantum-hall]]; HgTe quantum wells (König 2007); ARPES of Bi₂Se₃ surface states; anyon braiding in FQH interferometers (2020)."

@@ -14,12 +14,12 @@ asks:
   - Why are quarks confined and what generates the mass gap?
 key_results:
   - Yang–Mills action $\\frac{1}{4g^2}\\int \\mathrm{tr}\\,F\\wedge\\star F$; covariant derivative; non-abelian field strength.
-  - "’t Hooft–Veltman (1971): renormalizability of spontaneously broken gauge theories."
+  - "’t Hooft–Veltman (1971): renormalizability of spontaneously broken gauge theories. ([’t Hooft 1971](https://doi.org/10.1016/0550-3213%2871%2990139-8))"
   - Faddeev–Popov quantization and BRST symmetry.
-  - Wilson loops as order parameters; area law ⇔ confinement.
+  - Wilson loops as order parameters; area law ⇔ confinement. ([Wilson 1974](https://doi.org/10.1103/PhysRevD.10.2445))
   - Instantons, θ-vacua, the strong CP problem.
   - "’t Hooft large-N expansion: planar diagrams dominate, suggesting a string description."
-  - "Seiberg–Witten (1994): exact low-energy solution of N=2 SU(2) gauge theory; Seiberg duality in N=1."
+  - "Seiberg–Witten (1994): exact low-energy solution of N=2 SU(2) gauge theory; Seiberg duality in N=1. ([Seiberg–Witten 1994](https://arxiv.org/abs/hep-th/9407087))"
 experiments:
   - All of electroweak and QCD phenomenology; jets at colliders; lattice QCD hadron masses agree with experiment.
   - "Aharonov–Bohm effect: potentials have physical (holonomy) effects ([[exp-aharonov-bohm]])."

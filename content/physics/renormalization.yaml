@@ -17,9 +17,9 @@ asks:
 key_results:
   - "Callan–Symanzik equation and beta functions $\\mu\\, dg/d\\mu = \\beta(g)$."
   - "Wilsonian RG: relevant, marginal, irrelevant operators; universality classes."
-  - "Wilson–Fisher fixed point and the ε-expansion ($d = 4-\\varepsilon$)."
+  - "Wilson–Fisher fixed point and the ε-expansion ($d = 4-\\varepsilon$). ([Wilson 1971](https://doi.org/10.1103/PhysRevB.4.3174))"
   - "Kadanoff block-spin picture; Polchinski and Wetterich exact (functional) RG equations."
-  - "c-theorem (Zamolodchikov, 2D) and a-theorem (Komargodski–Schwimmer, 4D): RG flows are irreversible."
+  - "c-theorem (Zamolodchikov, 2D) and a-theorem (Komargodski–Schwimmer, 4D): RG flows are irreversible. ([Komargodski–Schwimmer 2011](https://arxiv.org/abs/1107.3987))"
   - Dimensional transmutation (Λ_QCD from a dimensionless coupling).
 experiments:
   - Running of α_s measured from many processes; running of α_em.

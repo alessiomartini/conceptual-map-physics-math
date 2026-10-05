@@ -15,10 +15,10 @@ asks:
 key_results:
   - "Brouwer fixed point theorem; Euler characteristic; classification of surfaces."
   - "Homology and cohomology; Poincaré duality; homotopy groups."
-  - "Poincaré conjecture: proved by Perelman (2003) via Ricci flow with surgery."
+  - "Poincaré conjecture: proved by Perelman (2003) via Ricci flow with surgery. ([Perelman 2002](https://arxiv.org/abs/math/0211159))"
   - "Smale (h-cobordism, dim ≥ 5); Freedman (dim 4, topological); Donaldson: exotic smooth $\\mathbb{R}^4$."
-  - "Atiyah–Singer index theorem relates analysis and topology."
-  - "Jones polynomial (1984); Witten's Chern–Simons interpretation (1989)."
+  - "Atiyah–Singer index theorem relates analysis and topology. ([Atiyah–Singer 1963](https://doi.org/10.1090/S0002-9904-1963-10957-X))"
+  - "Jones polynomial (1984); Witten's Chern–Simons interpretation (1989). ([Witten 1989](https://doi.org/10.1007/BF01217730))"
 motivating_examples:
   - Königsberg bridges; Möbius strip; hairy ball theorem.
 limits:

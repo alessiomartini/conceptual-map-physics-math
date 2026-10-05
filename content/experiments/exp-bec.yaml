@@ -8,7 +8,7 @@ year: 1995
 who: Cornell & Wieman (rubidium), Ketterle (sodium); Nobel 2001
 one_liner: Ultracold atoms collapse into a single macroscopic quantum state predicted in 1924–25.
 measured: Velocity distribution of laser- and evaporatively-cooled atomic gases at ~100 nK.
-result: A sharp peak at zero velocity emerging below a critical temperature.
+result: A sharp peak at zero velocity emerging below a critical temperature. ([Anderson et al. 1995](https://doi.org/10.1126/science.269.5221.198))
 significance:
   - Opened ultracold-atom quantum simulation — superfluidity, Mott insulators, BEC–BCS crossover, synthetic gauge fields.
 connections: [amo-physics, statistical-mechanics, condensed-matter, quantum-information]

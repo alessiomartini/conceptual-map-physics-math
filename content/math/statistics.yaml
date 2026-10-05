@@ -22,8 +22,8 @@ key_results:
   - "Cramér–Rao bound: variance of an unbiased estimator ≥ inverse Fisher information."
   - "Neyman–Pearson lemma: the likelihood-ratio test is most powerful for simple hypotheses."
   - "Stein's paradox (1956; James–Stein 1961): in dimension ≥ 3 the sample mean is inadmissible — shrinkage helps."
-  - "Bootstrap (Efron 1979); false discovery rate control (Benjamini–Hochberg 1995)."
-  - "Lasso and sparse regression (Tibshirani 1996); compressed sensing (Candès–Romberg–Tao, Donoho 2006)."
+  - "Bootstrap (Efron 1979); false discovery rate control (Benjamini–Hochberg 1995). ([Efron 1979](https://doi.org/10.1214/aos/1176344552), [Benjamini–Hochberg 1995](https://doi.org/10.1111/j.2517-6161.1995.tb02031.x))"
+  - "Lasso and sparse regression (Tibshirani 1996); compressed sensing (Candès–Romberg–Tao, Donoho 2006). ([Tibshirani 1996](https://doi.org/10.1111/j.2517-6161.1996.tb02080.x))"
   - "Causal inference: randomization (Fisher), potential outcomes (Rubin), causal graphs and do-calculus (Pearl)."
   - "Bias–variance trade-off and its modern twist, double descent in overparameterized models."
 motivating_examples:

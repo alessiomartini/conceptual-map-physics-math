@@ -16,7 +16,7 @@ key_results:
   - "Itô's lemma $df = f'\\,dX + \\tfrac12 f''\\,d\\langle X\\rangle$; stochastic differential equations."
   - "Feynman–Kac formula linking expectations and parabolic PDEs; Fokker–Planck equation."
   - "Girsanov theorem: change of drift by change of measure."
-  - "Fundamental theorem of asset pricing: no arbitrage ⇔ existence of an equivalent martingale measure; Black–Scholes–Merton."
+  - "Fundamental theorem of asset pricing: no arbitrage ⇔ existence of an equivalent martingale measure; Black–Scholes–Merton. ([Black–Scholes 1973](https://doi.org/10.1086/260062))"
   - "Poisson, Lévy, Hawkes processes; rough paths (Lyons) and regularity structures (Hairer)."
 motivating_examples:
   - Pollen grains in water (Brown, Einstein); stock prices; queueing.

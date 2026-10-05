@@ -18,7 +18,7 @@ key_results:
   - "Polymer scaling: Flory exponent $R \\sim N^{\\nu}$ with $\\nu \\approx 0.588$ in 3D; de Gennes' mapping of polymers to the $n\\to0$ limit of the O(n) model."
   - "Liquid crystals: nematic order, Frank elasticity, Landau–de Gennes theory; topological defects (disclinations)."
   - "Colloids as model atoms: entropy-driven crystallization of hard spheres; depletion forces (Asakura–Oosawa)."
-  - "Jamming transition of granular and foam packings (Liu–Nagel 1998); isostaticity."
+  - "Jamming transition of granular and foam packings (Liu–Nagel 1998); isostaticity. ([Liu–Nagel 1998](https://doi.org/10.1038/23819))"
   - "Active matter: Vicsek model (1995) and Toner–Tu theory — true long-range orientational order in 2D, evading Mermin–Wagner because the system is out of equilibrium."
   - "Motility-induced phase separation (Cates–Tailleur): repulsive self-propelled particles phase-separate."
 experiments:

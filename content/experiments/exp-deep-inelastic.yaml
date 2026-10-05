@@ -7,7 +7,7 @@ year: 1968
 who: Friedman, Kendall, Taylor (SLAC–MIT)
 one_liner: High-energy electrons scattering off protons revealed point-like constituents — quarks.
 measured: Inelastic electron–proton cross sections at large momentum transfer.
-result: Bjorken scaling — structure functions depend only on $x$, indicating scattering off free point-like partons.
+result: Bjorken scaling — structure functions depend only on $x$, indicating scattering off free point-like partons. ([Bloom et al. 1969](https://doi.org/10.1103/PhysRevLett.23.930))
 significance:
   - Evidence for quarks; scaling (and its logarithmic violation) required asymptotic freedom, leading to QCD.
 connections: [standard-model, qft, gauge-theory, nuclear-physics]

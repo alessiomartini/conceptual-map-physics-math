@@ -16,8 +16,8 @@ asks:
 key_results:
   - "Landau theory of order parameters; Ginzburg criterion; upper critical dimension 4 (for φ⁴)."
   - "Scaling hypothesis (Widom, Kadanoff) and scaling relations; RG derivation of exponents (Wilson 1971)."
-  - "Mermin–Wagner theorem: no continuous symmetry breaking at T>0 in d ≤ 2 (short-range)."
-  - "Berezinskii–Kosterlitz–Thouless transition by vortex unbinding (Nobel 2016)."
+  - "Mermin–Wagner theorem: no continuous symmetry breaking at T>0 in d ≤ 2 (short-range). ([Mermin–Wagner 1966](https://doi.org/10.1103/PhysRevLett.17.1133))"
+  - "Berezinskii–Kosterlitz–Thouless transition by vortex unbinding (Nobel 2016). ([Kosterlitz–Thouless 1973](https://doi.org/10.1088/0022-3719/6/7/010))"
   - "Quantum phase transitions; quantum criticality (Sachdev)."
   - "Deconfined quantum criticality proposal (Senthil et al. 2004)."
 experiments:

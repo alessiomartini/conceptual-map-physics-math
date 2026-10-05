@@ -7,7 +7,7 @@ year: 1911
 who: Hans Geiger, Ernest Marsden, Ernest Rutherford
 one_liner: Alpha particles bouncing back from gold foil revealed a tiny, dense atomic nucleus.
 measured: Angular distribution of alpha particles scattered by thin gold foil.
-result: Rare large-angle scattering following $d\sigma/d\Omega \propto 1/\sin^4(\theta/2)$.
+result: Rare large-angle scattering following $d\sigma/d\Omega \propto 1/\sin^4(\theta/2)$. ([Rutherford 1911](https://doi.org/10.1080/14786440508637080))
 significance:
   - Nuclear model of the atom; template for every later scattering experiment probing structure.
 connections: [nuclear-physics, quantum-mechanics]

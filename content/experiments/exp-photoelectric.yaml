@@ -7,7 +7,7 @@ year: 1905
 who: Lenard (data, 1902); Einstein (theory, 1905); Millikan (precision test, 1916)
 one_liner: Light ejects electrons with energies set by its frequency, not its intensity — light comes in photons.
 measured: Kinetic energy of photoelectrons versus light frequency and intensity.
-result: $E_{\max} = h\nu - \phi$; a threshold frequency; intensity changes only the number of electrons.
+result: $E_{\max} = h\nu - \phi$; a threshold frequency; intensity changes only the number of electrons. ([Einstein 1905](https://doi.org/10.1002/andp.19053220607))
 significance:
   - Established the photon (Einstein's Nobel 1921) and quantization of the electromagnetic field.
 connections: [quantum-mechanics, electromagnetism]

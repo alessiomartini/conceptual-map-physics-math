@@ -33,7 +33,7 @@ limits:
 applications:
   - Conceptual, but has driven advances in mathematics, QFT and quantum information.
 frontiers:
-  - De Sitter holography and observers; algebras of observables (type II von Neumann algebras, Chandrasekaran–Longo–Penington–Witten 2022); swampland vs data (DESI hints).
+  - De Sitter holography and observers; algebras of observables (type II von Neumann algebras, Chandrasekaran–Longo–Penington–Witten 2022); swampland vs data (DESI hints). ([CLPW 2022](https://arxiv.org/abs/2206.10780))
   - Tabletop tests of quantum nature of gravity.
 connections: [general-relativity, string-theory, holography, black-holes, effective-field-theory, quantum-information, cosmology, quantum-foundations]
 prerequisites: [general-relativity, qft]

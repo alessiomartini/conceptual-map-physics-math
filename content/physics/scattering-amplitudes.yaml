@@ -15,10 +15,10 @@ asks:
   - How are gauge theory and gravity amplitudes related?
 key_results:
   - "Parke–Taylor formula for MHV gluon amplitudes."
-  - "BCFW recursion relations; generalized unitarity; spinor-helicity formalism."
-  - "Double copy / BCJ: gravity amplitudes ≈ (gauge amplitudes)² (KLT relations from strings)."
+  - "BCFW recursion relations; generalized unitarity; spinor-helicity formalism. ([BCFW 2005](https://arxiv.org/abs/hep-th/0501052))"
+  - "Double copy / BCJ: gravity amplitudes ≈ (gauge amplitudes)² (KLT relations from strings). ([BCJ 2008](https://arxiv.org/abs/0805.3993))"
   - "Dual superconformal / Yangian symmetry of planar N=4 SYM; amplitudes ↔ Wilson loops duality."
-  - "Amplituhedron (Arkani-Hamed–Trnka 2013); positive geometry; CHY formulas."
+  - "Amplituhedron (Arkani-Hamed–Trnka 2013); positive geometry; CHY formulas. ([Arkani-Hamed–Trnka 2013](https://arxiv.org/abs/1312.2007))"
   - "S-matrix bootstrap: bounds on couplings from unitarity and crossing."
 experiments:
   - NNLO/N3LO QCD predictions used for LHC precision; post-Minkowskian binary dynamics used for gravitational-wave modelling.

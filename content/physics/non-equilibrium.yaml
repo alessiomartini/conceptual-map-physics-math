@@ -24,12 +24,12 @@ asks:
   - What new collective phases appear in driven and active systems?
 key_results:
   - "Boltzmann equation; Onsager reciprocal relations; Green–Kubo formulas."
-  - "Fluctuation theorems (Evans–Searles, Gallavotti–Cohen, Crooks) and Jarzynski equality $\\langle e^{-\\beta W}\\rangle = e^{-\\beta \\Delta F}$."
+  - "Fluctuation theorems (Evans–Searles, Gallavotti–Cohen, Crooks) and Jarzynski equality $\\langle e^{-\\beta W}\\rangle = e^{-\\beta \\Delta F}$. ([Jarzynski 1997](https://arxiv.org/abs/cond-mat/9610209))"
   - "KPZ universality for growing interfaces; directed percolation universality."
-  - "Eigenstate thermalization hypothesis (Deutsch 1991, Srednicki 1994)."
+  - "Eigenstate thermalization hypothesis (Deutsch 1991, Srednicki 1994). ([Deutsch 1991](https://doi.org/10.1103/PhysRevA.43.2046), [Srednicki 1994](https://arxiv.org/abs/cond-mat/9403051))"
   - "Many-body localization; quantum many-body scars; discrete time crystals."
   - "Thermodynamic uncertainty relations (Barato–Seifert 2015)."
-  - "Vicsek model and Toner–Tu theory: flocking with long-range order in 2D."
+  - "Vicsek model and Toner–Tu theory: flocking with long-range order in 2D. ([Vicsek 1995](https://doi.org/10.1103/PhysRevLett.75.1226), [Toner–Tu 1995](https://doi.org/10.1103/PhysRevLett.75.4326))"
 experiments:
   - Single-molecule pulling verifying Jarzynski/Crooks; cold-atom thermalization experiments; time crystals on qubit platforms; bacterial and active colloid suspensions.
 limits:

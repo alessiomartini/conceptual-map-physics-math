@@ -17,7 +17,7 @@ key_results:
   - "Nielsen–Ninomiya theorem (fermion doubling); Ginsparg–Wilson fermions; domain-wall and overlap fermions."
   - "Ab initio light hadron spectrum (BMW 2008); proton–neutron mass difference (2015)."
   - "QCD transition at μ=0 is a crossover at $T_c \\approx 155$ MeV."
-  - "Lattice HVP contribution to muon g−2 (BMW 2021, confirmed by others)."
+  - "Lattice HVP contribution to muon g−2 (BMW 2021, confirmed by others). ([BMW 2021](https://arxiv.org/abs/2002.12347))"
 experiments:
   - Agreement with measured hadron spectrum; heavy-ion phenomenology; flavour physics form factors.
 limits:

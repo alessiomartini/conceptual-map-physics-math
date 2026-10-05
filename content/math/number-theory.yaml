@@ -15,9 +15,9 @@ asks:
 key_results:
   - "Prime number theorem $\\pi(x) \\sim x/\\ln x$ (Hadamard, de la Vallée Poussin 1896)."
   - "Quadratic reciprocity; class field theory."
-  - "Fermat's Last Theorem (Wiles 1995) via modularity of semistable elliptic curves."
+  - "Fermat's Last Theorem (Wiles 1995) via modularity of semistable elliptic curves. ([Wiles 1995](https://doi.org/10.2307/2118559))"
   - "Mordell conjecture (Faltings 1983): curves of genus ≥ 2 have finitely many rational points."
-  - "Green–Tao: primes contain arbitrarily long arithmetic progressions; Zhang/Maynard bounded gaps between primes."
+  - "Green–Tao: primes contain arbitrarily long arithmetic progressions; Zhang/Maynard bounded gaps between primes. ([Green–Tao 2004](https://arxiv.org/abs/math/0404188))"
   - "Geometric Langlands conjecture proved (Gaitsgory, Raskin et al., 2024)."
 motivating_examples:
   - Pythagorean triples; Fermat's equation; distribution of primes; RSA.

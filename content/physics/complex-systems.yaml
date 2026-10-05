@@ -20,7 +20,7 @@ asks:
   - Are there universal laws (scaling, criticality) across complex systems?
   - How predictable and controllable are complex adaptive systems?
 key_results:
-  - "Self-organized criticality (Bak–Tang–Wiesenfeld 1987, sandpile model)."
+  - "Self-organized criticality (Bak–Tang–Wiesenfeld 1987, sandpile model). ([BTW 1987](https://doi.org/10.1103/PhysRevLett.59.381))"
   - "Scaling laws in biology (Kleiber's law, West–Brown–Enquist) and cities (Bettencourt–West)."
   - "Cellular automata and computational universality (Rule 110, Game of Life)."
   - "Emergence of cooperation in evolutionary games (Axelrod)."

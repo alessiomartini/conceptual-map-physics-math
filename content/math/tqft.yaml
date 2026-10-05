@@ -16,11 +16,11 @@ asks:
   - How are TQFTs classified, and which algebraic structures (Frobenius algebras, modular tensor categories, higher categories) describe them?
   - Which topological phases of matter and which symmetries are described by TQFTs?
 key_results:
-  - "Atiyah's axioms (1988) and Segal's functorial definition: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces."
+  - "Atiyah's axioms (1988) and Segal's functorial definition: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces. ([Atiyah 1988](https://doi.org/10.1007/BF02698547))"
   - "Witten (1988–89): Donaldson invariants from twisted N=2 Yang–Mills; Jones polynomial from Chern–Simons theory."
   - "2D TQFTs ↔ commutative Frobenius algebras."
   - "Reshetikhin–Turaev (from quantum groups / modular tensor categories) and Turaev–Viro state-sum constructions in 3D; Dijkgraaf–Witten theories for finite gauge groups (1990)."
-  - "Cobordism hypothesis (Baez–Dolan 1995; Lurie 2009): fully extended framed TQFTs are determined by a fully dualizable object."
+  - "Cobordism hypothesis (Baez–Dolan 1995; Lurie 2009): fully extended framed TQFTs are determined by a fully dualizable object. ([Lurie 2009](https://arxiv.org/abs/0905.0465))"
   - "Khovanov homology (2000) categorifies the Jones polynomial; Floer homologies as TQFT-like structures."
   - "Topological quantum computation: braiding non-abelian anyons is universal for quantum computing (Freedman–Kitaev–Larsen–Wang)."
 motivating_examples:

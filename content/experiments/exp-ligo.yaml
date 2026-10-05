@@ -8,7 +8,7 @@ year: 2015
 who: LIGO Scientific Collaboration and Virgo (Weiss, Barish, Thorne — Nobel 2017)
 one_liner: Laser interferometers measured spacetime ripples from merging black holes, strain ~10⁻²¹.
 measured: Differential arm length changes in 4 km Michelson interferometers.
-result: GW150914 (binary black-hole merger, 1.3 billion light-years away); GW170817 (neutron stars + kilonova); hundreds of events through run O4 (ended 2025).
+result: GW150914 (binary black-hole merger, 1.3 billion light-years away); GW170817 (neutron stars + kilonova); hundreds of events through run O4 (ended 2025). ([GW150914](https://arxiv.org/abs/1602.03837))
 significance:
   - Direct detection of gravitational waves; tests of strong-field GR; black-hole population science; standard sirens for $H_0$.
   - GW250114 confirmed Hawking's area theorem with high significance.

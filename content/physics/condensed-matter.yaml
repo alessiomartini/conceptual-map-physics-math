@@ -16,11 +16,11 @@ asks:
 key_results:
   - "Bloch's theorem and band theory; metals, insulators, semiconductors."
   - "Landau Fermi-liquid theory: interacting electrons as quasiparticles."
-  - "BCS theory (1957): Cooper pairing via phonons; Anderson–Higgs mechanism in superconductors."
-  - "Anderson localization (1958): disorder can localize all states (in 1D, 2D)."
+  - "BCS theory (1957): Cooper pairing via phonons; Anderson–Higgs mechanism in superconductors. ([BCS 1957](https://doi.org/10.1103/PhysRev.108.1175))"
+  - "Anderson localization (1958): disorder can localize all states (in 1D, 2D). ([Anderson 1958](https://doi.org/10.1103/PhysRev.109.1492))"
   - "Integer and fractional quantum Hall effects; Laughlin wavefunction; anyons."
   - "Luttinger liquids in 1D; Kondo effect and Wilson's numerical RG."
-  - "Hohenberg–Kohn (1964) and Kohn–Sham (1965) density functional theory (Kohn, Nobel Chemistry 1998)."
+  - "Hohenberg–Kohn (1964) and Kohn–Sham (1965) density functional theory (Kohn, Nobel Chemistry 1998). ([Hohenberg–Kohn 1964](https://doi.org/10.1103/PhysRev.136.B864), [Kohn–Sham 1965](https://doi.org/10.1103/PhysRev.140.A1133))"
 experiments:
   - "[[exp-superconductivity]], [[exp-quantum-hall]], cuprate high-Tc (1986), graphene (2004), twisted bilayer graphene superconductivity (2018)."
 limits:

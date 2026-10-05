@@ -7,7 +7,7 @@ year: 2012
 who: ATLAS and CMS collaborations, LHC
 one_liner: A scalar boson at ~125 GeV, the excitation of the field that gives mass to W, Z and fermions.
 measured: Excesses in $\gamma\gamma$ and $ZZ^* \to 4\ell$ channels at 7–8 TeV.
-result: A new boson of mass ≈ 125.1 GeV with couplings matching the Standard Model Higgs within current precision.
+result: A new boson of mass ≈ 125.1 GeV with couplings matching the Standard Model Higgs within current precision. ([ATLAS 2012](https://arxiv.org/abs/1207.7214), [CMS 2012](https://arxiv.org/abs/1207.7235))
 significance:
   - Completed the Standard Model's particle content; first elementary scalar.
   - Its measured mass implies the electroweak vacuum is metastable (if no new physics).

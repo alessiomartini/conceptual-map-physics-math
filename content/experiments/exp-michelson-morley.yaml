@@ -7,7 +7,7 @@ year: 1887
 who: Albert Michelson, Edward Morley
 one_liner: An interferometer found no motion of Earth through the luminiferous ether.
 measured: Shifts of interference fringes between perpendicular arms as the apparatus rotated.
-result: Null result — far below the expected shift from Earth's orbital speed.
+result: Null result — far below the expected shift from Earth's orbital speed. ([Michelson–Morley 1887](https://doi.org/10.2475/ajs.s3-34.203.333))
 significance:
   - Undermined the ether; consistent with the constancy of the speed of light, a postulate of special relativity.
   - Modern versions with optical cavities bound anisotropy of $c$ to ~10⁻¹⁸.
