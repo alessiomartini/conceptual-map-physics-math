@@ -429,12 +429,23 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
     return JSON.stringify({ view: h, title: byId[h] ? byId[h].title : null, search: document.getElementById("q").value || null,
       lensFilter: h.startsWith("lens-") ? [...lensDom] : null, width: innerWidth });
   }
+  // ?sono-alessio on any page marks this browser as Alessio's (every alessiomartini.github.io site shares
+  // localStorage): its notes get author 'alessio' in site-notes. A label to tell them from visitors', not a login.
+  function noteAuthor() {
+    try {
+      if (new URLSearchParams(location.search).has("sono-alessio")) localStorage.setItem("site-notes.author", "alessio");
+      return localStorage.getItem("site-notes.author") || undefined;
+    } catch (e) {
+      return undefined;
+    }
+  }
+  noteAuthor();
   document.getElementById("fb-open").addEventListener("click", () => { fbStatus.textContent = ""; fb.showModal(); fbText.focus(); });
   document.getElementById("fb-cancel").addEventListener("click", () => fb.close());
   document.getElementById("fb-form").addEventListener("submit", async ev => {
     ev.preventDefault();
     const text = fbText.value.trim(); if (!text) return;
-    const note = { text, page: location.href.slice(0, 200), context: fbContext(), website: document.getElementById("fb-website").value };
+    const note = { text, page: location.href.slice(0, 200), context: fbContext(), website: document.getElementById("fb-website").value, author: noteAuthor() };
     try { const k = "bp-feedback"; const old = JSON.parse(localStorage.getItem(k) || "[]"); old.push({ ...note, at: new Date().toISOString() }); localStorage.setItem(k, JSON.stringify(old.slice(-50))); } catch (e) {}
     fbStatus.textContent = "Sending…";
     try {
