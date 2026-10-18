@@ -112,7 +112,9 @@ h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0 0
 #map .n path.hollow { fill: var(--surface); stroke-width: 2px; }
 #map .lbl-exp { opacity: 0; }
 #map .n.lit .lbl-exp, #map.zoomed .lbl-exp { opacity: 1; }
-#map .n.dim, #map line.dim { opacity: .12; }
+#map .n.dim, #map line.dim, #map .n.tdim, #map line.tdim { opacity: .12; }
+#map .n.tpick path { stroke: var(--accent); stroke-width: 2.5px; }
+.mapbar select { font: inherit; font-size: 13px; max-width: 100%; padding: 3px 6px; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; }
 #map line { stroke: var(--edge); }
 #map line.hot { stroke: var(--accent); opacity: .7; }
 .legend { display: flex; flex-direction: column; gap: 6px; padding: 10px 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
@@ -289,6 +291,7 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
       <div class="stats"><div><b>${nFields}</b>fields</div><div><b>${nExp}</b>experiments</div><div><b>${nConcepts}</b>threads</div><div><b>${D.nCards}</b>detail Q&amp;As</div></div></div>
       ${D.config.philosophy.length ? `<div class="philo"><h2>What this map is for</h2><ul>${D.config.philosophy.map(p => `<li>${p}</li>`).join("")}</ul></div>` : ""}
       <div class="mapbox"><div class="mapbar">${Object.entries(D.areas).map(([k, d]) => `<label><input type="checkbox" data-dom="${k}" checked> ${esc(d.label)} <span class="mark mark-${k}"></span></label>`).join("")}
+        <label>Thread <select id="thread-sel" aria-label="Highlight a thread"><option value="">All (normal map)</option>${D.entries.filter(e => e.domain === "concept").map(e => `<option value="${e.id}"${e.id === threadSel ? " selected" : ""}>${esc(e.short || e.title)}</option>`).join("")}</select></label>
         <span class="hint">Drag to pan · scroll to zoom (experiment names appear) · hover to trace links</span></div>
         <svg id="map" role="img" aria-label="Map of fields and their connections"></svg>
         <div class="legend">${Object.entries(D.areas).map(([k, d]) => `<div class="lg"><b>${esc(d.label)}</b>${d.areas.map(a => `<span><span class="swatch" style="background:${color(a.id)}"></span>${esc(a.label)}</span>`).join("")}</div>`).join("")}</div></div>
@@ -304,10 +307,21 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
     main.innerHTML = h;
     document.title = D.config.title;
     drawMap();
+    const ts = main.querySelector("#thread-sel");
+    if (ts) ts.addEventListener("change", () => { threadSel = ts.value; applyThread(); });
     main.querySelectorAll(".mapbar input").forEach(cb => cb.addEventListener("change", drawMap));
   }
 
-  let layoutCache = null;
+  let layoutCache = null, threadSel = "", mapN = null, mapL = null;
+  /* "threads only" view: highlight the thread node and the fields it links to (its `connections`), dim the rest */
+  function applyThread() {
+    if (!mapN) return;
+    const t = threadSel && byId[threadSel];
+    const keep = t ? new Set([t.id, ...(t.connections || [])]) : null;
+    mapN.classed("tdim", n => !!keep && !keep.has(n.id)).classed("tpick", n => !!keep && n.id === threadSel);
+    mapL.classed("tdim", l => !!keep && !(keep.has(l.source.id) && keep.has(l.target.id) && (l.source.id === threadSel || l.target.id === threadSel)))
+        .classed("hot", l => !!keep && (l.source.id === threadSel || l.target.id === threadSel));
+  }
   function drawMap() {
     if (!window.d3) { setTimeout(drawMap, 120); return; }
     const svg = d3.select("#map"); if (svg.empty()) return;
@@ -357,12 +371,13 @@ window.MathJax = { tex: { inlineMath: [["$", "$"]] }, svg: { fontCache: "global"
     N.append("text").attr("dy", d => -(size(d) + 4)).attr("text-anchor", "middle")
       .attr("class", d => d.e.domain === "experiment" ? "lbl-exp" : "")
       .attr("font-size", d => d.e.domain === "experiment" ? 10 : 11.5).text(d => d.e.short || d.e.title);
+    mapN = N; mapL = L; applyThread();
     N.on("mouseenter", (ev, d) => {
       const nb = new Set([d.id]);
       vlinks.forEach(l => { if (l.source.id === d.id) nb.add(l.target.id); if (l.target.id === d.id) nb.add(l.source.id); });
       N.classed("dim", n => !nb.has(n.id)).classed("lit", n => nb.has(n.id));
       L.classed("dim", l => l.source.id !== d.id && l.target.id !== d.id).classed("hot", l => l.source.id === d.id || l.target.id === d.id);
-    }).on("mouseleave", () => { N.classed("dim", false).classed("lit", false); L.classed("dim", false).classed("hot", false); });
+    }).on("mouseleave", () => { N.classed("dim", false).classed("lit", false); L.classed("dim", false); L.classed("hot", l => !!threadSel && (l.source.id === threadSel || l.target.id === threadSel)); });
   }
 
   /* ---------- lens ---------- */

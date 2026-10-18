@@ -12,7 +12,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 - [ ] Nuovi fili concettuali (principi variazionali, linearità e sovrapposizione…)
 - [ ] Link ai paper originali per i risultati restanti
 - [ ] Pubblicare il `.apkg` come GitHub Release a ogni push
-- [ ] Vista "solo fili" sulla mappa
+- [x] Vista "solo fili" sulla mappa
 
 ## Idee
 
@@ -25,7 +25,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 - [ ] Publish the `.apkg` as a GitHub Release on each push (now only a workflow artifact) so Anki users can
   download it from a stable URL.
 - [ ] Scheduled job that syncs the D1 feedback into the repo (as in eating-amsterdam) instead of reading it by hand (now an idea of the shared `site-notes` repo).
-- [ ] Map: optional "threads only" view that highlights the fields a selected thread passes through.
+- [x] Map: optional "threads only" view that highlights the fields a selected thread passes through.
 
 ## Decisioni e cose provate
 
@@ -39,6 +39,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.
 
 ## Log
+- 2026-10-18: 🤖 mappa: menu "Thread" che evidenzia il filo scelto e i campi a cui rimanda (`connections`), sfumando il resto
 - 2026-10-19: feedback spostato nel backend unico `site-notes` (tolto `worker/`; il vecchio worker `conceptual-map-feedback` e il suo D1 li spegne Alessio dopo la migrazione)
 - 2026-10-18: FUTURE-ARCHITECTURE.md unito in ROADMAP.md (protocollo unico)
 - 2026-10-15: creata la roadmap per Projects Overview
