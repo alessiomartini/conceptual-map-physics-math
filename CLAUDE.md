@@ -9,13 +9,13 @@ Read `README.md` first (philosophy, schema, commands). Talk to Alessio in Italia
   (Anki subdeck ids follow the order of the top-level keys).
 - `scripts/common.py` (load, validate, warnings, inline markup), `build_site.py`, `build_anki.py`,
   `template.html` (the whole site: CSS + JS, d3 map, MathJax, feedback widget), `new_entry.py`.
-- `worker/` — Cloudflare Worker + D1 for feedback (write-only). DB id is committed in `wrangler.jsonc`.
+- Feedback goes to the shared `site-notes` Worker (repo `alessiomartini/site-notes`, `feedback_url` in `config.yaml`).
 - `docs/` is committed (built site); `dist/` is ignored. The GitHub Action rebuilds both on push to main.
 
 ## Commands
 - `make check` (validate; warnings for physics fields without experiments), `make` (check+site+anki), `make serve`.
 - On Windows `make` works (python3 resolves); the preview config is `.claude/launch.json` ("site", port 8000).
-- Read feedback: `cd worker && npx wrangler d1 execute conceptual-map-feedback --remote --command "select * from notes order by id desc"`.
+- Read feedback (from the `site-notes` repo): `npx wrangler d1 execute site-notes --remote --command "select * from notes where site = 'conceptual-map-physics-math' order by created_at desc"`.
 
 ## Content rules
 - Anki = context, not frameworks (Alessio's explicit request): every physics/math field needs `big_goal`,

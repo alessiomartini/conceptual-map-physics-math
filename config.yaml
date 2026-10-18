@@ -9,8 +9,9 @@ philosophy:
 # Public URL of the site (GitHub Pages). Anki cards link back to it.
 site_url: "https://alessiomartini.github.io/conceptual-map-physics-math/"
 repo: "alessiomartini/conceptual-map-physics-math"
-# Write-only feedback endpoint (Cloudflare Worker, see worker/). Empty = feedback falls back to a GitHub issue.
-feedback_url: "https://conceptual-map-feedback.alemarti-2001.workers.dev"
+# Feedback endpoint: the shared site-notes Worker (repo alessiomartini/site-notes), "/notes" is appended.
+# Empty = feedback falls back to a GitHub issue.
+feedback_url: "https://site-notes.alemarti-2001.workers.dev/conceptual-map-physics-math"
 anki:
   deck_name: Big Picture
   # The deck asks for context, not technical detail: per field "what is it about", "where on the map",

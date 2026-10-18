@@ -97,17 +97,16 @@ rebuilds the site and the deck on every push. (Alternatively serve the `docs/` f
 
 ## Feedback
 
-The site has a **Feedback** button. Notes go to a write-only Cloudflare Worker (`worker/`,
-`https://conceptual-map-feedback.alemarti-2001.workers.dev`, `POST /notes`) that stores them in the D1
-database `conceptual-map-feedback`, together with the page and the active view/filters. There is no read
-endpoint; read them with:
+The site has a **Feedback** button. Notes go to the shared `site-notes` backend (one Cloudflare Worker + D1 for all of Alessio's sites,
+repo `alessiomartini/site-notes`, `POST https://site-notes.alemarti-2001.workers.dev/conceptual-map-physics-math/notes`), together with the page and the active
+view/filters. Reading needs the owner's token; from the `site-notes` repo:
 
 ```bash
-cd worker && npx wrangler d1 execute conceptual-map-feedback --remote --command "select * from notes order by id desc"
+npx wrangler d1 execute site-notes --remote --command "select * from notes where site = 'conceptual-map-physics-math' order by created_at desc"
 ```
 
 If the Worker is unreachable the widget opens a pre-filled GitHub issue; a copy of each note also stays in
-the visitor's browser (`localStorage["bp-feedback"]`). Redeploy the Worker with `cd worker && npm install && npx wrangler deploy`.
+the visitor's browser (`localStorage["bp-feedback"]`).
 
 ## Suggested study loop
 
