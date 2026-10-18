@@ -26,6 +26,11 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   download it from a stable URL.
 - [ ] Scheduled job that syncs the D1 feedback into the repo (as in eating-amsterdam) instead of reading it by hand (now an idea of the shared `site-notes` repo).
 - [x] Map: optional "threads only" view that highlights the fields a selected thread passes through.
+- [ ] Site note #7 (2026-10-05): use review papers as references for each field, e.g. the Snowmass 2021
+  reports for high-energy physics (verify ids via the arXiv API, as for the original-paper links).
+- [ ] Site note #9 (2026-10-06): hydrodynamics with higher-form symmetries (MHD as the hydrodynamics of a
+  1-form symmetry, Grozdanov–Hofman–Iqbal) and anomalous hydrodynamics (ABJ / chiral magnetic effect), with
+  which experiments support it; check whether it has been done beyond 1-form symmetries.
 
 ## Decisioni e cose provate
 
@@ -40,6 +45,6 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 
 ## Log
 - 2026-10-18: 🤖 mappa: menu "Thread" che evidenzia il filo scelto e i campi a cui rimanda (`connections`), sfumando il resto
-- 2026-10-19: feedback spostato nel backend unico `site-notes` (tolto `worker/`; il vecchio worker `conceptual-map-feedback` e il suo D1 li spegne Alessio dopo la migrazione)
+- 2026-10-19: note del sito portate nel ROADMAP (#7 e #9 nelle Idee; #8, TLC generalizzato, era già in `probability-theory`); feedback spostato nel backend unico `site-notes` (tolto `worker/`; vecchio worker `conceptual-map-feedback` e D1 spenti)
 - 2026-10-18: FUTURE-ARCHITECTURE.md unito in ROADMAP.md (protocollo unico)
 - 2026-10-15: creata la roadmap per Projects Overview
