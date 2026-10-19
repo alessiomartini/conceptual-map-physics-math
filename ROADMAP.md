@@ -11,7 +11,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 - [x] Mazzo Anki
 - [ ] Nuovi fili concettuali (principi variazionali, linearità e sovrapposizione…)
 - [ ] Link ai paper originali per i risultati restanti
-- [ ] Pubblicare il `.apkg` come GitHub Release a ogni push
+- [x] Pubblicare il `.apkg` come GitHub Release a ogni push
 - [x] Vista "solo fili" sulla mappa
 
 ## Idee
@@ -22,7 +22,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 - [ ] Original-paper links exist for ~120 milestones; extend to the remaining key results (verify each id via API).
 - [ ] `definitions:` sections exist for chaos, non-equilibrium (thermalization), quantum gravity, integrability,
   complex systems, QFT, topological order; candidates: emergence, entropy (Boltzmann vs Gibbs), renormalization schemes.
-- [ ] Publish the `.apkg` as a GitHub Release on each push (now only a workflow artifact) so Anki users can
+- [x] Publish the `.apkg` as a GitHub Release on each push (now only a workflow artifact) so Anki users can
   download it from a stable URL.
 - [ ] Scheduled job that syncs the D1 feedback into the repo (as in eating-amsterdam) instead of reading it by hand (now an idea of the shared `site-notes` repo).
 - [x] Map: optional "threads only" view that highlights the fields a selected thread passes through.
@@ -36,6 +36,12 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 
 ### Done / history
 
+- 2026-10-19: `.apkg` pubblicato a ogni push su main come release "rolling" con tag fisso `latest-deck` (asset sostituito con
+  `--clobber`, tag spostato al commit costruito), così il link `releases/download/latest-deck/big-picture.apkg` è stabile.
+  Scelto al posto di una release per push (accumulerebbe centinaia di release) e di azioni di terze parti (si usa solo `gh`,
+  già sul runner). Job `release` separato, `contents: write` solo lì; gira solo su `main` (mai su pull request); il workflow
+  non committa `docs/`, e comunque i push fatti con `GITHUB_TOKEN` non rilanciano i workflow, quindi nessun ciclo.
+
 - 2026-10-05 (2): feedback #6 (anomaly taxonomy); Anki deck rebuilt around context (big goal, essentials,
   broken promises, place on the map) — 454 notes instead of 624 technical ones.
 - 2026-10-05: site feedback #2–#5 handled — light/dark toggle, original-paper links, `definitions:` sections,
@@ -45,6 +51,6 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 
 ## Log
 - 2026-10-18: 🤖 mappa: menu "Thread" che evidenzia il filo scelto e i campi a cui rimanda (`connections`), sfumando il resto
-- 2026-10-19: note del sito portate nel ROADMAP (#7 e #9 nelle Idee; #8, TLC generalizzato, era già in `probability-theory`); feedback spostato nel backend unico `site-notes` (tolto `worker/`; vecchio worker `conceptual-map-feedback` e D1 spenti); le note mandano l'autore (`?sono-alessio` segna il browser di Alessio, le altre sono di visitatori); installabile come app a sé dal telefono (manifest con nome, icona e perimetro propri)
+- 2026-10-19: note del sito portate nel ROADMAP (#7 e #9 nelle Idee; #8, TLC generalizzato, era già in `probability-theory`); feedback spostato nel backend unico `site-notes` (tolto `worker/`; vecchio worker `conceptual-map-feedback` e D1 spenti); le note mandano l'autore (`?sono-alessio` segna il browser di Alessio, le altre sono di visitatori); installabile come app a sé dal telefono (manifest con nome, icona e perimetro propri); il `.apkg` viene pubblicato a ogni push su main nella release `latest-deck` (link stabile nel README)
 - 2026-10-18: FUTURE-ARCHITECTURE.md unito in ROADMAP.md (protocollo unico)
 - 2026-10-15: creata la roadmap per Projects Overview
