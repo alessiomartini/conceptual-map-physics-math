@@ -51,6 +51,10 @@ make serve      # open http://localhost:8000
 
 Import `dist/big-picture.apkg` into Anki (File → Import).
 
+Without building anything, the deck from the latest push to `main` is always at
+<https://github.com/alessiomartini/conceptual-map-physics-math/releases/download/latest-deck/big-picture.apkg>
+(rolling GitHub Release `latest-deck`, replaced by the workflow on every push).
+
 ## Adding or editing content
 
 ```bash
