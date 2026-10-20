@@ -1,0 +1,41 @@
+id: linearity-superposition
+title: "Linearity and superposition: when the sum of solutions is a solution"
+short: Linearity
+domain: concept
+area: concepts
+order: 80
+one_liner: Where the response to a sum is the sum of the responses, problems can be split into simple pieces and solved exactly — and where it fails, physics becomes hard and rich.
+summary: >-
+  Linearity is the most powerful simplification in physics: waves, small vibrations, quantum states and
+  linear response all obey it. Chaos, turbulence, gravity and interacting fields are what is left when it fails.
+thread:
+  - "**The idea:** an equation $L u = f$ is linear if $L(a u_1 + b u_2) = a L u_1 + b L u_2$. Then solutions can be added and rescaled (superposition), and a general solution is built from a few simple ones ([[linear-algebra]], [[ode]], [[pde]])."
+  - "**Fourier and Green's functions:** a linear, translation-invariant problem is diagonalised by plane waves $e^{ikx}$; the response to a point source (the Green's function) gives the response to any source by summing ([[pde]], [[real-analysis]], [[functional-analysis]])."
+  - "**Small oscillations and normal modes:** near a stable equilibrium the forces are linear in the displacement, and any motion is a sum of independent normal modes ([[classical-mechanics]], [[stability]])."
+  - "**Maxwell's equations in vacuum:** the fields add, so light beams pass through each other and interference exists; the sources enter linearly too ([[electromagnetism]], [[optics]], [[classical-field-theory]])."
+  - "**Quantum mechanics:** the Schrödinger equation is linear, so states live in a Hilbert space and any superposition of states is a state — the origin of interference, entanglement and quantum computing ([[quantum-mechanics]], [[quantum-information]], [[exp-double-slit]])."
+  - "**Linear response:** a weak perturbation produces a response proportional to it, described by susceptibilities and fluctuation–dissipation relations ([[statistical-mechanics]], [[non-equilibrium]], [[condensed-matter]])."
+  - "**Perturbation theory as linearisation:** treat a nonlinear problem as a solvable linear one plus small corrections, order by order; Feynman diagrams are its organised form ([[qft]], [[scattering-amplitudes]], [[effective-field-theory]])."
+  - "**Linearised gravity:** weak fields on flat space give linear wave equations for the metric perturbation, hence gravitational waves that superpose ([[general-relativity]], [[exp-ligo]])."
+  - "**Where it breaks, classically:** nonlinear terms cause sensitivity to initial conditions, solitons and pattern formation; the advective term of Navier–Stokes drives turbulence ([[chaos]], [[hydrodynamics]], [[dynamical-systems]], [[integrability]])."
+  - "**Where it breaks, in fundamental theories:** Einstein's equations are nonlinear (gravity gravitates), Yang–Mills gluons carry colour charge and interact with each other, and strong light in a medium gives nonlinear optics ([[general-relativity]], [[gauge-theory]], [[standard-model]], [[optics]])."
+  - "**Measurement:** the linear evolution of quantum states sits uneasily with definite outcomes; interpretations differ on whether the linearity is exact ([[quantum-foundations]], [[philosophy-of-physics]])."
+caveats:
+  - "Quantum mechanics is linear in the state, not in the observables: expectation values $\\langle\\psi|A|\\psi\\rangle$ are quadratic in $\\psi$, and probabilities (the squared amplitudes) do not add — the cross terms are interference."
+  - "A 'linear' equation can still depend nonlinearly on its parameters: the normal-mode frequencies of a linear system depend nonlinearly on masses and couplings, and the Green's function is not linear in the potential."
+  - "Linearity is often approximate and scale-dependent: the harmonic approximation fails at large amplitude, linear response at strong fields, and linearised gravity near strong sources."
+  - "Linear does not mean simple: a linear equation with infinitely many degrees of freedom (a quantum field, a linear PDE in a rough domain) can still be hard, and some nonlinear systems (integrable ones) can be solved exactly."
+connections: [linear-algebra, ode, pde, real-analysis, functional-analysis, classical-mechanics, stability, electromagnetism, optics, classical-field-theory, quantum-mechanics, quantum-information, exp-double-slit, statistical-mechanics, non-equilibrium, condensed-matter, qft, scattering-amplitudes, effective-field-theory, general-relativity, exp-ligo, chaos, hydrodynamics, dynamical-systems, integrability, gauge-theory, standard-model, quantum-foundations, philosophy-of-physics]
+resources:
+  - "Arfken, Weber & Harris, *Mathematical Methods for Physicists*"
+  - "Kubo, Toda & Hashitsume, *Statistical Physics II* (linear response)"
+cards:
+  - q: What does it mean for an equation to be linear, and why is that useful?
+    a: Sums and multiples of solutions are solutions. A hard problem can be split into simple pieces (modes, Fourier components, point sources) and recombined.
+  - q: Why is the Schrödinger equation's linearity not the same as probabilities adding?
+    a: The equation is linear in the wavefunction, so amplitudes add. Probabilities are squared amplitudes, so superposed alternatives give interference cross terms.
+  - q: What is a Green's function?
+    detail: true  # site only, not in the Anki deck
+    a: The response of a linear system to a point source; the response to any source is the sum (integral) of Green's functions weighted by the source.
+  - q: Name fundamental theories where linearity fails.
+    a: General relativity (gravity sources itself), Yang–Mills theory (gluons carry charge), and Navier–Stokes (advection gives turbulence).
