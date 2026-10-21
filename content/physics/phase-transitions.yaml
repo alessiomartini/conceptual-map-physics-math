@@ -27,7 +27,7 @@ key_results:
   - "Mermin–Wagner theorem: no continuous symmetry breaking at T>0 in d ≤ 2 (short-range). ([Mermin–Wagner 1966](https://doi.org/10.1103/PhysRevLett.17.1133))"
   - "Berezinskii–Kosterlitz–Thouless transition by vortex unbinding (Nobel 2016). ([Kosterlitz–Thouless 1973](https://doi.org/10.1088/0022-3719/6/7/010))"
   - "Quantum phase transitions; quantum criticality (Sachdev)."
-  - "Deconfined quantum criticality proposal (Senthil et al. 2004)."
+  - "Deconfined quantum criticality proposal (Senthil et al. 2004). ([Senthil et al. 2004](https://arxiv.org/abs/cond-mat/0311326))"
 experiments:
   - "Liquid–gas critical opalescence; λ-transition of He-4; superfluid films (BKT, Bishop–Reppy 1978); heavy-fermion quantum critical points."
 limits:

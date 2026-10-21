@@ -26,8 +26,8 @@ key_results:
   - Power counting; matching and running; Weinberg's folk theorem.
   - "Chiral perturbation theory for pions; Fermi theory as the EFT of weak interactions; SMEFT (dimension-6 operators)."
   - "Heavy-quark EFT, soft-collinear EFT, NRQED/NRQCD, non-relativistic EFTs for nuclear forces."
-  - "GR as an EFT: computable quantum corrections at long distances (Donoghue)."
-  - "Positivity bounds: unitarity, causality and analyticity constrain EFT coefficients (Adams et al. 2006)."
+  - "GR as an EFT: computable quantum corrections at long distances (Donoghue). ([Donoghue 1994](https://arxiv.org/abs/gr-qc/9405057))"
+  - "Positivity bounds: unitarity, causality and analyticity constrain EFT coefficients (Adams et al. 2006). ([Adams et al. 2006](https://arxiv.org/abs/hep-th/0602178))"
 experiments:
   - Fermi theory predicted weak decays before the W was found; SMEFT fits to LHC data constrain new physics scales.
 limits:

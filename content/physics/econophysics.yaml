@@ -25,7 +25,7 @@ key_results:
   - "Bachelier (1900): random-walk model of prices, five years before Einstein's Brownian motion."
   - "Stylized facts: fat-tailed returns (tail exponent ≈ 3, Gopikrishnan et al.), volatility clustering, absence of linear autocorrelation, leverage effect."
   - "Square-root law of market impact: $\\Delta p \\propto \\sigma\\sqrt{Q/V}$."
-  - "RMT cleaning of correlation matrices (Laloux, Bouchaud et al. 1999)."
+  - "RMT cleaning of correlation matrices (Laloux, Bouchaud et al. 1999). ([Laloux et al. 1999](https://arxiv.org/abs/cond-mat/9810255))"
   - "Minority game and agent-based models; Pareto law of wealth."
 experiments:
   - High-frequency order-book data; flash crash of 2010 as empirical case study.

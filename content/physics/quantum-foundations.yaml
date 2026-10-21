@@ -22,10 +22,10 @@ asks:
   - What kinds of correlations does nature allow, and why exactly the quantum ones?
 key_results:
   - "Bell (1964) and CHSH inequalities; Tsirelson bound $2\\sqrt{2}$ on quantum CHSH correlations. ([Bell 1964](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195))"
-  - "Kochen–Specker theorem: quantum mechanics is contextual."
-  - "Gleason's theorem: in dimension ≥ 3 the Born rule is the only consistent probability measure on projectors."
+  - "Kochen–Specker theorem: quantum mechanics is contextual. ([Kochen–Specker 1967](https://doi.org/10.1512/iumj.1968.17.17004))"
+  - "Gleason's theorem: in dimension ≥ 3 the Born rule is the only consistent probability measure on projectors. ([Gleason 1957](https://doi.org/10.1512/iumj.1957.6.56050))"
   - "Decoherence (Zeh, Zurek): environment-induced loss of interference explains the appearance of classicality but not unique outcomes."
-  - "PBR theorem: under preparation independence, the wavefunction is ontic."
+  - "PBR theorem: under preparation independence, the wavefunction is ontic. ([Pusey–Barrett–Rudolph 2012](https://arxiv.org/abs/1111.3328))"
   - "No-cloning and no-signalling theorems."
 experiments:
   - "[[exp-bell-tests]] (Aspect 1982; loophole-free 2015)."
