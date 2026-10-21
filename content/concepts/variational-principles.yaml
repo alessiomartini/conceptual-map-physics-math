@@ -1,0 +1,56 @@
+id: variational-principles
+title: "Variational principles: solutions as extrema of a functional"
+short: Variational principles
+domain: concept
+area: concepts
+order: 90
+one_liner: Again and again, the state or history that nature realises (or that a method selects) is a stationary point of a single functional — a path length, an action, an energy, a free energy, a loss.
+summary: >-
+  From Fermat's principle in optics to least action, from the Rayleigh–Ritz method to free-energy minimisation,
+  finite elements and gradient descent, one mathematical device recurs: replace an equation by the statement that
+  some functional is stationary. The device is powerful because it packages symmetries, constraints and
+  approximations; the fine print is collected below under "Careful".
+thread:
+  - "**The idea:** a functional $F[y]$ assigns a number to a whole function or path; $y$ is a solution when $\\delta F = 0$ under small variations that respect the constraints. The calculus of variations turns this into a differential equation, the Euler–Lagrange equation $\\frac{d}{dt}\\frac{\\partial L}{\\partial \\dot q} - \\frac{\\partial L}{\\partial q} = 0$ ([[real-analysis]], [[functional-analysis]], [[ode]], [[pde]])."
+  - "**Geometry:** geodesics are stationary points of the length (or energy) functional, so 'straightest path' is a variational statement in any [[differential-geometry]]; free fall in curved spacetime is a geodesic ([[general-relativity]])."
+  - "**Fermat's principle in optics:** light between two points follows a path of stationary optical length (travel time). Snell's law and mirrors and lenses follow from it, and geometrical optics is the short-wavelength limit of wave optics ([[optics]], [[electromagnetism]])."
+  - "**Maupertuis and Hamilton:** Maupertuis' principle (fixed energy) and Hamilton's principle ($\\delta S = 0$ with $S = \\int L\\,dt$, endpoints fixed) give Newton's equations from a single scalar; generalised coordinates and constraints come for free, and Noether's theorem links symmetries of $S$ to conservation laws ([[classical-mechanics]], [[symmetries]], [[symmetry-conservation-gauge]])."
+  - "**Field theory:** fields extremise an action $S = \\int \\mathcal L\\, d^4x$. Maxwell's equations follow from $-\\tfrac14 F_{\\mu\\nu}F^{\\mu\\nu}$, Einstein's equations from the Einstein–Hilbert action $\\tfrac{1}{16\\pi G}\\int R\\sqrt{-g}\\,d^4x$, and Yang–Mills and the Standard Model from gauge-invariant Lagrangians ([[classical-field-theory]], [[electromagnetism]], [[general-relativity]], [[gauge-theory]], [[standard-model]])."
+  - "**Quantum mechanics, variational method:** the ground-state energy is the minimum of $\\langle\\psi|H|\\psi\\rangle / \\langle\\psi|\\psi\\rangle$, so any trial state gives an upper bound (Rayleigh–Ritz). Hartree–Fock and density-functional theory are variational too ([[quantum-mechanics]], [[linear-algebra]], [[condensed-matter]])."
+  - "**Quantum mechanics, path integral:** all histories contribute with weight $e^{iS/\\hbar}$; for $\\hbar \\to 0$ stationary phase selects $\\delta S = 0$, which is why the classical action governs the classical limit ([[qft]], [[eom-action-quantum]])."
+  - "**Statistical mechanics and thermodynamics:** at fixed temperature equilibrium minimises the free energy $F = E - TS$; at fixed energy it maximises the entropy. Mean-field and Landau theory minimise an approximate free-energy functional, and the Gibbs distribution is the maximum-entropy distribution given the mean energy ([[thermodynamics]], [[statistical-mechanics]], [[phase-transitions]], [[entropy-information]], [[information-theory]])."
+  - "**Numerical analysis:** the finite-element method works with the weak (variational) form of a PDE, and the Galerkin and Ritz methods search for the best approximation in a finite-dimensional subspace; many elliptic problems are equivalent to minimising an energy ([[numerical-analysis]], [[pde]], [[functional-analysis]])."
+  - "**Optimisation and learning:** training a model means minimising a loss functional, usually by gradient descent; convex problems have certified minima, and duality and Lagrange multipliers are the same device as constraints in mechanics ([[optimization]], [[statistics]])."
+  - "**Beyond equilibrium:** the variational idea is not universal; no general extremum principle exists for non-equilibrium steady states, and dissipative dynamics is not a stationary point of an ordinary action ([[non-equilibrium]], [[hydrodynamics]])."
+caveats:
+  - "Hamilton's principle is a *stationary* principle, not a *least*-action principle: $S$ is a minimum only for short enough times; beyond a conjugate (focal) point the actual path is a saddle. Fermat's principle likewise gives stationary travel time, a maximum for some paths (e.g. light reflected in an ellipsoidal mirror takes the same time along all paths)."
+  - "Stationarity needs boundary conditions: Hamilton's principle with fixed endpoints is a boundary-value problem, whereas physical predictions are initial-value problems. Both can be solutions of the same Euler–Lagrange equation, but may have no, one or several solutions; and the choice of boundary terms matters in field theory (e.g. the Gibbons–Hawking–York term for $\\delta S = 0$ in gravity)."
+  - "Not every equation of motion derives from an action (Helmholtz conditions), and friction or other dissipation does not fit the standard Lagrangian formalism with fixed endpoints. Time-dependent Lagrangians or doubled-variable (Schwinger–Keldysh) actions can encode some cases, but this is not the textbook formalism."
+  - "The thermodynamic extremum principles come with conditions: free-energy minimisation applies at fixed $T$ (and volume or pressure), entropy maximisation for isolated systems. 'Minimum entropy production' (Prigogine) holds only near equilibrium in the linear regime, and 'maximum entropy production' is not a general law."
+  - "The Rayleigh–Ritz bound applies to the lowest eigenvalue (and to excited states only if the trial state is orthogonal to the lower ones, or via min–max). It gives an upper bound on the energy, not on the error of the wavefunction, which is typically of first order in the trial-state error while the energy error is of second order."
+  - "A variational principle is a reformulation, not an explanation: it does not say why nature chooses that functional. In the path integral the functional appears with every history contributing, and teleological readings ('light knows where it is going') are not needed: local wave propagation produces the same result."
+  - "Gradient descent finds stationary points of the loss, not necessarily minima, and in non-convex problems they may be local minima or saddles; unlike physical variational principles, the functional is chosen by the modeller."
+connections: [real-analysis, functional-analysis, ode, pde, differential-geometry, general-relativity, optics, electromagnetism, classical-mechanics, symmetries, symmetry-conservation-gauge, classical-field-theory, gauge-theory, standard-model, quantum-mechanics, linear-algebra, condensed-matter, qft, eom-action-quantum, thermodynamics, statistical-mechanics, phase-transitions, entropy-information, information-theory, numerical-analysis, optimization, statistics, non-equilibrium, hydrodynamics]
+resources:
+  - "Goldstein, Poole & Safko, *Classical Mechanics* (Hamilton's principle, calculus of variations)"
+  - "Gelfand & Fomin, *Calculus of Variations*"
+  - "Feynman, Leighton & Sands, *The Feynman Lectures on Physics* vol. II, ch. 19 (The Principle of Least Action)"
+  - "Landau & Lifshitz, *Mechanics* §2 and *The Classical Theory of Fields*"
+cards:
+  - q: What is a variational principle?
+    a: A statement that the realised solution is a stationary point of a functional of whole functions or paths; the Euler–Lagrange equation is the resulting differential equation.
+  - q: Is the action always minimised by the physical path?
+    a: No. It is stationary, $\delta S = 0$; it is a minimum only for sufficiently short times, and beyond conjugate points the path is a saddle.
+  - q: How does Fermat's principle relate to wave optics?
+    a: Paths of stationary optical length are where nearby paths add in phase; geometrical optics is the short-wavelength limit of wave optics.
+  - q: Why does the path integral explain least action?
+    a: With weight $e^{iS/\hbar}$, contributions away from $\delta S = 0$ oscillate and cancel for $\hbar \to 0$ (stationary phase), leaving the classical path.
+  - q: What does the Rayleigh–Ritz method guarantee?
+    a: For any trial state the energy expectation is at least the ground-state energy, so minimising over a family of trial states gives the best upper bound in that family.
+  - q: Which functional do equilibrium thermodynamics and mean-field theory extremise?
+    a: The free energy $F = E - TS$ is minimised at fixed temperature; entropy is maximised at fixed energy.
+  - q: Which variational principles are used in numerical solutions of PDEs?
+    detail: true  # site only, not in the Anki deck
+    a: The Ritz and Galerkin methods, on which finite elements are built, use the weak form of the PDE or the equivalent energy minimisation in a finite-dimensional space.
+  - q: Why is there no general variational principle for dissipative systems?
+    a: Dissipation breaks time-reversal symmetry, while the standard action with fixed endpoints yields time-reversible equations; special cases need extra variables or non-standard formulations.
