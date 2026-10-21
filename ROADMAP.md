@@ -13,6 +13,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 - [x] Filo "Linearity and superposition" (`content/concepts/linearity-superposition.yaml`)
   - [x] Filo "Variational principles" (`content/concepts/variational-principles.yaml`)
 - [ ] Link ai paper originali per i risultati restanti
+  - [x] Altri 24 link verificati (arXiv/Crossref) su 21 tappe di fisica (CFT, complessità, QFT/EFT, biofisica, fondamenti quantistici, reti, geofisica…)
 - [x] Pubblicare il `.apkg` come GitHub Release a ogni push
 - [x] Vista "solo fili" sulla mappa
 
@@ -36,6 +37,8 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 
 ## Decisioni e cose provate
 
+- 2026-10-21 (link ai paper): saltati perché non verificati o con anno discordante: Hewish et al. (pulsar, pubblicato 1968 contro 1967 nella tappa), Wilson 1971 parte II (esponenti RG), Gopikrishnan et al. (autore/titolo ambigui).
+
 ### Done / history
 
 - 2026-10-19: `.apkg` pubblicato a ogni push su main come release "rolling" con tag fisso `latest-deck` (asset sostituito con
@@ -52,6 +55,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.
 
 ## Log
+- 2026-10-21: 🤖 24 link a paper originali verificati via API arXiv/Crossref su 21 tappe di fisica (CFT, complessità, EFT, biofisica, fondamenti quantistici, reti, geofisica)
 - 2026-10-21: 🤖 nuovo filo concettuale "Variational principles"
 - 2026-10-20: 🤖 nuovo filo concettuale "Linearity and superposition" (dove la linearità vale, dove si rompe, avvertenze)
 - 2026-10-18: 🤖 mappa: menu "Thread" che evidenzia il filo scelto e i campi a cui rimanda (`connections`), sfumando il resto

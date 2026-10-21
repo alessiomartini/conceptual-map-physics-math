@@ -21,8 +21,8 @@ asks:
   - How do cells sense, compute and make decisions near physical limits?
   - What physical principles govern morphogenesis and collective motion?
 key_results:
-  - "Berg–Purcell limit on chemical sensing; kinetic proofreading (Hopfield, Ninio 1974)."
-  - "Turing patterns (1952) for morphogenesis."
+  - "Berg–Purcell limit on chemical sensing; kinetic proofreading (Hopfield, Ninio 1974). ([Berg–Purcell 1977](https://doi.org/10.1016/S0006-3495%2877%2985544-6), [Hopfield 1974](https://doi.org/10.1073/pnas.71.10.4135))"
+  - "Turing patterns (1952) for morphogenesis. ([Turing 1952](https://doi.org/10.1098/rstb.1952.0012))"
   - "Protein folding funnels; AlphaFold structure prediction (Nobel Chemistry 2024)."
   - "Hopfield networks as associative memory (Nobel Physics 2024)."
 experiments:

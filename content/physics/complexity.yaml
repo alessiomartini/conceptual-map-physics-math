@@ -25,9 +25,9 @@ asks:
 key_results:
   - "Kolmogorov complexity is uncomputable; connections to Shannon entropy."
   - "Finding Ising spin-glass ground states is NP-hard (Barahona 1982); local Hamiltonian problem is QMA-complete (Kitaev)."
-  - "Nielsen's geometric approach to circuit complexity."
-  - "Complexity = volume / action conjectures (Susskind et al.) for black-hole interiors; Brown–Susskind second law of complexity."
-  - "Krylov complexity and operator growth (Parker et al. 2019)."
+  - "Nielsen's geometric approach to circuit complexity. ([Nielsen 2005](https://arxiv.org/abs/quant-ph/0502070))"
+  - "Complexity = volume / action conjectures (Susskind et al.) for black-hole interiors; Brown–Susskind second law of complexity. ([Brown–Susskind 2017](https://arxiv.org/abs/1701.01107))"
+  - "Krylov complexity and operator growth (Parker et al. 2019). ([Parker et al. 2018](https://arxiv.org/abs/1812.08657))"
 experiments:
   - Quantum advantage experiments test where classical simulation becomes intractable.
 limits:
