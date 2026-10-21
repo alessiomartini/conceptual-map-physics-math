@@ -11,6 +11,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 - [x] Mazzo Anki
 - [ ] Nuovi fili concettuali (principi variazionali, linearità e sovrapposizione…)
 - [x] Filo "Linearity and superposition" (`content/concepts/linearity-superposition.yaml`)
+  - [x] Filo "Variational principles" (`content/concepts/variational-principles.yaml`)
 - [ ] Link ai paper originali per i risultati restanti
 - [x] Pubblicare il `.apkg` come GitHub Release a ogni push
 - [x] Vista "solo fili" sulla mappa
@@ -51,6 +52,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.
 
 ## Log
+- 2026-10-21: 🤖 nuovo filo concettuale "Variational principles"
 - 2026-10-20: 🤖 nuovo filo concettuale "Linearity and superposition" (dove la linearità vale, dove si rompe, avvertenze)
 - 2026-10-18: 🤖 mappa: menu "Thread" che evidenzia il filo scelto e i campi a cui rimanda (`connections`), sfumando il resto
 - 2026-10-19: note del sito portate nel ROADMAP (#7 e #9 nelle Idee; #8, TLC generalizzato, era già in `probability-theory`); feedback spostato nel backend unico `site-notes` (tolto `worker/`; vecchio worker `conceptual-map-feedback` e D1 spenti); le note mandano l'autore (`?sono-alessio` segna il browser di Alessio, le altre sono di visitatori); installabile come app a sé dal telefono (manifest con nome, icona e perimetro propri); il `.apkg` viene pubblicato a ogni push su main nella release `latest-deck` (link stabile nel README)
