@@ -23,7 +23,7 @@ key_results:
   - "Ramsey's theorem; Szemerédi's theorem on arithmetic progressions."
   - "Probabilistic method (Erdős); Lovász local lemma."
   - "Sperner, Erdős–Ko–Rado; sunflower and cap-set breakthroughs (polynomial method, 2016)."
-  - "Kahn–Kalai conjecture proved (Park–Pham 2022) ([Park–Pham 2022](https://doi.org/10.1109/focs54457.2022.00066)); exponential improvement on diagonal Ramsey (Campos–Griffiths–Morris–Sahasrabudhe 2023) ([Campos et al. 2023](https://arxiv.org/abs/2303.09521))."
+  - "Kahn–Kalai conjecture proved ([Park–Pham 2022](https://doi.org/10.1109/focs54457.2022.00066)); exponential improvement on diagonal Ramsey ([Campos–Griffiths–Morris–Sahasrabudhe 2023](https://arxiv.org/abs/2303.09521))."
 motivating_examples:
   - Counting permutations, lattice paths, Catalan structures; the party problem R(3,3) = 6.
 limits:
