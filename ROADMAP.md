@@ -55,6 +55,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.
 
 ## Log
+- 2026-10-22: 🤖 19 link a paper originali verificati (Crossref/arXiv, titolo-autori-anno controllati) su 19 tappe (anomalie, SUSY, stringhe, TQFT, reti, metodi numerici, materia attiva); saltati Hafele–Keating (1972 vs 1971 nella tappa) e Pestun (2012 su rivista vs 2007)
 - 2026-10-21: 🤖 24 link a paper originali verificati via API arXiv/Crossref su 21 tappe di fisica (CFT, complessità, EFT, biofisica, fondamenti quantistici, reti, geofisica)
 - 2026-10-21: 🤖 nuovo filo concettuale "Variational principles"
 - 2026-10-20: 🤖 nuovo filo concettuale "Linearity and superposition" (dove la linearità vale, dove si rompe, avvertenze)

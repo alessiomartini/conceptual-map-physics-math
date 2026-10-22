@@ -15,7 +15,7 @@ essentials:
   - "Many networks have hubs (heavy-tailed degree distributions), which make them robust to random failure but fragile to targeted attacks."
   - "Epidemics spread differently on networks with hubs: the epidemic threshold can vanish."
 broken_promises:
-  - "The claim that most real networks are 'scale-free' with universal exponents turned out much weaker under rigorous statistics (Broido–Clauset 2019)."
+  - "The claim that most real networks are 'scale-free' with universal exponents turned out much weaker under rigorous statistics (Broido–Clauset 2019). ([Broido–Clauset 2019](https://doi.org/10.1038/s41467-019-08746-5))"
   - "Pairwise networks were hoped to capture complex systems; many phenomena need higher-order (group) interactions and time dependence."
 asks:
   - What universal structures do real networks share and why?
