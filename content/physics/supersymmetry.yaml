@@ -30,7 +30,7 @@ key_results:
   - "Non-renormalization theorems: the superpotential is not renormalized in perturbation theory; quadratic divergences of scalar masses cancel."
   - "Witten index (1982): $\\mathrm{Tr}(-1)^F$ counts vacua robustly and diagnoses spontaneous SUSY breaking. ([Witten 1982](https://doi.org/10.1016/0550-3213%2882%2990071-2))"
   - "MSSM: gauge couplings unify near $2\\times10^{16}$ GeV; R-parity makes the lightest superpartner stable (a WIMP dark-matter candidate)."
-  - "Exact results: Seiberg–Witten (1994), Seiberg duality, localization of path integrals (Pestun 2007)."
+  - "Exact results: Seiberg–Witten (1994), Seiberg duality, localization of path integrals (Pestun 2007). ([Seiberg–Witten 1994](https://arxiv.org/abs/hep-th/9407087)) ([Seiberg–Witten 1994, II](https://arxiv.org/abs/hep-th/9408099))"
   - "Supergravity (1976) and superstrings: local supersymmetry includes gravity; 11D supergravity as low-energy M-theory."
 experiments:
   - "No superpartner observed. LHC searches exclude gluinos below roughly 2 TeV and first-generation squarks below roughly 1.5–2 TeV in simplified models; direct dark-matter searches (LZ, XENONnT) constrain neutralino WIMPs."
