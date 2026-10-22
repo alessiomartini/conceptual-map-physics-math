@@ -55,6 +55,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.
 
 ## Log
+- 2026-10-22: 🤖 terzo lotto: 25 link a paper originali verificati (Crossref/arXiv, titolo-autori-anno controllati) su 19 tappe (geometria algebrica, teoria dei numeri, PDE, TQFT, ottica, SUSY, stringhe, reticolo, integrabilità); saltati AKS (arXiv assente, 2004 vs 2002), Bell Burnell–Hewish (1968 vs 1967), Hopfield, Kolmogorov 1941, Landau 1946 (senza DOI/preprint verificabile)
 - 2026-10-22: 🤖 19 link a paper originali verificati (Crossref/arXiv, titolo-autori-anno controllati) su 19 tappe (anomalie, SUSY, stringhe, TQFT, reti, metodi numerici, materia attiva); saltati Hafele–Keating (1972 vs 1971 nella tappa) e Pestun (2012 su rivista vs 2007)
 - 2026-10-21: 🤖 24 link a paper originali verificati via API arXiv/Crossref su 21 tappe di fisica (CFT, complessità, EFT, biofisica, fondamenti quantistici, reti, geofisica)
 - 2026-10-21: 🤖 nuovo filo concettuale "Variational principles"

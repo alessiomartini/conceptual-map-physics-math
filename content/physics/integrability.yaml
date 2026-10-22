@@ -32,7 +32,7 @@ key_results:
   - "Onsager's solution of the 2D Ising model (1944). ([Onsager 1944](https://doi.org/10.1103/PhysRev.65.117))"
   - "Factorized S-matrices (Zamolodchikov); quantum groups."
   - "Quantum spectral curve for planar N=4 SYM (Gromov–Kazakov–Leurent–Volin). ([GKLV 2013](https://arxiv.org/abs/1305.1939))"
-  - "Generalized Gibbs ensemble and generalized hydrodynamics (2016) for integrable relaxation."
+  - "Generalized Gibbs ensemble and generalized hydrodynamics (2016) for integrable relaxation. ([Castro-Alvaredo–Doyon–Yoshimura 2016](https://arxiv.org/abs/1605.07331)) ([Bertini et al. 2016](https://arxiv.org/abs/1605.09790))"
 experiments:
   - "Quantum Newton's cradle (Kinoshita–Wenger–Weiss 2006) ([Kinoshita et al. 2006](https://doi.org/10.1038/nature04693)): 1D Bose gas does not thermalize."
   - Spin-chain materials measured by neutron scattering; KPZ superdiffusion in Heisenberg chains.

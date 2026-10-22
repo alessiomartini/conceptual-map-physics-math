@@ -24,7 +24,7 @@ key_results:
   - "Stellar structure equations; Hertzsprung–Russell diagram; Chandrasekhar limit ~1.4 M☉."
   - "Pulsars as neutron stars (Bell Burnell, Hewish 1967)."
   - Galaxy rotation curves imply dark matter (Rubin, Ford).
-  - "Solar neutrino problem resolved by oscillations (SNO 2001)."
+  - "Solar neutrino problem resolved by oscillations (SNO 2001). ([SNO 2001](https://arxiv.org/abs/nucl-ex/0106015))"
   - "Multi-messenger GW170817: GW + gamma rays + kilonova, $c_{GW} = c$ to 10⁻¹⁵. ([GW170817](https://arxiv.org/abs/1710.05832))"
 experiments:
   - "JWST, Gaia, Chandra, Fermi, IceCube, Pierre Auger, [[exp-ligo]], [[exp-eht]], NANOGrav."
