@@ -21,7 +21,7 @@ asks:
   - Why does gradient descent succeed on non-convex landscapes in practice?
 key_results:
   - "Lagrange multipliers and KKT conditions; convex duality."
-  - "Simplex method (Dantzig); interior-point methods (Karmarkar 1984) — LP in polynomial time (Khachiyan 1979)."
+  - "Simplex method (Dantzig); interior-point methods (Karmarkar 1984) ([Karmarkar 1984](https://doi.org/10.1007/BF02579150)) — LP in polynomial time (Khachiyan 1979)."
   - "Semidefinite programming; Goemans–Williamson MAX-CUT approximation."
   - "Gradient descent rates; Nesterov acceleration; stochastic gradient descent."
   - "Markowitz mean–variance portfolio optimization."

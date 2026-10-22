@@ -14,7 +14,7 @@ summary: >-
 big_goal: "Understand quantum field theories that depend only on topology — and use them to compute invariants of knots and manifolds and to describe topological phases."
 essentials:
   - "A TQFT assigns vector spaces to spaces and linear maps to spacetimes between them (Atiyah–Segal)."
-  - "Chern–Simons theory computes the Jones polynomial of knots (Witten 1989)."
+  - "Chern–Simons theory computes the Jones polynomial of knots (Witten 1989). ([Witten 1989](https://doi.org/10.1007/BF01217730))"
   - "Topologically ordered phases and their anyons are described by TQFTs."
 broken_promises:
   - "TQFTs were hoped to produce new invariants that distinguish smooth 4-manifolds completely; Donaldson and Seiberg–Witten invariants are powerful but do not classify them, and fully defining 4D TQFTs that detect exotic structures remains open."
@@ -26,9 +26,9 @@ key_results:
   - "Atiyah's axioms (1988) and Segal's functorial definition: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces. ([Atiyah 1988](https://doi.org/10.1007/BF02698547))"
   - "Witten (1988–89): Donaldson invariants from twisted N=2 Yang–Mills; Jones polynomial from Chern–Simons theory."
   - "2D TQFTs ↔ commutative Frobenius algebras."
-  - "Reshetikhin–Turaev (from quantum groups / modular tensor categories) and Turaev–Viro state-sum constructions in 3D; Dijkgraaf–Witten theories for finite gauge groups (1990)."
+  - "Reshetikhin–Turaev (from quantum groups / modular tensor categories) and Turaev–Viro state-sum constructions in 3D; Dijkgraaf–Witten theories for finite gauge groups (1990). ([Dijkgraaf–Witten 1990](https://doi.org/10.1007/BF02096988))"
   - "Cobordism hypothesis (Baez–Dolan 1995; Lurie 2009): fully extended framed TQFTs are determined by a fully dualizable object. ([Lurie 2009](https://arxiv.org/abs/0905.0465))"
-  - "Khovanov homology (2000) categorifies the Jones polynomial; Floer homologies as TQFT-like structures."
+  - "Khovanov homology (2000) ([Khovanov 2000](https://doi.org/10.1215/S0012-7094-00-10131-7)) categorifies the Jones polynomial; Floer homologies as TQFT-like structures."
   - "Topological quantum computation: braiding non-abelian anyons is universal for quantum computing (Freedman–Kitaev–Larsen–Wang)."
 motivating_examples:
   - "Knot invariants (Jones 1984); Donaldson's invariants of smooth 4-manifolds; the fractional quantum Hall effect as a Chern–Simons theory."

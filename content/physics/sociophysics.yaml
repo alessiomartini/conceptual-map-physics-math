@@ -19,7 +19,7 @@ asks:
   - Are there quantitative regularities in human collective behaviour?
 key_results:
   - "Voter model; Sznajd model; bounded-confidence models (Deffuant, Hegselmann–Krause) producing polarization."
-  - "Schelling segregation model (1971): mild preferences give strong segregation."
+  - "Schelling segregation model (1971) ([Schelling 1971](https://doi.org/10.1080/0022250X.1971.9989794)): mild preferences give strong segregation."
   - "Axelrod culture model; Ising-like models of social influence; pedestrian social-force model (Helbing)."
   - "Universal statistics: turnout distributions, city sizes (Zipf), human mobility scaling."
 experiments:
