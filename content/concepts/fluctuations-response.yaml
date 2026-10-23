@@ -1,0 +1,56 @@
+id: fluctuations-response
+title: "Fluctuations and response: noise ↔ dissipation ↔ susceptibility"
+short: Fluctuations and response
+domain: concept
+area: concepts
+order: 110
+one_liner: How a system wanders spontaneously at equilibrium and how it answers a weak push are two faces of the same microscopic dynamics, linked by the fluctuation–dissipation relations.
+summary: >-
+  A dust grain jitters in water; a resistor hums with voltage noise; a magnet's magnetisation flickers. Poke the
+  same system gently and it responds, and dissipates. Close to equilibrium these are not independent facts:
+  the spectrum of the spontaneous fluctuations fixes the response function, and vice versa. The thread runs from
+  Einstein's relation for Brownian motion through Johnson–Nyquist noise, Callen–Welton and Kubo, to Onsager's
+  reciprocal relations; its limits (far from equilibrium, non-thermal noise, quantum corrections) are collected under "Careful".
+thread:
+  - "**The idea:** at thermal equilibrium the same microscopic processes that make a variable fluctuate also dissipate any energy pumped into it. Measuring the fluctuations of an observable $A$ therefore tells how $A$ responds to a weak force conjugate to it, and the other way round ([[statistical-mechanics]], [[thermodynamics]], [[non-equilibrium]])."
+  - "**Linear response:** for a weak perturbation $H' = -f(t)\\,B$ the mean change of an observable is $\\delta\\langle A\\rangle(t) = \\int \\chi_{AB}(t-t')\\,f(t')\\,dt'$, with $\\chi$ the response function (susceptibility). Causality ($\\chi(t)=0$ for $t<0$) makes its Fourier transform analytic in the upper half-plane and gives the Kramers–Kronig relations between its real (reactive) and imaginary (dissipative) parts ([[linearity-superposition]], [[complex-analysis]], [[electromagnetism]], [[optics]])."
+  - "**Brownian motion and the Einstein relation:** a particle pushed by a force drifts with mobility $\\mu$; left alone it diffuses with coefficient $D$. Einstein showed that $D = \\mu k_B T$: the random kicks from the fluid and the viscous drag come from the same molecular collisions ([Einstein 1905](https://doi.org/10.1002/andp.19053220806)). The Langevin equation makes this explicit by pairing a friction term with a noise term of strength fixed by the friction ([[stochastic-processes]], [[sde]], [[probability-theory]])."
+  - "**Johnson–Nyquist noise:** a resistor $R$ at temperature $T$ shows voltage fluctuations with spectral density $S_V = 4k_BTR$ in the classical limit, measured by Johnson and explained by Nyquist with a thermodynamic argument on a transmission line ([Johnson 1928](https://doi.org/10.1103/PhysRev.32.97), [Nyquist 1928](https://doi.org/10.1103/PhysRev.32.110)). The dissipative element $R$ and the noise are one quantity seen twice; the same logic underlies the blackbody spectrum ([[exp-blackbody]], [[condensed-matter]])."
+  - "**Fluctuation–dissipation theorem:** Callen and Welton generalised these examples: the power spectrum of equilibrium fluctuations of $A$ is proportional to the imaginary part of the response function, $S_A(\\omega) = \\frac{2\\hbar}{1-e^{-\\hbar\\omega/k_BT}}\\,\\text{Im}\\,\\chi_{AA}(\\omega)$, which becomes $\\frac{2k_BT}{\\omega}\\text{Im}\\,\\chi_{AA}(\\omega)$ when $\\hbar\\omega \\ll k_BT$ ([Callen–Welton 1951](https://doi.org/10.1103/PhysRev.83.34)) ([[quantum-mechanics]])."
+  - "**Kubo formulas:** linear response follows from equilibrium correlation functions of the unperturbed system, e.g. $\\chi_{AB}(t) = \\frac{i}{\\hbar}\\theta(t)\\langle[A(t),B(0)]\\rangle$. Transport coefficients (conductivity, viscosity, thermal conductivity) become time integrals of equilibrium current autocorrelations, the Green–Kubo relations, computable in simulations and in field theory ([Kubo 1957](https://doi.org/10.1143/JPSJ.12.570), [Kubo 1966 review](https://doi.org/10.1088/0034-4885/29/1/306)) ([[qft]], [[hydrodynamics]], [[soft-matter]])."
+  - "**Onsager reciprocity:** when several fluxes and forces are coupled (heat and charge currents, for instance), the matrix of transport coefficients is symmetric, $L_{ij}=L_{ji}$, in absence of magnetic field. It follows from microscopic time-reversal invariance applied to the regression of fluctuations ([Onsager 1931](https://doi.org/10.1103/PhysRev.37.405)). With a magnetic field $B$ the relation becomes $L_{ij}(B)=L_{ji}(-B)$ ([[symmetry-conservation-gauge]], [[symmetries]], [[thermodynamics]])."
+  - "**Susceptibility as a fluctuation:** static response is a variance. The magnetic susceptibility is $\\chi = \\beta\\,(\\langle M^2\\rangle - \\langle M\\rangle^2)/V$, the heat capacity is a variance of the energy, the compressibility a variance of the particle number. Near a critical point these variances diverge together with the correlation length, which is why critical opalescence is visible to the eye ([[phase-transitions]], [[universality]], [[renormalization]])."
+  - "**Beyond physics' laboratory:** the same pair appears whenever a system is noisy and driven: gain and noise in amplifiers, thermal noise setting the limits of gravitational-wave detectors and atomic-force microscopes, rheology of cells and gels, and the spreading of volatility and price response in markets ([[exp-ligo]], [[biophysics]], [[econophysics]], [[quantum-information]])."
+  - "**Away from equilibrium:** the relations are replaced by exact but more general results: fluctuation theorems (Jarzynski, Crooks) constrain the distribution of work and entropy production at any distance from equilibrium and reduce to the linear theory for weak driving; in driven or active systems the violation of the FDT is itself a measure of how far the system is from equilibrium ([[non-equilibrium]], [[complex-systems]], [[entropy-information]])."
+caveats:
+  - "The fluctuation–dissipation theorem is a statement about a system in *equilibrium* (or very close to it) responding *linearly* to a perturbation. It is not a general law relating noise and friction: in glasses, active matter, driven-dissipative systems or any stationary state with currents, the ratio between correlation and response is not fixed by the temperature, and the departure is used to define an 'effective temperature' whose meaning is debated ([[non-equilibrium]], [[soft-matter]])."
+  - "Classical and quantum forms differ. The factor $2k_BT/\\omega$ is the high-temperature limit; at $\\hbar\\omega \\gtrsim k_BT$ zero-point fluctuations dominate, the symmetrised and unsymmetrised noise spectra are not the same, and 'the noise of a resistor is $4k_BTR$' fails (it becomes $2\\hbar\\omega R\\coth(\\hbar\\omega/2k_BT)$ for the symmetrised spectrum). Always check which correlation function (symmetrised, retarded, Keldysh) a formula is written for."
+  - "Linear response is not the same as the system being linear. The response function is a property of the full interacting dynamics; only the *dependence on the perturbation strength* is linear, and it breaks down for strong fields, near critical points (where the linear regime shrinks to zero) and for strongly nonlinear systems such as turbulence ([[chaos]], [[hydrodynamics]])."
+  - "The Einstein relation $D=\\mu k_BT$ and the Green–Kubo formulas assume a well-defined time-scale separation (a fast bath, slow observable) and a finite integral of the current autocorrelation. In anomalous or long-time-tail situations (one-dimensional heat transport, hydrodynamic long-time tails) the integral may diverge and the transport coefficient be ill-defined ([[stochastic-processes]])."
+  - "Onsager reciprocity relies on microscopic time-reversal symmetry and on a proper choice of conjugate fluxes and forces (the ones appearing in the entropy production). It does not hold in the same form with magnetic fields or rotation without the sign flip, and it is a statement at linear order only; it should not be read as a general symmetry of nonlinear transport."
+  - "'Susceptibility equals variance' holds for the equilibrium *static* response in the ensemble where the perturbing field is the conjugate variable. In a different ensemble the variance and the response can differ (e.g. fixed magnetisation vs. fixed field) and in systems with long-range order, ergodicity breaking makes the thermal average ill-defined ([[statistical-mechanics]], [[phase-transitions]])."
+connections: [statistical-mechanics, thermodynamics, non-equilibrium, linearity-superposition, complex-analysis, electromagnetism, optics, stochastic-processes, sde, probability-theory, exp-blackbody, condensed-matter, quantum-mechanics, qft, hydrodynamics, soft-matter, symmetry-conservation-gauge, symmetries, phase-transitions, universality, renormalization, exp-ligo, biophysics, econophysics, quantum-information, complex-systems, entropy-information, chaos]
+resources:
+  - "Kubo, Toda & Hashitsume, *Statistical Physics II: Nonequilibrium Statistical Mechanics*"
+  - "Forster, *Hydrodynamic Fluctuations, Broken Symmetry, and Correlation Functions*"
+  - "Marconi, Puglisi, Rondoni & Vulpiani, *Fluctuation–dissipation: response theory in statistical physics*, Physics Reports 461 (2008)"
+  - "Zwanzig, *Nonequilibrium Statistical Mechanics*"
+  - "Kardar, *Statistical Physics of Particles* (Brownian motion, linear response)"
+cards:
+  - q: What does the fluctuation–dissipation theorem relate?
+    a: The spectrum of spontaneous equilibrium fluctuations of an observable to the dissipative (imaginary) part of its linear response to a weak conjugate force.
+  - q: What is the Einstein relation?
+    a: $D = \mu k_BT$, linking the diffusion coefficient of a Brownian particle to its mobility under an applied force; noise and drag have the same molecular origin.
+  - q: What is Johnson–Nyquist noise?
+    a: Thermal voltage fluctuations across a resistor $R$ at temperature $T$, with classical spectral density $S_V = 4k_BTR$; the resistance that dissipates also produces the noise.
+  - q: What do the Kubo (Green–Kubo) formulas express?
+    a: Linear response and transport coefficients as equilibrium correlation functions of the unperturbed system, e.g. conductivity or viscosity as time integrals of current autocorrelations.
+  - q: What do the Kramers–Kronig relations follow from?
+    a: Causality of the response function, which makes its Fourier transform analytic in the upper half-plane and ties real and imaginary parts together.
+  - q: What are Onsager reciprocal relations?
+    a: Symmetry $L_{ij}=L_{ji}$ of the transport matrix coupling different fluxes and forces, a consequence of microscopic time reversal (with a magnetic field, $L_{ij}(B)=L_{ji}(-B)$).
+  - q: Why does the susceptibility diverge near a critical point?
+    a: Static susceptibility is a variance of the order parameter; fluctuations become correlated over a diverging length, so the variance, and the response, blow up.
+  - q: Does the fluctuation–dissipation theorem hold far from equilibrium?
+    detail: true  # site only, not in the Anki deck
+    a: Not in its standard form; its violation measures distance from equilibrium, and fluctuation theorems (Jarzynski, Crooks) give exact replacements valid at any driving.
