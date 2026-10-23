@@ -1,0 +1,57 @@
+id: geometry-curvature
+title: "Geometry and curvature: GR ↔ gauge fields ↔ Berry phase"
+short: Geometry and curvature
+domain: concept
+area: concepts
+order: 100
+one_liner: Connection, parallel transport, curvature and holonomy are one geometric idea that describes gravity, the forces of the Standard Model and the phases of quantum states.
+summary: >-
+  Carry a vector around a closed loop without turning it: in a curved space it comes back rotated. The same
+  recipe, with different 'spaces' underneath, gives the Riemann curvature of spacetime, the field strength of
+  electromagnetism and Yang–Mills theory, the Aharonov–Bohm phase and the Berry phase. The shared language is
+  that of connections on fibre bundles; the differences (which space, which group) are collected below under "Careful".
+thread:
+  - "**The idea:** to compare a quantity at two nearby points you need a rule for transporting it: a *connection*. Transporting along a path is *parallel transport*; transporting around a closed loop returns it changed by the *holonomy*, and for a small loop the change is proportional to the loop's area times the *curvature* ([[differential-geometry]], [[topology]])."
+  - "**Curved surfaces:** on a sphere, a vector carried around a geodesic triangle returns rotated by the angle excess, $\\text{area}/R^2$. This is Gauss's *Theorema Egregium* seen as holonomy: curvature is intrinsic, measurable from inside the surface ([[differential-geometry]])."
+  - "**General relativity:** the Levi-Civita connection $\\Gamma^\\rho_{\\mu\\nu}$ defines parallel transport of tangent vectors, free fall is a geodesic, and the Riemann tensor $R^\\rho{}_{\\sigma\\mu\\nu}$ is the holonomy for infinitesimal loops. Tidal forces are curvature (geodesic deviation), and Einstein's equations relate a trace of curvature to matter ([[general-relativity]], [[special-relativity]], [[black-holes]], [[exp-ligo]])."
+  - "**Electromagnetism:** the potential $A_\\mu$ is a connection on a $U(1)$ bundle: the covariant derivative is $D_\\mu = \\partial_\\mu - iqA_\\mu$ (units $\\hbar = c = 1$), and the field strength $F_{\\mu\\nu} = \\partial_\\mu A_\\nu - \\partial_\\nu A_\\mu$ is its curvature. A gauge transformation is a change of local phase convention ([[electromagnetism]], [[gauge-theory]], [[symmetry-conservation-gauge]])."
+  - "**Aharonov–Bohm effect:** a charged particle going around a region with magnetic flux $\\Phi$, even where $F = 0$ along its path, acquires the holonomy $e^{iq\\Phi/\\hbar}$. The effect depends on the loop, not on local fields, which is why the potential, or better its holonomy (the Wilson loop), is the physically meaningful object ([[quantum-mechanics]], [[exp-aharonov-bohm]])."
+  - "**Yang–Mills and the Standard Model:** replace $U(1)$ by a non-abelian group such as $SU(2)$ or $SU(3)$: the gauge field is a Lie-algebra-valued connection $A_\\mu$, $F_{\\mu\\nu} = \\partial_\\mu A_\\nu - \\partial_\\nu A_\\mu - ig[A_\\mu, A_\\nu]$ is its curvature, and the commutator term (non-commuting holonomies) makes the field self-interacting. The Yang–Mills action $\\propto \\int \\text{tr}\\,F_{\\mu\\nu}F^{\\mu\\nu}$ is the analogue of the Einstein–Hilbert action ([[gauge-theory]], [[standard-model]], [[lie-theory]], [[group-theory]], [[classical-field-theory]])."
+  - "**Dictionary:** gauge group ↔ structure group of the bundle; matter fields ↔ sections; gauge potential ↔ connection; field strength ↔ curvature; Wilson loop ↔ holonomy; gauge transformation ↔ change of local frame. The mathematical home is the theory of principal and associated fibre bundles ([[differential-geometry]], [[lie-theory]], [[topology]]). Wu and Yang made the identification of gauge fields with bundle connections explicit in 1975 ([Wu–Yang 1975](https://doi.org/10.1103/PhysRevD.12.3845))."
+  - "**Berry phase:** when the Hamiltonian $H(\\mathbf R)$ depends on slowly varied parameters $\\mathbf R$ and the system follows a non-degenerate eigenstate adiabatically, going around a closed loop in parameter space gives, besides the dynamical phase, a geometric phase $\\gamma = \\oint \\mathcal A\\cdot d\\mathbf R$ with $\\mathcal A = i\\langle n|\\nabla_{\\mathbf R} n\\rangle$ (the Berry connection) and curvature $\\Omega = \\nabla\\times\\mathcal A$. It is the holonomy of the eigenstate bundle over parameter space ([Berry 1984](https://doi.org/10.1098/rspa.1984.0023)) ([[quantum-mechanics]], [[optics]])."
+  - "**Topological consequences:** the integral of the Berry curvature over a closed surface is $2\\pi$ times an integer, a Chern number. In crystals this gives the quantised Hall conductance, topological insulators and anomalous velocity of Bloch electrons; the monopole-like Berry curvature at a degeneracy is the parameter-space analogue of a Dirac monopole ([[topological-phases]], [[condensed-matter]], [[exp-quantum-hall]], [[tqft]])."
+  - "**Other geometric phases:** the rotation of the Foucault pendulum plane, the polarisation of light in a coiled fibre (Pancharatnam–Berry), the rotation of a falling cat or of a swimmer at low Reynolds number are all holonomies, classical or quantum, of some connection on a space of configurations ([[classical-mechanics]], [[optics]], [[hydrodynamics]])."
+  - "**Unifying and extending:** Kaluza–Klein theory realises gauge fields as the metric of extra dimensions; the Chern–Simons and Chern–Weil constructions turn curvature into topological invariants (instantons, anomalies); lattice gauge theory defines the connection through link variables whose products around plaquettes are holonomies ([[string-theory]], [[quantum-gravity]], [[lattice-field-theory]], [[qft]])."
+caveats:
+  - "'Gravity is a gauge theory' is only partly true. In GR the connection lives on the tangent bundle, so the 'internal' index and the spacetime index are tied together by the metric (or tetrad), and the gauge transformations include diffeomorphisms; in Yang–Mills the bundle is internal and spacetime is a fixed background. GR can be written with a Lorentz or Poincaré connection (Cartan, Einstein–Cartan, Palatini, MacDowell–Mansouri), but it is not literally a Yang–Mills theory: the action is linear in curvature (first order in the Einstein–Hilbert form), not quadratic."
+  - "'Gauge field = connection' is exact for the classical theory on a given bundle. Quantisation adds subtleties: the gauge-fixing procedure has Gribov copies in non-abelian theories (a gauge condition does not select a unique representative), the path integral over connections is mathematically unconstructed in four dimensions (see the Yang–Mills mass gap problem), and anomalies can obstruct gauge invariance at the quantum level ([[qft]], [[renormalization]])."
+  - "The potential $A_\\mu$ is not gauge invariant and is not observable by itself; what is observable is the field strength locally and the holonomy (Wilson loop) globally. Saying 'the potential is real' because of Aharonov–Bohm is a shorthand for 'the holonomy is real'; the effect is also compatible with a purely local description if the source (the solenoid) is treated quantum mechanically ([Aharonov–Bohm 1959](https://doi.org/10.1103/PhysRev.115.485)) ([[philosophy-of-physics]])."
+  - "The Berry phase is defined for a *closed* loop, only modulo $2\\pi$, and under the adiabatic approximation with a non-degenerate level (degeneracies give non-abelian generalisations, Wilczek–Zee). It is gauge-invariant under changes of the phase of $|n(\\mathbf R)\\rangle$ only because the loop is closed; the open-path version needs a convention. Its value is a geometric property of the loop, not of the speed, but corrections from non-adiabatic transitions exist."
+  - "Holonomy and curvature are not equivalent in general: a flat connection ($F = 0$) can still have non-trivial holonomy on a non-simply-connected space (Aharonov–Bohm, flat bundles over a torus). Curvature gives only the infinitesimal part; the global part is topological."
+  - "The classical analogies are loose. Parallel transport on a sphere is a rotation in the tangent plane (the group $SO(2)$), and the holonomy depends on the loop's area; the Berry phase for a spin-$\\tfrac12$ in a magnetic field is half the solid angle swept by the field direction. The same words ('curvature', 'phase') hide different groups and spaces; the dictionary above is an analogy of structure, not an identity of objects."
+  - "In GR curvature is *not* a force field on spacetime in the same sense as $F_{\\mu\\nu}$ on a gauge bundle: there is no 'flat background' to compare to without choosing one, and the notions of local energy and of a graviton as a spin-2 field on flat space are perturbative, not fundamental ([[quantum-gravity]])."
+connections: [differential-geometry, topology, general-relativity, special-relativity, black-holes, exp-ligo, electromagnetism, gauge-theory, symmetry-conservation-gauge, quantum-mechanics, exp-aharonov-bohm, standard-model, lie-theory, group-theory, classical-field-theory, optics, topological-phases, condensed-matter, exp-quantum-hall, tqft, classical-mechanics, hydrodynamics, string-theory, quantum-gravity, lattice-field-theory, qft, renormalization, philosophy-of-physics]
+resources:
+  - "Nakahara, *Geometry, Topology and Physics* (connections, bundles, Berry phase, gauge theory)"
+  - "Misner, Thorne & Wheeler, *Gravitation* (parallel transport, curvature as holonomy)"
+  - "Shapere & Wilczek (eds.), *Geometric Phases in Physics*"
+  - "Bohm, Mostafazadeh et al., *The Geometric Phase in Quantum Systems*"
+  - "Baez & Muniain, *Gauge Fields, Knots and Gravity*"
+cards:
+  - q: What is a connection and what is holonomy?
+    a: A connection is a rule for transporting quantities between nearby points (parallel transport). Holonomy is the net change after transport around a closed loop; for small loops it is the curvature times the enclosed area.
+  - q: What plays the role of the connection and of the curvature in electromagnetism?
+    a: The potential $A_\mu$ is the $U(1)$ connection and the field strength $F_{\mu\nu}$ is its curvature.
+  - q: Why does the Aharonov–Bohm effect show that more than local fields matter?
+    a: The phase $e^{iq\Phi/\hbar}$ depends on the flux enclosed by the loop even where $F = 0$ along the path; it is a holonomy, a global property of the connection.
+  - q: How does curvature appear in general relativity?
+    a: The Levi-Civita connection defines parallel transport and geodesics; the Riemann tensor is the holonomy for infinitesimal loops and describes tidal forces.
+  - q: Why is general relativity not simply a Yang–Mills theory?
+    a: Its connection lives on the tangent bundle, tied to the metric and to diffeomorphisms, and the Einstein–Hilbert action is linear in curvature rather than quadratic as in Yang–Mills.
+  - q: What is the Berry phase?
+    a: The geometric phase acquired by a state that follows a non-degenerate eigenstate adiabatically around a closed loop in parameter space; it is the holonomy of the Berry connection, defined modulo $2\pi$.
+  - q: What does the integral of the Berry curvature over a closed surface give?
+    a: $2\pi$ times an integer, the Chern number, which underlies the quantised Hall conductance and topological phases.
+  - q: Can a flat connection have non-trivial holonomy?
+    detail: true  # site only, not in the Anki deck
+    a: Yes, on a space that is not simply connected (e.g. around a solenoid in Aharonov–Bohm); curvature controls only the local part of holonomy.
