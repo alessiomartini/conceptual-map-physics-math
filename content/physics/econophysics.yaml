@@ -22,7 +22,7 @@ asks:
   - How do prices form from order flow, and what is the impact of trades?
   - Where do crises and instabilities come from?
 key_results:
-  - "Bachelier (1900): random-walk model of prices, five years before Einstein's Brownian motion."
+  - "Bachelier (1900): random-walk model of prices, five years before Einstein's Brownian motion. ([Bachelier 1900](https://doi.org/10.24033/asens.476))"
   - "Stylized facts: fat-tailed returns (tail exponent ≈ 3, Gopikrishnan et al.), volatility clustering, absence of linear autocorrelation, leverage effect."
   - "Square-root law of market impact: $\\Delta p \\propto \\sigma\\sqrt{Q/V}$."
   - "RMT cleaning of correlation matrices (Laloux, Bouchaud et al. 1999). ([Laloux et al. 1999](https://arxiv.org/abs/cond-mat/9810255))"

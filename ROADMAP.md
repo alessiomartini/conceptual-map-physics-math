@@ -16,6 +16,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   - [x] Filo "Fluctuations and response" (fluttuazioni ↔ dissipazione ↔ suscettività) (`content/concepts/fluctuations-response.yaml`)
 - [ ] Link ai paper originali per i risultati restanti
   - [x] Altri 24 link verificati (arXiv/Crossref) su 21 tappe di fisica (CFT, complessità, QFT/EFT, biofisica, fondamenti quantistici, reti, geofisica…)
+  - [x] Quarto lotto: 20 link (Crossref; arXiv via record DataCite) su 17 tappe di fisica, matematica e fili concettuali
 - [x] Pubblicare il `.apkg` come GitHub Release a ogni push
 - [x] Vista "solo fili" sulla mappa
 
@@ -57,6 +58,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.
 
 ## Log
+- 2026-10-24: 🤖 20 link a paper originali verificati (Crossref/arXiv), quarto lotto; saltati Turing 1936 (Crossref: 1937), Wilson–Kogut e altri riferimenti ambigui
 - 2026-10-23: 🤖 nuovo filo concettuale "Geometry and curvature" (GR ↔ gauge ↔ fase di Berry); poi nuovo filo "Fluctuations and response" (Einstein, Johnson–Nyquist, Callen–Welton, Kubo, Onsager; 7 link a paper verificati su Crossref)
 - 2026-10-22: 🤖 terzo lotto: 25 link a paper originali verificati (Crossref/arXiv, titolo-autori-anno controllati) su 19 tappe (geometria algebrica, teoria dei numeri, PDE, TQFT, ottica, SUSY, stringhe, reticolo, integrabilità); saltati AKS (arXiv assente, 2004 vs 2002), Bell Burnell–Hewish (1968 vs 1967), Hopfield, Kolmogorov 1941, Landau 1946 (senza DOI/preprint verificabile)
 - 2026-10-22: 🤖 19 link a paper originali verificati (Crossref/arXiv, titolo-autori-anno controllati) su 19 tappe (anomalie, SUSY, stringhe, TQFT, reti, metodi numerici, materia attiva); saltati Hafele–Keating (1972 vs 1971 nella tappa) e Pestun (2012 su rivista vs 2007)

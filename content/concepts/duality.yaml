@@ -11,12 +11,12 @@ summary: >-
 thread:
   - "**Wave–particle and Fourier duality:** position and momentum descriptions are related by a Fourier transform; uncertainty is a theorem about Fourier pairs ([[quantum-mechanics]], [[exp-double-slit]])."
   - "**Electric–magnetic duality:** Maxwell's equations in vacuum are symmetric under $E\\to B$, $B\\to -E$; with monopoles, Dirac's quantisation $eg \\in 2\\pi\\mathbb Z$ ([[electromagnetism]])."
-  - "**Kramers–Wannier (1941):** the 2D Ising model at high temperature equals the model at low temperature, fixing the critical point exactly ([[phase-transitions]]); today understood as a non-invertible symmetry ([[symmetries]])."
+  - "**Kramers–Wannier (1941):** the 2D Ising model at high temperature equals the model at low temperature, fixing the critical point exactly ([[phase-transitions]]); today understood as a non-invertible symmetry ([[symmetries]]). ([Kramers–Wannier 1941](https://doi.org/10.1103/PhysRev.60.252))"
   - "**Particle–vortex and bosonisation:** in 2D, fermions and bosons are equivalent descriptions; in 3D a web of dualities relates Dirac fermions and scalars with Chern–Simons terms ([[condensed-matter]])."
   - "**Seiberg–Witten and S-duality:** in supersymmetric gauge theories strong coupling of one theory is weak coupling of another ($g \\to 1/g$); electric charges and monopoles swap roles ([[gauge-theory]])."
   - "**String dualities:** T-duality ($R\\to\\alpha'/R$) and the web of string theories as limits of M-theory ([[string-theory]])."
   - "**Holography:** a gravitational theory in AdS is dual to a non-gravitational CFT on its boundary — the most radical duality ([[holography]], [[cft]])."
-  - "**In mathematics:** Pontryagin and Poincaré duality, Langlands duality (the geometric Langlands programme is S-duality in disguise, Kapustin–Witten 2006), mirror symmetry ([[algebraic-geometry]], [[topology]], [[number-theory]])."
+  - "**In mathematics:** Pontryagin and Poincaré duality, Langlands duality (the geometric Langlands programme is S-duality in disguise, Kapustin–Witten 2006), mirror symmetry ([[algebraic-geometry]], [[topology]], [[number-theory]]). ([Kapustin–Witten 2006](https://arxiv.org/abs/hep-th/0604151))"
 caveats:
   - "Many dualities in QFT are conjectures supported by overwhelming evidence (matching of symmetries, anomalies, protected quantities), not theorems."
   - "A duality is only useful when one side is tractable; weak–strong dualities are hard to test precisely because the strong side is hard."

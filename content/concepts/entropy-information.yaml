@@ -11,12 +11,12 @@ summary: >-
 thread:
   - "**Clausius (1865):** $dS = \\delta Q/T$; the second law forbids perpetual motion of the second kind ([[thermodynamics]])."
   - "**Boltzmann and Gibbs:** $S = k_B \\ln W$, $S = -k_B\\sum p_i \\ln p_i$ — entropy counts the microstates compatible with what we know; the second law becomes overwhelmingly probable rather than certain ([[statistical-mechanics]])."
-  - "**Shannon (1948):** the same formula measures information in a message and sets the limits of compression and of reliable communication over a noisy channel ([[information-theory]])."
-  - "**Maxwell's demon and Landauer (1961):** erasing one bit costs at least $k_BT\\ln 2$ of heat — information is physical. Measured directly in colloidal-particle experiments (Bérut et al. 2012) ([[non-equilibrium]])."
+  - "**Shannon (1948):** the same formula measures information in a message and sets the limits of compression and of reliable communication over a noisy channel ([[information-theory]]). ([Shannon 1948](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x))"
+  - "**Maxwell's demon and Landauer (1961):** erasing one bit costs at least $k_BT\\ln 2$ of heat — information is physical. Measured directly in colloidal-particle experiments (Bérut et al. 2012) ([[non-equilibrium]]). ([Landauer 1961](https://doi.org/10.1147/rd.53.0183)) ([Bérut et al. 2012](https://doi.org/10.1038/nature10872))"
   - "**Von Neumann entropy and entanglement:** $S = -\\mathrm{Tr}\\,\\rho\\ln\\rho$; for a pure global state, the entropy of a part measures its entanglement with the rest ([[quantum-information]], [[exp-bell-tests]])."
   - "**Area laws:** ground states of local Hamiltonians typically have entanglement entropy proportional to the boundary area, not the volume — why tensor networks work ([[condensed-matter]])."
-  - "**Black holes (Bekenstein–Hawking 1973–75):** $S = k_B A/4\\ell_P^2$, an entropy proportional to horizon area; Hawking radiation makes it thermodynamic ([[black-holes]])."
-  - "**Holography (Ryu–Takayanagi 2006):** entanglement entropy of a boundary region equals the area of a bulk minimal surface — spacetime geometry is built from entanglement ([[holography]]). The Page curve from quantum extremal surfaces (2019) recovered unitarity in black-hole evaporation ([[quantum-gravity]])."
+  - "**Black holes (Bekenstein–Hawking 1973–75):** $S = k_B A/4\\ell_P^2$, an entropy proportional to horizon area; Hawking radiation makes it thermodynamic ([[black-holes]]). ([Bekenstein 1973](https://doi.org/10.1103/PhysRevD.7.2333)) ([Hawking 1975](https://doi.org/10.1007/BF02345020))"
+  - "**Holography (Ryu–Takayanagi 2006):** entanglement entropy of a boundary region equals the area of a bulk minimal surface — spacetime geometry is built from entanglement ([[holography]]). The Page curve from quantum extremal surfaces (2019) recovered unitarity in black-hole evaporation ([[quantum-gravity]]). ([Ryu–Takayanagi 2006](https://arxiv.org/abs/hep-th/0603001))"
 caveats:
   - "Thermodynamic entropy is defined for equilibrium; entropy of non-equilibrium states and of the universe as a whole is a matter of definition (Boltzmann vs Gibbs entropy behave differently)."
   - "Entanglement entropy in QFT is UV divergent; only differences or mutual information are finite."

@@ -30,7 +30,7 @@ key_results:
   - "Kitaev chain (Majorana zero modes) and Kitaev honeycomb model. ([Kitaev 2001](https://arxiv.org/abs/cond-mat/0010440))"
   - "SPT phases classified by group cohomology and cobordism."
 experiments:
-  - "[[exp-quantum-hall]]; HgTe quantum wells (König 2007); ARPES of Bi₂Se₃ surface states; anyon braiding in FQH interferometers (2020)."
+  - "[[exp-quantum-hall]]; HgTe quantum wells (König 2007); ARPES of Bi₂Se₃ surface states; anyon braiding in FQH interferometers (2020). ([König 2007](https://doi.org/10.1126/science.1148047))"
 limits:
   - Majorana detection in nanowires has been contested; non-abelian anyons not yet used for computing.
 applications:

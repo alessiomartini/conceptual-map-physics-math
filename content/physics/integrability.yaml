@@ -28,7 +28,7 @@ asks:
   - Which interacting systems can be solved exactly, and what structure makes it possible?
   - How do integrable systems thermalize (or fail to)?
 key_results:
-  - "Bethe ansatz (1931) for the Heisenberg chain; Lieb–Liniger; Yang–Baxter equation."
+  - "Bethe ansatz (1931) for the Heisenberg chain; Lieb–Liniger; Yang–Baxter equation. ([Bethe 1931](https://doi.org/10.1007/BF01341708)) ([Lieb–Liniger 1963](https://doi.org/10.1103/PhysRev.130.1605))"
   - "Onsager's solution of the 2D Ising model (1944). ([Onsager 1944](https://doi.org/10.1103/PhysRev.65.117))"
   - "Factorized S-matrices (Zamolodchikov); quantum groups."
   - "Quantum spectral curve for planar N=4 SYM (Gromov–Kazakov–Leurent–Volin). ([GKLV 2013](https://arxiv.org/abs/1305.1939))"
