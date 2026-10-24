@@ -13,7 +13,7 @@ summary: >-
 big_goal: "Understand the Earth as a physical system — interior, magnetic field, oceans and atmosphere — and predict how the climate responds to forcing."
 essentials:
   - "Seismology revealed the Earth's layers; plate tectonics explains continents, mountains and earthquakes."
-  - "More CO₂ means more warming: the physics (radiative transfer) is 19th-century, the quantitative models since Manabe (1967) have proved accurate."
+  - "More CO₂ means more warming: the physics (radiative transfer) is 19th-century, the quantitative models since Manabe (1967) have proved accurate. ([Manabe–Wetherald 1967](https://doi.org/10.1175/1520-0469%281967%29024%3C0241%3ATEOTAW%3E2.0.CO%3B2))"
   - "Weather is chaotic and unpredictable beyond ~2 weeks, but climate — the statistics of weather — responds predictably to forcing."
 broken_promises:
   - "Early numerical weather prediction (von Neumann, Charney) hoped that bigger computers would make long-range weather forecasts possible; Lorenz showed chaos sets a hard limit of about two weeks."

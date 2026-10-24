@@ -32,7 +32,7 @@ key_results:
   - "Bekenstein–Hawking entropy and the holographic principle (’t Hooft, Susskind)."
   - "AdS/CFT gives a non-perturbative definition of quantum gravity in AdS ([[holography]])."
   - "Loop quantum gravity: discrete area and volume spectra; spin networks."
-  - "Asymptotic safety (Weinberg 1979; Reuter): evidence for a UV fixed point in truncations."
+  - "Asymptotic safety (Weinberg 1979; Reuter): evidence for a UV fixed point in truncations. ([Reuter 1996](https://arxiv.org/abs/hep-th/9605030))"
   - "Swampland conjectures: no global symmetries, weak gravity conjecture, distance conjecture."
 experiments:
   - No direct evidence. Constraints from Lorentz-invariance tests (GRB timing), CMB tensor modes, tabletop proposals for gravitationally mediated entanglement.
