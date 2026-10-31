@@ -7,7 +7,7 @@ year: 1900
 who: Max Planck (theory), Lummer, Pringsheim, Rubens, Kurlbaum (data)
 one_liner: Precise measurements of thermal radiation forced the hypothesis that energy comes in quanta $E = h\nu$.
 measured: The spectral energy density of cavity radiation at different temperatures, especially in the infrared.
-result: Classical Rayleigh–Jeans law failed (ultraviolet catastrophe); Planck's law fit perfectly.
+result: Classical Rayleigh–Jeans law failed (ultraviolet catastrophe); Planck's law fit perfectly. ([Planck 1901](https://doi.org/10.1002/andp.19013090310))
 significance:
   - Birth of quantum theory; introduced Planck's constant $h$.
   - The CMB is the most perfect blackbody ever measured.

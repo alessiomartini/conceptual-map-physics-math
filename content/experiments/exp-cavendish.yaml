@@ -7,7 +7,7 @@ year: 1798
 who: Henry Cavendish
 one_liner: First laboratory measurement of the gravitational attraction between masses.
 measured: The tiny twist of a torsion balance as lead spheres attracted smaller ones.
-result: Earth's density ≈ 5.45 g/cm³ (implying $G$, later extracted, within ~1% of today's value).
+result: Earth's density ≈ 5.45 g/cm³ (implying $G$, later extracted, within ~1% of today's value). ([Cavendish 1798](https://doi.org/10.1098/rstl.1798.0022))
 significance:
   - Made gravity a laboratory force and fixed the scale of Newtonian gravity.
   - "$G$ remains the least precisely known fundamental constant (~20 ppm), with puzzling disagreements between modern experiments."
