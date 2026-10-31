@@ -25,7 +25,7 @@ key_results:
   - "Gauss–Bonnet: $\\int_M K\\,dA = 2\\pi\\chi(M)$; Chern–Gauss–Bonnet in higher dimensions."
   - "Levi-Civita connection; Riemann tensor; geodesics; Jacobi fields."
   - "Fibre bundles, connections, characteristic classes (Chern–Weil)."
-  - "Yau's proof of the Calabi conjecture (1977); Berger's holonomy classification."
+  - "Yau's proof of the Calabi conjecture (1977); Berger's holonomy classification. ([Yau 1977](https://doi.org/10.1073/pnas.74.5.1798))"
   - "Hamilton's Ricci flow; Perelman's entropy."
 motivating_examples:
   - Geodesics on the sphere; map projections (Gauss); curved spacetime.

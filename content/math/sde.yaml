@@ -31,7 +31,7 @@ key_results:
   - "Langevin equation and Ornstein–Uhlenbeck process: fluctuation–dissipation fixes the noise strength so the stationary law is Gibbs $\\propto e^{-V/k_BT}$."
   - "Geometric Brownian motion $dS = \\mu S\\,dt + \\sigma S\\,dW$ and the Black–Scholes–Merton model."
   - "Numerics: Euler–Maruyama (strong order 1/2), Milstein (order 1); weak vs strong convergence."
-  - "Stochastic PDEs: KPZ equation made rigorous by Hairer's regularity structures (Fields Medal 2014) and by paracontrolled calculus (Gubinelli–Imkeller–Perkowski)."
+  - "Stochastic PDEs: KPZ equation made rigorous by Hairer's regularity structures (Fields Medal 2014) and by paracontrolled calculus (Gubinelli–Imkeller–Perkowski). ([Hairer 2014](https://arxiv.org/abs/1109.6811))"
 motivating_examples:
   - "Brownian motion of a pollen grain (Einstein 1905, Langevin 1908); Johnson–Nyquist noise in resistors."
   - "Stock prices (Bachelier 1900, Black–Scholes 1973); population dynamics with environmental noise; neuron membrane potentials."

@@ -22,7 +22,7 @@ key_results:
   - "Generating functions; inclusion–exclusion; Pólya enumeration."
   - "Ramsey's theorem; Szemerédi's theorem on arithmetic progressions."
   - "Probabilistic method (Erdős); Lovász local lemma."
-  - "Sperner, Erdős–Ko–Rado; sunflower and cap-set breakthroughs (polynomial method, 2016)."
+  - "Sperner, Erdős–Ko–Rado; sunflower and cap-set breakthroughs (polynomial method, 2016). ([Ellenberg–Gijswijt 2016](https://arxiv.org/abs/1605.09223))"
   - "Kahn–Kalai conjecture proved ([Park–Pham 2022](https://doi.org/10.1109/focs54457.2022.00066)); exponential improvement on diagonal Ramsey ([Campos–Griffiths–Morris–Sahasrabudhe 2023](https://arxiv.org/abs/2303.09521))."
 motivating_examples:
   - Counting permutations, lattice paths, Catalan structures; the party problem R(3,3) = 6.
