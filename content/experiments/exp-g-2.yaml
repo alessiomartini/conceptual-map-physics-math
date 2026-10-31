@@ -7,7 +7,7 @@ year: 2025
 who: Fermilab Muon g−2 (final result 2025); Harvard/Northwestern electron g−2 (Gabrielse et al.)
 one_liner: Ultra-precise anomalous magnetic moments testing QED and the Standard Model through quantum loops.
 measured: Spin precession of muons in a storage ring; quantum jump spectroscopy of single electrons in a Penning trap.
-result: Electron $a_e$ to 0.13 ppt; muon $a_\mu$ to 127 ppb, now consistent with the lattice-QCD-based SM prediction.
+result: Electron $a_e$ to 0.13 ppt; muon $a_\mu$ to 127 ppb, now consistent with the lattice-QCD-based SM prediction. ([Schwinger 1948](https://doi.org/10.1103/PhysRev.73.416), [Hanneke et al. 2008](https://doi.org/10.1103/PhysRevLett.100.120801), [Muon g−2 Collaboration 2025](https://arxiv.org/abs/2506.03069))
 significance:
   - Most precise test of QED; constraint on new particles coupling to leptons. The muon anomaly (once ~5σ) mostly dissolved with lattice HVP.
 connections: [qft, standard-model, lattice-field-theory, beyond-standard-model]

@@ -7,7 +7,7 @@ year: 1911
 who: Heike Kamerlingh Onnes (1911); Meissner & Ochsenfeld (1933); Bednorz & Müller (high-Tc, 1986)
 one_liner: Mercury's resistance vanished below 4.2 K — the first macroscopic quantum state.
 measured: Electrical resistance of mercury cooled with liquid helium; later magnetic flux expulsion.
-result: Zero resistance below $T_c$; the Meissner effect shows it is a thermodynamic phase.
+result: Zero resistance below $T_c$; the Meissner effect shows it is a thermodynamic phase. ([Meissner & Ochsenfeld 1933](https://doi.org/10.1007/BF01504252), [Bednorz & Müller 1986](https://doi.org/10.1007/BF01303701))
 significance:
   - Explained by BCS (1957) for conventional superconductors; high-Tc cuprates remain unexplained. Superconducting magnets and qubits.
 connections: [condensed-matter, gauge-theory, quantum-information]
