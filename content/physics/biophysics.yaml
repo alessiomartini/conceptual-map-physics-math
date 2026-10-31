@@ -11,7 +11,7 @@ summary: >-
 big_goal: "Find the physical principles that make living matter work — how molecules, cells and organisms sense, compute, move and organize reliably out of equilibrium."
 essentials:
   - "Life works at the physical limits: cells sense chemicals close to the Berg–Purcell noise limit and spend energy to reduce errors (kinetic proofreading)."
-  - "Patterns in development can arise spontaneously from reaction and diffusion (Turing 1952)."
+  - "Patterns in development can arise spontaneously from reaction and diffusion (Turing 1952) ([Turing 1952](https://doi.org/10.1098/rstb.1952.0012))."
   - "Collective behaviour (flocks, tissues) is modelled with statistical physics of active matter."
 broken_promises:
   - "Physicists hoped for a few universal 'laws of life' comparable to thermodynamics; biology turned out to be shaped by evolution and history, so most principles are partial and context-dependent."

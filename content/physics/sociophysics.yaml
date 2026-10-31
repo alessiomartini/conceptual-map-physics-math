@@ -23,7 +23,7 @@ key_results:
   - "Axelrod culture model; Ising-like models of social influence; pedestrian social-force model (Helbing). ([Axelrod 1997](https://doi.org/10.1177/0022002797041002001)) ([Helbing–Molnár 1995](https://doi.org/10.1103/PhysRevE.51.4282))"
   - "Universal statistics: turnout distributions, city sizes (Zipf), human mobility scaling."
 experiments:
-  - Social-media data, mobile-phone mobility traces, online controlled experiments (e.g. MusicLab, Salganik et al. 2006).
+  - Social-media data, mobile-phone mobility traces, online controlled experiments (e.g. MusicLab, Salganik et al. 2006). ([Salganik et al. 2006](https://doi.org/10.1126/science.1121066))
 limits:
   - Humans are not spins; model validation is weak; ethical and data-access constraints.
 applications:

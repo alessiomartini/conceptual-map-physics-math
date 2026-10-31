@@ -42,7 +42,7 @@ prerequisites: [quantum-mechanics, statistical-mechanics]
 resources:
   - "Ashcroft & Mermin, *Solid State Physics*"
   - "Altland & Simons, *Condensed Matter Field Theory*"
-  - "Anderson, *More is different* (Science 1972)"
+  - "Anderson, *More is different* (Science 1972) ([Anderson 1972](https://doi.org/10.1126/science.177.4047.393))"
 cards:
   - q: What does Bloch's theorem state?
     a: Eigenstates in a periodic potential can be written $\psi_k(r) = e^{ik\cdot r}u_k(r)$ with $u_k$ periodic.

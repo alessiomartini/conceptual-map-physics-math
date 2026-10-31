@@ -22,8 +22,8 @@ caveats:
   - "A duality is only useful when one side is tractable; weak–strong dualities are hard to test precisely because the strong side is hard."
 connections: [quantum-mechanics, electromagnetism, phase-transitions, symmetries, condensed-matter, gauge-theory, string-theory, holography, cft, algebraic-geometry, topology, number-theory, exp-double-slit, philosophy-of-physics]
 resources:
-  - "Polchinski, *Dualities of Fields and Strings* (2014)"
-  - "Seiberg, Senthil, Wang & Witten, *A Duality Web in 2+1 Dimensions* (2016)"
+  - "Polchinski, *Dualities of Fields and Strings* (2014) ([Polchinski 2014](https://arxiv.org/abs/1412.5704))"
+  - "Seiberg, Senthil, Wang & Witten, *A Duality Web in 2+1 Dimensions* (2016) ([Seiberg et al. 2016](https://arxiv.org/abs/1606.01989))"
 cards:
   - q: How does Kramers–Wannier duality fix the 2D Ising critical point?
     detail: true  # site only, not in the Anki deck

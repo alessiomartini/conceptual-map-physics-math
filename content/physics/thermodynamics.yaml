@@ -28,7 +28,7 @@ key_results:
   - "Black-hole thermodynamics: $S = A/4G\\hbar$ (Bekenstein–Hawking). ([Bekenstein 1973](https://doi.org/10.1103/PhysRevD.7.2333))"
 experiments:
   - Joule's mechanical equivalent of heat; calorimetry; low-temperature physics approaching absolute zero.
-  - Experimental tests of Landauer's principle with colloidal particles (Bérut et al. 2012).
+  - Experimental tests of Landauer's principle with colloidal particles (Bérut et al. 2012). ([Bérut et al. 2012](https://doi.org/10.1038/nature10872))
 limits:
   - Describes equilibrium; far-from-equilibrium systems need [[non-equilibrium]] statistical physics.
   - Fluctuations matter for small systems (stochastic thermodynamics).

@@ -41,7 +41,7 @@ connections: [string-theory, cft, quantum-gravity, black-holes, quantum-informat
 prerequisites: [cft, general-relativity, string-theory]
 resources:
   - "Hartman, *Lectures on Quantum Gravity and Black Holes* (Cornell notes)"
-  - "Harlow, *Jerusalem lectures on black holes and quantum information* (2014)"
+  - "Harlow, *Jerusalem lectures on black holes and quantum information* (2014) ([Harlow 2014](https://arxiv.org/abs/1409.1231))"
   - "Ammon & Erdmenger, *Gauge/Gravity Duality*"
 cards:
   - q: What is the original AdS/CFT duality?

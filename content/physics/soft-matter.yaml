@@ -41,7 +41,7 @@ connections: [non-equilibrium, statistical-mechanics, phase-transitions, hydrody
 prerequisites: [statistical-mechanics]
 resources:
   - "Chaikin & Lubensky, *Principles of Condensed Matter Physics*"
-  - "Marchetti et al., *Hydrodynamics of soft active matter*, Rev. Mod. Phys. 85 (2013)"
+  - "Marchetti et al., *Hydrodynamics of soft active matter*, Rev. Mod. Phys. 85 (2013) ([Marchetti et al. 2013](https://doi.org/10.1103/RevModPhys.85.1143))"
 cards:
   - q: What makes matter "soft"?
     a: Interaction energies comparable to $k_BT$ and large structural units, so entropy and thermal fluctuations dominate and the material deforms easily.

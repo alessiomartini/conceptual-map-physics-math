@@ -9,7 +9,7 @@ one_liner: A tiny splitting between hydrogen's 2S and 2P levels that Dirac's the
 measured: Microwave transitions between the 2S₁/₂ and 2P₁/₂ levels of hydrogen.
 result: A shift of ≈ 1057 MHz. ([Lamb–Retherford 1947](https://doi.org/10.1103/PhysRev.72.241))
 significance:
-  - Explained by vacuum fluctuations in QED (Bethe 1947); triggered the development of renormalization (Feynman, Schwinger, Tomonaga, Dyson).
+  - Explained by vacuum fluctuations in QED (Bethe 1947) ([Bethe 1947](https://doi.org/10.1103/PhysRev.72.339)); triggered the development of renormalization (Feynman, Schwinger, Tomonaga, Dyson).
 connections: [qft, renormalization, quantum-mechanics]
 cards:
   - q: What theoretical development did the Lamb shift trigger?

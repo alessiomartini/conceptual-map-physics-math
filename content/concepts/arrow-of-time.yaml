@@ -47,11 +47,11 @@ caveats:
   - "Decoherence explains the *appearance* of classical, irreversible outcomes for a subsystem; it does not by itself solve the measurement problem, because the total state stays pure and unitary, and it needs the same low-entropy initial conditions (an initially uncorrelated environment) to work as a one-way process."
 connections: [classical-mechanics, electromagnetism, quantum-mechanics, symmetries, thermodynamics, entropy-information, statistical-mechanics, non-equilibrium, dynamical-systems, chaos, information-theory, emergence, cosmology, philosophy-of-physics, exp-cmb, general-relativity, black-holes, fluctuations-response, stochastic-processes, biophysics, soft-matter, quantum-information, quantum-foundations, classical-field-theory, special-relativity, exp-kaon-cp, exp-wu-parity, standard-model, qft, symmetry-conservation-gauge]
 resources:
-  - "Lebowitz, 'Boltzmann's entropy and time's arrow', Physics Today (1993)"
+  - "Lebowitz, 'Boltzmann's entropy and time's arrow', Physics Today (1993) ([Lebowitz 1993](https://doi.org/10.1063/1.881363))"
   - "Zeh, *The Physical Basis of the Direction of Time*"
   - "Penrose, *The Road to Reality* (the Weyl curvature hypothesis) and Carroll, *From Eternity to Here*"
   - "Albert, *Time and Chance* (the Past Hypothesis)"
-  - "Seifert, 'Stochastic thermodynamics, fluctuation theorems and molecular machines', Rep. Prog. Phys. (2012)"
+  - "Seifert, 'Stochastic thermodynamics, fluctuation theorems and molecular machines', Rep. Prog. Phys. (2012) ([Seifert 2012](https://doi.org/10.1088/0034-4885/75/12/126001))"
 cards:
   - q: Why is irreversibility puzzling if the microscopic laws are time-reversal symmetric?
     a: Each reversed trajectory is also a solution, yet we see only one direction at the macroscopic level; the asymmetry must come from initial conditions and statistics, not from the equations.

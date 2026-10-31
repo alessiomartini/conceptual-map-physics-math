@@ -29,7 +29,7 @@ key_results:
   - "Quantum phase transitions; quantum criticality (Sachdev)."
   - "Deconfined quantum criticality proposal (Senthil et al. 2004). ([Senthil et al. 2004](https://arxiv.org/abs/cond-mat/0311326))"
 experiments:
-  - "Liquid–gas critical opalescence; λ-transition of He-4; superfluid films (BKT, Bishop–Reppy 1978); heavy-fermion quantum critical points."
+  - "Liquid–gas critical opalescence; λ-transition of He-4; superfluid films (BKT, Bishop–Reppy 1978) ([Bishop–Reppy 1978](https://doi.org/10.1103/PhysRevLett.40.1727)); heavy-fermion quantum critical points."
 limits:
   - Non-equilibrium transitions (directed percolation etc.) and glass transition lack complete theory.
 applications:

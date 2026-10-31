@@ -41,7 +41,7 @@ connections: [topology, differential-geometry, geometry-curvature, tqft, topolog
 resources:
   - "Nakahara, *Geometry, Topology and Physics* (homotopy, characteristic classes, index theorems)"
   - "Bernevig & Hughes, *Topological Insulators and Topological Superconductors*"
-  - "Mermin, 'The topological theory of defects in ordered media', Rev. Mod. Phys. 51 (1979)"
+  - "Mermin, 'The topological theory of defects in ordered media', Rev. Mod. Phys. 51 (1979) ([Mermin 1979](https://doi.org/10.1103/RevModPhys.51.591))"
   - "Wen, *Quantum Field Theory of Many-Body Systems* (topological order, Chern–Simons)"
   - "Kosterlitz, 'Nobel Lecture: Topological defects and phase transitions', and Haldane's Nobel lecture on topological quantum matter"
 cards:

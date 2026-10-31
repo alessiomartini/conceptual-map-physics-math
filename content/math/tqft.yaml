@@ -31,7 +31,7 @@ key_results:
   - "Khovanov homology (2000) ([Khovanov 2000](https://doi.org/10.1215/S0012-7094-00-10131-7)) categorifies the Jones polynomial; Floer homologies as TQFT-like structures."
   - "Topological quantum computation: braiding non-abelian anyons is universal for quantum computing (Freedman–Kitaev–Larsen–Wang)."
 motivating_examples:
-  - "Knot invariants (Jones 1984); Donaldson's invariants of smooth 4-manifolds; the fractional quantum Hall effect as a Chern–Simons theory."
+  - "Knot invariants (Jones 1984) ([Jones 1985](https://doi.org/10.1090/S0273-0979-1985-15304-2)); Donaldson's invariants of smooth 4-manifolds; the fractional quantum Hall effect as a Chern–Simons theory."
 limits:
   - Mostly limited to low dimensions and to gapped phases; physically relevant gapless theories are not topological.
 applications:
@@ -41,8 +41,8 @@ frontiers:
 connections: [topology, category-theory, gauge-theory, topological-phases, symmetries, string-theory, quantum-information, supersymmetry]
 prerequisites: [topology, gauge-theory]
 resources:
-  - "Atiyah, *Topological quantum field theories*, Publ. Math. IHÉS 68 (1988)"
-  - "Witten, *Quantum field theory and the Jones polynomial*, Commun. Math. Phys. 121 (1989)"
+  - "Atiyah, *Topological quantum field theories*, Publ. Math. IHÉS 68 (1988) ([Atiyah 1988](https://doi.org/10.1007/BF02698547))"
+  - "Witten, *Quantum field theory and the Jones polynomial*, Commun. Math. Phys. 121 (1989) ([Witten 1989](https://doi.org/10.1007/BF01217730))"
   - "Kock, *Frobenius Algebras and 2D Topological Quantum Field Theories*"
 cards:
   - q: What is a TQFT in the Atiyah–Segal sense?
