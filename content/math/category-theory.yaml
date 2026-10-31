@@ -21,10 +21,10 @@ asks:
   - What is the right framework for homotopy-coherent and higher-dimensional algebra?
 key_results:
   - "Yoneda lemma: an object is determined by the functor it represents."
-  - "Adjoint functors; limits and colimits; equivalence of categories."
+  - "Adjoint functors; limits and colimits; equivalence of categories. ([Eilenberg–Mac Lane 1945](https://doi.org/10.1090/S0002-9947-1945-0013131-6))"
   - "Abelian and derived categories; homological algebra."
   - "Grothendieck toposes and sheaves; elementary topos as foundations of logic."
-  - "Atiyah–Segal axioms: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces; cobordism hypothesis (Baez–Dolan; Lurie)."
+  - "Atiyah–Segal axioms: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces; cobordism hypothesis (Baez–Dolan; Lurie). ([Atiyah 1988](https://doi.org/10.1007/BF02698547))"
   - "∞-categories (Joyal, Lurie) for homotopy theory."
 motivating_examples:
   - Homology as a functor from spaces to groups; fundamental group; duality of vector spaces.

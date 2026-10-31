@@ -21,10 +21,10 @@ asks:
   - When can limits and integrals be exchanged?
 key_results:
   - "Completeness of ℝ; Bolzano–Weierstrass; Heine–Borel."
-  - "Lebesgue integral; monotone and dominated convergence theorems; Fubini–Tonelli."
+  - "Lebesgue integral; monotone and dominated convergence theorems; Fubini–Tonelli. ([Lebesgue 1902](https://doi.org/10.1007/BF02420592))"
   - "Radon–Nikodym theorem; $L^p$ spaces and their completeness."
   - "Vitali's non-measurable set (needs the axiom of choice)."
-  - "Weierstrass approximation; Arzelà–Ascoli; Baire category theorem."
+  - "Weierstrass approximation; Arzelà–Ascoli; Baire category theorem. ([Baire 1899](https://doi.org/10.1007/BF02419243))"
 motivating_examples:
   - Fourier series convergence problems that motivated rigorous analysis; continuous nowhere-differentiable functions.
 limits:

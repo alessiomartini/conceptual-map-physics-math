@@ -20,11 +20,11 @@ asks:
   - How can linear maps be classified and decomposed?
   - How do groups act on vector spaces, and what are their irreducible representations?
 key_results:
-  - "Spectral theorem; Jordan normal form; singular value decomposition; Cayley–Hamilton."
+  - "Spectral theorem; Jordan normal form; singular value decomposition; Cayley–Hamilton. ([Eckart–Young 1936](https://doi.org/10.1007/BF02288367))"
   - "Tensor products, exterior algebras, determinants."
-  - "Maschke's theorem: representations of finite groups (char 0) are completely reducible."
+  - "Maschke's theorem: representations of finite groups (char 0) are completely reducible. ([Maschke 1899](https://doi.org/10.1007/BF01476165))"
   - "Character theory: number of irreps = number of conjugacy classes; Schur's lemma; orthogonality relations."
-  - "Peter–Weyl theorem for compact groups."
+  - "Peter–Weyl theorem for compact groups. ([Peter–Weyl 1927](https://doi.org/10.1007/BF01447892))"
 motivating_examples:
   - Normal modes of oscillation; principal component analysis; angular momentum addition (Clebsch–Gordan).
 limits:

@@ -8,7 +8,7 @@ one_liner: The major open measurements across fundamental physics as of 2026.
 summary: >-
   A checklist of quantities that experiments are actively chasing, each tied to a theoretical question.
 measuring_now:
-  - "**Neutrino properties** — absolute mass (KATRIN bound $m_\\nu < 0.45$ eV; Project 8; cosmology), mass ordering (JUNO, running since 2025), leptonic CP phase (DUNE, Hyper-K), Majorana nature via 0νββ (LEGEND, nEXO, KamLAND-Zen)."
+  - "**Neutrino properties** — absolute mass (KATRIN bound $m_\\nu < 0.45$ eV; Project 8; cosmology), mass ordering (JUNO, running since 2025), leptonic CP phase (DUNE, Hyper-K), Majorana nature via 0νββ (LEGEND, nEXO, KamLAND-Zen). ([KATRIN Collaboration 2025](https://doi.org/10.1126/science.adq9592))"
   - "**Dark matter** — direct detection (LZ, XENONnT, PandaX, DARWIN/XLZD), axions (ADMX, haloscopes, helioscopes like IAXO), indirect signals, collider production."
   - "**Dark energy equation of state** $w(z)$ — DESI, Euclid, Rubin LSST, Roman."
   - "**Hubble constant** — distance ladder (Cepheids, TRGB, JAGB with JWST) vs CMB/BAO; standard sirens."
