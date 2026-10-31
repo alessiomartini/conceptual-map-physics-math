@@ -22,9 +22,9 @@ asks:
 key_results:
   - "Lagrange multipliers and KKT conditions; convex duality."
   - "Simplex method (Dantzig); interior-point methods (Karmarkar 1984) ([Karmarkar 1984](https://doi.org/10.1007/BF02579150)) — LP in polynomial time (Khachiyan 1979)."
-  - "Semidefinite programming; Goemans–Williamson MAX-CUT approximation."
+  - "Semidefinite programming; Goemans–Williamson MAX-CUT approximation. ([Goemans–Williamson 1995](https://doi.org/10.1145/227683.227684))"
   - "Gradient descent rates; Nesterov acceleration; stochastic gradient descent."
-  - "Markowitz mean–variance portfolio optimization."
+  - "Markowitz mean–variance portfolio optimization. ([Markowitz 1952](https://doi.org/10.1111/j.1540-6261.1952.tb01525.x))"
 motivating_examples:
   - Resource allocation, shortest paths, least squares, portfolio selection.
 limits:

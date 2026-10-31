@@ -21,7 +21,7 @@ asks:
   - What are hadron masses and matrix elements predicted by QCD?
 key_results:
   - Wilson action; strong-coupling confinement; gauge invariance preserved on the lattice.
-  - "Nielsen–Ninomiya theorem (fermion doubling); Ginsparg–Wilson fermions; domain-wall and overlap fermions."
+  - "Nielsen–Ninomiya theorem (fermion doubling); Ginsparg–Wilson fermions; domain-wall and overlap fermions. ([Nielsen–Ninomiya 1981](https://doi.org/10.1016/0550-3213%2881%2990361-8))"
   - "Ab initio light hadron spectrum (BMW 2008); proton–neutron mass difference (2015). ([BMW 2008](https://doi.org/10.1126/science.1163233))"
   - "QCD transition at μ=0 is a crossover at $T_c \\approx 155$ MeV."
   - "Lattice HVP contribution to muon g−2 (BMW 2021, confirmed by others). ([BMW 2021](https://arxiv.org/abs/2002.12347))"

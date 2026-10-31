@@ -25,7 +25,7 @@ key_results:
   - "Boltzmann entropy $S = k_B \\ln W$; Gibbs ensembles; partition function $Z = \\mathrm{Tr}\\,e^{-\\beta H}$."
   - "Equipartition; fluctuation–response relations; Bose–Einstein and Fermi–Dirac statistics."
   - "Boltzmann's H-theorem and the debate on irreversibility (Loschmidt, Zermelo)."
-  - "Onsager's exact 2D Ising solution; mean-field theory; Lee–Yang zeros."
+  - "Onsager's exact 2D Ising solution; mean-field theory; Lee–Yang zeros. ([Onsager 1944](https://doi.org/10.1103/PhysRev.65.117))"
   - "Quantum–classical mapping: a d-dimensional quantum system at T=0 ↔ (d+1)-dimensional classical system."
   - "Spin glasses: Parisi's replica symmetry breaking (Nobel 2021). ([Parisi 1979](https://doi.org/10.1103/PhysRevLett.43.1754))"
 experiments:

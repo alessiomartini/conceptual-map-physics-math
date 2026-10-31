@@ -24,7 +24,7 @@ key_results:
   - "Zeroth to third laws; entropy as a state function; $dU = TdS - pdV + \\mu dN$."
   - Carnot efficiency $1 - T_c/T_h$ is the maximum for any heat engine.
   - Thermodynamic potentials, Legendre transforms and Maxwell relations.
-  - "Landauer's principle: erasing one bit costs at least $k_BT\\ln 2$ of dissipated heat."
+  - "Landauer's principle: erasing one bit costs at least $k_BT\\ln 2$ of dissipated heat. ([Landauer 1961](https://doi.org/10.1147/rd.53.0183))"
   - "Black-hole thermodynamics: $S = A/4G\\hbar$ (Bekenstein–Hawking). ([Bekenstein 1973](https://doi.org/10.1103/PhysRevD.7.2333))"
 experiments:
   - Joule's mechanical equivalent of heat; calorimetry; low-temperature physics approaching absolute zero.

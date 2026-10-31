@@ -24,10 +24,10 @@ asks:
 key_results:
   - "Polymer scaling: Flory exponent $R \\sim N^{\\nu}$ with $\\nu \\approx 0.588$ in 3D; de Gennes' mapping of polymers to the $n\\to0$ limit of the O(n) model."
   - "Liquid crystals: nematic order, Frank elasticity, Landau–de Gennes theory; topological defects (disclinations)."
-  - "Colloids as model atoms: entropy-driven crystallization of hard spheres; depletion forces (Asakura–Oosawa)."
+  - "Colloids as model atoms: entropy-driven crystallization of hard spheres; depletion forces (Asakura–Oosawa). ([Asakura–Oosawa 1954](https://doi.org/10.1063/1.1740347))"
   - "Jamming transition of granular and foam packings (Liu–Nagel 1998); isostaticity. ([Liu–Nagel 1998](https://doi.org/10.1038/23819))"
   - "Active matter: Vicsek model (1995) ([Vicsek et al. 1995](https://doi.org/10.1103/PhysRevLett.75.1226)) and Toner–Tu theory — true long-range orientational order in 2D, evading Mermin–Wagner because the system is out of equilibrium."
-  - "Motility-induced phase separation (Cates–Tailleur): repulsive self-propelled particles phase-separate."
+  - "Motility-induced phase separation (Cates–Tailleur): repulsive self-propelled particles phase-separate. ([Cates–Tailleur 2015](https://doi.org/10.1146/annurev-conmatphys-031214-014710))"
 experiments:
   - "Perrin's colloids and Brownian motion; colloidal crystals imaged by confocal microscopy; bacterial turbulence; flocks of starlings (STARFLAG); Janus particles."
 limits:

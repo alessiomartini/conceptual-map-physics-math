@@ -22,8 +22,8 @@ asks:
   - Which low-energy observables carry information about high-energy physics?
   - Which EFTs can be UV completed at all (positivity, swampland)?
 key_results:
-  - "Decoupling theorem (Appelquist–Carazzone)."
-  - Power counting; matching and running; Weinberg's folk theorem.
+  - "Decoupling theorem (Appelquist–Carazzone). ([Appelquist–Carazzone 1975](https://doi.org/10.1103/PhysRevD.11.2856))"
+  - Power counting; matching and running; Weinberg's folk theorem. ([Weinberg 1979](https://doi.org/10.1016/0378-4371%2879%2990223-1))
   - "Chiral perturbation theory for pions; Fermi theory as the EFT of weak interactions; SMEFT (dimension-6 operators)."
   - "Heavy-quark EFT, soft-collinear EFT, NRQED/NRQCD, non-relativistic EFTs for nuclear forces."
   - "GR as an EFT: computable quantum corrections at long distances (Donoghue). ([Donoghue 1994](https://arxiv.org/abs/gr-qc/9405057))"
