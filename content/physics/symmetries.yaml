@@ -32,11 +32,11 @@ asks:
   - How do symmetries and their anomalies classify phases of matter?
   - What is the most general notion of symmetry in quantum field theory?
 key_results:
-  - "Noether's theorem; Wigner's theorem (symmetries are unitary or antiunitary); Goldstone theorem."
+  - "Noether's theorem; Wigner's theorem (symmetries are unitary or antiunitary); Goldstone theorem. ([Goldstone 1961](https://doi.org/10.1007/BF02812722))"
   - "Landau paradigm: phases classified by symmetry breaking patterns."
   - "’t Hooft anomaly matching: UV anomalies must be reproduced in the IR."
   - "Higher-form symmetries act on extended objects; 1-form center symmetry is the order parameter for confinement. ([GKSW 2014](https://arxiv.org/abs/1412.5148))"
-  - "Non-invertible symmetries exist in 4D (e.g. in QED and pion theory) and constrain dynamics (Choi–Lam–Shao, Córdova–Ohmori)."
+  - "Non-invertible symmetries exist in 4D (e.g. in QED and pion theory) and constrain dynamics (Choi–Lam–Shao, Córdova–Ohmori). ([Choi–Lam–Shao 2022](https://arxiv.org/abs/2205.05086)) ([Córdova–Ohmori 2022](https://arxiv.org/abs/2205.06243))"
   - "Symmetry TFT / SymTFT: symmetries of a d-dimensional theory encoded in a (d+1)-dimensional topological theory."
 experiments:
   - "[[exp-wu-parity]] (P violation), CP violation in kaons (1964), Goldstone modes (phonons, magnons, pions)."

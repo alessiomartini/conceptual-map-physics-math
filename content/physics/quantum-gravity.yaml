@@ -33,7 +33,7 @@ key_results:
   - "AdS/CFT gives a non-perturbative definition of quantum gravity in AdS ([[holography]])."
   - "Loop quantum gravity: discrete area and volume spectra; spin networks."
   - "Asymptotic safety (Weinberg 1979; Reuter): evidence for a UV fixed point in truncations. ([Reuter 1996](https://arxiv.org/abs/hep-th/9605030))"
-  - "Swampland conjectures: no global symmetries, weak gravity conjecture, distance conjecture."
+  - "Swampland conjectures: no global symmetries, weak gravity conjecture, distance conjecture. ([Vafa 2005](https://arxiv.org/abs/hep-th/0509212)) ([Arkani-Hamed et al. 2006](https://arxiv.org/abs/hep-th/0601001))"
 experiments:
   - No direct evidence. Constraints from Lorentz-invariance tests (GRB timing), CMB tensor modes, tabletop proposals for gravitationally mediated entanglement.
 limits:

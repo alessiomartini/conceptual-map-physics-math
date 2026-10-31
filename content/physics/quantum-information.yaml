@@ -23,7 +23,7 @@ asks:
   - How do we quantify and manipulate entanglement?
 key_results:
   - "Shor's algorithm (1994): factoring in polynomial time; Grover search with quadratic speedup. ([Shor 1995](https://arxiv.org/abs/quant-ph/9508027))"
-  - "Quantum error correction (Shor, Steane, CSS codes, stabilizer formalism); threshold theorem: below a noise threshold, arbitrarily long computation is possible."
+  - "Quantum error correction (Shor, Steane, CSS codes, stabilizer formalism); threshold theorem: below a noise threshold, arbitrarily long computation is possible. ([Shor 1995](https://doi.org/10.1103/PhysRevA.52.R2493)) ([Steane 1996](https://doi.org/10.1103/PhysRevLett.77.793))"
   - "Topological codes: toric/surface code (Kitaev). ([Kitaev 1997](https://arxiv.org/abs/quant-ph/9707021))"
   - No-cloning; teleportation; superdense coding; BB84 quantum key distribution.
   - "Entanglement entropy, area laws for gapped ground states (1D: Hastings). ([Hastings 2007](https://arxiv.org/abs/0705.2024))"
