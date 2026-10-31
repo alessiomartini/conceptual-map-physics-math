@@ -24,7 +24,7 @@ key_results:
   - "Adjoint functors; limits and colimits; equivalence of categories."
   - "Abelian and derived categories; homological algebra."
   - "Grothendieck toposes and sheaves; elementary topos as foundations of logic."
-  - "Atiyah–Segal axioms: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces; cobordism hypothesis (Baez–Dolan; Lurie)."
+  - "Atiyah–Segal axioms: a TQFT is a symmetric monoidal functor from cobordisms to vector spaces; cobordism hypothesis (Baez–Dolan; Lurie). ([Atiyah 1988](https://doi.org/10.1007/BF02698547))"
   - "∞-categories (Joyal, Lurie) for homotopy theory."
 motivating_examples:
   - Homology as a functor from spaces to groups; fundamental group; duality of vector spaces.

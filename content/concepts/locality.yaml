@@ -12,9 +12,9 @@ thread:
   - "**Action at a distance to fields:** Newtonian gravity acts instantly; Faraday and Maxwell replaced it with fields carrying energy at finite speed $c$ ([[electromagnetism]], [[classical-field-theory]])."
   - "**Relativity makes locality causal structure:** no signal outside the light cone; equations of motion must be hyperbolic ([[special-relativity]], [[pde]])."
   - "**Locality in QFT:** fields at spacelike separation commute (microcausality); Lagrangians are integrals of local densities; cluster decomposition — distant experiments give independent results ([[qft]])."
-  - "**Bell nonlocality:** quantum correlations violate Bell inequalities, so no local hidden-variable theory reproduces them; yet no-signalling holds — entanglement cannot transmit information ([[quantum-foundations]], [[exp-bell-tests]])."
+  - "**Bell nonlocality:** quantum correlations violate Bell inequalities, so no local hidden-variable theory reproduces them; yet no-signalling holds — entanglement cannot transmit information ([[quantum-foundations]], [[exp-bell-tests]]). ([Einstein–Podolsky–Rosen 1935](https://doi.org/10.1103/PhysRev.47.777))"
   - "**Gauge theories:** physical observables like Wilson loops and the AB phase are non-local in the gauge-invariant description, while the theory remains local ([[gauge-theory]], [[exp-aharonov-bohm]])."
-  - "**Lattices and Lieb–Robinson:** even non-relativistic lattice systems have an effective light cone for information spreading ([[condensed-matter]], [[quantum-information]])."
+  - "**Lattices and Lieb–Robinson:** even non-relativistic lattice systems have an effective light cone for information spreading ([[condensed-matter]], [[quantum-information]]). ([Lieb–Robinson 1972](https://doi.org/10.1007/BF01645779))"
   - "**Quantum gravity strains locality:** diffeomorphism invariance leaves no local gauge-invariant observables; the information paradox and holography suggest bulk locality is approximate ([[quantum-gravity]], [[holography]], [[black-holes]])."
 caveats:
   - "'Nonlocal' in Bell's sense (no local hidden variables) is different from 'nonlocal' in field theory (interactions at a distance). Quantum mechanics is nonlocal in the first sense but QFT is local in the second."

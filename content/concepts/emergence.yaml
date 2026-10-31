@@ -11,7 +11,7 @@ summary: >-
 thread:
   - "**Thermodynamics from mechanics:** temperature and pressure are properties of ensembles, not of molecules; irreversibility emerges from reversible laws plus a low-entropy initial state ([[statistical-mechanics]], [[philosophy-of-physics]])."
   - "**Phases and order parameters:** a crystal's rigidity, a magnet's magnetisation and a superconductor's zero resistance are collective; broken symmetry gives them robust properties ([[phase-transitions]], [[exp-superconductivity]])."
-  - "**Quasiparticles:** phonons, magnons, holes, Cooper pairs behave like particles but exist only as excitations of a many-body state; electrons in solids can fractionalise into charge $e/3$ anyons ([[condensed-matter]], [[exp-quantum-hall]])."
+  - "**Quasiparticles:** phonons, magnons, holes, Cooper pairs behave like particles but exist only as excitations of a many-body state; electrons in solids can fractionalise into charge $e/3$ anyons ([[condensed-matter]], [[exp-quantum-hall]]). ([Laughlin 1983](https://doi.org/10.1103/PhysRevLett.50.1395))"
   - "**Topological order:** phases not described by symmetry breaking — ground-state degeneracy on a torus, long-range entanglement ([[topological-phases]])."
   - "**Emergent gauge fields and emergent relativity:** gauge fields and Lorentz invariance appear at low energy in spin liquids and in graphene (massless Dirac electrons)."
   - "**Hydrodynamics:** at long wavelengths any system relaxes to a few conserved densities; fluid equations are universal ([[hydrodynamics]], [[universality]])."
@@ -22,7 +22,7 @@ caveats:
   - "Emergent spacetime is established in specific holographic models (AdS); whether our universe works this way is open."
 connections: [statistical-mechanics, phase-transitions, condensed-matter, topological-phases, hydrodynamics, complex-systems, sociophysics, networks, holography, philosophy-of-physics, universality, entropy-information, exp-superconductivity, exp-quantum-hall]
 resources:
-  - "Anderson, *More is Different*, Science 177 (1972)"
+  - "Anderson, *More is Different*, Science 177 (1972) ([Anderson 1972](https://doi.org/10.1126/science.177.4047.393))"
   - "Wen, *Quantum Field Theory of Many-Body Systems*"
   - "Laughlin, *A Different Universe*"
 cards:

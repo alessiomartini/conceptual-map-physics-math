@@ -21,9 +21,9 @@ asks:
   - What are their representations?
 key_results:
   - "Lie's correspondence: simply connected Lie groups ↔ Lie algebras."
-  - "Killing–Cartan classification of complex simple Lie algebras: $A_n, B_n, C_n, D_n$ and exceptional $G_2, F_4, E_6, E_7, E_8$."
-  - "Highest-weight theory; Weyl character formula; Borel–Weil–Bott."
-  - "Kac–Moody and affine Lie algebras; Virasoro algebra."
+  - "Killing–Cartan classification of complex simple Lie algebras: $A_n, B_n, C_n, D_n$ and exceptional $G_2, F_4, E_6, E_7, E_8$. ([Killing 1888](https://doi.org/10.1007/BF01211904))"
+  - "Highest-weight theory; Weyl character formula; Borel–Weil–Bott. ([Weyl 1925](https://doi.org/10.1007/BF01506234))"
+  - "Kac–Moody and affine Lie algebras; Virasoro algebra. ([Virasoro 1970](https://doi.org/10.1103/PhysRevD.1.2933))"
 motivating_examples:
   - Rotation group SO(3) and spin SU(2); Lorentz group; SU(3) flavour (Eightfold Way).
 limits:
