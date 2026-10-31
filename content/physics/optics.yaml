@@ -25,8 +25,8 @@ asks:
   - How can we shape, guide and confine light with engineered materials?
 key_results:
   - "Fermat's principle of least time; Huygens–Fresnel principle; Young's double slit (1801) establishing the wave theory."
-  - "Light as an electromagnetic wave (Maxwell 1865); polarization; Fresnel equations."
-  - "Abbe diffraction limit $d \\approx \\lambda/2\\,\\mathrm{NA}$; circumvented by super-resolution microscopy (STED, PALM/STORM; Nobel Chemistry 2014)."
+  - "Light as an electromagnetic wave (Maxwell 1865); polarization; Fresnel equations. ([Maxwell 1865](https://doi.org/10.1098/rstl.1865.0008))"
+  - "Abbe diffraction limit $d \\approx \\lambda/2\\,\\mathrm{NA}$; circumvented by super-resolution microscopy (STED, PALM/STORM; Nobel Chemistry 2014). ([Hell–Wichmann 1994](https://doi.org/10.1364/OL.19.000780)) ([Betzig et al. 2006](https://doi.org/10.1126/science.1127344))"
   - "Coherence theory and the Hanbury Brown–Twiss effect (1956); Glauber's quantum theory of optical coherence (1963, Nobel 2005). ([Glauber 1963](https://doi.org/10.1103/PhysRev.130.2529))"
   - "The laser (Maiman 1960); nonlinear optics from second-harmonic generation (Franken 1961). ([Maiman 1960](https://doi.org/10.1038/187493a0))"
   - "Optical fibres for communication (Kao, Nobel 2009); photonic crystals (Yablonovitch, John 1987); negative refraction and metamaterials (Pendry 2000). ([Yablonovitch 1987](https://doi.org/10.1103/PhysRevLett.58.2059)) ([John 1987](https://doi.org/10.1103/PhysRevLett.58.2486)) ([Pendry 2000](https://doi.org/10.1103/PhysRevLett.85.3966))"

@@ -22,7 +22,7 @@ asks:
 key_results:
   - "Hilbert's Nullstellensatz: ideals ↔ varieties."
   - "Riemann–Roch theorem and Hirzebruch–Riemann–Roch, Grothendieck–Riemann–Roch."
-  - "Schemes and étale cohomology (Grothendieck); Weil conjectures proved by Deligne (1974)."
+  - "Schemes and étale cohomology (Grothendieck); Weil conjectures proved by Deligne (1974). ([Deligne 1974](https://doi.org/10.1007/BF02684373))"
   - "Resolution of singularities in characteristic 0 (Hironaka 1964). ([Hironaka 1964](https://doi.org/10.2307/1970486))"
   - "Minimal model program; classification of surfaces."
   - "Hodge theory; Hodge conjecture open."
