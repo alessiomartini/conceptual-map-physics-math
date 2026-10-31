@@ -20,7 +20,7 @@ asks:
 key_results:
   - "Debye screening; plasma frequency; Landau damping (collisionless damping, Landau 1946)."
   - "Magnetohydrodynamics; Alfvén waves (Nobel 1970); magnetic reconnection."
-  - "Lawson criterion for fusion ignition."
+  - "Lawson criterion for fusion ignition. ([Lawson 1957](https://doi.org/10.1088/0370-1301/70/1/303))"
 experiments:
   - "National Ignition Facility achieved target gain > 1 (Dec 2022); JET and tokamak records; Parker Solar Probe."
 limits:

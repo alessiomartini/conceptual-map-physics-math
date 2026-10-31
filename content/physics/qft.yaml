@@ -37,7 +37,7 @@ key_results:
   - "QED: electron $g-2$ agrees with experiment to about one part in $10^{12}$."
   - "Renormalizability and the renormalization group; asymptotic freedom of non-abelian gauge theories (Gross–Wilczek, Politzer 1973). ([Gross–Wilczek 1973](https://doi.org/10.1103/PhysRevLett.30.1343), [Politzer 1973](https://doi.org/10.1103/PhysRevLett.30.1346))"
   - "Anomalies (ABJ) and anomaly matching (’t Hooft)."
-  - "Coleman–Mandula theorem: spacetime and internal symmetries cannot mix nontrivially (loophole: supersymmetry, Haag–Łopuszański–Sohnius)."
+  - "Coleman–Mandula theorem: spacetime and internal symmetries cannot mix nontrivially (loophole: supersymmetry, Haag–Łopuszański–Sohnius). ([Coleman–Mandula 1967](https://doi.org/10.1103/PhysRev.159.1251), [Haag–Łopuszański–Sohnius 1975](https://doi.org/10.1016/0550-3213%2875%2990279-5))"
   - "Wightman and Osterwalder–Schrader axioms; Reeh–Schlieder theorem."
 experiments:
   - "[[exp-lamb-shift]], [[exp-g-2]] (electron and muon), [[exp-deep-inelastic]], LEP precision electroweak tests, [[exp-higgs]]."

@@ -22,7 +22,7 @@ asks:
   - What hidden structures (dualities, geometry) do amplitudes have?
   - How are gauge theory and gravity amplitudes related?
 key_results:
-  - "Parke–Taylor formula for MHV gluon amplitudes."
+  - "Parke–Taylor formula for MHV gluon amplitudes. ([Parke–Taylor 1986](https://doi.org/10.1103/PhysRevLett.56.2459))"
   - "BCFW recursion relations; generalized unitarity; spinor-helicity formalism. ([BCFW 2005](https://arxiv.org/abs/hep-th/0501052))"
   - "Double copy / BCJ: gravity amplitudes ≈ (gauge amplitudes)² (KLT relations from strings). ([BCJ 2008](https://arxiv.org/abs/0805.3993))"
   - "Dual superconformal / Yangian symmetry of planar N=4 SYM; amplitudes ↔ Wilson loops duality."

@@ -30,7 +30,7 @@ asks:
 key_results:
   - "Bethe ansatz (1931) for the Heisenberg chain; Lieb–Liniger; Yang–Baxter equation. ([Bethe 1931](https://doi.org/10.1007/BF01341708)) ([Lieb–Liniger 1963](https://doi.org/10.1103/PhysRev.130.1605))"
   - "Onsager's solution of the 2D Ising model (1944). ([Onsager 1944](https://doi.org/10.1103/PhysRev.65.117))"
-  - "Factorized S-matrices (Zamolodchikov); quantum groups."
+  - "Factorized S-matrices (Zamolodchikov); quantum groups. ([Zamolodchikov–Zamolodchikov 1979](https://doi.org/10.1016/0003-4916%2879%2990391-9))"
   - "Quantum spectral curve for planar N=4 SYM (Gromov–Kazakov–Leurent–Volin). ([GKLV 2013](https://arxiv.org/abs/1305.1939))"
   - "Generalized Gibbs ensemble and generalized hydrodynamics (2016) for integrable relaxation. ([Castro-Alvaredo–Doyon–Yoshimura 2016](https://arxiv.org/abs/1605.07331)) ([Bertini et al. 2016](https://arxiv.org/abs/1605.09790))"
 experiments:
