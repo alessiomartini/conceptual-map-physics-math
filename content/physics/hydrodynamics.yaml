@@ -26,7 +26,7 @@ key_results:
   - "Kolmogorov 1941: energy cascade with spectrum $E(k) \\propto k^{-5/3}$ in the inertial range. ([Kolmogorov 1941 (reprint 1991)](https://doi.org/10.1098/rspa.1991.0075))"
   - Relativistic hydrodynamics (Israel–Stewart, BRSSS) and the gradient expansion.
   - "Holography: $\\eta/s = 1/4\\pi$ for a large class of strongly coupled plasmas (KSS). ([Kovtun–Son–Starinets 2004](https://arxiv.org/abs/hep-th/0405231))"
-  - "Hydrodynamics as EFT: Schwinger–Keldysh effective actions (Crossley–Glorioso–Liu, Haehl–Loganayagam–Rangamani)."
+  - "Hydrodynamics as EFT: Schwinger–Keldysh effective actions (Crossley–Glorioso–Liu, Haehl–Loganayagam–Rangamani). ([Crossley–Glorioso–Liu 2015](https://arxiv.org/abs/1511.03646)) ([Haehl–Loganayagam–Rangamani 2015](https://arxiv.org/abs/1510.02494))"
 experiments:
   - Wind tunnels, turbulence experiments (von Kármán flow, grid turbulence).
   - "RHIC and LHC heavy-ion collisions: elliptic flow shows the quark–gluon plasma is an almost perfect fluid."

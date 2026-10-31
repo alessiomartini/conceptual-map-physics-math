@@ -18,9 +18,9 @@ asks:
   - How do opinions, norms and languages spread and reach consensus or polarize?
   - Are there quantitative regularities in human collective behaviour?
 key_results:
-  - "Voter model; Sznajd model; bounded-confidence models (Deffuant, Hegselmann–Krause) producing polarization."
+  - "Voter model; Sznajd model; bounded-confidence models (Deffuant, Hegselmann–Krause) producing polarization. ([Deffuant et al. 2000](https://doi.org/10.1142/S0219525900000078))"
   - "Schelling segregation model (1971) ([Schelling 1971](https://doi.org/10.1080/0022250X.1971.9989794)): mild preferences give strong segregation."
-  - "Axelrod culture model; Ising-like models of social influence; pedestrian social-force model (Helbing)."
+  - "Axelrod culture model; Ising-like models of social influence; pedestrian social-force model (Helbing). ([Axelrod 1997](https://doi.org/10.1177/0022002797041002001)) ([Helbing–Molnár 1995](https://doi.org/10.1103/PhysRevE.51.4282))"
   - "Universal statistics: turnout distributions, city sizes (Zipf), human mobility scaling."
 experiments:
   - Social-media data, mobile-phone mobility traces, online controlled experiments (e.g. MusicLab, Salganik et al. 2006).

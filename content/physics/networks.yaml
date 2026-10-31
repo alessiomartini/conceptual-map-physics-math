@@ -27,7 +27,7 @@ key_results:
   - "Scale-free networks via preferential attachment (Barabási–Albert 1999). ([Barabási–Albert 1999](https://doi.org/10.1126/science.286.5439.509))"
   - "Vanishing epidemic threshold on scale-free networks (Pastor-Satorras–Vespignani 2001). ([Pastor-Satorras–Vespignani 2001](https://arxiv.org/abs/cond-mat/0010317))"
   - "Robust-yet-fragile: resilient to random failure, vulnerable to targeted hub attacks."
-  - "Kuramoto model of synchronization; community detection via modularity and stochastic block models."
+  - "Kuramoto model of synchronization; community detection via modularity and stochastic block models. ([Newman 2006](https://doi.org/10.1073/pnas.0601602103))"
 experiments:
   - Empirical datasets (WWW, citation, protein interaction, airline, interbank networks).
 limits:

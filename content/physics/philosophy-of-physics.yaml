@@ -32,7 +32,7 @@ key_results:
   - "Bell's theorem turned the metaphysics of locality and realism into an experimental question."
   - "Duhem–Quine thesis: hypotheses are tested only in bundles; underdetermination of theory by evidence."
   - "Structural realism (Worrall 1989): what survives theory change is mathematical structure (e.g. Fresnel's equations survive in Maxwell's theory)."
-  - "Gauge as redundancy: in Yang–Mills only gauge-invariant quantities are observable; the Aharonov–Bohm effect shows potentials still matter through holonomies."
+  - "Gauge as redundancy: in Yang–Mills only gauge-invariant quantities are observable; the Aharonov–Bohm effect shows potentials still matter through holonomies. ([Aharonov–Bohm 1959](https://doi.org/10.1103/PhysRev.115.485))"
   - "Effective-field-theory view: theories are valid within energy ranges, which recasts reduction and fundamentality as questions of scale."
 experiments:
   - "[[exp-bell-tests]] tested local realism directly; [[exp-aharonov-bohm]] bears on the reality of gauge potentials; [[exp-michelson-morley]] removed the ether as substance."

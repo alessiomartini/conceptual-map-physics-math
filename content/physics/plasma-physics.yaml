@@ -19,7 +19,7 @@ asks:
   - Can a hot plasma be confined long enough for net fusion energy?
 key_results:
   - "Debye screening; plasma frequency; Landau damping (collisionless damping, Landau 1946)."
-  - "Magnetohydrodynamics; Alfvén waves (Nobel 1970); magnetic reconnection."
+  - "Magnetohydrodynamics; Alfvén waves (Nobel 1970); magnetic reconnection. ([Alfvén 1942](https://doi.org/10.1038/150405d0))"
   - "Lawson criterion for fusion ignition. ([Lawson 1957](https://doi.org/10.1088/0370-1301/70/1/303))"
 experiments:
   - "National Ignition Facility achieved target gain > 1 (Dec 2022); JET and tokamak records; Parker Solar Probe."

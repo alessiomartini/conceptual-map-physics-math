@@ -27,7 +27,7 @@ key_results:
   - "Level spacing: Wigner surmise $p(s) \\propto s^\\beta e^{-c s^2}$; Tracy–Widom distribution for the largest eigenvalue. ([Tracy–Widom 1994](https://arxiv.org/abs/hep-th/9211141))"
   - "Montgomery–Odlyzko: pair correlation of zeta zeros matches GUE."
   - "Matrix models ↔ 2D quantum gravity; JT gravity ↔ double-scaled matrix integral (Saad–Shenker–Stanford 2019). ([SSS 2019](https://arxiv.org/abs/1903.11115))"
-  - "Universality theorems (Erdős–Yau, Tao–Vu)."
+  - "Universality theorems (Erdős–Yau, Tao–Vu). ([Tao–Vu 2009](https://arxiv.org/abs/0906.0510))"
 experiments:
   - Neutron resonance spectra of heavy nuclei; microwave billiards; universal conductance fluctuations.
 limits:

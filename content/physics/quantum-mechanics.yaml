@@ -22,7 +22,7 @@ asks:
   - Why are atomic spectra discrete and why is matter stable?
   - How do composite systems behave (entanglement, identical particles)?
 key_results:
-  - "Schrödinger equation $i\\hbar\\,\\partial_t\\psi = H\\psi$; Heisenberg picture; path integral (Feynman)."
+  - "Schrödinger equation $i\\hbar\\,\\partial_t\\psi = H\\psi$; Heisenberg picture; path integral (Feynman). ([Feynman 1948](https://doi.org/10.1103/RevModPhys.20.367))"
   - "Canonical commutation $[x,p]=i\\hbar$ and the uncertainty relation $\\Delta x\\,\\Delta p \\ge \\hbar/2$."
   - "Born rule: $P(a) = |\\langle a|\\psi\\rangle|^2$."
   - Hydrogen spectrum; spin; Pauli exclusion; spin–statistics connection (proved in QFT).
