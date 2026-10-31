@@ -33,7 +33,7 @@ connections: [statistical-mechanics, thermodynamics, non-equilibrium, linearity-
 resources:
   - "Kubo, Toda & Hashitsume, *Statistical Physics II: Nonequilibrium Statistical Mechanics*"
   - "Forster, *Hydrodynamic Fluctuations, Broken Symmetry, and Correlation Functions*"
-  - "Marconi, Puglisi, Rondoni & Vulpiani, *Fluctuation–dissipation: response theory in statistical physics*, Physics Reports 461 (2008)"
+  - "Marconi, Puglisi, Rondoni & Vulpiani, *Fluctuation–dissipation: response theory in statistical physics*, Physics Reports 461 (2008) ([Marconi et al. 2008](https://doi.org/10.1016/j.physrep.2008.02.002))"
   - "Zwanzig, *Nonequilibrium Statistical Mechanics*"
   - "Kardar, *Statistical Physics of Particles* (Brownian motion, linear response)"
 cards:

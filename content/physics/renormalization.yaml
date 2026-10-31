@@ -41,7 +41,7 @@ frontiers:
 connections: [qft, effective-field-theory, phase-transitions, cft, statistical-mechanics, standard-model]
 prerequisites: [qft, statistical-mechanics]
 resources:
-  - "Wilson & Kogut, *The renormalization group and the ε expansion* (1974)"
+  - "Wilson & Kogut, *The renormalization group and the ε expansion* (1974) ([Wilson–Kogut 1974](https://doi.org/10.1016/0370-1573%2874%2990023-4))"
   - "Cardy, *Scaling and Renormalization in Statistical Physics*"
 cards:
   - q: What is a relevant operator in Wilsonian RG?

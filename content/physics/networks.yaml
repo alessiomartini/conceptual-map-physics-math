@@ -31,7 +31,7 @@ key_results:
 experiments:
   - Empirical datasets (WWW, citation, protein interaction, airline, interbank networks).
 limits:
-  - Many scale-free claims weak under rigorous statistics (Broido–Clauset 2019); networks ignore higher-order and temporal structure.
+  - Many scale-free claims weak under rigorous statistics (Broido–Clauset 2019) ([Broido–Clauset 2019](https://doi.org/10.1038/s41467-019-08746-5)); networks ignore higher-order and temporal structure.
 applications:
   - Epidemic modelling, systemic risk in banking, recommendation systems, power grids, neuroscience (connectome).
 frontiers:

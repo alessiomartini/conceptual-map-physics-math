@@ -25,10 +25,10 @@ connections: [thermodynamics, statistical-mechanics, information-theory, quantum
 resources:
   - "Cover & Thomas, *Elements of Information Theory*"
   - "Nielsen & Chuang, *Quantum Computation and Quantum Information*"
-  - "Harlow, *Jerusalem lectures on black holes and quantum information* (2014)"
+  - "Harlow, *Jerusalem lectures on black holes and quantum information* (2014) ([Harlow 2014](https://arxiv.org/abs/1409.1231))"
 cards:
   - q: What is Landauer's principle?
-    a: Erasing one bit of information dissipates at least $k_BT\ln2$ of heat; it resolves Maxwell's demon and was verified experimentally (Bérut et al. 2012).
+    a: Erasing one bit of information dissipates at least $k_BT\ln2$ of heat; it resolves Maxwell's demon and was verified experimentally (Bérut et al. 2012). ([Bérut et al. 2012](https://doi.org/10.1038/nature10872))
   - q: What does the entanglement entropy of a subsystem measure?
     a: For a pure global state, how entangled the subsystem is with its complement, $S = -\mathrm{Tr}\rho_A\ln\rho_A$.
   - q: What is an area law for entanglement?

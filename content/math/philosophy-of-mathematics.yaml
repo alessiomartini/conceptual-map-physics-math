@@ -46,7 +46,7 @@ connections: [logic-set-theory, category-theory, computational-complexity, philo
 resources:
   - "Shapiro, *Thinking about Mathematics*"
   - "Benacerraf & Putnam (eds.), *Philosophy of Mathematics: Selected Readings*"
-  - "Wigner, *The Unreasonable Effectiveness of Mathematics in the Natural Sciences* (1960)"
+  - "Wigner, *The Unreasonable Effectiveness of Mathematics in the Natural Sciences* (1960) ([Wigner 1960](https://doi.org/10.1002/cpa.3160130102))"
 cards:
   - q: What are the three classic schools of the foundational crisis, and their core claim?
     a: "Logicism: mathematics is logic. Formalism: mathematics is the manipulation of symbols by rules, to be proven consistent. Intuitionism: mathematics is mental construction (no unrestricted excluded middle)."
