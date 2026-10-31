@@ -14,6 +14,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   - [x] Filo "Variational principles" (`content/concepts/variational-principles.yaml`)
   - [x] Filo "Geometry and curvature" (GR ↔ gauge ↔ fase di Berry) (`content/concepts/geometry-curvature.yaml`)
   - [x] Filo "Fluctuations and response" (fluttuazioni ↔ dissipazione ↔ suscettività) (`content/concepts/fluctuations-response.yaml`)
+  - [x] Filo "Scaling and dimensional analysis" (`content/concepts/scaling-dimensional-analysis.yaml`)
 - [ ] Link ai paper originali per i risultati restanti
   - [x] Altri 24 link verificati (arXiv/Crossref) su 21 tappe di fisica (CFT, complessità, QFT/EFT, biofisica, fondamenti quantistici, reti, geofisica…)
   - [x] Quarto lotto: 20 link (Crossref; arXiv via record DataCite) su 17 tappe di fisica, matematica e fili concettuali
@@ -59,7 +60,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.
 
 ## Log
-- 2026-10-31: 🤖 quinto lotto: 18 link a paper originali verificati (Crossref/arXiv, titolo-autore-anno controllati) su 14 tappe; saltati Young 1802 e Tyndall 1861 (DOI Crossref non corrispondente)
+- 2026-10-31: 🤖 quinto lotto: 18 link a paper originali verificati (Crossref/arXiv, titolo-autore-anno controllati) su 14 tappe; saltati Young 1802 e Tyndall 1861 (DOI Crossref non corrispondente); nuovo filo concettuale "Scaling and dimensional analysis" (Buckingham, Reynolds, Taylor, Kleiber/West, Mandelbrot, Wilson; 7 link verificati su Crossref, Kolmogorov 1941 senza link)
 - 2026-10-24: 🤖 20 link a paper originali verificati (Crossref/arXiv), quarto lotto; saltati Turing 1936 (Crossref: 1937), Wilson–Kogut e altri riferimenti ambigui
 - 2026-10-23: 🤖 nuovo filo concettuale "Geometry and curvature" (GR ↔ gauge ↔ fase di Berry); poi nuovo filo "Fluctuations and response" (Einstein, Johnson–Nyquist, Callen–Welton, Kubo, Onsager; 7 link a paper verificati su Crossref)
 - 2026-10-22: 🤖 terzo lotto: 25 link a paper originali verificati (Crossref/arXiv, titolo-autori-anno controllati) su 19 tappe (geometria algebrica, teoria dei numeri, PDE, TQFT, ottica, SUSY, stringhe, reticolo, integrabilità); saltati AKS (arXiv assente, 2004 vs 2002), Bell Burnell–Hewish (1968 vs 1967), Hopfield, Kolmogorov 1941, Landau 1946 (senza DOI/preprint verificabile)
