@@ -23,8 +23,8 @@ asks:
 key_results:
   - "Poincaré–Bendixson theorem (no chaos in 2D flows); Hartman–Grobman; stable manifold theorem."
   - "Birkhoff ergodic theorem; mixing; Kolmogorov–Sinai entropy."
-  - "Smale horseshoe; hyperbolic dynamics; structural stability."
-  - "KAM theory; Arnold diffusion."
+  - "Smale horseshoe; hyperbolic dynamics; structural stability. ([Smale 1967](https://doi.org/10.1090/S0002-9904-1967-11798-1))"
+  - "KAM theory; Arnold diffusion. ([Arnold 1963](https://doi.org/10.1070/RM1963v018n05ABEH004130))"
   - "Furstenberg's ergodic proof of Szemerédi's theorem; Ratner's theorems; homogeneous dynamics (Margulis, Lindenstrauss)."
 motivating_examples:
   - Three-body problem; logistic map; Lorenz system; billiards.

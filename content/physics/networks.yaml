@@ -15,7 +15,7 @@ essentials:
   - "Many networks have hubs (heavy-tailed degree distributions), which make them robust to random failure but fragile to targeted attacks."
   - "Epidemics spread differently on networks with hubs: the epidemic threshold can vanish."
 broken_promises:
-  - "The claim that most real networks are 'scale-free' with universal exponents turned out much weaker under rigorous statistics (Broido–Clauset 2019)."
+  - "The claim that most real networks are 'scale-free' with universal exponents turned out much weaker under rigorous statistics (Broido–Clauset 2019). ([Broido–Clauset 2019](https://doi.org/10.1038/s41467-019-08746-5))"
   - "Pairwise networks were hoped to capture complex systems; many phenomena need higher-order (group) interactions and time dependence."
 asks:
   - What universal structures do real networks share and why?
@@ -25,13 +25,13 @@ key_results:
   - "Erdős–Rényi random graphs and the giant-component transition at mean degree 1."
   - "Small-world networks (Watts–Strogatz 1998). ([Watts–Strogatz 1998](https://doi.org/10.1038/30918))"
   - "Scale-free networks via preferential attachment (Barabási–Albert 1999). ([Barabási–Albert 1999](https://doi.org/10.1126/science.286.5439.509))"
-  - "Vanishing epidemic threshold on scale-free networks (Pastor-Satorras–Vespignani 2001)."
+  - "Vanishing epidemic threshold on scale-free networks (Pastor-Satorras–Vespignani 2001). ([Pastor-Satorras–Vespignani 2001](https://arxiv.org/abs/cond-mat/0010317))"
   - "Robust-yet-fragile: resilient to random failure, vulnerable to targeted hub attacks."
-  - "Kuramoto model of synchronization; community detection via modularity and stochastic block models."
+  - "Kuramoto model of synchronization; community detection via modularity and stochastic block models. ([Newman 2006](https://doi.org/10.1073/pnas.0601602103))"
 experiments:
   - Empirical datasets (WWW, citation, protein interaction, airline, interbank networks).
 limits:
-  - Many scale-free claims weak under rigorous statistics (Broido–Clauset 2019); networks ignore higher-order and temporal structure.
+  - Many scale-free claims weak under rigorous statistics (Broido–Clauset 2019) ([Broido–Clauset 2019](https://doi.org/10.1038/s41467-019-08746-5)); networks ignore higher-order and temporal structure.
 applications:
   - Epidemic modelling, systemic risk in banking, recommendation systems, power grids, neuroscience (connectome).
 frontiers:

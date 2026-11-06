@@ -19,10 +19,10 @@ asks:
   - What are the possible algebras of observables?
 key_results:
   - "Hahn–Banach, open mapping, closed graph, uniform boundedness theorems."
-  - "Riesz representation theorem; spectral theorem for (unbounded) self-adjoint operators; Stone's theorem on unitary groups."
+  - "Riesz representation theorem; spectral theorem for (unbounded) self-adjoint operators; Stone's theorem on unitary groups. ([von Neumann 1930](https://doi.org/10.1007/BF01782338), [Stone 1932](https://doi.org/10.2307/1968538))"
   - "Sobolev spaces and embedding theorems; distributions (Schwartz)."
   - "Gelfand–Naimark: commutative C*-algebras ↔ locally compact Hausdorff spaces."
-  - "Murray–von Neumann classification of factors (types I, II, III); Tomita–Takesaki modular theory; Connes' classification of type III."
+  - "Murray–von Neumann classification of factors (types I, II, III); Tomita–Takesaki modular theory; Connes' classification of type III. ([Murray–von Neumann 1936](https://doi.org/10.2307/1968693))"
 motivating_examples:
   - Fourier analysis on $L^2$; the Schrödinger operator; Green's functions.
 limits:

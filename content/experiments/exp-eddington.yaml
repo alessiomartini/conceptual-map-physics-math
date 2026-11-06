@@ -7,7 +7,7 @@ year: 1919
 who: Arthur Eddington, Frank Dyson
 one_liner: Starlight bending near the Sun during an eclipse matched Einstein's prediction.
 measured: Apparent shifts in star positions near the Sun during the total solar eclipse of 29 May 1919.
-result: Deflection ≈ 1.75″ at the solar limb, twice the Newtonian value.
+result: Deflection ≈ 1.75″ at the solar limb, twice the Newtonian value. ([Dyson, Eddington & Davidson 1920](https://doi.org/10.1098/rsta.1920.0009))
 significance:
   - Made general relativity famous; today gravitational lensing is a precision tool (VLBI confirms GR to ~10⁻⁴).
 connections: [general-relativity]

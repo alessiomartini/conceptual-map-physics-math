@@ -7,7 +7,7 @@ year: 1859
 who: Urbain Le Verrier (anomaly); explained by Einstein, 1915
 one_liner: An unexplained 43 arcseconds per century in Mercury's orbit that GR explained exactly.
 measured: The precession of Mercury's perihelion, after subtracting the effects of other planets.
-result: An excess of ≈ 43″ per century unexplained by Newtonian gravity.
+result: An excess of ≈ 43″ per century unexplained by Newtonian gravity. ([Clemence 1947](https://doi.org/10.1103/RevModPhys.19.361))
 significance:
   - First success of general relativity (1915), computed by Einstein from first principles without free parameters.
 connections: [general-relativity, classical-mechanics]

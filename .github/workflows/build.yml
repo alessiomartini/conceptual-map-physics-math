@@ -1,6 +1,6 @@
 # On every push to main: validate content, rebuild the site and the Anki deck.
 # The site is deployed to GitHub Pages (Settings → Pages → Source: GitHub Actions);
-# the .apkg is attached as a workflow artifact.
+# the .apkg is attached as a workflow artifact and published to the rolling release `latest-deck`.
 name: build
 on:
   push:
@@ -30,3 +30,30 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  release:
+    # Rolling release with a fixed tag: the .apkg keeps a stable download URL
+    # (releases/download/latest-deck/big-picture.apkg). Only on push/manual run on main, never on PRs.
+    # Moving the tag/release with GITHUB_TOKEN does not retrigger workflows (no loop).
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      TAG: latest-deck
+    steps:
+      - uses: actions/download-artifact@v4
+        with: {name: anki-deck, path: dist}
+      - name: Publish dist/big-picture.apkg to the rolling release
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            # move the tag to the commit that was just built
+            gh api -X PATCH "repos/$GH_REPO/git/refs/tags/$TAG" -f sha="$GITHUB_SHA" -F force=true
+          else
+            gh release create "$TAG" --target "$GITHUB_SHA" --title "Anki deck (latest)" \
+              --notes "Rolling release: always the .apkg built from the latest push to main."
+          fi
+          gh release edit "$TAG" --notes "Built from commit $GITHUB_SHA. Import dist/big-picture.apkg in Anki (File → Import)."
+          gh release upload "$TAG" dist/big-picture.apkg --clobber

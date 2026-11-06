@@ -22,8 +22,8 @@ key_results:
   - "Condition numbers and backward stability (Wilkinson)."
   - "Lax equivalence theorem: consistency + stability ⇔ convergence (linear PDE)."
   - "Runge–Kutta methods; symplectic integrators preserve Hamiltonian structure."
-  - "Fast Fourier transform (Cooley–Tukey 1965); fast multipole method; multigrid."
-  - "Monte Carlo error ~ $1/\\sqrt N$ independent of dimension; Metropolis algorithm (1953); quasi-Monte Carlo."
+  - "Fast Fourier transform (Cooley–Tukey 1965) ([Cooley–Tukey 1965](https://doi.org/10.1090/S0025-5718-1965-0178586-1)); fast multipole method; multigrid."
+  - "Monte Carlo error ~ $1/\\sqrt N$ independent of dimension; Metropolis algorithm (1953) ([Metropolis et al. 1953](https://doi.org/10.1063/1.1699114)); quasi-Monte Carlo."
 motivating_examples:
   - Solving large linear systems; simulating planetary orbits; pricing derivatives by Monte Carlo.
 limits:

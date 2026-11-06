@@ -25,7 +25,7 @@ key_results:
   - Electromagnetic waves travel at $c = 1/\\sqrt{\\mu_0\\epsilon_0}$.
   - Gauge invariance $A_\\mu \\to A_\\mu + \\partial_\\mu \\lambda$; charge conservation.
   - Poynting theorem; radiation from accelerated charges (Larmor formula).
-  - "Electric–magnetic duality of the source-free equations; Dirac's argument that a magnetic monopole would quantize charge."
+  - "Electric–magnetic duality of the source-free equations; Dirac's argument that a magnetic monopole would quantize charge. ([Dirac 1931](https://doi.org/10.1098/rspa.1931.0130))"
 experiments:
   - Faraday's induction (1831), Hertz's radio waves (1887), Ørsted's deflected compass.
   - "[[exp-michelson-morley]] (no medium for light)."

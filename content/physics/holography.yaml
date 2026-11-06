@@ -11,7 +11,7 @@ summary: >-
   source of the idea that spacetime emerges from entanglement (Ryu–Takayanagi).
 big_goal: "Show that quantum gravity in a region is equivalent to an ordinary quantum system on its boundary — and use this to understand how spacetime emerges from quantum information."
 essentials:
-  - "AdS/CFT (1997): string theory in anti-de Sitter space equals a gauge theory without gravity on its boundary."
+  - "AdS/CFT (1997): string theory in anti-de Sitter space equals a gauge theory without gravity on its boundary. ([Maldacena 1997](https://arxiv.org/abs/hep-th/9711200))"
   - "Hard strongly coupled problems become easy gravitational calculations, and vice versa."
   - "Entanglement on the boundary is geometry in the bulk (Ryu–Takayanagi); bulk information is stored like a quantum error-correcting code."
 broken_promises:
@@ -25,7 +25,7 @@ key_results:
   - "GKP–Witten dictionary: $Z_{\\rm CFT}[\\phi_0] = Z_{\\rm grav}[\\phi \\to \\phi_0]$. ([GKP 1998](https://arxiv.org/abs/hep-th/9802109), [Witten 1998](https://arxiv.org/abs/hep-th/9802150))"
   - "Large N and strong coupling ↔ classical gravity; $\\lambda^{-1/2}$ ~ string corrections."
   - "Ryu–Takayanagi (2006): $S_A = \\mathrm{Area}(\\gamma_A)/4G_N$; HRT and quantum extremal surfaces. ([Ryu–Takayanagi 2006](https://arxiv.org/abs/hep-th/0603001))"
-  - "Hawking–Page transition ↔ confinement/deconfinement; black-hole horizon ↔ thermal state."
+  - "Hawking–Page transition ↔ confinement/deconfinement; black-hole horizon ↔ thermal state. ([Hawking–Page 1983](https://doi.org/10.1007/BF01208266))"
   - "η/s = 1/4π; fluid/gravity correspondence. ([KSS 2004](https://arxiv.org/abs/hep-th/0405231))"
   - "Holographic quantum error correction (Almheiri–Dong–Harlow 2015); entanglement wedge reconstruction. ([ADH 2015](https://arxiv.org/abs/1411.7041))"
   - "JT gravity and SYK as a solvable low-dimensional example; ensemble averaging and replica wormholes."
@@ -41,7 +41,7 @@ connections: [string-theory, cft, quantum-gravity, black-holes, quantum-informat
 prerequisites: [cft, general-relativity, string-theory]
 resources:
   - "Hartman, *Lectures on Quantum Gravity and Black Holes* (Cornell notes)"
-  - "Harlow, *Jerusalem lectures on black holes and quantum information* (2014)"
+  - "Harlow, *Jerusalem lectures on black holes and quantum information* (2014) ([Harlow 2014](https://arxiv.org/abs/1409.1231))"
   - "Ammon & Erdmenger, *Gauge/Gravity Duality*"
 cards:
   - q: What is the original AdS/CFT duality?

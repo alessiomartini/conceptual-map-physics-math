@@ -11,7 +11,7 @@ summary: >-
   theory can hope to test.
 cannot_measure:
   - "**The Planck scale directly** — $10^{19}$ GeV is ~15 orders of magnitude above the LHC; a collider would need galactic size."
-  - "**Single gravitons** — Dyson argued a graviton detector would need to be so massive it collapses into a black hole, or would be swamped by neutrino backgrounds."
+  - "**Single gravitons** — Dyson argued a graviton detector would need to be so massive it collapses into a black hole, or would be swamped by neutrino backgrounds. ([Dyson 2013](https://doi.org/10.1142/S0217751X1330041X), [Rothman–Boughn 2006](https://arxiv.org/abs/gr-qc/0601043))"
   - "**Hawking radiation of astrophysical black holes** — temperatures are nanokelvin or less, far below the CMB."
   - "**Beyond our cosmological horizon** — regions never in causal contact; other bubbles of eternal inflation or the string landscape."
   - "**The cosmic neutrino background directly** — predicted at 1.95 K; PTOLEMY-like capture proposals face severe challenges."

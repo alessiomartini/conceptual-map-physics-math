@@ -25,7 +25,7 @@ key_results:
   - "Galois theory: the general quintic is not solvable by radicals (Abel–Ruffini; Galois)."
   - "Classification of finite simple groups (completed ~2004): cyclic, alternating, Lie type, 26 sporadic (largest: the Monster)."
   - "Structure theorem for finitely generated modules over a PID; Hilbert's basis theorem and Nullstellensatz."
-  - "Monstrous moonshine (Borcherds 1992): Monster representations ↔ coefficients of the j-function, via a vertex operator algebra (a CFT)."
+  - "Monstrous moonshine (Borcherds 1992): Monster representations ↔ coefficients of the j-function, via a vertex operator algebra (a CFT). ([Borcherds 1992](https://doi.org/10.1007/BF01232032))"
 motivating_examples:
   - Symmetries of crystals and molecules; Rubik's cube; solving cubic and quartic equations.
 limits:

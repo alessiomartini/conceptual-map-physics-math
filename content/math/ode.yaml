@@ -26,7 +26,7 @@ asks:
 key_results:
   - "Picard–Lindelöf: a locally Lipschitz $f$ gives a unique local solution; Peano: continuity alone gives existence but not uniqueness ($\\dot x = \\sqrt{|x|}$)."
   - "Grönwall's inequality: solutions depend continuously on initial data and parameters; maximal solutions either exist forever or leave every compact set (blow-up, e.g. $\\dot x = x^2$)."
-  - "Linear systems: $x(t) = e^{At}x_0$, Jordan form and the variation-of-constants formula; Floquet theory for periodic coefficients (Bloch's theorem is its spatial version)."
+  - "Linear systems: $x(t) = e^{At}x_0$, Jordan form and the variation-of-constants formula; Floquet theory for periodic coefficients (Bloch's theorem is its spatial version). ([Floquet 1883](https://doi.org/10.24033/asens.220))"
   - "Sturm–Liouville theory: self-adjoint boundary-value problems have real eigenvalues and complete orthogonal eigenfunctions (origin of Fourier series and special functions)."
   - "Frobenius method and the classification of singular points; special functions (Bessel, Legendre, hypergeometric) as solutions of ODEs with regular singularities."
   - "Lyapunov stability; linearisation (Hartman–Grobman); Lie's symmetry method reduces the order of an ODE by each symmetry; Liouville integrability of Hamiltonian systems."
@@ -40,7 +40,7 @@ limits:
 applications:
   - Celestial mechanics and spacecraft trajectories, control engineering, pharmacokinetics, epidemiology, circuit simulation, neural ODEs in machine learning.
 frontiers:
-  - Computer-assisted proofs of dynamics (e.g. Tucker's proof of the Lorenz attractor, 2002); geometric/structure-preserving integration; learning ODEs from data (SINDy, neural ODEs).
+  - Computer-assisted proofs of dynamics (e.g. Tucker's proof of the Lorenz attractor, 2002); geometric/structure-preserving integration; learning ODEs from data (SINDy, neural ODEs). ([Tucker 2002](https://doi.org/10.1007/s002080010018))
 connections: [pde, dynamical-systems, classical-mechanics, chaos, numerical-analysis, linear-algebra, lie-theory, sde, real-analysis]
 prerequisites: [real-analysis, linear-algebra]
 resources:

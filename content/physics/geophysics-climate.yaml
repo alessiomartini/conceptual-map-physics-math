@@ -13,7 +13,7 @@ summary: >-
 big_goal: "Understand the Earth as a physical system — interior, magnetic field, oceans and atmosphere — and predict how the climate responds to forcing."
 essentials:
   - "Seismology revealed the Earth's layers; plate tectonics explains continents, mountains and earthquakes."
-  - "More CO₂ means more warming: the physics (radiative transfer) is 19th-century, the quantitative models since Manabe (1967) have proved accurate."
+  - "More CO₂ means more warming: the physics (radiative transfer) is 19th-century, the quantitative models since Manabe (1967) have proved accurate. ([Manabe–Wetherald 1967](https://doi.org/10.1175/1520-0469%281967%29024%3C0241%3ATEOTAW%3E2.0.CO%3B2))"
   - "Weather is chaotic and unpredictable beyond ~2 weeks, but climate — the statistics of weather — responds predictably to forcing."
 broken_promises:
   - "Early numerical weather prediction (von Neumann, Charney) hoped that bigger computers would make long-range weather forecasts possible; Lorenz showed chaos sets a hard limit of about two weeks."
@@ -26,12 +26,12 @@ asks:
 key_results:
   - "Seismic discovery of the core (Oldham 1906, Gutenberg 1914) and solid inner core (Lehmann 1936)."
   - "Plate tectonics (1960s), building on Wegener's continental drift (1912); sea-floor spreading and magnetic stripes."
-  - "Greenhouse effect: Fourier (1820s), Tyndall's absorption measurements (1859), Arrhenius' first estimate of CO₂ warming (1896)."
+  - "Greenhouse effect: Fourier (1820s), Tyndall's absorption measurements (1859), Arrhenius' first estimate of CO₂ warming (1896). ([Arrhenius 1896](https://doi.org/10.1080/14786449608620846))"
   - "Manabe–Wetherald (1967): first radiative–convective model giving a realistic warming for doubled CO₂. ([Manabe–Wetherald 1967](https://doi.org/10.1175/1520-0469%281967%29024%3C0241:TEOTAW%3E2.0.CO;2))"
   - "Hasselmann (1976): stochastic climate models — slow climate variables integrate fast weather noise. ([Hasselmann 1976](https://doi.org/10.1111/j.2153-3490.1976.tb00696.x))"
-  - "Lorenz (1963): deterministic chaos limits weather predictability to about two weeks; climate is predictable as statistics."
+  - "Lorenz (1963): deterministic chaos limits weather predictability to about two weeks; climate is predictable as statistics. ([Lorenz 1963](https://doi.org/10.1175/1520-0469%281963%29020%3C0130:DNF%3E2.0.CO;2))"
   - "Equilibrium climate sensitivity: likely 2.5–4 °C per CO₂ doubling (IPCC AR6, 2021)."
-  - "Self-sustained geodynamo simulations (Glatzmaier–Roberts 1995) reproduce field reversals."
+  - "Self-sustained geodynamo simulations (Glatzmaier–Roberts 1995) reproduce field reversals. ([Glatzmaier–Roberts 1995](https://doi.org/10.1038/377203a0))"
 experiments:
   - "Keeling curve of atmospheric CO₂ (since 1958); ice cores reaching back ~800,000 years; global seismic networks; satellite gravimetry (GRACE); Argo ocean floats; paleomagnetic records of field reversals."
 limits:

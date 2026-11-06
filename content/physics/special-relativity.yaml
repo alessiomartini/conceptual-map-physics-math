@@ -21,14 +21,14 @@ asks:
   - What is the correct dynamics at speeds close to $c$?
   - How do energy, momentum and mass relate?
 key_results:
-  - "Lorentz transformations; the invariant interval $ds^2 = -c^2dt^2 + d\\vec x^2$."
+  - "Lorentz transformations; the invariant interval $ds^2 = -c^2dt^2 + d\\vec x^2$. ([Einstein 1905](https://doi.org/10.1002/andp.19053221004))"
   - Relativity of simultaneity, time dilation, length contraction.
-  - "$E^2 = (pc)^2 + (mc^2)^2$; $E = mc^2$ at rest."
+  - "$E^2 = (pc)^2 + (mc^2)^2$; $E = mc^2$ at rest. ([Einstein 1905b](https://doi.org/10.1002/andp.19053231314))"
   - "Maxwell's equations are already Lorentz invariant; mechanics had to change."
-  - "The Poincaré group as the symmetry of flat spacetime; particles classified by its representations (Wigner)."
+  - "The Poincaré group as the symmetry of flat spacetime; particles classified by its representations (Wigner). ([Wigner 1939](https://doi.org/10.2307/1968551))"
 experiments:
   - "[[exp-michelson-morley]]: no ether wind."
-  - Time dilation of cosmic-ray muons; Ives–Stilwell experiment; atomic clocks on aircraft (Hafele–Keating 1971).
+  - Time dilation of cosmic-ray muons; Ives–Stilwell experiment; atomic clocks on aircraft (Hafele–Keating 1971). ([Ives–Stilwell 1938](https://doi.org/10.1364/JOSA.28.000215))
   - Particle accelerators verify relativistic kinematics daily.
 limits:
   - Assumes flat spacetime; gravity requires [[general-relativity]].

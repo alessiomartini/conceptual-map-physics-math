@@ -29,7 +29,7 @@ key_results:
   - Anomaly cancellation within each generation (fixes hypercharges).
   - "Accidental symmetries: baryon and lepton number (anomalous; violated by sphalerons)."
 experiments:
-  - "[[exp-wu-parity]], neutral currents (Gargamelle 1973), W/Z discovery (UA1/UA2 1983), [[exp-deep-inelastic]], top quark (Tevatron 1995), [[exp-higgs]], LEP Z-pole (3 light neutrinos)."
+  - "[[exp-wu-parity]], neutral currents (Gargamelle 1973, [Hasert et al. 1973](https://doi.org/10.1016/0370-2693%2873%2990499-1)), W/Z discovery (UA1/UA2 1983, [Arnison et al. 1983](https://doi.org/10.1016/0370-2693%2883%2991177-2)), [[exp-deep-inelastic]], top quark (Tevatron 1995, [CDF 1995](https://arxiv.org/abs/hep-ex/9503002), [D0 1995](https://arxiv.org/abs/hep-ex/9503003)), [[exp-higgs]], LEP Z-pole (3 light neutrinos)."
 limits:
   - Massless neutrinos in the minimal version, contradicted by [[exp-neutrino-oscillations]].
   - No dark matter candidate; insufficient CP violation for baryogenesis.

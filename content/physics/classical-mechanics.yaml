@@ -26,10 +26,10 @@ key_results:
   - "Newton's laws; Galilean invariance."
   - "Principle of stationary action: $\\delta S = 0$ gives the Euler–Lagrange equations."
   - "Noether's theorem: continuous symmetry implies a conserved quantity (time → energy, space → momentum, rotation → angular momentum)."
-  - Hamiltonian mechanics, Poisson brackets, canonical transformations, Hamilton–Jacobi equation.
+  - Hamiltonian mechanics, Poisson brackets, canonical transformations, Hamilton–Jacobi equation. ([Hamilton 1834](https://doi.org/10.1098/rstl.1834.0017))
   - "Liouville's theorem: Hamiltonian flow preserves phase-space volume."
   - "Liouville–Arnold theorem: $n$ independent commuting integrals ⇒ motion on invariant tori (action–angle variables)."
-  - "KAM theorem: most invariant tori survive small non-integrable perturbations."
+  - "KAM theorem: most invariant tori survive small non-integrable perturbations. ([Arnold 1963](https://doi.org/10.1070/RM1963v018n05ABEH004130))"
   - "Kepler problem and its hidden SO(4) symmetry (Laplace–Runge–Lenz vector)."
 experiments:
   - Planetary motion (Kepler's laws) and celestial mechanics, including the prediction of Neptune (1846).

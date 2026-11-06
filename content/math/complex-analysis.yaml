@@ -32,7 +32,7 @@ limits:
 applications:
   - Dispersion relations (Kramers–Kronig), S-matrix analyticity, Wick rotation, signal processing (Laplace transforms), 2D CFT, aerodynamics (Joukowski).
 frontiers:
-  - Complex dynamics (Mandelbrot set, MLC conjecture), Teichmüller theory, resurgence.
+  - Complex dynamics (Mandelbrot set, MLC conjecture), Teichmüller theory, resurgence. ([Mandelbrot 1980](https://doi.org/10.1111/j.1749-6632.1980.tb29690.x))
 connections: [real-analysis, number-theory, cft, algebraic-geometry, functional-analysis, scattering-amplitudes]
 resources:
   - "Ahlfors, *Complex Analysis*"

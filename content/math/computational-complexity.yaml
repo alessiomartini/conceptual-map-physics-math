@@ -22,7 +22,7 @@ asks:
 key_results:
   - "Cook–Levin theorem: SAT is NP-complete; Karp's 21 NP-complete problems. ([Cook 1971](https://doi.org/10.1145/800157.805047))"
   - "Time and space hierarchy theorems; PSPACE = IP; PCP theorem."
-  - "Primality in P (AKS 2002)."
+  - "Primality in P (AKS 2002). ([Agrawal–Kayal–Saxena 2004](https://doi.org/10.4007/annals.2004.160.781))"
   - "Relativization, natural proofs and algebrization barriers to proving P ≠ NP."
   - "BQP contains factoring (Shor); MIP* = RE (2020) links complexity to Connes' embedding problem. ([Ji et al. 2020](https://arxiv.org/abs/2001.04383))"
 motivating_examples:
