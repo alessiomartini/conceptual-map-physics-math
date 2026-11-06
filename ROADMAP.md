@@ -44,6 +44,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
   of physics/mathematics, concept threads, feedback Worker, content review, public GitHub Pages site.
 
 ## Log
+- 2026-11-06: widget note v2 canonico (site-notes/widget, docs/notes-widget.js) al posto del dialogo Feedback; contesto via SiteNotes.setContext; migra bp-feedback.
 - 2026-10-18: 🤖 mappa: menu "Thread" che evidenzia il filo scelto e i campi a cui rimanda (`connections`), sfumando il resto
 - 2026-10-19: note del sito portate nel ROADMAP (#7 e #9 nelle Idee; #8, TLC generalizzato, era già in `probability-theory`); feedback spostato nel backend unico `site-notes` (tolto `worker/`; vecchio worker `conceptual-map-feedback` e D1 spenti); le note mandano l'autore (`?sono-alessio` segna il browser di Alessio, le altre sono di visitatori); installabile come app a sé dal telefono (manifest con nome, icona e perimetro propri)
 - 2026-10-18: FUTURE-ARCHITECTURE.md unito in ROADMAP.md (protocollo unico)
