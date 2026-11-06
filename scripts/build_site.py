@@ -64,7 +64,7 @@ def build_data(entries, areas, cfg):
     return {
         "config": {"title": cfg["title"], "subtitle": cfg.get("subtitle", ""),
                    "philosophy": [r(p) for p in cfg.get("philosophy", [])],
-                   "feedback_url": cfg.get("feedback_url", ""), "repo": cfg.get("repo", "")},
+                   "repo": cfg.get("repo", "")},
         "areas": areas,
         "entries": out,
         "lenses": [{"key": k, "label": SECTION_LABELS[k]} for k in LENSES],
