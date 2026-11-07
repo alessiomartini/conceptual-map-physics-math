@@ -1,0 +1,61 @@
+id: effective-theories-naturalness
+title: "Effective theories and naturalness: what low energies can and cannot tell you about high energies"
+short: Effective theories and naturalness
+domain: concept
+area: concepts
+order: 230
+one_liner: Physics at one scale can be described without knowing the scale above; the thread follows decoupling and the effective Lagrangian from Fermi to chiral perturbation theory and gravity, and then the cases (Higgs mass, cosmological constant) where the low-energy numbers seem to know too much.
+summary: >-
+  Almost every theory we use is an effective theory: valid below a scale $\Lambda$, with the unknown short-distance
+  physics packaged in a few coefficients. The thread follows the idea of decoupling (heavy particles drop out up to
+  powers of $E/\Lambda$), Weinberg's recipe of writing every term allowed by the symmetries, successful uses (Fermi
+  theory, pion physics, general relativity as a quantum effective theory, the Standard Model with extra operators,
+  condensed-matter hydrodynamics) and the problem of naturalness: why light scalars and the cosmological constant are
+  not driven to the cutoff by quantum corrections. Renormalization-group flow and universality are in their own
+  threads; here the focus is on the separation of scales as a tool, and on what it implies about the unknown.
+thread:
+  - "**Fermi's contact interaction:** beta decay was described in 1934 by a four-fermion vertex with coupling $G_F$ of dimension mass$^{-2}$; the later theory replaced it by the exchange of a heavy $W$, with $G_F\\sim g^2/M_W^2$ at low energy. The effective theory worked well below $M_W$, and its growing amplitudes at high energy signalled where it had to be completed ([[standard-model]], [[qft]], [[effective-field-theory]], [[nuclear-physics]]). ([Fermi 1934](https://doi.org/10.1007/BF01351864))"
+  - "**Decoupling:** in a theory with a heavy particle of mass $M$, low-energy amplitudes are those of the theory without it, up to a renormalisation of the couplings and corrections suppressed by powers of $E/M$. This is why atomic physics does not need quarks, and chemistry does not need nuclear structure ([[renormalization]], [[qft]], [[amo-physics]]). ([Appelquist–Carazzone 1975](https://doi.org/10.1103/PhysRevD.11.2856))"
+  - "**Wilson's picture:** integrating out the modes between $\\Lambda$ and a lower scale produces a Lagrangian with all operators allowed by the symmetries; an operator of dimension $d$ is suppressed by $(E/\\Lambda)^{d-4}$, so the irrelevant ones are invisible at low energy and relevant ones dominate. The infinite number of couplings of a non-renormalisable theory becomes a systematic expansion ([[renormalization]], [[scaling-dimensional-analysis]], [[universality]], [[phase-transitions]]). ([Wilson 1971](https://doi.org/10.1103/PhysRevB.4.3174))"
+  - "**Weinberg's recipe:** write the most general Lagrangian consistent with the symmetries and the field content, order the terms by dimension, and compute. For the pions, with the chiral symmetry realised non-linearly, this is chiral perturbation theory, with an expansion in momentum over $4\\pi F_\\pi\\sim1$ GeV and low-energy constants fixed by data or lattice QCD ([[effective-field-theory]], [[lattice-field-theory]], [[symmetry-conservation-gauge]], [[spontaneous-symmetry-breaking]]). ([Weinberg 1979](https://doi.org/10.1016/0378-4371(79)90223-1); [Gasser–Leutwyler 1984](https://doi.org/10.1016/0003-4916(84)90242-2))"
+  - "**Gravity as an effective theory:** general relativity is non-renormalisable, but below the Planck scale quantum gravity is computable as an expansion in energy. Loop corrections give definite, scale-dependent terms, such as the leading quantum correction to the Newtonian potential, independent of the unknown ultraviolet completion ([[general-relativity]], [[quantum-gravity]], [[qft]]). ([Donoghue 1994](https://doi.org/10.1103/PhysRevD.50.3874))"
+  - "**The Standard Model as the leading term:** operators of dimension five and six, suppressed by a large scale $\\Lambda$, are the generic way to look for new physics: the single dimension-five operator gives neutrino masses of order $v^2/\\Lambda$, and dimension-six operators would give proton decay, flavour changing currents or corrections to precision electroweak observables ([[standard-model]], [[beyond-standard-model]], [[exp-neutrino-oscillations]], [[exp-g-2]])."
+  - "**Effective theories in condensed matter:** hydrodynamics, elasticity, Fermi-liquid theory and the Landau–Ginzburg functional are effective descriptions whose coefficients (viscosity, elastic moduli, Landau parameters) are measured or computed from the microscopic theory, and whose form is fixed by symmetries and conservation laws ([[hydrodynamics]], [[condensed-matter]], [[emergence]], [[non-equilibrium]])."
+  - "**Naturalness:** a relevant parameter, such as a scalar mass$^2$, receives corrections proportional to the heavy scales it couples to, so a value far below them requires a cancellation unless a symmetry protects it. 't Hooft called a small parameter technically natural if setting it to zero enlarges the symmetry: fermion masses are protected by chiral symmetry, the photon mass by gauge invariance; the Higgs mass has no such protection in the Standard Model ([[standard-model]], [[renormalization]], [[symmetries]]). ([Susskind 1979](https://doi.org/10.1103/PhysRevD.20.2619))"
+  - "**Proposed answers to the hierarchy problem:** supersymmetry (cancellation between bosons and fermions), compositeness (the Higgs is a bound state at a low scale), extra dimensions that lower the fundamental scale of gravity, or an anthropic/landscape selection. The absence so far of the corresponding particles at the LHC has moved the discussion towards the status of naturalness itself ([[supersymmetry]], [[beyond-standard-model]], [[string-theory]], [[exp-higgs]]). ([Arkani-Hamed–Dimopoulos–Dvali 1998](https://doi.org/10.1016/S0370-2693(98)00466-3))"
+  - "**The cosmological constant:** its measured value from the acceleration of the expansion is some 120 orders of magnitude below the naive estimate from vacuum energy with a Planck-scale cutoff; this is the sharpest naturalness problem. The anthropic argument proposes that large values would prevent galaxy formation ([[cosmology]], [[general-relativity]], [[exp-supernovae-acceleration]], [[philosophy-of-physics]]). ([Weinberg 1989](https://doi.org/10.1103/RevModPhys.61.1); [Weinberg 1987](https://doi.org/10.1103/PhysRevLett.59.2607))"
+caveats:
+  - "Decoupling is not automatic: it holds when the heavy particles have masses independent of the Higgs vev. A heavy particle that gets its mass from electroweak breaking (the top quark, a fourth generation) does not decouple, and its contributions grow with its mass, as in the precision electroweak $\\rho$ parameter."
+  - "Naturalness is a criterion of plausibility, not a theorem. The 'quadratic divergence' of the Higgs mass is an artefact of a cutoff; in dimensional regularisation what remains is the sensitivity to physical heavy thresholds. If there are no heavy states coupled to the Higgs, the fine-tuning argument weakens, which is why the real concern is the unknown scale of gravity and unification."
+  - "The numerical value of 'fine-tuning' depends on what is considered the fundamental set of parameters: a quantity can look tuned in one parametrisation and natural in another, and statements like 'one part in $10^{34}$' should be read with that in mind."
+  - "The naive $10^{120}$ for the cosmological constant is a rough estimate with a hard cutoff; a Lorentz-invariant regularisation gives smaller figures (still tens of orders of magnitude too large) and the problem is more precisely that the vacuum energy is renormalised by every massive field."
+  - "An effective theory fixes the form of the corrections but not the size of the coefficients: 'dimensionless coefficients of order one' is a hypothesis. The matching to a UV theory can give small or large numbers, and surprises (such as a parametrically large coefficient) are signals of new physics at a lower scale."
+  - "Effective field theory assumes locality and a clean separation of scales; ultraviolet-infrared mixing, as in some quantum-gravity arguments, may break this assumption, and some conjectures (the swampland programme) claim that not every consistent-looking effective theory can be completed in quantum gravity."
+connections: [effective-field-theory, renormalization, qft, standard-model, beyond-standard-model, supersymmetry, string-theory, quantum-gravity, general-relativity, cosmology, hydrodynamics, condensed-matter, non-equilibrium, phase-transitions, symmetries, lattice-field-theory, nuclear-physics, amo-physics, philosophy-of-physics, scaling-dimensional-analysis, universality, emergence, symmetry-conservation-gauge, spontaneous-symmetry-breaking, exp-higgs, exp-neutrino-oscillations, exp-g-2, exp-supernovae-acceleration]
+resources:
+  - "Burgess, *Introduction to Effective Field Theory* (CUP)"
+  - "Schwartz, *Quantum Field Theory and the Standard Model*, chapters on effective field theory"
+  - "Weinberg, *The Quantum Theory of Fields*, vol. II, chapter 12"
+  - "Giudice, 'Naturalness after LHC8' / 'The Dawn of the Post-Naturalness Era'"
+cards:
+  - q: What is decoupling?
+    a: Heavy particles drop out of low-energy physics, apart from a renormalisation of the couplings and corrections suppressed by powers of E/M.
+  - q: Why was Fermi's theory of beta decay a successful effective theory?
+    a: The contact four-fermion interaction is the low-energy limit of W exchange, with G_F ~ g^2/M_W^2; its amplitudes grow with energy, signalling the need for new physics at about M_W.
+  - q: How does an operator of dimension d scale in an effective theory with cutoff Λ?
+    a: Its effects are suppressed by (E/Λ)^(d-4); irrelevant operators (d>4) are negligible at low energy, relevant ones dominate.
+  - q: What is Weinberg's recipe for an effective Lagrangian?
+    a: Include all terms allowed by the symmetries and field content, ordered by dimension (or by powers of momentum), with coefficients fixed by data or by matching to the underlying theory.
+  - q: Is general relativity useless as a quantum theory because it is non-renormalisable?
+    a: No; as an effective theory it gives definite quantum corrections at energies far below the Planck scale. It is the ultraviolet completion that is missing.
+  - q: What does the dimension-five operator in the Standard Model effective theory describe?
+    a: Neutrino masses, of order v^2/Λ, with Λ a large scale beyond the Standard Model.
+  - q: What is technical naturalness?
+    a: A small parameter is natural if setting it to zero increases the symmetry of the theory, so that quantum corrections stay proportional to it (fermion masses and chiral symmetry, for example).
+  - q: What is the hierarchy problem?
+    a: The Higgs mass is far below the Planck or unification scale, and nothing in the Standard Model protects it from large quantum corrections, so it seems to need an unexplained cancellation.
+  - q: What is the cosmological constant problem?
+    a: The observed vacuum energy is tens of orders of magnitude (about 120 for a Planck cutoff) below the estimate from quantum fields, and no symmetry is known to make it small.
+  - q: Which kind of heavy particle does not decouple?
+    a: One whose mass comes from the Higgs vev (the top quark, a heavy chiral generation); its effects at low energy grow with its mass instead of vanishing.
+    detail: true  # site only, not in the Anki deck

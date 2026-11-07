@@ -1,0 +1,61 @@
+id: spontaneous-symmetry-breaking
+title: "Spontaneous symmetry breaking: when the laws are symmetric and the world is not"
+short: Spontaneous symmetry breaking
+domain: concept
+area: concepts
+order: 220
+one_liner: A symmetric law can have a ground state that is not symmetric; the thread follows this single mechanism from magnets and crystals through superconductors to the pions, the masses of the W and Z, and the early universe.
+summary: >-
+  The symmetry thread says that symmetry can be hidden; this one follows how. When the ground state (or the
+  equilibrium state) is invariant under less than the Hamiltonian, the system selects one of many equivalent states
+  and an order parameter becomes non-zero. Each broken continuous global symmetry leaves a gapless Goldstone mode
+  (phonons, magnons, pions); if the broken symmetry is gauged, the would-be Goldstone mode is absorbed and the gauge
+  boson becomes massive (Meissner effect, W and Z). The same pattern gives phase transitions in statistical
+  mechanics, the light pions of QCD and the cosmological history of the Higgs field, and it has precise limits:
+  it needs an infinite system, fails for continuous symmetries in low dimension and is not, strictly, a breaking of
+  gauge redundancy. Conservation laws and anomalies are in the symmetry thread; here the focus is on the broken phase.
+thread:
+  - "**Landau's order parameter:** near a transition the free energy is expanded in a quantity $m$ that vanishes in the symmetric phase, $F=a(T-T_c)m^2+bm^4$. Above $T_c$ the minimum is at $m=0$; below, a circle (or two points) of equivalent minima. The Hamiltonian keeps its symmetry, the state does not ([[phase-transitions]], [[statistical-mechanics]], [[condensed-matter]])."
+  - "**Why it needs infinitely many degrees of freedom:** for a finite magnet the ground state is unique and symmetric, with tunnelling between the directions; only in the thermodynamic limit do the sectors stop communicating, and an arbitrarily small field fixes the direction (so the order parameter depends on the order of the limits $h\\to0$, $V\\to\\infty$) ([[statistical-mechanics]], [[functional-analysis]], [[quantum-foundations]])."
+  - "**Goldstone modes:** for every broken generator of a continuous global symmetry there is a gapless excitation: phonons for broken translations in a crystal, magnons for broken rotations in a magnet, pions for broken chiral symmetry. Their low-energy dynamics is fixed by the symmetry alone ([[classical-field-theory]], [[qft]], [[condensed-matter]]). ([Nambu 1960](https://doi.org/10.1103/PhysRev.117.648); [Goldstone 1961](https://doi.org/10.1007/BF02812722))"
+  - "**Superconductivity as the prototype:** the BCS condensate of Cooper pairs carries charge 2e and breaks the electromagnetic $U(1)$; the photon becomes massive inside the material, which is the Meissner effect, and the would-be Goldstone mode is absorbed into the plasma oscillation ([[condensed-matter]], [[electromagnetism]], [[exp-superconductivity]]). ([Bardeen–Cooper–Schrieffer 1957](https://doi.org/10.1103/PhysRev.108.1175); [Anderson 1963](https://doi.org/10.1103/PhysRev.130.439))"
+  - "**Dynamical breaking of chiral symmetry in QCD:** with nearly massless $u,d$ quarks the Lagrangian has an approximate $SU(2)_L\\times SU(2)_R$; the vacuum has a quark condensate $\\langle\\bar qq\\rangle\\neq0$ that breaks it to the diagonal $SU(2)$. The pions are the pseudo-Goldstone bosons, light because the symmetry is only approximately exact. Most of the mass of a proton or neutron comes from this strong dynamics, not from the Higgs field ([[standard-model]], [[lattice-field-theory]], [[exp-deep-inelastic]]). ([Nambu–Jona-Lasinio 1961](https://doi.org/10.1103/PhysRev.122.345))"
+  - "**The Higgs mechanism:** if the broken symmetry is gauged, the Goldstone scalars become the longitudinal polarisations of the gauge bosons, which acquire mass; the electroweak $SU(2)\\times U(1)\\to U(1)_{\\mathrm{em}}$ gives $W^\\pm$ and $Z$ their masses while the photon stays massless, and one scalar remains as the Higgs boson ([[gauge-theory]], [[standard-model]], [[exp-higgs]]). ([Englert–Brout 1964](https://doi.org/10.1103/PhysRevLett.13.321); [Higgs 1964](https://doi.org/10.1103/PhysRevLett.13.508); [ATLAS 2012](https://doi.org/10.1016/j.physletb.2012.08.020))"
+  - "**Radiative and dynamical origins:** the symmetry-breaking potential need not be put in by hand. Quantum corrections to a classically scale-invariant potential can create the minimum away from the origin, and in technicolour-type or QCD-like theories the breaking comes from a strongly coupled condensate ([[renormalization]], [[effective-field-theory]], [[beyond-standard-model]]). ([Coleman–Weinberg 1973](https://doi.org/10.1103/PhysRevD.7.1888))"
+  - "**Where it cannot happen:** fluctuations of the Goldstone modes destroy long-range order of a continuous symmetry in $d\\le2$ at nonzero temperature (and in $d=1$ at zero temperature); what remains in the plane is quasi-long-range order and, for the XY model, a topological transition ([[phase-transitions]], [[statistical-mechanics]], [[topology-invariants]]). ([Mermin–Wagner 1966](https://doi.org/10.1103/PhysRevLett.17.1133); [Hohenberg 1967](https://doi.org/10.1103/PhysRev.158.383))"
+  - "**Cosmological history and defects:** at high temperature symmetries are restored; as the universe cooled the Higgs field (and any grand-unified fields) took values in the vacuum manifold, and if the manifold has non-trivial topology the transition can leave domain walls, strings or monopoles. The Kibble–Zurek argument ties the density of defects to the cooling rate, and the same counting is tested in laboratory phase transitions ([[cosmology]], [[topology-invariants]], [[non-equilibrium]], [[phase-transitions]])."
+  - "**Beyond Landau:** some phases are not distinguished by any local order parameter (topological order, quantum Hall states), and in the language of generalised symmetries confinement and the deconfined phase are the unbroken and broken phases of a higher-form symmetry, which extends the idea of 'order parameter' to lines and surfaces ([[topological-phases]], [[symmetries]], [[exp-quantum-hall]])."
+caveats:
+  - "'Spontaneous breaking of a gauge symmetry' is a historical phrase: a gauge transformation is a redundancy of description and cannot be broken by a state (Elitzur's theorem). What changes is the physical spectrum, and the unitary gauge only makes it visible; in some theories the Higgs and confining phases are continuously connected, with no sharp distinction between them."
+  - "The Mexican-hat picture is for a single complex or vector field; the real content is the vacuum manifold $G/H$. Which Goldstone modes exist, and how many, depends on $G/H$ and, in non-relativistic systems, on the commutators of the broken charges: a ferromagnet has two broken rotations but only one magnon, with a quadratic dispersion."
+  - "Goldstone's theorem assumes Lorentz invariance or at least a local, short-range structure; with long-range forces (Coulomb) the gapless mode can acquire a gap, as for the plasmon. Pseudo-Goldstone bosons (pions, axion-like particles) have masses set by the small explicit breaking."
+  - "The Higgs mechanism explains why the $W$ and $Z$ are massive and the masses of elementary fermions via Yukawa couplings, but it does not explain the values of those couplings, and it gives only a small fraction of the mass of ordinary matter (see the chiral-symmetry step)."
+  - "Symmetry restoration at high temperature is not universal: there are models in which a symmetry is broken at high and restored at low temperature (inverse symmetry breaking), and the picture of the early universe as a sequence of clean transitions is a model assumption, not a measurement."
+  - "'Time crystals' break discrete time-translation symmetry only in driven, non-equilibrium systems; the proof that no time crystal exists in the ground state or in equilibrium is a separate theorem, so the Goldstone-type counting above does not carry over directly."
+connections: [phase-transitions, statistical-mechanics, condensed-matter, classical-field-theory, qft, standard-model, gauge-theory, electromagnetism, lattice-field-theory, renormalization, effective-field-theory, beyond-standard-model, cosmology, non-equilibrium, topological-phases, symmetries, topology-invariants, functional-analysis, quantum-foundations, symmetry-conservation-gauge, universality, emergence, exp-superconductivity, exp-higgs, exp-deep-inelastic, exp-quantum-hall]
+resources:
+  - "Weinberg, *The Quantum Theory of Fields*, vol. II, chapters 19 and 21"
+  - "Coleman, *Aspects of Symmetry*, 'Secret symmetry' and 'Classical lumps'"
+  - "Anderson, *Basic Notions of Condensed Matter Physics*"
+  - "Strocchi, *Symmetry Breaking*"
+cards:
+  - q: What is spontaneous symmetry breaking?
+    a: The Hamiltonian (or action) is invariant under a symmetry, but the ground state or equilibrium state is not; the system picks one of several equivalent states, and an order parameter becomes non-zero.
+  - q: Why does spontaneous symmetry breaking need an infinite system?
+    a: In a finite system the ground state is unique and symmetric (tunnelling connects the equivalent states); only in the thermodynamic limit do the sectors decouple, so an arbitrarily small symmetry-breaking field fixes the state.
+  - q: What does Goldstone's theorem say?
+    a: Each broken generator of a continuous global symmetry gives a gapless excitation (phonon, magnon, pion), at least in relativistic or short-range theories; non-relativistic systems can have fewer modes than broken generators.
+  - q: Why are pions light?
+    a: Chiral symmetry is spontaneously broken by the quark condensate, so pions are would-be Goldstone bosons; the small quark masses break the symmetry explicitly and make them pseudo-Goldstone bosons with small masses.
+  - q: What happens to the Goldstone boson when the broken symmetry is gauged?
+    a: It is absorbed as the longitudinal polarisation of the gauge boson, which becomes massive (Higgs mechanism, Meissner effect).
+  - q: Where does most of the mass of a proton come from?
+    a: From QCD dynamics (the energy of the quarks' and gluons' fields and the chiral-symmetry-breaking condensate), not from the Higgs field, which supplies only the small quark masses.
+  - q: Why can't a continuous symmetry be spontaneously broken in one or two dimensions at nonzero temperature?
+    a: Long-wavelength Goldstone fluctuations diverge and destroy long-range order (Mermin–Wagner, Hohenberg); only quasi-long-range order is possible, as in the XY model.
+    detail: true  # site only, not in the Anki deck
+  - q: Why is 'breaking a gauge symmetry' a misnomer?
+    a: A gauge transformation is a redundancy and no state can break it (Elitzur); what changes is the physical spectrum, with massive gauge bosons.
+  - q: How can spontaneous symmetry breaking leave defects?
+    a: If the vacuum manifold has non-trivial topology, regions that cool independently choose different vacua and domain walls, strings or monopoles remain where they meet (Kibble–Zurek counting).
+    detail: true  # site only, not in the Anki deck
