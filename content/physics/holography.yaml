@@ -28,7 +28,7 @@ key_results:
   - "Hawking–Page transition ↔ confinement/deconfinement; black-hole horizon ↔ thermal state. ([Hawking–Page 1983](https://doi.org/10.1007/BF01208266))"
   - "η/s = 1/4π; fluid/gravity correspondence. ([KSS 2004](https://arxiv.org/abs/hep-th/0405231))"
   - "Holographic quantum error correction (Almheiri–Dong–Harlow 2015); entanglement wedge reconstruction. ([ADH 2015](https://arxiv.org/abs/1411.7041))"
-  - "JT gravity and SYK as a solvable low-dimensional example; ensemble averaging and replica wormholes."
+  - "JT gravity and SYK as a solvable low-dimensional example; ensemble averaging and replica wormholes. ([Maldacena–Stanford 2016](https://doi.org/10.1103/PhysRevD.94.106002), [Penington et al. 2019](https://arxiv.org/abs/1911.11977), [Almheiri et al. 2019](https://arxiv.org/abs/1911.12333))"
 experiments:
   - None directly; holographic models qualitatively match QGP viscosity and some strange-metal phenomenology.
 limits:

@@ -28,7 +28,7 @@ key_results:
   - "Kane–Mele / BHZ: Z₂ topological insulators (2005–2006); periodic table of topological insulators and superconductors (Kitaev; Schnyder et al. 2008). ([Kane–Mele 2005](https://arxiv.org/abs/cond-mat/0411737))"
   - "Topological order (Wen): ground-state degeneracy on tori, anyons, long-range entanglement; topological entanglement entropy. ([Kitaev–Preskill 2006](https://doi.org/10.1103/PhysRevLett.96.110404), [Levin–Wen 2006](https://doi.org/10.1103/PhysRevLett.96.110405))"
   - "Kitaev chain (Majorana zero modes) and Kitaev honeycomb model. ([Kitaev 2001](https://arxiv.org/abs/cond-mat/0010440))"
-  - "SPT phases classified by group cohomology and cobordism."
+  - "SPT phases classified by group cohomology and cobordism. ([Chen–Gu–Liu–Wen 2013](https://doi.org/10.1103/PhysRevB.87.155114), [Kapustin 2014](https://arxiv.org/abs/1403.1467))"
 experiments:
   - "[[exp-quantum-hall]]; HgTe quantum wells (König 2007); ARPES of Bi₂Se₃ surface states; anyon braiding in FQH interferometers (2020). ([König 2007](https://doi.org/10.1126/science.1148047))"
 limits:

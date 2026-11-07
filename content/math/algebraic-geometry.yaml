@@ -20,11 +20,11 @@ asks:
   - How do we classify varieties (moduli spaces)?
   - How can geometry over finite fields and number fields inform arithmetic?
 key_results:
-  - "Hilbert's Nullstellensatz: ideals ↔ varieties."
-  - "Riemann–Roch theorem and Hirzebruch–Riemann–Roch, Grothendieck–Riemann–Roch."
+  - "Hilbert's Nullstellensatz: ideals ↔ varieties. ([Hilbert 1893](https://doi.org/10.1007/BF01444162))"
+  - "Riemann–Roch theorem and Hirzebruch–Riemann–Roch, Grothendieck–Riemann–Roch. ([Borel–Serre 1958](https://doi.org/10.24033/bsmf.1500))"
   - "Schemes and étale cohomology (Grothendieck); Weil conjectures proved by Deligne (1974). ([Deligne 1974](https://doi.org/10.1007/BF02684373))"
   - "Resolution of singularities in characteristic 0 (Hironaka 1964). ([Hironaka 1964](https://doi.org/10.2307/1970486))"
-  - "Minimal model program; classification of surfaces."
+  - "Minimal model program; classification of surfaces. ([Birkar–Cascini–Hacon–McKernan 2010](https://doi.org/10.1090/S0894-0347-09-00649-3))"
   - "Hodge theory; Hodge conjecture open."
 motivating_examples:
   - Conic sections; elliptic curves; Bézout's theorem counting intersections.

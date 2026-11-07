@@ -21,9 +21,9 @@ asks:
   - What do randomness and quantum mechanics add to computation?
 key_results:
   - "Cook–Levin theorem: SAT is NP-complete; Karp's 21 NP-complete problems. ([Cook 1971](https://doi.org/10.1145/800157.805047))"
-  - "Time and space hierarchy theorems; PSPACE = IP; PCP theorem."
+  - "Time and space hierarchy theorems; PSPACE = IP; PCP theorem. ([Hartmanis–Stearns 1965](https://doi.org/10.1090/S0002-9947-1965-0170805-7), [Shamir 1992](https://doi.org/10.1145/146585.146609), [Arora et al. 1998](https://doi.org/10.1145/278298.278306))"
   - "Primality in P (AKS 2002). ([Agrawal–Kayal–Saxena 2004](https://doi.org/10.4007/annals.2004.160.781))"
-  - "Relativization, natural proofs and algebrization barriers to proving P ≠ NP."
+  - "Relativization, natural proofs and algebrization barriers to proving P ≠ NP. ([Baker–Gill–Solovay 1975](https://doi.org/10.1137/0204037), [Razborov–Rudich 1997](https://doi.org/10.1006/jcss.1997.1494), [Aaronson–Wigderson 2009](https://doi.org/10.1145/1490270.1490272))"
   - "BQP contains factoring (Shor); MIP* = RE (2020) links complexity to Connes' embedding problem. ([Ji et al. 2020](https://arxiv.org/abs/2001.04383))"
 motivating_examples:
   - Travelling salesman; scheduling; protein folding; cryptographic hardness.

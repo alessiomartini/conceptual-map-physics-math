@@ -31,7 +31,7 @@ asks:
   - What universal routes to chaos exist?
   - What is the quantum analogue of chaos and how do isolated quantum systems thermalize?
 key_results:
-  - Poincaré's discovery of homoclinic tangles in the three-body problem.
+  - Poincaré's discovery of homoclinic tangles in the three-body problem. ([Poincaré 1890](https://doi.org/10.1007/BF02392506))
   - Lorenz attractor (1963); strange attractors with fractal dimension. ([Lorenz 1963](https://doi.org/10.1175/1520-0469%281963%29020%3C0130:DNF%3E2.0.CO;2))
   - "Feigenbaum universality in period-doubling ($\\delta \\approx 4.669$). ([Feigenbaum 1978](https://doi.org/10.1007/BF01020332))"
   - Lyapunov exponents, Kolmogorov–Sinai entropy, ergodic hierarchy.

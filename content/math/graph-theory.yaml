@@ -21,9 +21,9 @@ asks:
 key_results:
   - "Euler's theorem on Eulerian circuits (1736); Kuratowski's planarity theorem. ([Kuratowski 1930](https://doi.org/10.4064/fm-15-1-271-283))"
   - "Four colour theorem (Appel–Haken 1976, computer-assisted). ([Appel–Haken 1977](https://doi.org/10.1215/ijm/1256049011))"
-  - "Max-flow min-cut theorem; Hall's marriage theorem."
+  - "Max-flow min-cut theorem; Hall's marriage theorem. ([Ford–Fulkerson 1956](https://doi.org/10.4153/CJM-1956-045-5), [Hall 1935](https://doi.org/10.1112/jlms/s1-10.37.26))"
   - "Robertson–Seymour graph minor theorem. ([Robertson–Seymour 2004](https://doi.org/10.1016/j.jctb.2004.08.001))"
-  - "Cheeger inequality: spectral gap ↔ expansion; expander graphs."
+  - "Cheeger inequality: spectral gap ↔ expansion; expander graphs. ([Hoory–Linial–Wigderson 2006](https://doi.org/10.1090/S0273-0979-06-01126-8))"
   - "Erdős–Rényi phase transitions in random graphs."
 motivating_examples:
   - Königsberg bridges; map colouring; transport networks.

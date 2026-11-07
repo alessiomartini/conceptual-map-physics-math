@@ -27,7 +27,7 @@ key_results:
   - "Double copy / BCJ: gravity amplitudes ≈ (gauge amplitudes)² (KLT relations from strings). ([BCJ 2008](https://arxiv.org/abs/0805.3993))"
   - "Dual superconformal / Yangian symmetry of planar N=4 SYM; amplitudes ↔ Wilson loops duality. ([Drummond et al. 2007](https://arxiv.org/abs/0707.0243)) ([Alday–Maldacena 2007](https://arxiv.org/abs/0705.0303))"
   - "Amplituhedron (Arkani-Hamed–Trnka 2013); positive geometry; CHY formulas. ([Arkani-Hamed–Trnka 2013](https://arxiv.org/abs/1312.2007))"
-  - "S-matrix bootstrap: bounds on couplings from unitarity and crossing."
+  - "S-matrix bootstrap: bounds on couplings from unitarity and crossing. ([Paulos et al. 2016](https://arxiv.org/abs/1607.06110))"
 experiments:
   - NNLO/N3LO QCD predictions used for LHC precision; post-Minkowskian binary dynamics used for gravitational-wave modelling.
 limits:

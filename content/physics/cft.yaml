@@ -25,7 +25,7 @@ asks:
 key_results:
   - "Operator–state correspondence; operator product expansion; crossing symmetry."
   - "2D: Virasoro algebra, central charge, minimal models (BPZ 1984), Cardy formula, modular invariance. ([BPZ 1984](https://doi.org/10.1016/0550-3213%2884%2990052-X))"
-  - "Unitarity bounds on scaling dimensions."
+  - "Unitarity bounds on scaling dimensions. ([Mack 1977](https://doi.org/10.1007/BF01613145), [Minwalla 1997](https://arxiv.org/abs/hep-th/9712074))"
   - "Conformal bootstrap (Rattazzi–Rychkov–Tonni–Vichi 2008): rigorous bounds; 3D Ising exponents to 6+ digits. ([RRTV 2008](https://arxiv.org/abs/0807.0004))"
   - "Most-precise 3D Ising: $\\Delta_\\sigma \\approx 0.5181489$, $\\Delta_\\epsilon \\approx 1.412625$. ([Simmons-Duffin 2016](https://arxiv.org/abs/1612.08471))"
   - "Lightcone bootstrap: large-spin operators approach double-twist values (Fitzpatrick–Kaplan–Poland–Simmons-Duffin; Komargodski–Zhiboedov); Caron-Huot inversion formula. ([Fitzpatrick et al. 2012](https://arxiv.org/abs/1212.3616), [Komargodski–Zhiboedov 2012](https://arxiv.org/abs/1212.4103), [Caron-Huot 2017](https://arxiv.org/abs/1703.00278))"

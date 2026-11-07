@@ -35,7 +35,7 @@ key_results:
   - "Fluctuation theorems (Evans–Searles, Gallavotti–Cohen, Crooks) and Jarzynski equality $\\langle e^{-\\beta W}\\rangle = e^{-\\beta \\Delta F}$. ([Jarzynski 1997](https://arxiv.org/abs/cond-mat/9610209))"
   - "KPZ universality for growing interfaces; directed percolation universality. ([Kardar–Parisi–Zhang 1986](https://doi.org/10.1103/PhysRevLett.56.889))"
   - "Eigenstate thermalization hypothesis (Deutsch 1991, Srednicki 1994). ([Deutsch 1991](https://doi.org/10.1103/PhysRevA.43.2046), [Srednicki 1994](https://arxiv.org/abs/cond-mat/9403051))"
-  - "Many-body localization; quantum many-body scars; discrete time crystals."
+  - "Many-body localization; quantum many-body scars; discrete time crystals. ([Basko–Aleiner–Altshuler 2006](https://doi.org/10.1016/j.aop.2005.11.014), [Wilczek 2012](https://doi.org/10.1103/PhysRevLett.109.160401), [Else–Bauer–Nayak 2016](https://doi.org/10.1103/PhysRevLett.117.090402), [Bernien et al. 2017](https://doi.org/10.1038/nature24622), [Turner et al. 2018](https://doi.org/10.1038/s41567-018-0137-5))"
   - "Thermodynamic uncertainty relations (Barato–Seifert 2015). ([Barato–Seifert 2015](https://doi.org/10.1103/PhysRevLett.114.158101))"
   - "Vicsek model and Toner–Tu theory: flocking with long-range order in 2D. ([Vicsek 1995](https://doi.org/10.1103/PhysRevLett.75.1226), [Toner–Tu 1995](https://doi.org/10.1103/PhysRevLett.75.4326))"
 experiments:

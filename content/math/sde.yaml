@@ -25,7 +25,7 @@ asks:
   - How do we simulate SDEs accurately, and how do we estimate their parameters from data?
 key_results:
   - "Itô integral and Itô's lemma: $df(X) = f'(X)\\,dX + \\tfrac12 f''(X)\\,\\sigma^2 dt$ — the extra second-order term comes from $(dW)^2 = dt$. ([Itô 1944](https://doi.org/10.3792/pia/1195572786))"
-  - "Existence and uniqueness of strong solutions under Lipschitz and linear-growth conditions (Itô); weak solutions and the martingale problem (Stroock–Varadhan)."
+  - "Existence and uniqueness of strong solutions under Lipschitz and linear-growth conditions (Itô); weak solutions and the martingale problem (Stroock–Varadhan). ([Stroock–Varadhan 1969](https://doi.org/10.1002/cpa.3160220304))"
   - "Itô vs Stratonovich: same noise, different calculus; Stratonovich obeys the ordinary chain rule and is the limit of smooth (coloured) noise (Wong–Zakai theorem). ([Wong–Zakai 1965](https://doi.org/10.1214/aoms/1177699916))"
   - "Fokker–Planck (forward Kolmogorov) equation for the density; backward Kolmogorov equation and the Feynman–Kac formula for expectations."
   - "Langevin equation and Ornstein–Uhlenbeck process: fluctuation–dissipation fixes the noise strength so the stationary law is Gibbs $\\propto e^{-V/k_BT}$."
