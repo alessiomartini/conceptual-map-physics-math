@@ -23,7 +23,7 @@ key_results:
   - "Kolmogorov axioms; laws of large numbers; central limit theorem."
   - "Large deviations (Cramér, Sanov); rate functions ≈ entropy."
   - "Martingale convergence and optional stopping; concentration inequalities."
-  - "Lévy stable laws and generalized CLT for heavy tails; extreme value theory (Fisher–Tippett–Gnedenko)."
+  - "Lévy stable laws and generalized CLT for heavy tails; extreme value theory (Fisher–Tippett–Gnedenko). ([Fisher–Tippett 1928](https://doi.org/10.1017/S0305004100015681))"
   - "de Finetti's theorem; Bayesian inference."
   - "Schramm–Loewner evolution describes 2D critical interfaces (Fields Medals 2006, 2010). ([Schramm 2000](https://arxiv.org/abs/math/9904022))"
 motivating_examples:

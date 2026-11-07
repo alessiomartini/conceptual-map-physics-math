@@ -20,8 +20,8 @@ asks:
   - Does sufficient size always force order (Ramsey theory)?
 key_results:
   - "Generating functions; inclusion–exclusion; Pólya enumeration."
-  - "Ramsey's theorem; Szemerédi's theorem on arithmetic progressions."
-  - "Probabilistic method (Erdős); Lovász local lemma."
+  - "Ramsey's theorem; Szemerédi's theorem on arithmetic progressions. ([Ramsey 1930](https://doi.org/10.1112/plms/s2-30.1.264), [Szemerédi 1975](https://doi.org/10.4064/aa-27-1-199-245))"
+  - "Probabilistic method (Erdős); Lovász local lemma. ([Erdős 1959](https://doi.org/10.4153/CJM-1959-003-9))"
   - "Sperner, Erdős–Ko–Rado; sunflower and cap-set breakthroughs (polynomial method, 2016). ([Ellenberg–Gijswijt 2016](https://arxiv.org/abs/1605.09223))"
   - "Kahn–Kalai conjecture proved ([Park–Pham 2022](https://doi.org/10.1109/focs54457.2022.00066)); exponential improvement on diagonal Ramsey ([Campos–Griffiths–Morris–Sahasrabudhe 2023](https://arxiv.org/abs/2303.09521))."
 motivating_examples:

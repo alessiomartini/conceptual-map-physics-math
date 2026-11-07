@@ -21,7 +21,7 @@ asks:
   - How do we measure dependence and distinguishability between distributions?
 key_results:
   - "Shannon entropy $H = -\\sum p\\log p$; mutual information; KL divergence. ([Shannon 1948](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x))"
-  - "Source coding theorem; channel coding theorem with capacity $C = \\max I(X;Y)$."
+  - "Source coding theorem; channel coding theorem with capacity $C = \\max I(X;Y)$. ([Shannon 1948](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x))"
   - "Data processing inequality; Fano's inequality."
   - "Kelly criterion: maximizing expected log growth relates bet sizing to mutual information. ([Kelly 1956](https://doi.org/10.1002/j.1538-7305.1956.tb03809.x))"
   - "Quantum versions: von Neumann entropy, Holevo bound, strong subadditivity (Lieb–Ruskai). ([Lieb–Ruskai 1973](https://doi.org/10.1063/1.1666274))"
