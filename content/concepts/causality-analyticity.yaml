@@ -1,0 +1,61 @@
+id: causality-analyticity
+title: "Causality and analyticity: no effect before its cause"
+short: Causality and analyticity
+domain: concept
+area: concepts
+order: 240
+one_liner: Requiring that nothing happens before its cause turns, through complex analysis, into exact relations between absorption and refraction, between scattering at different energies, and into bounds on what an effective theory may contain.
+summary: >-
+  The locality thread asks what can influence what in space; this one follows the same demand in time. A linear
+  response that vanishes before the stimulus is an analytic function of frequency in the upper half-plane, and
+  analyticity gives the Kramers–Kronig relations, sum rules and the link between the refractive index and
+  absorption. In relativistic theories the same idea becomes commutators that vanish at spacelike separation, the
+  analytic S-matrix and dispersion relations; in effective field theory it becomes positivity bounds on the
+  coefficients; in gravity it becomes the structure of the light cones and the horizons. The thread also keeps
+  apart the different things called 'causality' (no signals outside the light cone, response after stimulus,
+  causal inference) and the cases in which the analytic argument needs extra assumptions.
+thread:
+  - "**Causal response:** the output of a linear, time-invariant system at time $t$ depends only on the input at earlier times, $x(t)=\\int_{0}^{\\infty}\\chi(\\tau)f(t-\\tau)\\,d\\tau$, so $\\chi(\\tau)=0$ for $\\tau<0$. This one-sided kernel is the whole content of 'causality' in linear response ([[fluctuations-response]], [[linearity-superposition]], [[ode]])."
+  - "**From causality to analyticity:** the Fourier transform $\\chi(\\omega)=\\int_0^\\infty\\chi(\\tau)e^{i\\omega\\tau}d\\tau$ converges, for a kernel that does not grow, when $\\mathrm{Im}\\,\\omega>0$, so it is analytic in the upper half-plane; conversely an analytic function that decays there is the transform of a causal kernel (Paley–Wiener, Titchmarsh) ([[complex-analysis]], [[functional-analysis]], [[real-analysis]])."
+  - "**Kramers–Kronig relations:** Cauchy's theorem applied to $\\chi(\\omega)$ gives $\\mathrm{Re}\\,\\chi(\\omega)=\\tfrac{1}{\\pi}\\,\\mathrm{P}\\!\\int\\frac{\\mathrm{Im}\\,\\chi(\\omega')}{\\omega'-\\omega}d\\omega'$ and its partner: the real part (refraction, reactive response) is fixed by the imaginary part (absorption, dissipation) at all frequencies. A medium cannot absorb at one frequency without changing the refractive index at others ([[optics]], [[electromagnetism]], [[condensed-matter]]). ([Kronig 1926](https://doi.org/10.1364/JOSA.12.000547))"
+  - "**Sum rules and subtractions:** if the response falls fast enough at high frequency, integrals of the absorption over all frequencies are fixed by a few constants (the $f$-sum rule for the dielectric function, the Thomas–Reiche–Kuhn rule for atoms); if it does not, the relation needs a 'subtraction' constant that must be taken from experiment ([[quantum-mechanics]], [[condensed-matter]], [[amo-physics]])."
+  - "**Signals and the light cone:** in relativity no signal propagates faster than $c$, even though phase and group velocities in a dispersive medium can exceed $c$; what is bounded is the velocity of the front, where the analytic function in the upper half-plane is evaluated at infinite frequency, and this is where the response is exactly causal ([[special-relativity]], [[optics]], [[electromagnetism]])."
+  - "**Microcausality in field theory:** observables built from local fields commute at spacelike separation, $[\\mathcal{O}(x),\\mathcal{O}'(y)]=0$ when $(x-y)^2<0$. This is what makes the retarded Green's function vanish outside the light cone, and combined with positive energy and Lorentz invariance it forces the spin-statistics connection ([[qft]], [[locality]], [[classical-field-theory]], [[symmetries]]). ([Lehmann–Symanzik–Zimmermann 1955](https://doi.org/10.1007/BF02731765))"
+  - "**Dispersion relations in particle physics:** causality of the field commutators gives analyticity of forward scattering amplitudes in the complex energy plane, and a relation between the real part, fixed by the dispersive integral, and the total cross-section by the optical theorem. In the S-matrix programme analyticity, unitarity and crossing were pushed to constrain scattering without a Lagrangian ([[scattering-amplitudes]], [[qft]], [[complex-analysis]]). ([Goldberger 1955](https://doi.org/10.1103/PhysRev.99.979); [Mandelstam 1958](https://doi.org/10.1103/PhysRev.112.1344))"
+  - "**Bounds from analyticity and unitarity:** the same two properties bound how fast total cross-sections can grow, $\\sigma_{\\mathrm{tot}}\\lesssim c\\ln^2 s$, and give a lower limit on the energy derivative of the scattering phase shift, which is the statement that a resonance cannot respond before it is hit ([[scattering-amplitudes]], [[quantum-mechanics]], [[nuclear-physics]]). ([Froissart 1961](https://doi.org/10.1103/PhysRev.123.1053); [Wigner 1955](https://doi.org/10.1103/PhysRev.98.145))"
+  - "**Positivity bounds on effective theories:** if a low-energy effective theory is to have a causal, unitary completion, its forward-scattering amplitude must obey dispersion relations, and the coefficients of certain higher-derivative operators must be positive. Not every effective Lagrangian that looks consistent can be completed, which links this thread to naturalness and to the 'swampland' programme ([[effective-field-theory]], [[effective-theories-naturalness]], [[string-theory]], [[beyond-standard-model]]). ([Adams et al. 2006](https://arxiv.org/abs/hep-th/0602178))"
+  - "**Causal structure of spacetime:** in general relativity the light cones define which events can influence which; horizons, closed timelike curves, time machines and the chronology-protection conjecture are statements about this structure, and in holography the boundary theory's causality constrains the bulk ([[general-relativity]], [[black-holes]], [[holography]], [[geometry-curvature]])."
+  - "**Causality versus the arrow of time:** the retarded and advanced solutions of the wave equation are both allowed by the dynamics; choosing the retarded one is a boundary condition tied to the thermodynamic arrow, not a consequence of the equations. And quantum correlations that violate Bell inequalities do not carry signals, so no-signalling is a separate requirement from locality ([[arrow-of-time]], [[boundaries-boundary-conditions]], [[exp-bell-tests]], [[quantum-foundations]])."
+caveats:
+  - "'Causality' names several different things: a response that vanishes before its stimulus, no signal outside the light cone, determinism of the equations, and the statistical notion of a causal effect used in inference ([[randomness-probability]]). The Kramers–Kronig relations follow only from the first, under conditions on the decay of the response."
+  - "Kramers–Kronig and sum rules assume a linear, passive, time-invariant response with sufficient decay at high frequency. Nonlinear media, media with gain or inverted populations, and responses that grow at infinity can violate the naive relations, or need subtractions."
+  - "Superluminal group velocities (anomalous dispersion, gain media, tunnelling) have been measured and do not violate causality: the group velocity is not the velocity at which information travels, which is carried by the front."
+  - "The analytic structure of the full S-matrix is proved only in limited cases (forward amplitudes, axiomatic field theory in restricted domains); the Mandelstam representation, assumed in the 1960s S-matrix programme, is known to fail in general and for massless particles and gravity the dispersive arguments run into infrared and t-channel difficulties."
+  - "Positivity bounds are conditional on assumptions (a Lorentz-invariant, unitary, local UV completion with a mass gap); in theories with gravity or with long-range forces the standard argument must be modified, and what is a firm bound versus a heuristic is still debated."
+  - "Wigner's bound is a bound on the energy derivative of the phase shift; large negative time delays in the middle of narrow resonances are not violations and are compatible with causal propagation of the front."
+connections: [fluctuations-response, linearity-superposition, ode, complex-analysis, functional-analysis, real-analysis, optics, electromagnetism, condensed-matter, quantum-mechanics, amo-physics, special-relativity, qft, locality, classical-field-theory, symmetries, scattering-amplitudes, nuclear-physics, effective-field-theory, effective-theories-naturalness, string-theory, beyond-standard-model, general-relativity, black-holes, holography, geometry-curvature, arrow-of-time, boundaries-boundary-conditions, exp-bell-tests, quantum-foundations, randomness-probability]
+resources:
+  - "Jackson, *Classical Electrodynamics*, chapter 7 (Kramers–Kronig relations and sum rules)"
+  - "Landau and Lifshitz, *Electrodynamics of Continuous Media*, section 82"
+  - "Eden, Landshoff, Olive and Polkinghorne, *The Analytic S-Matrix*"
+  - "Weinberg, *The Quantum Theory of Fields*, vol. I, chapters 3 and 5"
+  - "Hawking and Ellis, *The Large Scale Structure of Space-Time*, chapter 6"
+cards:
+  - q: What does causality imply for a linear response function?
+    a: The kernel vanishes for negative time, so its Fourier transform is analytic in the upper half of the complex frequency plane.
+  - q: What do the Kramers–Kronig relations say?
+    a: The real and imaginary parts of a causal response are Hilbert transforms of each other, so the refractive index at every frequency is determined by the absorption spectrum.
+  - q: Why can a pulse have a group velocity larger than c without violating causality?
+    a: The group velocity is not the signal velocity; information travels with the front of the pulse, whose speed is bounded by $c$ because the response is causal.
+  - q: What is microcausality?
+    a: Observables built from local fields at spacelike-separated points commute, so measuring one cannot affect the statistics of the other.
+  - q: How does causality constrain scattering amplitudes?
+    a: Causality makes amplitudes analytic functions of energy, so a dispersion relation ties their real and imaginary parts and, with unitarity, limits their high-energy growth (Froissart bound).
+  - q: What is a positivity bound?
+    a: A requirement, derived from analyticity and unitarity of forward scattering, that the coefficients of certain higher-derivative operators in an effective theory be positive if a consistent UV completion exists.
+  - q: Why do Bell-inequality violations not contradict causality?
+    a: The correlations cannot be used to send a signal, because each local outcome is random; no-signalling holds even though the correlations cannot come from local hidden variables.
+    detail: true  # site only, not in the Anki deck
+  - q: Does the choice of retarded rather than advanced waves follow from causality?
+    a: No; the equations allow both, and the choice is a boundary condition associated with the thermodynamic arrow of time.
+    detail: true  # site only, not in the Anki deck

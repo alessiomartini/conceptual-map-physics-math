@@ -1,0 +1,61 @@
+id: singularities-breakdown
+title: "Singularities: where a description breaks down"
+short: Singularities
+domain: concept
+area: concepts
+order: 250
+one_liner: A singularity is the place where an equation or a theory stops describing anything, and the same pattern (blow-up, shock, divergence, curvature singularity, non-analytic free energy) appears from fluids to black holes.
+summary: >-
+  Physical and mathematical models regularly produce infinities: a solution that diverges in finite time, a field
+  with infinite energy near a point, a spacetime whose geodesics end. The thread follows what such a divergence
+  means in each setting. Sometimes it signals new physics at a smaller scale (the electron's self-energy, the
+  breakup of a liquid jet), sometimes a genuine feature of the solutions (shocks, caustics, phase transitions),
+  sometimes a geometric theorem about incompleteness (the singularity theorems) whose physical resolution is still
+  open. The thread keeps apart singularities of a model, singularities of a solution and singularities of nature,
+  and notes where the general question of regularity remains unproved.
+thread:
+  - "**Singularity as a statement about a model:** a divergence says where the description fails, not that nature is infinite. Either a neglected effect (viscosity, finite size, quantum corrections) becomes important near it, or the variables are badly chosen there, as at the pole of a coordinate system ([[approximation-perturbation]], [[effective-theories-naturalness]], [[discrete-continuum]])."
+  - "**Finite-time blow-up:** even a simple equation such as $\\dot y=y^2$ has the solution $y=1/(t_*-t)$, which diverges at a finite $t_*$; for nonlinear PDEs the question is whether smooth data stay smooth for all time. For the three-dimensional Euler and Navier–Stokes equations this is open and is one of the Millennium problems ([[ode]], [[pde]], [[hydrodynamics]], [[dynamical-systems]])."
+  - "**Shocks and caustics:** nonlinear waves steepen until the solution becomes multi-valued, and weak solutions with discontinuities (Burgers, gas dynamics, traffic) take over, with the shock speed fixed by a conservation law. In ray optics the same folding gives caustics, where the intensity diverges until diffraction smooths it ([[pde]], [[hydrodynamics]], [[optics]], [[geometry-curvature]]). ([Lax 1957](https://doi.org/10.1002/cpa.3160100406))"
+  - "**Pinch-off and self-similarity:** a thin liquid thread breaks in finite time, and near the break the profile becomes self-similar with exponents fixed by dimensional analysis and balance of the surface tension, inertia and viscosity. The singularity selects the physics (and the microscopic scale) that finally cuts the thread ([[hydrodynamics]], [[soft-matter]], [[scaling-dimensional-analysis]], [[universality]]). ([Eggers 1997](https://doi.org/10.1103/RevModPhys.69.865))"
+  - "**Self-energy and ultraviolet divergences:** a point charge has infinite electrostatic field energy, which classically points to a finite electron radius; in quantum field theory loop integrals diverge at short distance. Renormalization absorbs the infinities into a few parameters and treats the theory as effective below a cutoff, which turns the divergence into a statement about which scales one is allowed to ignore ([[electromagnetism]], [[qft]], [[renormalization]], [[effective-field-theory]])."
+  - "**Gravitational collapse:** above a critical mass degenerate matter can no longer support a star ($\\approx1.4\\,M_\\odot$ for white dwarfs), and the idealised collapse of dust forms a horizon with a singularity inside ([[astrophysics]], [[black-holes]], [[general-relativity]]). ([Chandrasekhar 1931](https://doi.org/10.1086/143324); [Oppenheimer–Snyder 1939](https://doi.org/10.1103/PhysRev.56.455))"
+  - "**Singularity theorems:** Penrose showed that once a trapped surface forms, null geodesics must be incomplete, with no assumption of exact symmetry; Hawking and Penrose extended the argument to cosmology. The theorems say that some geodesics end, not what happens at the end or that curvature diverges ([[general-relativity]], [[differential-geometry]], [[topology]], [[cosmology]]). ([Penrose 1965](https://doi.org/10.1103/PhysRevLett.14.57); [Hawking–Penrose 1970](https://doi.org/10.1098/rspa.1970.0021))"
+  - "**Cosmic censorship and critical collapse:** the conjecture that singularities from generic collapse are hidden behind horizons is unproved; in numerical collapse of a scalar field, the black-hole mass near the threshold scales as a power law with a universal exponent, so the onset of a singularity is a critical phenomenon ([[black-holes]], [[scaling-dimensional-analysis]], [[phase-transitions]], [[computation-physics]]). ([Choptuik 1993](https://doi.org/10.1103/PhysRevLett.70.9))"
+  - "**Black-hole pinch-off:** an extended black string is unstable to the gravitational analogue of the Rayleigh–Plateau instability that breaks a liquid jet, and its evolution links the fluid picture of pinch-off to the formation of naked singularities in higher dimensions ([[black-holes]], [[hydrodynamics]], [[string-theory]]). ([Gregory–Laflamme 1993](https://doi.org/10.1103/PhysRevLett.70.2837))"
+  - "**Geometric flows and surgery:** the Ricci flow deforms a metric toward uniform curvature and develops singularities in finite time; Perelman showed how to classify them and cut them out by surgery, which proved the Poincaré and geometrisation conjectures. Here a singularity is a tool that reveals the topology rather than an obstacle ([[differential-geometry]], [[topology]], [[geometry-curvature]], [[topology-invariants]], [[pde]]). ([Hamilton 1982](https://doi.org/10.4310/jdg/1214436922); [Perelman 2002](https://arxiv.org/abs/math/0211159))"
+  - "**Phase transitions as singularities of the free energy:** at finite size the partition function is a sum of exponentials and is analytic in the parameters; non-analyticity appears only in the thermodynamic limit, where zeros of the partition function in the complex plane pinch the real axis (Lee–Yang) ([[phase-transitions]], [[statistical-mechanics]], [[complex-analysis]], [[spontaneous-symmetry-breaking]]). ([Yang–Lee 1952](https://doi.org/10.1103/PhysRev.87.404); [Lee–Yang 1952](https://doi.org/10.1103/PhysRev.87.410))"
+  - "**Hoped-for resolutions:** quantum gravity, string theory and cosmological models with a bounce propose that the classical singularities of black holes and the Big Bang are replaced by something finite or by a change of description; none of these proposals has been confirmed ([[quantum-gravity]], [[string-theory]], [[holography]], [[cosmology]])."
+caveats:
+  - "A coordinate singularity is not a physical one: the Schwarzschild radius is a feature of the coordinates (the curvature is finite there), while $r=0$ is a genuine curvature singularity. Distinguishing the two requires invariants (curvature scalars) or geodesic completeness."
+  - "A singularity theorem proves geodesic incompleteness under energy conditions and global assumptions; it does not say the curvature diverges, nor that quantum effects, which violate the classical energy conditions, would not remove it."
+  - "A divergence in perturbation theory (the series, or an intermediate integral) is different from a divergence of the exact solution: asymptotic series diverge for well-behaved functions, and ultraviolet infinities mean an incomplete description, not that nature has infinite quantities ([[approximation-perturbation]])."
+  - "Whether smooth solutions of the 3D Navier–Stokes equations can blow up is unknown; blow-up for Euler with boundary has been supported by computer-assisted proofs in particular settings, but the general question is open. Numerical evidence of singularities is not a proof."
+  - "Weak solutions with shocks are not unique without an extra criterion (entropy condition); which one is physical is fixed by the neglected small viscosity, so the 'singular limit' is part of the problem, not an afterthought."
+  - "Lee–Yang zeros pinching the real axis give non-analyticity only in the thermodynamic limit; a finite system has no phase transition, which links this step to the finite-size caveat in the spontaneous symmetry breaking thread."
+connections: [approximation-perturbation, effective-theories-naturalness, discrete-continuum, ode, pde, hydrodynamics, dynamical-systems, optics, geometry-curvature, soft-matter, scaling-dimensional-analysis, universality, electromagnetism, qft, renormalization, effective-field-theory, astrophysics, black-holes, general-relativity, differential-geometry, topology, cosmology, phase-transitions, computation-physics, string-theory, topology-invariants, statistical-mechanics, complex-analysis, spontaneous-symmetry-breaking, quantum-gravity, holography]
+resources:
+  - "Hawking and Ellis, *The Large Scale Structure of Space-Time*, chapter 8"
+  - "Wald, *General Relativity*, chapter 9"
+  - "Eggers and Fontelos, *Singularities: Formation, Structure, and Propagation*"
+  - "Whitham, *Linear and Nonlinear Waves*"
+  - "Tao, *Nonlinear Dispersive Equations* and the blog posts on Navier–Stokes blow-up"
+cards:
+  - q: What does a singularity usually tell you about a model?
+    a: That the description fails there; either a neglected effect becomes important (viscosity, finite size, quantum corrections) or the variables are badly chosen.
+  - q: Give a simple equation with finite-time blow-up.
+    a: $\dot y=y^2$ has the solution $y=1/(t_*-t)$, which diverges at the finite time $t_*$.
+  - q: What happens when a nonlinear wave steepens?
+    a: The solution would become multivalued, and weak solutions with shocks (fixed by a conservation law and an entropy condition) take over; in optics the same folding gives caustics.
+  - q: What do the Penrose and Hawking–Penrose singularity theorems prove?
+    a: That under energy conditions and global assumptions some geodesics are incomplete (for example once a trapped surface forms); they do not say that curvature diverges or what replaces the singularity.
+  - q: How does the Schwarzschild horizon differ from the singularity at r = 0?
+    a: The horizon is a coordinate artefact with finite curvature; $r=0$ is a real curvature singularity.
+  - q: Why do phase transitions need an infinite system?
+    a: A finite partition function is analytic in the parameters; non-analytic behaviour appears only in the thermodynamic limit, when Lee–Yang zeros approach the real axis.
+  - q: What did Perelman do with Ricci-flow singularities?
+    a: He classified them and showed how to cut them out by surgery, which proved the geometrisation (and Poincaré) conjecture.
+    detail: true  # site only, not in the Anki deck
+  - q: What is critical collapse?
+    a: Near the threshold of black-hole formation the mass scales as a power law with a universal exponent in numerical collapse of fields, so the onset of a singularity behaves like a critical phenomenon.
+    detail: true  # site only, not in the Anki deck
