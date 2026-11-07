@@ -20,7 +20,7 @@ asks:
   - How do random dynamics relate to PDEs and to equilibrium distributions?
 key_results:
   - "Brownian motion (Wiener measure); Markov chains and ergodic theorems."
-  - "Itô's lemma $df = f'\\,dX + \\tfrac12 f''\\,d\\langle X\\rangle$; stochastic differential equations."
+  - "Itô's lemma $df = f'\\,dX + \\tfrac12 f''\\,d\\langle X\\rangle$; stochastic differential equations. ([Itô 1944](https://doi.org/10.3792/pia/1195572786))"
   - "Feynman–Kac formula linking expectations and parabolic PDEs; Fokker–Planck equation."
   - "Girsanov theorem: change of drift by change of measure. ([Girsanov 1960](https://doi.org/10.1137/1105027))"
   - "Fundamental theorem of asset pricing: no arbitrage ⇔ existence of an equivalent martingale measure; Black–Scholes–Merton. ([Black–Scholes 1973](https://doi.org/10.1086/260062))"

@@ -22,7 +22,7 @@ asks:
   - What special geometric structures exist (Kähler, Calabi–Yau, special holonomy)?
 key_results:
   - "Gauss's Theorema Egregium: Gaussian curvature is intrinsic."
-  - "Gauss–Bonnet: $\\int_M K\\,dA = 2\\pi\\chi(M)$; Chern–Gauss–Bonnet in higher dimensions."
+  - "Gauss–Bonnet: $\\int_M K\\,dA = 2\\pi\\chi(M)$; Chern–Gauss–Bonnet in higher dimensions. ([Chern 1944](https://doi.org/10.2307/1969302))"
   - "Levi-Civita connection; Riemann tensor; geodesics; Jacobi fields."
   - "Fibre bundles, connections, characteristic classes (Chern–Weil)."
   - "Yau's proof of the Calabi conjecture (1977); Berger's holonomy classification. ([Yau 1977](https://doi.org/10.1073/pnas.74.5.1798))"
