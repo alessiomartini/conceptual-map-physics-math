@@ -36,6 +36,7 @@ Unico file per todo, idee, decisioni e diario, letto da Projects Overview
 
 ## Idee
 
+- [ ] Usare l'API di Emergent Mind (https://www.emergentmind.com/docs/api) per la mappa; ritrovare il sito con repo pubblica su GitHub, visto su LinkedIn, con la lista di tutte le QFT. Parole di Alessio: "penso dobbiamo tenere in considerazione che esiste. forse il sito big picture della fisica-matematica puo beneficiarne. c'era anche un sito web con repo pubblica su github che avevo trovato su linkedin i gironi scorsi in cui c'era la lista di tutte le qft, vorrei ritrovarlo e tenerlo in memoria per quando possa servire." (da google-tasks, task "use emergentmind", 2026-11-07)
 - [ ] More threads (`content/concepts/`): variational principles beyond mechanics, linearity & superposition,
   geometry/curvature (GR ↔ gauge ↔ Berry phase), randomness & typicality, Hamiltonian vs Lagrangian in depth,
   "why mathematics fits physics".
