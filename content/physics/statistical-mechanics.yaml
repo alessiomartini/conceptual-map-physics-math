@@ -26,7 +26,7 @@ key_results:
   - "Equipartition; fluctuation–response relations; Bose–Einstein and Fermi–Dirac statistics."
   - "Boltzmann's H-theorem and the debate on irreversibility (Loschmidt, Zermelo)."
   - "Onsager's exact 2D Ising solution; mean-field theory; Lee–Yang zeros. ([Onsager 1944](https://doi.org/10.1103/PhysRev.65.117))"
-  - "Quantum–classical mapping: a d-dimensional quantum system at T=0 ↔ (d+1)-dimensional classical system."
+  - "Quantum–classical mapping: a d-dimensional quantum system at T=0 ↔ (d+1)-dimensional classical system. ([Suzuki 1976](https://doi.org/10.1143/PTP.56.1454))"
   - "Spin glasses: Parisi's replica symmetry breaking (Nobel 2021). ([Parisi 1979](https://doi.org/10.1103/PhysRevLett.43.1754))"
 experiments:
   - "Brownian motion (Perrin 1908 confirms atoms via Einstein's theory); specific heats of solids; [[exp-bec]]."

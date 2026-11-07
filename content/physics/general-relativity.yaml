@@ -23,7 +23,7 @@ asks:
   - What happens in strong gravitational fields (black holes, neutron stars, the Big Bang)?
   - How does the universe as a whole evolve?
 key_results:
-  - "Equivalence principle; Einstein field equations; Einstein–Hilbert action $\\frac{1}{16\\pi G}\\int \\sqrt{-g}\\,(R - 2\\Lambda)$."
+  - "Equivalence principle; Einstein field equations; Einstein–Hilbert action $\\frac{1}{16\\pi G}\\int \\sqrt{-g}\\,(R - 2\\Lambda)$. ([Einstein 1916](https://doi.org/10.1002/andp.19163540702))"
   - "Schwarzschild (1916) and Kerr (1963) solutions; FLRW cosmologies. ([Kerr 1963](https://doi.org/10.1103/PhysRevLett.11.237))"
   - "Penrose (1965) and Hawking singularity theorems. ([Penrose 1965](https://doi.org/10.1103/PhysRevLett.14.57))"
   - "No-hair theorems; black-hole uniqueness; Hawking area theorem. ([Hawking 1971](https://doi.org/10.1103/PhysRevLett.26.1344))"

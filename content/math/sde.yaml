@@ -24,13 +24,13 @@ asks:
   - Which stochastic integral is the right one for a given physical model (Itô or Stratonovich)?
   - How do we simulate SDEs accurately, and how do we estimate their parameters from data?
 key_results:
-  - "Itô integral and Itô's lemma: $df(X) = f'(X)\\,dX + \\tfrac12 f''(X)\\,\\sigma^2 dt$ — the extra second-order term comes from $(dW)^2 = dt$."
+  - "Itô integral and Itô's lemma: $df(X) = f'(X)\\,dX + \\tfrac12 f''(X)\\,\\sigma^2 dt$ — the extra second-order term comes from $(dW)^2 = dt$. ([Itô 1944](https://doi.org/10.3792/pia/1195572786))"
   - "Existence and uniqueness of strong solutions under Lipschitz and linear-growth conditions (Itô); weak solutions and the martingale problem (Stroock–Varadhan)."
   - "Itô vs Stratonovich: same noise, different calculus; Stratonovich obeys the ordinary chain rule and is the limit of smooth (coloured) noise (Wong–Zakai theorem). ([Wong–Zakai 1965](https://doi.org/10.1214/aoms/1177699916))"
   - "Fokker–Planck (forward Kolmogorov) equation for the density; backward Kolmogorov equation and the Feynman–Kac formula for expectations."
   - "Langevin equation and Ornstein–Uhlenbeck process: fluctuation–dissipation fixes the noise strength so the stationary law is Gibbs $\\propto e^{-V/k_BT}$."
   - "Geometric Brownian motion $dS = \\mu S\\,dt + \\sigma S\\,dW$ and the Black–Scholes–Merton model. ([Black–Scholes 1973](https://doi.org/10.1086/260062))"
-  - "Numerics: Euler–Maruyama (strong order 1/2), Milstein (order 1); weak vs strong convergence."
+  - "Numerics: Euler–Maruyama (strong order 1/2), Milstein (order 1); weak vs strong convergence. ([Milstein 1975](https://doi.org/10.1137/1119062))"
   - "Stochastic PDEs: KPZ equation made rigorous by Hairer's regularity structures (Fields Medal 2014) and by paracontrolled calculus (Gubinelli–Imkeller–Perkowski). ([Hairer 2014](https://arxiv.org/abs/1109.6811))"
 motivating_examples:
   - "Brownian motion of a pollen grain (Einstein 1905, Langevin 1908); Johnson–Nyquist noise in resistors."

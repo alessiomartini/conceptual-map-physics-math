@@ -30,7 +30,7 @@ key_results:
   - "Liouville's theorem: Hamiltonian flow preserves phase-space volume."
   - "Liouville–Arnold theorem: $n$ independent commuting integrals ⇒ motion on invariant tori (action–angle variables)."
   - "KAM theorem: most invariant tori survive small non-integrable perturbations. ([Arnold 1963](https://doi.org/10.1070/RM1963v018n05ABEH004130))"
-  - "Kepler problem and its hidden SO(4) symmetry (Laplace–Runge–Lenz vector)."
+  - "Kepler problem and its hidden SO(4) symmetry (Laplace–Runge–Lenz vector). ([Pauli 1926](https://doi.org/10.1007/BF01450175))"
 experiments:
   - Planetary motion (Kepler's laws) and celestial mechanics, including the prediction of Neptune (1846).
   - "[[exp-cavendish]] measured Newton's constant $G$."

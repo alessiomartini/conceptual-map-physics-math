@@ -21,7 +21,7 @@ asks:
   - When do polynomial equations have integer or rational solutions?
   - What hidden symmetries link Galois representations, automorphic forms and L-functions?
 key_results:
-  - "Prime number theorem $\\pi(x) \\sim x/\\ln x$ (Hadamard, de la Vallée Poussin 1896)."
+  - "Prime number theorem $\\pi(x) \\sim x/\\ln x$ (Hadamard, de la Vallée Poussin 1896). ([Hadamard 1896](https://doi.org/10.24033/bsmf.545))"
   - "Quadratic reciprocity; class field theory."
   - "Fermat's Last Theorem (Wiles 1995) via modularity of semistable elliptic curves. ([Wiles 1995](https://doi.org/10.2307/2118559))"
   - "Mordell conjecture (Faltings 1983): curves of genus ≥ 2 have finitely many rational points. ([Faltings 1983](https://doi.org/10.1007/BF01388432))"
