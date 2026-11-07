@@ -19,10 +19,10 @@ asks:
   - What structural properties (connectivity, colouring, planarity, flows) do graphs have?
   - How do spectra of graph matrices reflect structure?
 key_results:
-  - "Euler's theorem on Eulerian circuits (1736); Kuratowski's planarity theorem."
+  - "Euler's theorem on Eulerian circuits (1736); Kuratowski's planarity theorem. ([Kuratowski 1930](https://doi.org/10.4064/fm-15-1-271-283))"
   - "Four colour theorem (Appel–Haken 1976, computer-assisted). ([Appel–Haken 1977](https://doi.org/10.1215/ijm/1256049011))"
   - "Max-flow min-cut theorem; Hall's marriage theorem."
-  - "Robertson–Seymour graph minor theorem."
+  - "Robertson–Seymour graph minor theorem. ([Robertson–Seymour 2004](https://doi.org/10.1016/j.jctb.2004.08.001))"
   - "Cheeger inequality: spectral gap ↔ expansion; expander graphs."
   - "Erdős–Rényi phase transitions in random graphs."
 motivating_examples:

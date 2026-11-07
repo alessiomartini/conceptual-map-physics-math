@@ -22,7 +22,7 @@ asks:
   - What is the glass/jamming transition, and why do disordered materials become rigid?
   - What new phases and hydrodynamics appear when each particle is self-driven?
 key_results:
-  - "Polymer scaling: Flory exponent $R \\sim N^{\\nu}$ with $\\nu \\approx 0.588$ in 3D; de Gennes' mapping of polymers to the $n\\to0$ limit of the O(n) model."
+  - "Polymer scaling: Flory exponent $R \\sim N^{\\nu}$ with $\\nu \\approx 0.588$ in 3D; de Gennes' mapping of polymers to the $n\\to0$ limit of the O(n) model. ([de Gennes 1972](https://doi.org/10.1016/0375-9601%2872%2990149-1))"
   - "Liquid crystals: nematic order, Frank elasticity, Landau–de Gennes theory; topological defects (disclinations)."
   - "Colloids as model atoms: entropy-driven crystallization of hard spheres; depletion forces (Asakura–Oosawa). ([Asakura–Oosawa 1954](https://doi.org/10.1063/1.1740347))"
   - "Jamming transition of granular and foam packings (Liu–Nagel 1998); isostaticity. ([Liu–Nagel 1998](https://doi.org/10.1038/23819))"

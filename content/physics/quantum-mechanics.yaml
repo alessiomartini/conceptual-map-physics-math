@@ -28,7 +28,7 @@ key_results:
   - Hydrogen spectrum; spin; Pauli exclusion; spin–statistics connection (proved in QFT).
   - Perturbation theory, variational principle, WKB, scattering theory, Berry phase.
   - "Stone–von Neumann theorem: the canonical commutation relations have an essentially unique irreducible representation (finitely many degrees of freedom)."
-  - "Bell's theorem: no local hidden-variable theory reproduces quantum predictions."
+  - "Bell's theorem: no local hidden-variable theory reproduces quantum predictions. ([Bell 1964](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195))"
 experiments:
   - "[[exp-photoelectric]], [[exp-stern-gerlach]], [[exp-davisson-germer]], [[exp-double-slit]], [[exp-bell-tests]]"
   - Atomic spectroscopy (Balmer series, fine and hyperfine structure); [[exp-lamb-shift]] showed its limits.

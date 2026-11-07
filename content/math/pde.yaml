@@ -24,7 +24,7 @@ asks:
 key_results:
   - "Classification into elliptic, parabolic, hyperbolic; maximum principles; energy methods."
   - "Cauchy–Kovalevskaya theorem; Lax–Milgram; Sobolev regularity theory."
-  - "De Giorgi–Nash–Moser regularity for elliptic equations with rough coefficients."
+  - "De Giorgi–Nash–Moser regularity for elliptic equations with rough coefficients. ([Nash 1958](https://doi.org/10.2307/2372841))"
   - "Choquet-Bruhat (1952): well-posedness of Einstein's equations; Christodoulou–Klainerman stability of Minkowski. ([Choquet-Bruhat 1952](https://doi.org/10.1007/BF02392131))"
   - "Nash embedding theorem; convex integration (Nash–Kuiper, and Isett's proof of Onsager's conjecture 2018). ([Isett 2018](https://doi.org/10.4007/annals.2018.188.3.4))"
 motivating_examples:

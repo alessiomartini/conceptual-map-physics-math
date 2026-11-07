@@ -26,7 +26,7 @@ asks:
 key_results:
   - "Itô integral and Itô's lemma: $df(X) = f'(X)\\,dX + \\tfrac12 f''(X)\\,\\sigma^2 dt$ — the extra second-order term comes from $(dW)^2 = dt$."
   - "Existence and uniqueness of strong solutions under Lipschitz and linear-growth conditions (Itô); weak solutions and the martingale problem (Stroock–Varadhan)."
-  - "Itô vs Stratonovich: same noise, different calculus; Stratonovich obeys the ordinary chain rule and is the limit of smooth (coloured) noise (Wong–Zakai theorem)."
+  - "Itô vs Stratonovich: same noise, different calculus; Stratonovich obeys the ordinary chain rule and is the limit of smooth (coloured) noise (Wong–Zakai theorem). ([Wong–Zakai 1965](https://doi.org/10.1214/aoms/1177699916))"
   - "Fokker–Planck (forward Kolmogorov) equation for the density; backward Kolmogorov equation and the Feynman–Kac formula for expectations."
   - "Langevin equation and Ornstein–Uhlenbeck process: fluctuation–dissipation fixes the noise strength so the stationary law is Gibbs $\\propto e^{-V/k_BT}$."
   - "Geometric Brownian motion $dS = \\mu S\\,dt + \\sigma S\\,dW$ and the Black–Scholes–Merton model. ([Black–Scholes 1973](https://doi.org/10.1086/260062))"
