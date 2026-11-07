@@ -1,0 +1,61 @@
+id: integrability-chaos
+title: "Integrability and chaos: the solvable few and the generic many"
+short: Integrability and chaos
+domain: concept
+area: concepts
+order: 260
+one_liner: A system with as many conserved quantities as degrees of freedom is solvable and regular; almost every other system is chaotic, and the difference shows up in orbits, in spectra, in thermalization and in how fast information scrambles.
+summary: >-
+  The thread follows one dichotomy across scales. In classical mechanics an integrable system moves on invariant
+  tori and a generic perturbation breaks most of them (KAM), leaving chaotic layers. In quantum mechanics the same
+  split appears in the statistics of energy levels (Poisson versus random-matrix), in whether an isolated system
+  thermalizes (eigenstate thermalization versus generalized Gibbs ensembles), and in how quickly a perturbation
+  spreads through the degrees of freedom (Lyapunov exponents, out-of-time-order correlators). Integrable models
+  such as the KdV equation, the Bethe-ansatz chains and planar gauge theories are the exact benchmarks; chaotic
+  ones are what nature mostly offers. The thread also keeps the definitions apart, because classical integrability
+  is sharp and quantum integrability is not.
+thread:
+  - "**Counting conserved quantities:** a Hamiltonian system with $n$ degrees of freedom and $n$ independent, Poisson-commuting conserved quantities is integrable (Liouville–Arnold); its motion lies on $n$-dimensional invariant tori with action–angle variables, $\\dot{I}_k=0$, $\\dot{\\theta}_k=\\omega_k(\\mathbf{I})$. Everything that can be written in closed form is of this kind ([[classical-mechanics]], [[integrability]], [[symmetry-conservation-gauge]], [[dynamical-systems]])."
+  - "**Chaos as the generic case:** for typical nonlinear systems there are not enough conserved quantities. Trajectories then show sensitive dependence on initial conditions, quantified by a positive Lyapunov exponent, $\\delta(t)\\sim\\delta(0)e^{\\lambda t}$, and the phase-space structure is a mixture of regular islands and chaotic seas ([[chaos]], [[dynamical-systems]], [[ode]], [[stability]])."
+  - "**What survives a perturbation (KAM):** add a small non-integrable term to an integrable Hamiltonian and, for sufficiently irrational frequency ratios, most tori are only deformed, while the resonant ones break up into chains of islands and chaotic layers. Integrable and chaotic motion therefore coexist, in proportions set by the size of the perturbation ([[classical-mechanics]], [[chaos]], [[real-analysis]], [[approximation-perturbation]]). ([Arnold 1963](https://doi.org/10.1070/RM1963v018n05ABEH004130))"
+  - "**Solitons and the inverse scattering method:** some infinite-dimensional systems, such as the Korteweg–de Vries equation, are integrable in a strong sense: a Lax pair $\\dot{L}=[M,L]$ makes the spectrum of $L$ time-independent, which gives infinitely many conserved quantities and solitons that pass through each other unchanged. They were found numerically as the surprising stability of waves in a nonlinear lattice ([[pde]], [[classical-field-theory]], [[hydrodynamics]], [[linearity-superposition]], [[fluctuations-response]]). ([Zabusky–Kruskal 1965](https://doi.org/10.1103/PhysRevLett.15.240); [Gardner–Greene–Kruskal–Miura 1967](https://doi.org/10.1103/PhysRevLett.19.1095); [Lax 1968](https://doi.org/10.1002/cpa.3160210503))"
+  - "**Exact quantum solutions:** in one dimension the Bethe ansatz and the Yang–Baxter equation give the exact spectra of spin chains and Bose gases, factorized two-body scattering, and Onsager's solution of the two-dimensional Ising model; these are the few interacting many-body problems solved exactly ([[integrability]], [[statistical-mechanics]], [[condensed-matter]], [[phase-transitions]], [[lie-theory]])."
+  - "**Level statistics as a fingerprint:** the energy levels of a quantum system whose classical limit is integrable look like independent random numbers (Poisson spacing distribution), while those of a classically chaotic system repel each other and follow random-matrix statistics (Wigner–Dyson). This is the Berry–Tabor and Bohigas–Giannoni–Schmit picture, the bridge from classical to quantum chaos ([[random-matrix-theory]], [[quantum-mechanics]], [[randomness-probability]], [[chaos]]). ([Berry–Tabor 1977](https://doi.org/10.1098/rspa.1977.0140); [Bohigas–Giannoni–Schmit 1984](https://doi.org/10.1103/PhysRevLett.52.1))"
+  - "**Thermalization of isolated systems:** in a chaotic many-body system the matrix elements of local observables between energy eigenstates behave like random-matrix elements, so single eigenstates already look thermal (eigenstate thermalization hypothesis) and the system relaxes to the microcanonical ensemble. An integrable system has extra conserved charges and relaxes instead to a generalized Gibbs ensemble ([[statistical-mechanics]], [[non-equilibrium]], [[thermodynamics]], [[arrow-of-time]], [[entropy-information]]). ([Srednicki 1994](https://doi.org/10.1103/PhysRevE.50.888); [Rigol–Dunjko–Olshanii 2008](https://doi.org/10.1038/nature06838))"
+  - "**Experiments with cold atoms:** a one-dimensional Bose gas, which is nearly integrable, was observed not to thermalize over very long times (the quantum Newton's cradle), while generic gases of the same atoms do; this makes the distinction measurable ([[amo-physics]], [[integrability]], [[quantum-foundations]], [[quantum-information]]). ([Kinoshita–Wenger–Weiss 2006](https://doi.org/10.1038/nature04693))"
+  - "**Scrambling and the speed limit on chaos:** in a quantum many-body system the growth of the commutator of two operators at late times, $C(t)\\sim e^{\\lambda_L t}$, defines a quantum Lyapunov exponent. In systems with a thermal state at temperature $T$ it obeys $\\lambda_L\\le 2\\pi k_B T/\\hbar$, saturated by black holes in holographic models, which links chaos to horizons and to the SYK model ([[black-holes]], [[holography]], [[quantum-gravity]], [[complexity]], [[quantum-information]]). ([Maldacena–Shenker–Stanford 2016](https://doi.org/10.1007/JHEP08%282016%29106))"
+  - "**Integrability in gauge and string theory:** planar $\\mathcal{N}=4$ super-Yang–Mills has an integrable structure that lets one compute scaling dimensions at any coupling, and on the string side the corresponding worldsheet model is integrable too; this is the main case of a four-dimensional gauge theory solved by integrability ([[integrability]], [[holography]], [[string-theory]], [[supersymmetry]], [[scattering-amplitudes]], [[cft]])."
+  - "**Weak breaking and the road between:** real systems are almost never exactly integrable. Weakly breaking integrability yields a long prethermal plateau before the system finally thermalizes, with the time scale growing as the perturbation shrinks, and a hydrodynamic description (generalized hydrodynamics) captures the integrable limit ([[non-equilibrium]], [[hydrodynamics]], [[complex-systems]], [[effective-theories-naturalness]])."
+caveats:
+  - "Classical integrability is sharp (Liouville–Arnold); quantum integrability has no agreed definition. Every Hamiltonian has as many commuting conserved operators as it has eigenstates (the projectors), so one must demand that the charges be local or quasi-local, and different communities use different criteria (see the definitions in [[integrability]])."
+  - "Poisson level statistics is not proof of integrability: systems with many-body localization, or with unresolved symmetries and degeneracies, also show it, and some integrable systems show deviations. The Bohigas–Giannoni–Schmit statement is a well-tested conjecture, not a theorem, although it has been supported by a semiclassical argument."
+  - "The ETH is verified numerically in many models and has been tested in small systems, but it is not proved in general, and its extension to all local observables, to systems with conserved charges, and to long times is still being clarified."
+  - "KAM theory is a statement for sufficiently small perturbations and for nondegenerate systems. For large perturbations, or for many degrees of freedom, how much of phase space stays regular is not controlled by it, and Arnold diffusion along the resonance web is the generic expectation, not a proven universal fact."
+  - "The bound on the quantum Lyapunov exponent is derived under assumptions (thermal state, a regime where the relevant correlation function is well defined, a certain analyticity), and the exponential growth of the out-of-time-order correlator does not by itself prove classical-like chaos: it can also occur near unstable saddle points of integrable systems."
+  - "'Solved exactly' does not mean 'simple to use': a Bethe-ansatz solution gives the spectrum, but correlation functions at finite temperature or out of equilibrium remain hard, and integrable models are fine-tuned points: most realistic interactions break integrability at some order."
+connections: [classical-mechanics, integrability, symmetry-conservation-gauge, dynamical-systems, chaos, ode, stability, real-analysis, approximation-perturbation, pde, classical-field-theory, hydrodynamics, linearity-superposition, fluctuations-response, statistical-mechanics, condensed-matter, phase-transitions, lie-theory, random-matrix-theory, quantum-mechanics, randomness-probability, non-equilibrium, thermodynamics, arrow-of-time, entropy-information, amo-physics, quantum-foundations, quantum-information, black-holes, holography, quantum-gravity, complexity, string-theory, supersymmetry, scattering-amplitudes, cft, complex-systems, effective-theories-naturalness]
+resources:
+  - "Arnold, *Mathematical Methods of Classical Mechanics*, chapters 10 and 12 (integrable systems, perturbation theory)"
+  - "Drazin and Johnson, *Solitons: An Introduction*"
+  - "Haake, *Quantum Signatures of Chaos*"
+  - "D'Alessio, Kafri, Polkovnikov and Rigol, 'From quantum chaos and eigenstate thermalization to statistical mechanics and thermodynamics', Advances in Physics 65 (2016)"
+  - "Vidmar and Rigol, 'Generalized Gibbs ensemble in integrable lattice models', J. Stat. Mech. (2016)"
+cards:
+  - q: When is a Hamiltonian system with $n$ degrees of freedom integrable?
+    a: When it has $n$ independent conserved quantities in involution (pairwise Poisson-commuting); the motion then lies on invariant tori and can be written with action–angle variables.
+  - q: What does the KAM theorem say?
+    a: For a small non-integrable perturbation of an integrable system, most invariant tori with sufficiently irrational frequencies survive, slightly deformed, while the resonant ones break up into islands and chaotic layers.
+  - q: What is the fingerprint of integrability and chaos in quantum energy levels?
+    a: Levels of a classically integrable system are uncorrelated (Poisson spacings); those of a classically chaotic system repel and follow random-matrix (Wigner–Dyson) statistics.
+  - q: What is the eigenstate thermalization hypothesis?
+    a: In a chaotic many-body system the expectation value of a local observable in a single energy eigenstate is, to a very good approximation, equal to the microcanonical thermal value at that energy.
+  - q: How does an integrable system relax differently from a chaotic one?
+    a: Its extra conserved charges prevent thermalization to the ordinary Gibbs state; it relaxes to a generalized Gibbs ensemble that keeps the values of all the charges.
+  - q: What is the bound on chaos?
+    a: In a thermal quantum system the exponential growth rate of the out-of-time-order correlator satisfies $\lambda_L\le 2\pi k_B T/\hbar$, saturated in holographic black-hole models.
+  - q: What role does the Lax pair play in the KdV equation?
+    a: The evolution is $\dot L=[M,L]$ for linear operators $L,M$, so the spectrum of $L$ is constant in time; this gives infinitely many conserved quantities and the soliton solutions.
+    detail: true  # site only, not in the Anki deck
+  - q: Why is an isolated chaotic quantum system a thermal bath for its own subsystems?
+    a: Its eigenstates are so entangled that a small subsystem is described by a thermal reduced density matrix, with the rest acting as the bath, even though the full state evolves unitarily.
+    detail: true  # site only, not in the Anki deck

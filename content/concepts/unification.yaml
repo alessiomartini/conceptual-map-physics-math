@@ -1,0 +1,58 @@
+id: unification
+title: "Unification: when two phenomena turn out to be one"
+short: Unification
+domain: concept
+area: concepts
+order: 270
+one_liner: Again and again, forces or theories that looked separate were found to be aspects of a single structure, but the cases differ a lot in what 'unified' means and in how well they have been tested.
+summary: >-
+  Physics has a long record of merging descriptions: terrestrial and celestial gravity, electricity and magnetism,
+  space and time, the electromagnetic and weak interactions. This thread lines the cases up and asks what each one
+  achieved. Some unifications reduce the number of independent laws (Maxwell), some embed distinct forces in a larger
+  symmetry that is broken at low energy (electroweak), some predict new relations that can fail (grand unification),
+  and some are still programmes (strings, quantum gravity). It also keeps visible the difference between unifying
+  forces, unifying descriptions across scales (statistical mechanics from mechanics), and unifying via dualities.
+thread:
+  - "**Celestial and terrestrial gravity:** Newton's law of gravitation $F=Gm_1m_2/r^2$ explained falling bodies and planetary orbits with the same force, replacing the separate physics assumed for the heavens. Its prediction of the return of comets and the discovery of Neptune are the first large successes of unification as a method ([[classical-mechanics]], [[astrophysics]], [[exp-cavendish]])."
+  - "**Electricity, magnetism and light:** Maxwell's equations show that electric and magnetic fields are two components of a single field, and that their wave solutions travel at $c=1/\\sqrt{\\mu_0\\varepsilon_0}$, which identified light as an electromagnetic wave. One set of equations replaced several laws and optics became a branch of electromagnetism ([[electromagnetism]], [[optics]], [[classical-field-theory]], [[pde]]). ([Maxwell 1865](https://doi.org/10.1098/rstl.1865.0008))"
+  - "**Space and time, and spacetime and gravity:** special relativity merges space and time and, with it, electric and magnetic fields as components of one tensor; general relativity then identifies gravity with the curvature of spacetime, uniting the principle of equivalence with geometry ([[special-relativity]], [[general-relativity]], [[geometry-curvature]], [[differential-geometry]], [[exp-eddington]])."
+  - "**Particles and waves, then particles and fields:** quantum mechanics unified the wave and particle pictures in one formalism, and quantum field theory unified quantum mechanics with special relativity, treating particles as excitations of fields and forces as exchanges ([[quantum-mechanics]], [[qft]], [[exp-double-slit]], [[exp-davisson-germer]], [[harmonic-oscillator]])."
+  - "**Microscopic and macroscopic:** statistical mechanics derives thermodynamics from the mechanics of many particles, and the renormalization group explains why very different microscopic systems share critical behaviour. This is a unification of descriptions across scales, not of forces ([[statistical-mechanics]], [[thermodynamics]], [[renormalization]], [[universality]], [[emergence]])."
+  - "**Electroweak unification:** the electromagnetic and weak forces are two aspects of a single $SU(2)\\times U(1)$ gauge theory, broken by the Higgs field to $U(1)_{\\mathrm{em}}$. The theory predicted the $W$ and $Z$ bosons and the neutral currents, and the Higgs boson completed the mechanism, so this is a unification tested quantitatively ([[standard-model]], [[gauge-theory]], [[spontaneous-symmetry-breaking]], [[exp-higgs]], [[symmetry-conservation-gauge]]). ([Glashow 1961](https://doi.org/10.1016/0029-5582%2861%2990469-2); [Weinberg 1967](https://doi.org/10.1103/PhysRevLett.19.1264))"
+  - "**Running couplings and grand unification:** the three gauge couplings of the Standard Model change with energy according to the renormalization group, and embedding $SU(3)\\times SU(2)\\times U(1)$ in a simple group such as $SU(5)$ makes them equal at one high scale, with quarks and leptons in common multiplets. It predicts proton decay and a relation between the couplings, which in the Standard Model alone fail to meet at a point, whereas with low-energy supersymmetry they come much closer ([[beyond-standard-model]], [[renormalization]], [[group-theory]], [[lie-theory]], [[supersymmetry]], [[effective-field-theory]]). ([Georgi–Glashow 1974](https://doi.org/10.1103/PhysRevLett.32.438); [Georgi–Quinn–Weinberg 1974](https://doi.org/10.1103/PhysRevLett.33.451))"
+  - "**Extra dimensions:** Kaluza and Klein showed that general relativity in five dimensions contains four-dimensional gravity and electromagnetism, with the gauge field coming from the metric components along the extra circle. The idea survives in supergravity and string compactifications, where the gauge group is determined by the geometry of the extra dimensions ([[general-relativity]], [[gauge-theory]], [[string-theory]], [[geometry-curvature]], [[topology-invariants]]). ([Klein 1926](https://doi.org/10.1007/BF01397481))"
+  - "**Strings and the unification of gravity with gauge forces:** in string theory the graviton, the gauge bosons and matter come from the vibration modes of one object, and consistency conditions such as anomaly cancellation fix the allowed gauge groups. Whether it describes our world is not established, and it does not pick out a unique low-energy theory ([[string-theory]], [[quantum-gravity]], [[supersymmetry]], [[holography]], [[effective-theories-naturalness]]). ([Green–Schwarz 1984](https://doi.org/10.1016/0370-2693%2884%2991565-X))"
+  - "**Unification by duality:** theories that look different can be equivalent descriptions of the same physics, as with the strong–weak dualities of supersymmetric gauge theories and the unification of the five string theories in M-theory. Here nothing is added to the field content; what is merged is the list of distinct theories ([[duality]], [[holography]], [[cft]], [[string-theory]], [[supersymmetry]])."
+caveats:
+  - "'Unification' covers different things: a reduction of independent laws (Maxwell), an embedding in a larger symmetry (electroweak, grand unification), the identification of two descriptions (dualities), and the explanation of one scale by another (statistical mechanics). They should not be counted as the same kind of success."
+  - "Electroweak unification is incomplete in a precise sense: the Standard Model has two independent gauge couplings, $g$ and $g'$, and the Weinberg angle relates them but is a measured parameter, so the electromagnetic and weak forces are joined in structure but not reduced to one coupling."
+  - "Grand unification has not been confirmed: proton decay has not been seen, with bounds that exclude the minimal $SU(5)$ model with its simplest spectrum, and the apparent approach of the couplings is a log-scale coincidence of a few percent that is sensitive to the threshold corrections and to the particle content assumed."
+  - "Not every merger is final: the unification of the particle picture with the field picture is one of formalism, and quantum mechanics and general relativity are still not unified in a tested theory ([[quantum-gravity]])."
+  - "A theory that unifies must predict something that the separate theories do not. When a framework has too many free choices (as in the landscape of string compactifications) the unifying power in practice is smaller than the elegance suggests, and whether that counts as a problem is debated."
+  - "Some apparent unifications went the other way: the discovery of more forces and particles (weak, strong, three generations) made the 20th century picture richer before it became simpler, and the claim that nature must be unified at a high scale is a guiding assumption, not an experimental fact."
+connections: [classical-mechanics, astrophysics, exp-cavendish, electromagnetism, optics, classical-field-theory, pde, special-relativity, general-relativity, geometry-curvature, differential-geometry, exp-eddington, quantum-mechanics, qft, exp-double-slit, exp-davisson-germer, harmonic-oscillator, statistical-mechanics, thermodynamics, renormalization, universality, emergence, standard-model, gauge-theory, spontaneous-symmetry-breaking, exp-higgs, symmetry-conservation-gauge, beyond-standard-model, group-theory, lie-theory, supersymmetry, effective-field-theory, string-theory, topology-invariants, quantum-gravity, holography, effective-theories-naturalness, duality, cft]
+resources:
+  - "Weinberg, *Dreams of a Final Theory*"
+  - "Weinberg, *The Quantum Theory of Fields*, vol. II (gauge theories and the Standard Model)"
+  - "Ross, *Grand Unified Theories*"
+  - "Polchinski, *String Theory*, vol. I (introduction)"
+  - "Zee, *Group Theory in a Nutshell for Physicists* (grand unification chapters)"
+cards:
+  - q: What did Maxwell's equations unify?
+    a: Electricity, magnetism and optics. Electric and magnetic fields are parts of one field and light is an electromagnetic wave travelling at $c=1/\sqrt{\mu_0\varepsilon_0}$.
+  - q: What does electroweak unification mean?
+    a: The electromagnetic and weak interactions come from one $SU(2)\times U(1)$ gauge theory, broken by the Higgs field to electromagnetism, so the photon, $W$ and $Z$ are mixtures of the original gauge bosons.
+  - q: Why is the electroweak theory only partly unified?
+    a: It still has two independent gauge couplings; the Weinberg angle relating them is measured, not predicted.
+  - q: What is the idea of grand unification?
+    a: The three Standard Model gauge couplings run with energy and, when the gauge group is embedded in a simple group such as $SU(5)$, become equal at one high scale, with quarks and leptons in common multiplets.
+  - q: What does grand unification predict that could be falsified?
+    a: Proton decay, through the exchange of heavy gauge bosons, and relations among the couplings and fermion masses.
+  - q: What did Kaluza and Klein propose?
+    a: Five-dimensional general relativity with one compact dimension contains four-dimensional gravity plus a gauge field, which they identified with electromagnetism.
+  - q: Which kinds of unification are not about forces?
+    a: Unification of descriptions across scales (thermodynamics from statistical mechanics), and the equivalence of apparently different theories by duality.
+    detail: true  # site only, not in the Anki deck
+  - q: What is the main obstacle to unifying quantum mechanics with general relativity?
+    a: Gravity quantized as an ordinary field theory is non-renormalizable and there is no experimentally tested theory at the Planck scale.
+    detail: true  # site only, not in the Anki deck
