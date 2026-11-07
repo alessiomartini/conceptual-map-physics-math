@@ -21,10 +21,10 @@ asks:
   - What invariants detect holes, twisting and knotting?
   - How are manifolds classified in each dimension?
 key_results:
-  - "Brouwer fixed point theorem; Euler characteristic; classification of surfaces."
+  - "Brouwer fixed point theorem; Euler characteristic; classification of surfaces. ([Brouwer 1911](https://doi.org/10.1007/BF01456931))"
   - "Homology and cohomology; Poincaré duality; homotopy groups."
   - "Poincaré conjecture: proved by Perelman (2003) via Ricci flow with surgery. ([Perelman 2002](https://arxiv.org/abs/math/0211159))"
-  - "Smale (h-cobordism, dim ≥ 5); Freedman (dim 4, topological); Donaldson: exotic smooth $\\mathbb{R}^4$."
+  - "Smale (h-cobordism, dim ≥ 5); Freedman (dim 4, topological); Donaldson: exotic smooth $\\mathbb{R}^4$. ([Freedman 1982](https://doi.org/10.4310/jdg/1214437136), [Donaldson 1983](https://doi.org/10.4310/jdg/1214437665))"
   - "Atiyah–Singer index theorem relates analysis and topology. ([Atiyah–Singer 1963](https://doi.org/10.1090/S0002-9904-1963-10957-X))"
   - "Jones polynomial (1984); Witten's Chern–Simons interpretation (1989). ([Witten 1989](https://doi.org/10.1007/BF01217730))"
 motivating_examples:

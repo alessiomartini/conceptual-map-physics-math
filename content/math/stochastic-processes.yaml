@@ -22,9 +22,9 @@ key_results:
   - "Brownian motion (Wiener measure); Markov chains and ergodic theorems."
   - "Itô's lemma $df = f'\\,dX + \\tfrac12 f''\\,d\\langle X\\rangle$; stochastic differential equations."
   - "Feynman–Kac formula linking expectations and parabolic PDEs; Fokker–Planck equation."
-  - "Girsanov theorem: change of drift by change of measure."
+  - "Girsanov theorem: change of drift by change of measure. ([Girsanov 1960](https://doi.org/10.1137/1105027))"
   - "Fundamental theorem of asset pricing: no arbitrage ⇔ existence of an equivalent martingale measure; Black–Scholes–Merton. ([Black–Scholes 1973](https://doi.org/10.1086/260062))"
-  - "Poisson, Lévy, Hawkes processes; rough paths (Lyons) and regularity structures (Hairer)."
+  - "Poisson, Lévy, Hawkes processes; rough paths (Lyons) and regularity structures (Hairer). ([Lyons 1998](https://doi.org/10.4171/rmi/240), [Hairer 2014](https://doi.org/10.1007/s00222-014-0505-4))"
 motivating_examples:
   - Pollen grains in water (Brown, Einstein); stock prices; queueing.
 limits:

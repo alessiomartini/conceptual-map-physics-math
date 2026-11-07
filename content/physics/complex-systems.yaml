@@ -29,7 +29,7 @@ asks:
   - How predictable and controllable are complex adaptive systems?
 key_results:
   - "Self-organized criticality (Bak–Tang–Wiesenfeld 1987, sandpile model). ([BTW 1987](https://doi.org/10.1103/PhysRevLett.59.381))"
-  - "Scaling laws in biology (Kleiber's law, West–Brown–Enquist) and cities (Bettencourt–West)."
+  - "Scaling laws in biology (Kleiber's law, West–Brown–Enquist) and cities (Bettencourt–West). ([West–Brown–Enquist 1997](https://doi.org/10.1126/science.276.5309.122), [Bettencourt et al. 2007](https://doi.org/10.1073/pnas.0610172104))"
   - "Cellular automata and computational universality (Rule 110, Game of Life)."
   - "Emergence of cooperation in evolutionary games (Axelrod). ([Axelrod–Hamilton 1981](https://doi.org/10.1126/science.7466396))"
   - "Power laws and their generative mechanisms (preferential attachment, multiplicative processes)."
