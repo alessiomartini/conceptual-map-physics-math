@@ -1,7 +1,7 @@
 # CLAUDE.md
 
 Big Picture: YAML content → static site (`docs/index.html`, GitHub Pages) + Anki deck (`dist/big-picture.apkg`).
-Read `README.md` first (philosophy, schema, commands). Talk to Alessio in Italian; content and code are in English.
+Read `README.md` first (philosophy, schema, commands). Content and code are in English.
 
 ## Layout
 - `content/{physics,math,experiments,concepts}/*.yaml` — one entry per file; `content/areas.yaml` clusters.
@@ -33,20 +33,3 @@ Read `README.md` first (philosophy, schema, commands). Talk to Alessio in Italia
 - Quote YAML items containing `": "` or starting with `* [ { \``. LaTeX: `$...$`; links `[[id]]`.
 - After content edits: `make`, then check pages in the browser (MathJax errors show as red).
 - Bump nothing for cache-busting: the site is a single self-contained HTML file.
-
-## Roadmap, idee e progressi
-
-`ROADMAP.md` nella root è l'**unico** file per todo, idee, decisioni e diario del progetto
-(niente `FUTURE-ARCHITECTURE.md`, `IDEE.md`, `TODO.md`). È letto da https://alessiomartini.github.io/projects-overview/.
-Sezioni: `## <fase>` (checkbox, contano nella percentuale), `## Idee` (checkbox, non contano),
-`## Decisioni e cose provate` (prosa: scartato/rimandato e perché, provato e annullato, limiti e bug noti), `## Log`.
-
-- Alla fine di ogni sessione di lavoro (prima del commit finale), aggiorna `ROADMAP.md`:
-  - spunta (`- [x]`) i punti completati in questa sessione;
-  - aggiungi come `- [ ]` i nuovi compiti nella fase giusta, e le idee non decise in `## Idee`;
-  - annota in `## Decisioni e cose provate` ciò che è stato scartato, rimandato o annullato, col perché;
-  - aggiungi in cima a `## Log` una riga `- AAAA-MM-GG: <cosa è stato fatto, in una frase>`
-    (se esiste già una riga con la data di oggi, estendila invece di crearne un'altra).
-- Non riscrivere né riordinare le voci esistenti senza motivo; non cancellare le voci completate.
-- Se `ROADMAP.md` non esiste, crealo da `templates/ROADMAP.md` di projects-overview.
-- Includi l'aggiornamento di `ROADMAP.md` nello stesso commit del lavoro.
