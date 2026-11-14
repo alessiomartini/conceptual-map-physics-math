@@ -1,0 +1,64 @@
+id: waves-interference
+title: "Waves and interference"
+short: Waves and interference
+domain: concept
+area: concepts
+order: 340
+one_liner: A wave is a disturbance that propagates, and the same few ideas - superposition, interference, diffraction, dispersion, the difference between phase and group velocity - describe water, sound, light, matter and spacetime; what changes between fields is what is waving and which of these ideas fails.
+summary: >-
+  Waves appear in nearly every branch of physics: water and sound waves in a medium, electromagnetic waves in
+  vacuum, matter waves in quantum mechanics, gravitational waves in spacetime, and collective modes in solids.
+  The thread follows the shared structure: a wave equation and its solutions, interference and diffraction as
+  consequences of adding amplitudes, dispersion and the two velocities of a wave packet, and what happens when
+  the equation is nonlinear or the medium is disordered. It also separates what is common from what is not: a
+  quantum wave is an amplitude, not a physical displacement, and 'wave-particle duality' is a statement about
+  measurement outcomes. Superposition itself is in the linearity thread and the oscillators that make up waves
+  in the harmonic-oscillator thread.
+thread:
+  - "**Wave equation:** a disturbance $u(\\vb x,t)$ obeying $\\partial_t^2u=c^2\\nabla^2u$ propagates at speed $c$ without changing shape in one dimension; the general solution is a sum of a right-moving and a left-moving profile. Strings, sound, light in vacuum and linearized gravity all reduce to this form in suitable limits ([[pde]], [[classical-field-theory]], [[electromagnetism]], [[linearity-superposition]])."
+  - "**Plane waves and Fourier analysis:** because the equation is linear, any solution is a superposition of plane waves $e^{i(\\vb k\\cdot\\vb x-\\omega t)}$, and each Fourier component evolves independently. The relation $\\omega(\\vb k)$ between frequency and wavenumber is the dispersion relation and encodes the whole linear dynamics of the medium ([[functional-analysis]], [[harmonic-oscillator]], [[optics]])."
+  - "**Interference:** when two waves overlap, amplitudes add and the intensity is $|A_1+A_2|^2=|A_1|^2+|A_2|^2+2\\,\\mathrm{Re}(A_1^*A_2)$; the last term gives bright and dark fringes depending on the phase difference. It needs coherence: a fixed phase relation over the measurement time ([[exp-double-slit]], [[optics]], [[randomness-probability]])."
+  - "**Diffraction:** a wave that passes an aperture or edge spreads by an angle of order $\\lambda/a$, with $\\lambda$ the wavelength and $a$ the aperture size. In the Huygens–Fresnel picture each point of a wavefront acts as a source and the far field is the Fourier transform of the aperture. Ray optics is the limit $\\lambda\\to0$ ([[optics]], [[classical-limit]], [[approximation-perturbation]])."
+  - "**Dispersion and the two velocities:** the phase velocity $v_p=\\omega/k$ is the speed of a crest, while the group velocity $v_g=d\\omega/dk$ is the speed of the envelope of a packet and in general of energy transport. In a dispersive medium a packet spreads, because components with different $k$ move at different speeds. Phase velocity can exceed $c$ without violating relativity, since it carries no signal ([[special-relativity]], [[causality-analyticity]])."
+  - "**Waves in a medium and in vacuum:** sound and water waves need a medium and are collective modes of many particles, which gives $\\omega(k)$ determined by elasticity and density. Electromagnetic waves need no medium, and Michelson and Morley found no sign of one ([[exp-michelson-morley]], [[hydrodynamics]], [[emergence]])."
+  - "**Matter waves:** de Broglie assigned wavelength $\\lambda=h/p$ to a particle ([de Broglie 1923](https://doi.org/10.1038/112540a0)), seen in electron diffraction from a crystal ([Davisson–Germer 1927](https://doi.org/10.1103/PhysRev.30.705)), in interference from several slits ([Jönsson 1961](https://doi.org/10.1007/BF01342460)) and in the build-up of a fringe pattern from single electrons ([Tonomura et al. 1989](https://doi.org/10.1119/1.16104)). The Schrödinger equation has $\\omega\\propto k^2$ for a free particle, so matter waves are always dispersive and a free packet spreads ([[quantum-mechanics]], [[exp-davisson-germer]], [[exp-double-slit]])."
+  - "**What the quantum wave is:** the wavefunction is a complex amplitude whose squared modulus gives probabilities; interference is between amplitudes for alternative paths, and detections are localized events. Which-path information destroys the fringes without any 'disturbance' needed ([[measurement-observer]], [[entanglement-correlations]], [[quantum-foundations]])."
+  - "**Gravitational waves:** in linearized general relativity small perturbations of the metric obey a wave equation and propagate at $c$ with two polarizations. Their detection in a binary black hole merger ([Abbott et al. 2016](https://doi.org/10.1103/PhysRevLett.116.061102)) and in a neutron-star merger ([Abbott et al. 2017](https://doi.org/10.1103/PhysRevLett.119.161101)) used laser interferometers, which are interference experiments measuring displacements far below a proton radius ([[general-relativity]], [[exp-ligo]], [[exp-hulse-taylor]], [[black-holes]])."
+  - "**Collective excitations as waves:** phonons, magnons, plasmons and spin waves are quantized waves of a many-body ground state; quantizing a field in modes is what turns a wave into particles ([[particles-fields]], [[condensed-matter]], [[plasma-physics]], [[vacuum]])."
+  - "**Standing waves and quantization:** boundary conditions select discrete frequencies; this is the origin of musical overtones, cavity modes and the discrete spectra of bound states ([[boundaries-boundary-conditions]], [[discrete-continuum]], [[exp-blackbody]])."
+  - "**Nonlinear waves and solitons:** when the wave speed depends on amplitude, waves steepen and form shocks; balanced against dispersion they can form solitons, which keep their shape and pass through each other, as in the Korteweg–de Vries equation for shallow-water waves ([Korteweg–de Vries 1895](https://doi.org/10.1080/14786449508620739)). Superposition then fails and interference is replaced by interaction ([[integrability-chaos]], [[stability]], [[scaling-dimensional-analysis]])."
+  - "**Disorder and localization:** in a random medium interference between multiple scattering paths can stop propagation altogether; Anderson showed that waves (electrons) in a sufficiently random lattice are exponentially localized, with no diffusion ([Anderson 1958](https://doi.org/10.1103/PhysRev.109.1492)). The effect is a wave phenomenon and has been seen with light, sound and cold atoms ([[condensed-matter]], [[universality]], [[random-matrix-theory]])."
+definitions:
+  - "**What counts as a 'wave'? Several uses overlap.** (a) *A solution of a wave equation*, hyperbolic and linear, with a propagation speed. *Why:* it gives clean mathematics (Fourier modes, causality via characteristics). *Problem:* it excludes nonlinear waves, shocks, and diffusion-like 'waves' of other equations. (b) *Any propagating disturbance that carries energy without net transport of the medium*, including solitons and shocks. *Why:* it fits water and traffic waves. *Problem:* it becomes a general word for propagation, and most results (interference, diffraction) need superposition. (c) *An amplitude that interferes*, as in quantum mechanics, where nothing physical oscillates in space. *Why:* it captures the one property that matters in the double slit. *Problem:* it is a statement about probability amplitudes, not about a field in space, except for quantum fields. The three agree for linear waves in a medium and diverge for matter waves and nonlinear waves."
+caveats:
+  - "'Wave-particle duality' is not a statement that an electron is sometimes a wave and sometimes a particle; a quantum system is described by one state vector, and it shows wave-like interference in one setup and localized detections in another. In quantum field theory the objects are fields whose quanta are countable."
+  - "The wavefunction of a many-particle system lives in configuration space, not in ordinary three-dimensional space, so for more than one particle it is not a wave 'in space' in the way sound or light is."
+  - "Phase velocity larger than $c$ (as for matter waves, $v_p=c^2/v$ for a relativistic particle) does not signal faster-than-light transport: information and energy travel at the group velocity or slower, and the front velocity of a signal never exceeds $c$."
+  - "A detector 'seeing' light as particles does not prove that light is a stream of classical particles: the photoelectric effect and photon counting follow from quantized field modes interacting with matter, and most interference experiments with ordinary light are explained by classical waves."
+  - "Interference is not a violation of energy conservation: dark fringes correspond to energy redirected into bright fringes, with the total fixed by the sources."
+connections: [pde, classical-field-theory, electromagnetism, linearity-superposition, functional-analysis, harmonic-oscillator, optics, exp-double-slit, randomness-probability, classical-limit, approximation-perturbation, special-relativity, causality-analyticity, exp-michelson-morley, hydrodynamics, emergence, quantum-mechanics, exp-davisson-germer, measurement-observer, entanglement-correlations, quantum-foundations, general-relativity, exp-ligo, exp-hulse-taylor, black-holes, particles-fields, condensed-matter, plasma-physics, vacuum, boundaries-boundary-conditions, discrete-continuum, exp-blackbody, integrability-chaos, stability, scaling-dimensional-analysis, universality, random-matrix-theory]
+resources:
+  - "Feynman, Leighton, Sands, *The Feynman Lectures on Physics*, vol. 1, chapters on waves, interference and diffraction"
+  - "Born and Wolf, *Principles of Optics*"
+  - "Whitham, *Linear and Nonlinear Waves*"
+  - "Griffiths, *Introduction to Quantum Mechanics*, chapters on free particles and wave packets"
+cards:
+  - q: What does the dispersion relation $\omega(k)$ tell you?
+    a: How the frequency of a plane-wave component depends on its wavenumber; it fixes the phase and group velocities and whether a packet spreads.
+  - q: What is the difference between phase and group velocity?
+    a: Phase velocity $\omega/k$ is the speed of a crest; group velocity $d\omega/dk$ is the speed of the packet envelope and usually of energy. Only the group (or front) velocity is bounded by $c$.
+  - q: Why do interference fringes appear and when do they disappear?
+    a: Amplitudes add, so intensity contains the cross term $2\,\mathrm{Re}(A_1^*A_2)$, which depends on the phase difference. The fringes vanish if the sources are incoherent or if which-path information is available.
+  - q: By what angle does a wave diffract through an aperture of size $a$?
+    a: By an angle of order $\lambda/a$; ray optics is the limit $\lambda\ll a$.
+  - q: What is the de Broglie relation and what showed it experimentally?
+    a: $\lambda=h/p$; electron diffraction from a nickel crystal (Davisson–Germer 1927) and later multi-slit electron interference.
+  - q: Why do free matter waves spread?
+    a: The free Schrödinger equation has $\omega=\hbar k^2/2m$, so the group velocity depends on $k$ and the packet disperses.
+  - q: How does LIGO detect gravitational waves?
+    a: A Michelson-type laser interferometer measures the tiny differential change in arm length caused by a passing wave, as a shift in the interference of the two beams.
+  - q: What is Anderson localization?
+    a: In a sufficiently disordered medium, interference between scattering paths makes waves exponentially localized instead of diffusing.
+  - q: When does the superposition principle for waves fail?
+    a: When the wave equation is nonlinear (large amplitude, shocks, solitons) or when the medium responds to the wave.
+    detail: true  # site only, not in the Anki deck
