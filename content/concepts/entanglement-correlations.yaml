@@ -1,0 +1,62 @@
+id: entanglement-correlations
+title: "Entanglement and quantum correlations: from EPR to area laws and spacetime"
+short: Entanglement
+domain: concept
+area: concepts
+order: 280
+one_liner: Entanglement is the feature of composite quantum systems that the whole is more than its parts; the thread follows it from the EPR paradox and Bell's theorem to area laws, simulability, topological order and the Ryu–Takayanagi formula.
+summary: >-
+  Entanglement began as a puzzle about two distant particles and has become a working quantity: it is a resource
+  in quantum information, a diagnostic of phases of matter, a limit on classical simulation, the quantity that
+  turns a pure global state into a thermal-looking local one, and a candidate building block of geometry in
+  holography. The thread follows these roles and their links. The nonlocality aspect is told in the locality
+  thread and the role in decoherence in the measurement thread; here the focus is on entanglement as a
+  property of states. There is no single measure of entanglement for mixed states, see "Definitions".
+thread:
+  - "**Origin:** Einstein, Podolsky and Rosen argued that quantum mechanics is incomplete because a measurement on one part of a correlated pair fixes the outcome of the other ([Einstein–Podolsky–Rosen 1935](https://doi.org/10.1103/PhysRev.47.777)); Schrödinger named the feature *Verschränkung* (entanglement) and stressed that it is not one but *the* characteristic trait of quantum mechanics ([Schrödinger 1935](https://doi.org/10.1017/S0305004100013554)) ([[quantum-mechanics]], [[quantum-foundations]])."
+  - "**Definition for pure states:** a bipartite pure state $|\\psi\\rangle_{AB}$ is entangled if it is not a product $|\\phi\\rangle_A|\\chi\\rangle_B$. The Schmidt decomposition $|\\psi\\rangle=\\sum_i\\sqrt{p_i}\\,|i\\rangle_A|i\\rangle_B$ is the singular value decomposition of the coefficient matrix, and the entanglement entropy $S_A=-\\sum_i p_i\\ln p_i=S_B$ measures it ([[linear-algebra]], [[information-theory]])."
+  - "**Entanglement versus correlation versus nonlocality:** classical mixtures can be correlated without being entangled; entanglement is correlation that cannot be created by local operations and classical communication. Entangled is not the same as Bell-violating: some mixed entangled states admit a local hidden-variable model ([Werner 1989](https://doi.org/10.1103/PhysRevA.40.4277)). Bell's inequalities ([Bell 1964](https://doi.org/10.1103/PhysicsPhysiqueFizika.1.195)) test the stronger property and have been violated in experiments from [Aspect et al. 1982](https://doi.org/10.1103/PhysRevLett.49.1804) to the loophole-free tests of [Hensen et al. 2015](https://doi.org/10.1038/nature15759) ([[exp-bell-tests]], [[locality]])."
+  - "**Entanglement as a resource:** quantum teleportation uses a shared entangled pair plus classical communication to transfer an unknown state ([Bennett et al. 1993](https://doi.org/10.1103/PhysRevLett.70.1895)); entanglement underlies superdense coding, quantum key distribution and the speed-ups of quantum algorithms. Entanglement can be concentrated and diluted by local operations, which defines resource measures ([Horodecki et al. 2009](https://doi.org/10.1103/RevModPhys.81.865)) ([[quantum-information]], [[computation-physics]])."
+  - "**Detecting it in mixed states:** a state that is separable has a positive partial transpose; the converse holds only for $2\\times2$ and $2\\times3$ systems ([Peres 1996](https://doi.org/10.1103/PhysRevLett.77.1413)). In general, deciding separability is computationally hard, which is why entanglement witnesses and bounds are used."
+  - "**Monogamy:** if $A$ is maximally entangled with $B$, it cannot be entangled with $C$; entanglement is shared in limited amounts, in contrast with classical correlation, which can be copied. This links to no-cloning and to the structure of the black-hole information problem ([[black-holes]])."
+  - "**Area laws:** the ground state of a local Hamiltonian is far less entangled than a typical state; the entropy of a region typically grows with the area of its boundary rather than its volume, first found for a field's vacuum ([Bombelli et al. 1986](https://doi.org/10.1103/PhysRevD.34.373); [Srednicki 1993](https://doi.org/10.1103/PhysRevLett.71.666)). In one dimension, gapped ground states obey an area law, i.e. a constant ([Hastings 2007](https://doi.org/10.1088/1742-5468/2007/08/P08024)), while critical chains have $S=\\tfrac c3\\ln(\\ell/a)$ for an interval of length $\\ell$ in an infinite chain, with $c$ the central charge ([Calabrese–Cardy 2004](https://doi.org/10.1088/1742-5468/2004/06/P06002)) ([[condensed-matter]], [[cft]], [[qft]])."
+  - "**Why this makes simulation possible:** states with limited entanglement can be written as matrix product states, and the cost of the simulation grows with the entanglement, not with the Hilbert-space dimension ([Vidal 2003](https://doi.org/10.1103/PhysRevLett.91.147902)). This is the basis of DMRG and tensor-network methods, and it fails when entanglement is large, as after a quench or in thermal and chaotic states ([[computation-physics]], [[integrability-chaos]])."
+  - "**Topological order:** the area law has a universal constant correction, $S=\\alpha L-\\gamma$ with $\\gamma=\\ln\\mathcal D$, where $\\mathcal D$ is the total quantum dimension of the anyons; it detects topologically ordered phases that no local order parameter sees ([Kitaev–Preskill 2006](https://doi.org/10.1103/PhysRevLett.96.110404)) ([[topological-phases]], [[topology-invariants]], [[tqft]])."
+  - "**Thermalization from entanglement:** in an isolated system in a pure state, a small subsystem looks thermal because it is entangled with the rest; excited eigenstates of chaotic Hamiltonians have volume-law entanglement entropy equal to the thermal entropy, while integrable and many-body-localized systems do not ([[statistical-mechanics]], [[arrow-of-time]], [[measurement-observer]])."
+  - "**Entanglement and geometry:** in holography the entropy of a boundary region equals the area of the minimal bulk surface anchored to it, divided by $4G_N$ ([Ryu–Takayanagi 2006](https://doi.org/10.1103/PhysRevLett.96.181602)), which suggests that spacetime connectivity is built from entanglement. The same formula leads, with quantum corrections, to the island formula for black-hole radiation ([[holography]], [[quantum-gravity]], [[geometry-curvature]])."
+definitions:
+  - "**How much entanglement does a state have? For pure bipartite states there is one answer; for mixed states there are several inequivalent ones.** (a) *Entanglement entropy* $S_A=-\\mathrm{Tr}\\,\\rho_A\\ln\\rho_A$: the unique measure for pure bipartite states (it equals the number of ebits distillable per copy), but for a mixed total state it also counts classical mixing and is not an entanglement measure."
+  - "(b) *Distillable entanglement and entanglement cost*: the asymptotic rates of Bell pairs obtainable from, or needed to make, many copies by local operations and classical communication. *Why:* they have a direct operational meaning. *Problems:* they differ in general, and the distillable one is hard to compute; some entangled states have bound entanglement, from which none can be distilled."
+  - "(c) *Negativity / logarithmic negativity*: computed from the partial transpose, hence easily calculable also in many-body systems and QFT. *Why:* it is a computable measure for mixed states. *Problems:* it vanishes for some entangled states with positive partial transpose, and its operational meaning is indirect."
+  - "(d) *Relative entropy of entanglement and other distance-based measures*: distance to the set of separable states. *Why:* a geometric, general definition. *Problems:* the minimisation is hard, and different distances give different orderings."
+  - "**Overlaps and conflicts.** All agree on pure states and on vanishing for separable states; they can rank two mixed states differently, so statements such as 'state 1 is more entangled than state 2' depend on the measure. The thread therefore states which quantity is meant."
+caveats:
+  - "Entanglement does not allow signalling: the reduced state of one side does not depend on the other side's measurement choice. 'Spooky action' is a description of the correlations, not a transmission of information."
+  - "Entanglement entropy in a continuum QFT is ultraviolet divergent: the leading area-law coefficient depends on the cutoff and is not universal, while terms such as the logarithm in a CFT or the topological constant $\\gamma$ are universal. Mutual information between disjoint regions is finite."
+  - "Entangled states need not violate a Bell inequality, and Bell violation is not required for entanglement to be useful. Conversely, quantum advantage in computing is not simply 'more entanglement': states with little entanglement can be classically simulated, but entanglement alone does not guarantee a speed-up (stabiliser states can be highly entangled and are efficiently simulable)."
+  - "The Ryu–Takayanagi formula is derived or checked in holographic CFTs and special cases; applying it to our universe is a conjecture. Slogans that 'entanglement creates spacetime' go beyond what is established."
+  - "Entanglement depends on the choice of subsystems (the tensor product structure). In gauge theories and gravity, the Hilbert space does not factorise in the naive way, and defining entanglement of a region needs additional choices (edge modes, boundary conditions)."
+connections: [quantum-mechanics, quantum-foundations, quantum-information, linear-algebra, information-theory, computation-physics, locality, measurement-observer, entropy-information, arrow-of-time, integrability-chaos, statistical-mechanics, condensed-matter, topological-phases, topology-invariants, tqft, cft, qft, holography, quantum-gravity, black-holes, geometry-curvature, exp-bell-tests]
+resources:
+  - "Nielsen and Chuang, *Quantum Computation and Quantum Information*"
+  - "Horodecki, Horodecki, Horodecki and Horodecki, 'Quantum entanglement', Reviews of Modern Physics (2009)"
+  - "Eisert, Cramer and Plenio, 'Area laws for the entanglement entropy', Reviews of Modern Physics (2010)"
+  - "Bell, *Speakable and Unspeakable in Quantum Mechanics*"
+cards:
+  - q: What is the Schmidt decomposition and what does it give?
+    a: Any bipartite pure state can be written $\sum_i\sqrt{p_i}|i\rangle_A|i\rangle_B$ with orthonormal sets on each side (the SVD of its coefficient matrix); the $p_i$ determine the entanglement entropy, and one term means no entanglement.
+  - q: Is every entangled state nonlocal in Bell's sense?
+    a: No. Werner constructed entangled mixed states that admit a local hidden-variable model; entanglement is weaker than Bell violation.
+  - q: What is an area law for entanglement?
+    a: The entanglement entropy of a region in a ground state of a local Hamiltonian grows with the area of its boundary rather than its volume (up to logarithmic corrections at criticality).
+  - q: Why does limited entanglement make a many-body state easy to simulate?
+    a: It can be written as a matrix product (tensor-network) state whose size grows with the entanglement, not with the full Hilbert-space dimension; DMRG exploits this.
+  - q: What does the topological entanglement entropy measure?
+    a: The constant term $-\gamma=-\ln\mathcal D$ in $S=\alpha L-\gamma$, where $\mathcal D$ is the total quantum dimension; it signals topological order.
+  - q: What is the Ryu–Takayanagi formula?
+    a: In holography, the entanglement entropy of a boundary region equals the area of the minimal bulk surface anchored on its boundary divided by $4G_N$.
+  - q: Can entanglement be used to send signals faster than light?
+    a: No. The reduced state of one party is independent of the other party's measurement choice, so entanglement alone transmits no information.
+  - q: Why is there no single measure of entanglement for mixed states?
+    a: Operationally meaningful quantities (distillable entanglement, entanglement cost), computable ones (negativity) and distance-based ones can order states differently; only for pure bipartite states do they coincide.
+    detail: true  # site only, not in the Anki deck
