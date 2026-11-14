@@ -1,0 +1,66 @@
+id: quantization
+title: "Quantization: from a classical theory to a quantum one, and why there is no unique recipe"
+short: Quantization
+domain: concept
+area: concepts
+order: 370
+one_liner: Quantization is the attempt to build a quantum theory from a classical one by replacing Poisson brackets with commutators, summing over paths or deforming products; it works well for simple systems, is ambiguous in general, and nature itself is quantum, so the classical theory is the derived one.
+summary: >-
+  Quantum theory was found by trial, starting from classical Hamiltonians and changing the rules. Since then,
+  several procedures have been formulated to go from a classical system to a quantum one: canonical quantization,
+  the path integral, phase-space deformation and the lattice. They agree on the harmonic oscillator and on free
+  fields, and disagree or fail on operator ordering, on systems with gauge redundancy, on fermions, and in
+  gravity. The thread follows these procedures and where each runs into trouble. It also states the reversal that
+  is easy to forget: the world is quantum and the classical theory is its limit, so quantization is a method of
+  guessing, not a derivation. The classical limit itself is in its own thread and the action in the equations
+  of motion thread. What exactly counts as quantization is discussed in "Definitions".
+thread:
+  - "**Matrix mechanics:** the starting point was to keep the classical equations of motion but replace the classical variables with arrays whose products do not commute ([Heisenberg 1925](https://doi.org/10.1007/BF01328377); [Born–Jordan 1925](https://doi.org/10.1007/BF01328531)). The commutation relation $[x,p]=i\\hbar$ was identified as the quantum counterpart of the Poisson bracket ([Dirac 1925](https://doi.org/10.1098/rspa.1925.0150)) ([[quantum-mechanics]], [[classical-mechanics]])."
+  - "**Canonical quantization:** the rule is that $\\{A,B\\}\\to\\frac{1}{i\\hbar}[\\hat A,\\hat B]$ for the classical observables, with the Hamiltonian becoming the generator of time evolution. It is the route used for the hydrogen atom, the harmonic oscillator and the fields in the next steps ([[harmonic-oscillator]], [[variational-principles]], [[symmetry-conservation-gauge]])."
+  - "**Quantization as an eigenvalue problem:** the same results follow from a wave equation in which the allowed energies arise from requiring the solution to be normalizable, so the discreteness is a boundary-condition effect, not an extra postulate ([Schrödinger 1926](https://doi.org/10.1002/andp.19263840404)) ([[boundaries-boundary-conditions]], [[linearity-superposition]], [[waves-interference]])."
+  - "**Quantizing a field:** applying the harmonic-oscillator rules to each mode of the electromagnetic field gives photons, the first quantum field theory ([Dirac 1927](https://doi.org/10.1098/rspa.1927.0039)). Fermion fields need anticommutators, and the Jordan–Wigner construction shows how to build them from commuting spin variables in one dimension ([Jordan–Wigner 1928](https://doi.org/10.1007/BF01331938)) ([[qft]], [[particles-fields]], [[identical-particles-statistics]])."
+  - "**Path integral quantization:** the amplitude is a sum over all paths with weight $e^{iS/\\hbar}$, which does not need operators or an ordering and makes Lorentz invariance and gauge theories easier to handle ([Feynman 1948](https://doi.org/10.1103/RevModPhys.20.367)) ([[eom-action-quantum]], [[classical-limit]], [[approximation-perturbation]])."
+  - "**Phase space and deformation:** quantum mechanics can be written on classical phase space with a non-commutative star product. The Weyl map between functions and operators ([Weyl 1927](https://doi.org/10.1007/BF02055756)) and the Wigner function lead to the bracket of Moyal ([Moyal 1949](https://doi.org/10.1017/S0305004100000487)). For any Poisson manifold a deformation quantization exists ([Kontsevich 2003](https://doi.org/10.1023/B:MATH.0000027508.00421.bf)) ([[differential-geometry]], [[functional-analysis]], [[geometry-curvature]])."
+  - "**No complete quantization map:** the rule $\\{A,B\\}\\to[\\hat A,\\hat B]/i\\hbar$ cannot hold for all polynomial observables at once, and the failure appears already beyond quadratic functions of $x$ and $p$ ([Groenewold 1946](https://doi.org/10.1016/S0031-8914%2846%2980059-4)). Which terms differ is a choice of operator ordering, and different choices describe different physical systems with the same classical limit ([[classical-limit]], [[group-theory]], [[lie-theory]])."
+  - "**Gauge redundancy:** in a gauge theory not all variables are physical and the naive path integral over all fields is infinite. Gauge fixing needs an extra determinant, represented by ghost fields ([Faddeev–Popov 1967](https://doi.org/10.1016/0370-2693%2867%2990067-6)), and for more general gauge structures the BV formalism provides the systematic recipe ([Batalin–Vilkovisky 1981](https://doi.org/10.1016/0370-2693%2881%2990205-7)) ([[gauge-theory]], [[symmetry-conservation-gauge]], [[standard-model]])."
+  - "**Quantization on a lattice:** replacing spacetime with a lattice gives a path integral that is a finite-dimensional integral, and gauge invariance is kept exactly ([Wilson 1974](https://doi.org/10.1103/PhysRevD.10.2445)). This defines the quantum theory non-perturbatively when the continuum procedure is only formal ([[lattice-field-theory]], [[discrete-continuum]], [[renormalization]])."
+  - "**Quantum gravity as the test case:** canonical quantization of general relativity leads to a constraint instead of a Schrödinger equation, the Wheeler–DeWitt equation ([DeWitt 1967](https://doi.org/10.1103/PhysRev.160.1113)), which can be reformulated with connection variables ([Ashtekar 1986](https://doi.org/10.1103/PhysRevLett.57.2244)). The problems of time, of observables and of the Hilbert space remain open ([[quantum-gravity]], [[general-relativity]], [[singularities-breakdown]])."
+  - "**Reversal of the logic:** in nature, the quantum description is fundamental and classical mechanics is what remains when actions are large compared with $\\hbar$. Quantization is then a heuristic for guessing quantum theories that have a given limit, and the test is experiment, as for the hydrogen spectrum, the Lamb shift or the anomalous moment ([[exp-lamb-shift]], [[exp-g-2]], [[unification]])."
+definitions:
+  - "**What counts as 'quantization'? Four meanings are common.** (a) *Canonical quantization*: choose a set of classical variables, promote them to operators with commutators from Poisson brackets. *Why:* it is the closest to how quantum mechanics was found and works for the standard systems. *Problems:* it depends on the choice of canonical coordinates (the rule is not invariant under change of coordinates) and on operator ordering."
+  - "(b) *Path-integral quantization*: define the theory by the weighted sum over histories. *Why:* it is manifestly covariant and handles gauge theories. *Problems:* the measure is rigorous only in special cases; the result depends on the discretization of the path (Ito-like or Stratonovich-like prescriptions, extra terms $\\propto\\hbar^2$) and on what 'sum over paths' includes."
+  - "(c) *Deformation quantization*: deform the commutative product of functions on phase space into a non-commutative one. *Why:* it is formulated on any Poisson manifold and is background independent. *Problems:* it gives the algebra but not automatically the Hilbert space, and the star product is not unique."
+  - "(d) *Quantization as a limit of something else*: lattice regularization, geometric quantization, or the idea that the quantum description is defined directly with no classical theory. *Why:* these avoid the ordering and measure problems of the others. *Problems:* each introduces its own choices (the lattice breaks Lorentz invariance, geometric quantization needs a polarization), and some theories have no classical counterpart at all."
+  - "**Overlaps and conflicts.** For free fields and quadratic Hamiltonians all four give the same theory. Differences appear for operator ordering, for curved phase spaces, for gauge redundancy and for gravity; the agreement for the harmonic oscillator should not be taken to mean the result is unique, since terms that vanish in the classical limit are free."
+caveats:
+  - "'Second quantization' is a historical name and not a second quantization of something already quantum: it is the same quantum theory written in terms of fields or occupation numbers, which is the natural language for variable particle numbers."
+  - "Not every quantum system has a classical counterpart: spin-1/2, the qubit, and the internal quantum numbers have no phase space with a classical limit of finite spin, so the recipe does not apply and these are defined directly by their symmetry, see the spin thread."
+  - "Quantizing a classical theory can destroy a classical symmetry: when the symmetry cannot be preserved by any regularization the result is an anomaly. This is a property of the quantization procedure, not of the classical theory, and it constrains which classical theories can be quantized consistently."
+  - "The Wheeler–DeWitt equation and its relatives are formal; whether they define a complete, consistent quantum theory of gravity is open, and the several approaches (loop, string, asymptotic safety) do not all start from a quantization of general relativity."
+  - "Statements such as 'the energy levels are quantized' conflate two things: discreteness of the spectrum, which comes from boundary conditions, and the quantum nature of the theory. A free particle on a line has a continuous spectrum and is still quantum."
+connections: [quantum-mechanics, classical-mechanics, harmonic-oscillator, variational-principles, symmetry-conservation-gauge, boundaries-boundary-conditions, linearity-superposition, waves-interference, qft, particles-fields, identical-particles-statistics, eom-action-quantum, classical-limit, approximation-perturbation, differential-geometry, functional-analysis, geometry-curvature, group-theory, lie-theory, gauge-theory, standard-model, lattice-field-theory, discrete-continuum, renormalization, quantum-gravity, general-relativity, singularities-breakdown, exp-lamb-shift, exp-g-2, unification, spin-angular-momentum]
+resources:
+  - "Dirac, *Lectures on Quantum Mechanics*"
+  - "Weinberg, *The Quantum Theory of Fields*, vol. 1, chapters 7 and 9"
+  - "Henneaux and Teitelboim, *Quantization of Gauge Systems*"
+  - "Gotay, 'On the Groenewold–Van Hove problem for $\\mathbb R^{2n}$', Journal of Mathematical Physics (1999)"
+cards:
+  - q: What is canonical quantization?
+    a: Replace classical observables with operators and Poisson brackets with commutators, $\{A,B\}\to[\hat A,\hat B]/i\hbar$, with the Hamiltonian generating time evolution.
+  - q: Why is quantization not unique?
+    a: Classical functions of $x$ and $p$ do not fix the order of non-commuting operators, and terms proportional to $\hbar$ vanish in the classical limit, so different theories can share one classical limit.
+  - q: What does the Groenewold–Van Hove result say?
+    a: There is no map from all classical observables to operators that sends every Poisson bracket to the commutator; it already fails for polynomials of degree higher than two in $x,p$.
+  - q: How does the path integral quantize a theory?
+    a: It sums the weight $e^{iS/\hbar}$ over all histories, with no operators or ordering written explicitly, but with a measure and discretization that must be defined.
+  - q: Why do gauge theories need ghosts?
+    a: Integrating over all gauge-equivalent field configurations counts the same physics infinitely many times; fixing the gauge introduces a determinant (Faddeev–Popov), written with anticommuting ghost fields.
+  - q: What is deformation quantization?
+    a: Writing quantum mechanics on phase space with a non-commutative star product of functions, which reduces to the ordinary product and whose commutator reduces to the Poisson bracket as $\hbar\to0$.
+  - q: Why is quantization of general relativity hard?
+    a: The canonical theory is a set of constraints (the Wheeler–DeWitt equation) with no external time, and the perturbative theory is not renormalizable, so neither route gives an established complete theory.
+  - q: Is quantization a derivation of quantum theory?
+    a: No; nature is quantum and classical physics is its limit, so quantization is a heuristic for guessing quantum theories with a given limit, tested by experiment.
+  - q: Why is the term 'second quantization' misleading?
+    a: It does not quantize again; it rewrites the same quantum theory in terms of fields and occupation numbers, which is convenient for variable particle number.
+    detail: true  # site only, not in the Anki deck
