@@ -1,0 +1,65 @@
+id: classical-limit
+title: "The classical limit: how the classical world emerges from quantum theory"
+short: Classical limit
+domain: concept
+area: concepts
+order: 300
+one_liner: There is no single 'limit' that turns quantum mechanics into classical mechanics; the thread separates the semiclassical limit, Ehrenfest-type statements, phase-space pictures, decoherence and large-N limits, and shows where each works and where they do not commute.
+summary: >-
+  Classical mechanics is older and works for baseballs; quantum mechanics is more fundamental and works for
+  atoms. Showing that the first follows from the second is not one calculation but several, each answering a
+  different question: when do expectation values obey Newton's law, when does a wave become a ray, when does a
+  quantum state look like a point in phase space, and why do we never see superpositions of macroscopic
+  objects. The thread follows these questions and the ways they interact. The measurement problem proper is in
+  the measurement thread and decoherence as a loss of entanglement in the entanglement thread; here the focus is
+  on the passage from quantum to classical dynamics. The meaning of 'classical limit' is not unique, see
+  "Definitions".
+thread:
+  - "**The question:** $\\hbar$ is a dimensionful constant, so '$\\hbar\\to0$' really means that the typical action of the system is much larger than $\\hbar$, or that quantum numbers are large; the same system can be classical for one observable and quantum for another ([[quantum-mechanics]], [[classical-mechanics]], [[scaling-dimensional-analysis]])."
+  - "**Ehrenfest's theorem:** the expectation values obey $\\tfrac{d}{dt}\\langle x\\rangle=\\langle p\\rangle/m$ and $\\tfrac{d}{dt}\\langle p\\rangle=-\\langle V'(x)\\rangle$ ([Ehrenfest 1927](https://doi.org/10.1007/BF01329203)). These equal Newton's equation only if $\\langle V'(x)\\rangle\\approx V'(\\langle x\\rangle)$, i.e. the wave packet is narrow compared with the scale on which the force varies. It is exact for harmonic potentials, where the packet follows the classical orbit at all times ([[harmonic-oscillator]])."
+  - "**Waves to rays:** writing $\\psi=Ae^{iS/\\hbar}$ and keeping the leading order in $\\hbar$ gives the Hamilton–Jacobi equation for $S$ and a continuity equation for $|A|^2$: the WKB or eikonal approximation, the same step that takes wave optics to ray optics. It breaks down at turning points and caustics, where connection formulas or uniform approximations are needed ([[variational-principles]], [[optics]], [[approximation-perturbation]])."
+  - "**Path integral:** for large action the sum over paths is dominated by those near stationary phase, $\\delta S=0$, which are the classical trajectories; fluctuations around them give the leading quantum correction ([Feynman 1948](https://doi.org/10.1103/RevModPhys.20.367)) ([[eom-action-quantum]], [[qft]])."
+  - "**Phase-space picture:** the Wigner function ([Wigner 1932](https://doi.org/10.1103/PhysRev.40.749)) is a quasi-probability on phase space whose marginals are the correct position and momentum distributions. It evolves by the Moyal bracket, which equals the Poisson bracket plus corrections of order $\\hbar^2$; for quadratic Hamiltonians the evolution is exactly the classical Liouville flow. It can be negative, and negativity is a signal of nonclassicality ([[statistical-mechanics]], [[quantum-information]])."
+  - "**Coherent states and correlation functions:** for coherent states the classical limit of quantum correlation functions can be proved: they follow the classical flow as $\\hbar\\to0$ for finite times ([Hepp 1974](https://doi.org/10.1007/BF01646348)). The statement is about finite times and smooth potentials, not a general theorem for all states and all times ([[dynamical-systems]])."
+  - "**Spectra from orbits:** the density of states of a quantum system is a smooth (Weyl) term fixed by the phase-space volume plus oscillating terms, one for each classical periodic orbit; for chaotic systems this is the Gutzwiller trace formula ([Gutzwiller 1971](https://doi.org/10.1063/1.1665596)). It links the spectrum to classical dynamics, and underlies the connection between classical chaos and random-matrix statistics ([[integrability-chaos]], [[chaos]], [[random-matrix-theory]])."
+  - "**Decoherence:** a system interacting with an environment loses phase relations between states that the environment can distinguish; the states that survive (pointer states) are those that are robust under the interaction, typically localized in position, which is why macroscopic objects look classical ([Zurek 2003](https://doi.org/10.1103/RevModPhys.75.715)). The rate grows with the separation of the superposed states, which is why it is extremely fast for macroscopic objects ([[measurement-observer]], [[quantum-foundations]])."
+  - "**Chaos speeds up the classical appearance, but also breaks it:** in a chaotic system a small initial wave packet is stretched exponentially, so the time over which it follows the classical trajectory grows only like $\\ln(1/\\hbar)$ (the Ehrenfest time), while for regular systems it grows as a power of $1/\\hbar$. Decoherence can restore classical behaviour by suppressing the interference that chaotic stretching would produce ([Zurek–Paz 1994](https://doi.org/10.1103/PhysRevLett.72.2508)) ([[arrow-of-time]])."
+  - "**Experiments pushing the border:** interference has been seen with C$_{60}$ molecules ([Arndt et al. 1999](https://doi.org/10.1038/44348)) and with molecules above 25 kDa ([Fein et al. 2019](https://doi.org/10.1038/s41567-019-0663-9)). The boundary is set by how well the object is isolated, not by a fundamental size ([[exp-double-slit]], [[exp-davisson-germer]])."
+  - "**Other limits:** large quantum numbers (Bohr's correspondence for highly excited states, Rydberg atoms) and large $N$ (many degrees of freedom: the mean-field or thermodynamic limit, where fluctuations of collective variables become small) give different classical regimes, in which the classical variables are collective ones ([[emergence]], [[universality]], [[condensed-matter]])."
+definitions:
+  - "**What does 'quantum mechanics reduces to classical mechanics' mean? Several inequivalent statements share the name.** (a) *Semiclassical limit $\\hbar\\to0$*: asymptotic expansion of wave functions, propagators and spectra in $\\hbar$ (WKB, stationary phase, trace formulae). *Why:* it is a mathematically controlled expansion that connects the two theories term by term. *Problems:* the limit is singular, effects such as tunnelling $\\sim e^{-S/\\hbar}$ are invisible at any order, and the expansion fails near caustics and separatrices."
+  - "(b) *Ehrenfest or expectation-value limit*: for narrow wave packets, mean position and momentum obey Newton's equations. *Why:* it needs no expansion and is simple. *Problems:* it holds only for as long as the packet stays narrow compared with the force's variation scale; it says nothing about spread, and superpositions of two packets violate it."
+  - "(c) *Phase-space (Wigner–Moyal) limit*: the quantum state becomes a classical distribution. *Why:* the structure of the two theories is the same in this language, so the comparison is direct. *Problems:* the Wigner function is not positive, and positivity is not guaranteed even for the states that are almost classical in other senses."
+  - "(d) *Decoherence plus coarse graining*: states of a system open to its environment become effectively mixtures of pointer states. *Why:* it explains why superpositions of macroscopic objects are not observed even though the dynamics is linear. *Problems:* it depends on a split between system and environment, the resulting mixture is an improper one, and it does not by itself select one outcome (see the measurement thread)."
+  - "(e) *Large-$N$ or thermodynamic limit*: collective variables obey classical equations as the number of constituents grows. *Why:* it covers hydrodynamics, mean-field theories and classical fields from quantum many-body systems. *Problems:* it is a different limit from $\\hbar\\to0$ and the two need not agree."
+  - "**Overlaps and conflicts.** In simple cases (a narrow packet in a smooth potential for a short time) all five give the same answer. They differ in the regimes that matter: chaotic dynamics, long times, superpositions and tunnelling. The thread therefore states which limit is meant."
+caveats:
+  - "Limits do not commute: taking $\\hbar\\to0$ before $t\\to\\infty$ gives a different result from the reverse order, in particular for chaotic systems; similarly $\\hbar\\to0$ and $N\\to\\infty$ can give different classical regimes. A statement 'the classical limit of X is Y' needs the order of limits specified."
+  - "Ehrenfest's theorem does not by itself show that quantum systems are classical: for a superposition of two well-separated packets the mean position is a point where there may be no probability, and the expectation values follow no classical orbit."
+  - "Decoherence explains the absence of interference for macroscopic superpositions, but it does not by itself explain why one outcome is observed; the interpretive step is the subject of the measurement thread. Decoherence is also model dependent: its rate depends on the environment, and it is not the same as dissipation."
+  - "The classical limit is not unique: different classical theories can arise from the same quantum one (for example particles or fields, depending on the limit taken), and the quantum theory of a given classical system depends on ordering choices that disappear as $\\hbar\\to0$."
+  - "The size at which quantum behaviour disappears is not a fixed number: it is a statement about isolation from the environment and the resolution of the measurement. Claims of 'macroscopic' superpositions depend on what counts as macroscopic (mass, number of particles, or distance of the superposed states)."
+connections: [quantum-mechanics, classical-mechanics, quantum-foundations, measurement-observer, eom-action-quantum, variational-principles, integrability-chaos, chaos, dynamical-systems, random-matrix-theory, harmonic-oscillator, optics, qft, statistical-mechanics, quantum-information, scaling-dimensional-analysis, approximation-perturbation, arrow-of-time, emergence, universality, condensed-matter, exp-double-slit, exp-davisson-germer]
+resources:
+  - "Zurek, 'Decoherence, einselection, and the quantum origins of the classical', Reviews of Modern Physics (2003)"
+  - "Gutzwiller, *Chaos in Classical and Quantum Mechanics*"
+  - "Berry, 'Semiclassical mechanics of regular and irregular motion', Les Houches lectures (1983)"
+  - "Schlosshauer, *Decoherence and the Quantum-to-Classical Transition*"
+cards:
+  - q: What does Ehrenfest's theorem say, and when does it reproduce Newton's law?
+    a: The expectation values obey $d\langle x\rangle/dt=\langle p\rangle/m$ and $d\langle p\rangle/dt=-\langle V'(x)\rangle$; this is Newton's law only if $\langle V'(x)\rangle\approx V'(\langle x\rangle)$, i.e. for a packet narrow compared with the scale of variation of the force (exactly for harmonic potentials).
+  - q: What does the WKB approximation do?
+    a: Writing $\psi=Ae^{iS/\hbar}$ and keeping the leading order gives the Hamilton–Jacobi equation for $S$; waves become rays, as in the eikonal limit of optics. It fails at turning points and caustics.
+  - q: What is the Wigner function and how does it evolve?
+    a: A quasi-probability distribution on phase space with the correct position and momentum marginals; it evolves by the Moyal bracket (Poisson bracket plus $O(\hbar^2)$ terms), exactly classically for quadratic Hamiltonians, and may be negative.
+  - q: What does the Gutzwiller trace formula relate?
+    a: The quantum density of states to the classical periodic orbits (a smooth Weyl term plus a sum over orbits).
+  - q: Why do macroscopic objects not appear in superpositions?
+    a: Interaction with the environment decoheres superpositions of states the environment can distinguish, and the rate grows rapidly with the separation of the states; the surviving pointer states look classical.
+  - q: How does the time over which a quantum packet follows a classical orbit scale with $\hbar$?
+    a: As a power of $1/\hbar$ for regular systems and only as $\ln(1/\hbar)$ for chaotic ones (the Ehrenfest time).
+  - q: Why do the limits $\hbar\to0$ and $t\to\infty$ not commute?
+    a: For chaotic dynamics the quantum evolution departs from the classical one after the Ehrenfest time, which diverges as $\hbar\to0$ but is finite for any fixed $\hbar$; the long-time and small-$\hbar$ results depend on the order.
+  - q: Why is there no single meaning of 'the classical limit'?
+    a: Semiclassical expansion, Ehrenfest expectation values, phase-space distributions, decoherence and large-$N$ limits answer different questions and differ for chaos, superpositions, tunnelling and long times.
+    detail: true  # site only, not in the Anki deck
