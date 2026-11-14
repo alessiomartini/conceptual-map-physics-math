@@ -1,0 +1,63 @@
+id: particles-fields
+title: "What is a particle? Waves, quanta, fields and quasiparticles"
+short: Particles and fields
+domain: concept
+area: concepts
+order: 310
+one_liner: The word 'particle' means a localized point-like object in mechanics, a representation of the Poincaré group in field theory, an excitation of a field mode in Fock space and a collective excitation in a solid; the thread follows how these meanings relate and where they fail to agree.
+summary: >-
+  Physics tells two stories about the building blocks of matter: little bullets that move along trajectories, and
+  continuous fields that fill space and carry waves. Quantum theory does not choose one; in quantum field theory
+  the field is fundamental and 'particles' are its quanta, but this notion depends on a symmetry of the vacuum,
+  on weak interactions, and on what a detector does. The thread follows the idea from the wave–particle puzzles
+  of 1923 to Wigner's classification, the Unruh effect and quasiparticles in matter. The role of the field in the
+  action is in the action thread, and the passage to trajectories in the classical-limit thread. There is no
+  single definition of 'particle', see "Definitions".
+thread:
+  - "**Two pictures, one object:** de Broglie proposed that matter has wave properties, linking the wavelength to momentum ([de Broglie 1923](https://doi.org/10.1038/112540a0)), after the particle-like behaviour of light seen in Compton scattering ([Compton 1923](https://doi.org/10.1103/PhysRev.21.483)) and the photoelectric effect. Diffraction of electrons then confirmed it ([[quantum-mechanics]], [[exp-compton]], [[exp-photoelectric]], [[exp-davisson-germer]], [[exp-double-slit]])."
+  - "**Counting quanta:** the field of a single mode is a harmonic oscillator, whose energy levels are equally spaced; the $n$-th level is interpreted as $n$ quanta of energy $\\hbar\\omega$. This turns 'field' into 'many particles' and allows their number to change, which is needed for creation and annihilation ([[harmonic-oscillator]], [[qft]])."
+  - "**What a photon is, and is not:** photon antibunching in resonance fluorescence cannot be explained by a classical wave and shows that the field's energy is delivered in quanta ([Kimble–Dagenais–Mandel 1977](https://doi.org/10.1103/PhysRevLett.39.691)); on the other hand, bunching in the intensity correlations of thermal light ([Hanbury Brown–Twiss 1956](https://doi.org/10.1038/177027a0)) and the photoelectric effect itself can be described with a classical field and quantized detectors. Not every 'photon-like' effect needs photons; a critical view is in [Lamb 1995](https://doi.org/10.1007/BF01135846) ([[optics]], [[amo-physics]])."
+  - "**Particle as representation:** Wigner showed that the states of a single relativistic particle form an irreducible unitary representation of the Poincaré group, labelled by mass and spin (helicity for massless particles) ([Wigner 1939](https://doi.org/10.2307/1968551)). This defines 'elementary particle' by symmetry, without reference to localization or interactions ([[symmetries]], [[group-theory]], [[lie-theory]], [[special-relativity]])."
+  - "**Localization is subtle:** a relativistic particle cannot be localized in a sharp point: position operators with the expected properties exist only in limited forms ([Newton–Wigner 1949](https://doi.org/10.1103/RevModPhys.21.400)), and for a field the only strictly local objects are field operators and local observables, not particle positions. A 'point particle' is an approximation valid over distances larger than the Compton wavelength ([[locality]], [[causality-analyticity]])."
+  - "**Particle number depends on the observer:** the decomposition of a field into positive- and negative-frequency modes, hence the vacuum and the particle content, is not unique in non-inertial frames or in curved spacetime ([Fulling 1973](https://doi.org/10.1103/PhysRevD.7.2850)). A uniformly accelerated detector in the Minkowski vacuum registers a thermal bath of temperature $T=\\hbar a/(2\\pi ck_B)$ ([Unruh 1976](https://doi.org/10.1103/PhysRevD.14.870); [Davies 1975](https://doi.org/10.1088/0305-4470/8/4/022)); the same reasoning leads to particle creation by black holes ([Hawking 1975](https://doi.org/10.1007/BF02345020)) ([[general-relativity]], [[black-holes]], [[quantum-gravity]], [[cosmology]])."
+  - "**Interactions change the notion:** in an interacting theory the free particles exist as asymptotic in and out states, and scattering amplitudes (in the LSZ framework) are computed from the poles of correlation functions; the physical mass is the pole position, not the parameter in the Lagrangian ([[scattering-amplitudes]], [[renormalization]], [[effective-field-theory]])."
+  - "**Unstable particles and confinement:** an unstable particle is not a state in the asymptotic space but a resonance, a pole of the propagator at complex energy, with the width as the inverse lifetime. Quarks and gluons are not asymptotic states at all: they are confined into hadrons, yet they are the elementary fields of the Lagrangian ([[standard-model]], [[gauge-theory]], [[lattice-field-theory]])."
+  - "**Quasiparticles:** in a many-body system the low-energy excitations are often particle-like even though the constituents are different: phonons (quanta of lattice vibrations), magnons, holes, the Landau quasiparticles of a Fermi liquid, Cooper pairs, anyons with fractional statistics. They obey their own dispersion relation and symmetry and are emergent, not fundamental ([[condensed-matter]], [[emergence]], [[topological-phases]])."
+  - "**Fields can be effective too:** whether 'the' fundamental object is a particle, a field or something else (strings, a lattice, information) is not fixed by experiment; fields describe long-wavelength physics and can be replaced by different degrees of freedom at short distances, as dualities show ([[duality]], [[effective-theories-naturalness]], [[string-theory]])."
+definitions:
+  - "**What is a particle? There are several definitions that agree for free fields in flat spacetime and nowhere else.** (a) *Wigner's definition*: an irreducible representation of the Poincaré group, labelled by mass and spin. *Why:* it is exact, mathematically clean and independent of the interactions' details. *Problems:* it needs a flat background with Poincaré symmetry and a stable state; it excludes unstable particles and confined quarks."
+  - "(b) *Fock-space definition*: a quantum of a field mode, created by a creation operator on the vacuum. *Why:* it is the working language of perturbation theory. *Problems:* it depends on the choice of vacuum and mode decomposition, which is not unique in curved spacetime or for non-inertial observers, and interactions mix the sectors with different numbers of quanta."
+  - "(c) *Operational definition*: what a detector registers (a click, a track). *Why:* it ties the notion to measurement. *Problems:* it depends on the detector, as the Unruh effect shows, and on its coupling to the field."
+  - "(d) *Pole definition*: a pole of the propagator or S-matrix, with the real part giving the mass and the imaginary part the width. *Why:* it includes interactions and unstable particles. *Problems:* poles can be far from the physical sheet or ambiguous, and it does not apply to confined objects."
+  - "(e) *Quasiparticle definition*: a long-lived low-energy excitation of a many-body state. *Why:* it describes excitations in matter. *Problems:* it holds only in some phases and regimes; in strange metals or strongly correlated systems quasiparticles may not exist."
+  - "**Overlaps and conflicts.** For a free field in Minkowski space (a) and (b) coincide, and a detector at rest agrees. Away from this case the definitions diverge, so the answer to 'how many particles are there?' can depend on the frame, the interaction or the model. The thread states which notion is meant."
+caveats:
+  - "'Wave–particle duality' is a historical slogan, not a property of quantum objects: an electron is not sometimes a wave and sometimes a particle, but described by a state that shows particle-like detection events and wave-like interference depending on the experiment."
+  - "The Unruh temperature for realistic accelerations is tiny (about $4\\times10^{-21}$ K for $a=1\\,\\mathrm{m/s^2}$) and the effect has not been observed directly. The statement that an accelerated observer 'sees particles' refers to a specific detector model, and whether this is the same as the particles seen by an inertial observer is a matter of definition."
+  - "Hawking radiation is derived in a semiclassical approximation with a fixed background; it has not been observed from a black hole, and some of its consequences (the information problem) depend on assumptions about quantum gravity."
+  - "Quasiparticles are real excitations with measurable energies and lifetimes, but not 'real particles' in the sense of the Standard Model: their number and properties depend on the material, and they are defined only inside it. Some, such as anyons in fractional quantum Hall states, have properties not found in elementary particles."
+  - "Saying that 'particles are excitations of fields' is a statement about the mathematical framework; it does not imply that fields are the final description, and treating the field as a classical substance (like a medium) misleads for quantum fields, whose values at a point are operators."
+connections: [quantum-mechanics, qft, harmonic-oscillator, symmetries, group-theory, lie-theory, special-relativity, general-relativity, black-holes, quantum-gravity, cosmology, scattering-amplitudes, renormalization, effective-field-theory, standard-model, gauge-theory, lattice-field-theory, condensed-matter, topological-phases, optics, amo-physics, string-theory, locality, causality-analyticity, emergence, duality, effective-theories-naturalness, exp-compton, exp-photoelectric, exp-davisson-germer, exp-double-slit]
+resources:
+  - "Weinberg, *The Quantum Theory of Fields*, vol. 1 (Wigner's classification, S-matrix)"
+  - "Wald, *Quantum Field Theory in Curved Spacetime and Black Hole Thermodynamics*"
+  - "Crispino, Higuchi and Matsas, 'The Unruh effect and its applications', Reviews of Modern Physics (2008)"
+  - "Gerry and Knight, *Introductory Quantum Optics*"
+cards:
+  - q: How does quantum field theory turn a field into particles?
+    a: Each mode of the field is a harmonic oscillator whose $n$-th level is read as $n$ quanta of energy $\hbar\omega$; creation and annihilation operators change the number of quanta.
+  - q: How did Wigner define an elementary particle?
+    a: As an irreducible unitary representation of the Poincaré group, labelled by mass and spin (helicity if massless).
+  - q: What does photon antibunching show that thermal bunching does not?
+    a: Antibunching cannot be reproduced by a classical field and shows the light consists of quanta; bunching of thermal light can be explained by classical intensity fluctuations with a quantized detector.
+  - q: What is the Unruh effect?
+    a: A uniformly accelerated detector in the Minkowski vacuum responds as if immersed in a thermal bath of temperature $T=\hbar a/(2\pi ck_B)$; the vacuum and the particle content depend on the choice of mode decomposition.
+  - q: Why is particle number not an invariant notion?
+    a: The split of field modes into positive and negative frequency, which defines the vacuum, differs between inertial and accelerated observers and in curved spacetime, so the number of quanta can differ.
+  - q: How is an unstable particle described in quantum field theory?
+    a: As a pole of the propagator or S-matrix at complex energy; the real part is the mass and the imaginary part gives the width (inverse lifetime).
+  - q: Give examples of quasiparticles.
+    a: Phonons, magnons, holes, Landau quasiparticles in a Fermi liquid, Cooper pairs and anyons in the fractional quantum Hall state; they are collective excitations with their own dispersion.
+  - q: Why is there no single definition of a particle?
+    a: Representation-theoretic, Fock-space, detector, pole and quasiparticle definitions agree for free fields in flat spacetime and differ for interactions, curved or accelerated backgrounds, confinement and many-body systems.
+    detail: true  # site only, not in the Anki deck
