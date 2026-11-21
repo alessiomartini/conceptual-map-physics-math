@@ -44,6 +44,6 @@ cards:
   - q: What does well-posedness (Hadamard) mean?
     a: A solution exists, is unique, and depends continuously on the data.
   - q: What is Onsager's conjecture, and who proved its sharp form?
-    a: Weak solutions of 3D Euler with Hölder regularity < 1/3 can dissipate energy (≥ 1/3 conserve it); Isett (2018) built dissipative solutions via convex integration.
+    a: Weak solutions of 3D Euler with Hölder regularity < 1/3 can dissipate energy (≥ 1/3 conserve it); Isett (2018) built dissipative solutions via convex integration. ([Isett 2018](https://doi.org/10.4007/annals.2018.188.3.4))
   - q: How is the Black–Scholes equation related to the heat equation?
     a: By a change of variables (log-price and time to maturity), it reduces to the heat equation.

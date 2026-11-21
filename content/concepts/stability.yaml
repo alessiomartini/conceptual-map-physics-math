@@ -47,4 +47,4 @@ cards:
     a: By the virial theorem, losing energy makes them contract and heat up; they cannot reach equilibrium with a heat bath (thermodynamically unstable).
   - q: Who proved the stability of matter, and what is essential to it?
     detail: true  # site only, not in the Anki deck
-    a: Dyson and Lenard (1967), with a simpler proof by Lieb and Thirring (1975); the Pauli exclusion principle is essential.
+    a: Dyson and Lenard (1967), with a simpler proof by Lieb and Thirring (1975); the Pauli exclusion principle is essential. ([Dyson–Lenard 1967](https://doi.org/10.1063/1.1705209), [Lieb–Thirring 1975](https://doi.org/10.1103/PhysRevLett.35.687))

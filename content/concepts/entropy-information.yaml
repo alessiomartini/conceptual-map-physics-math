@@ -9,7 +9,7 @@ summary: >-
   Born as a quantity in steam-engine theory, entropy became counting of microstates, then missing information,
   then entanglement, then a property of spacetime. Following it connects thermodynamics to quantum gravity.
 thread:
-  - "**Clausius (1865):** $dS = \\delta Q/T$; the second law forbids perpetual motion of the second kind ([[thermodynamics]])."
+  - "**Clausius (1865):** $dS = \\delta Q/T$; the second law forbids perpetual motion of the second kind ([[thermodynamics]]). ([Clausius 1865](https://doi.org/10.1002/andp.18652010702))"
   - "**Boltzmann and Gibbs:** $S = k_B \\ln W$, $S = -k_B\\sum p_i \\ln p_i$ — entropy counts the microstates compatible with what we know; the second law becomes overwhelmingly probable rather than certain ([[statistical-mechanics]])."
   - "**Shannon (1948):** the same formula measures information in a message and sets the limits of compression and of reliable communication over a noisy channel ([[information-theory]]). ([Shannon 1948](https://doi.org/10.1002/j.1538-7305.1948.tb01338.x))"
   - "**Maxwell's demon and Landauer (1961):** erasing one bit costs at least $k_BT\\ln 2$ of heat — information is physical. Measured directly in colloidal-particle experiments (Bérut et al. 2012) ([[non-equilibrium]]). ([Landauer 1961](https://doi.org/10.1147/rd.53.0183)) ([Bérut et al. 2012](https://doi.org/10.1038/nature10872))"
@@ -20,7 +20,7 @@ thread:
 caveats:
   - "Thermodynamic entropy is defined for equilibrium; entropy of non-equilibrium states and of the universe as a whole is a matter of definition (Boltzmann vs Gibbs entropy behave differently)."
   - "Entanglement entropy in QFT is UV divergent; only differences or mutual information are finite."
-  - "The black-hole entropy formula is derived semiclassically; a microscopic counting exists only for special (supersymmetric, extremal) black holes in string theory (Strominger–Vafa 1996)."
+  - "The black-hole entropy formula is derived semiclassically; a microscopic counting exists only for special (supersymmetric, extremal) black holes in string theory (Strominger–Vafa 1996). ([Strominger–Vafa 1996](https://arxiv.org/abs/hep-th/9601029))"
 connections: [thermodynamics, statistical-mechanics, information-theory, quantum-information, non-equilibrium, condensed-matter, black-holes, holography, quantum-gravity, string-theory, exp-bell-tests, probability-theory]
 resources:
   - "Cover & Thomas, *Elements of Information Theory*"

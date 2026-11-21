@@ -36,6 +36,6 @@ frontiers:
 connections: [statistical-mechanics, non-equilibrium, complex-systems, information-theory, networks]
 cards:
   - q: What is kinetic proofreading?
-    a: Spending free energy (e.g. GTP hydrolysis) on irreversible intermediate steps to amplify discrimination beyond equilibrium limits (Hopfield 1974).
+    a: Spending free energy (e.g. GTP hydrolysis) on irreversible intermediate steps to amplify discrimination beyond equilibrium limits (Hopfield 1974). ([Hopfield 1974](https://doi.org/10.1073/pnas.71.10.4135))
   - q: What is a Turing pattern?
     a: A stationary spatial pattern arising from diffusion-driven instability in a reaction–diffusion system with a slowly diffusing activator and a fast inhibitor.

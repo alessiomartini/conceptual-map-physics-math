@@ -49,7 +49,7 @@ cards:
   - q: What is the Abbe diffraction limit?
     a: The smallest resolvable distance in far-field imaging is about $\lambda/(2\,\mathrm{NA})$.
   - q: What does photon antibunching prove?
-    a: Light can have $g^{(2)}(0) < 1$, impossible for any classical field — direct evidence for photons (Kimble, Dagenais, Mandel 1977).
+    a: Light can have $g^{(2)}(0) < 1$, impossible for any classical field — direct evidence for photons (Kimble, Dagenais, Mandel 1977). ([Kimble–Dagenais–Mandel 1977](https://doi.org/10.1103/PhysRevLett.39.691))
   - q: What is the Hanbury Brown–Twiss effect?
     a: Intensity correlations between two detectors reveal the coherence (and bunching) of light; originally used to measure star diameters.
   - q: What is squeezed light and where is it used?
