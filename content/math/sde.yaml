@@ -33,14 +33,14 @@ key_results:
   - "Numerics: Euler–Maruyama (strong order 1/2), Milstein (order 1); weak vs strong convergence. ([Milstein 1975](https://doi.org/10.1137/1119062))"
   - "Stochastic PDEs: KPZ equation made rigorous by Hairer's regularity structures (Fields Medal 2014) and by paracontrolled calculus (Gubinelli–Imkeller–Perkowski). ([Hairer 2014](https://arxiv.org/abs/1109.6811))"
 motivating_examples:
-  - "Brownian motion of a pollen grain (Einstein 1905, Langevin 1908); Johnson–Nyquist noise in resistors."
+  - "Brownian motion of a pollen grain (Einstein 1905, Langevin 1908); Johnson–Nyquist noise in resistors. ([Einstein 1905](https://doi.org/10.1002/andp.19053220806), [Johnson 1928](https://doi.org/10.1103/PhysRev.32.97), [Nyquist 1928](https://doi.org/10.1103/PhysRev.32.110))"
   - "Stock prices (Bachelier 1900, Black–Scholes 1973); population dynamics with environmental noise; neuron membrane potentials."
 limits:
   - "The Itô/Stratonovich choice is a modelling decision; picking the wrong one changes the drift (noise-induced drift)."
   - Real noise is often coloured, heavy-tailed or with jumps; Brownian SDEs then need Lévy-driven or rough-path generalisations.
   - Nonlinear SDEs in high dimension rarely have closed-form densities; parameter inference from discrete data is hard.
 applications:
-  - "Option pricing and risk ([[econophysics]]), molecular dynamics thermostats, Kalman–Bucy filtering, MCMC (Langevin samplers), climate models (stochastic parametrisation), score-based diffusion models for image generation."
+  - "Option pricing and risk ([[econophysics]]), molecular dynamics thermostats, Kalman–Bucy filtering, MCMC (Langevin samplers), climate models (stochastic parametrisation), score-based diffusion models for image generation. ([Kalman–Bucy 1961](https://doi.org/10.1115/1.3658902))"
 frontiers:
   - Singular SPDEs and renormalisation (regularity structures); rough volatility; SDEs on manifolds and in infinite dimensions; reverse-time SDEs behind generative diffusion models.
 connections: [stochastic-processes, ode, pde, probability-theory, non-equilibrium, statistical-mechanics, econophysics, numerical-analysis, dynamical-systems]

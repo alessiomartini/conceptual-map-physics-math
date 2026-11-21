@@ -29,9 +29,9 @@ key_results:
   - "Entanglement entropy, area laws for gapped ground states (1D: Hastings). ([Hastings 2007](https://arxiv.org/abs/0705.2024))"
   - "Gottesman–Knill: Clifford circuits are classically simulable; magic (non-stabilizerness) is the resource. ([Gottesman 1998](https://arxiv.org/abs/quant-ph/9807006))"
 experiments:
-  - Superconducting and trapped-ion processors; random-circuit sampling claims (Google 2019 and later).
-  - Below-threshold surface-code memory (Google Willow, 2024); logical qubits on neutral-atom arrays.
-  - Satellite QKD (Micius 2017).
+  - Superconducting and trapped-ion processors; random-circuit sampling claims (Google 2019 and later). ([Arute et al. 2019](https://doi.org/10.1038/s41586-019-1666-5))
+  - Below-threshold surface-code memory (Google Willow, 2024); logical qubits on neutral-atom arrays. ([Acharya et al. 2024](https://arxiv.org/abs/2408.13687))
+  - Satellite QKD (Micius 2017). ([Liao et al. 2017](https://doi.org/10.1038/nature23655))
 limits:
   - Error rates and overheads; no proven exponential speedup for most practical problems.
   - "BQP vs classical complexity classes is unproven (see [[computational-complexity]])."

@@ -18,7 +18,7 @@ broken_promises:
   - "Quantum integrability itself has no agreed definition, so what 'solvable' means is partly a matter of convention."
 definitions:
   - "**Classical integrability is clear:** n independent Poisson-commuting conserved quantities (Liouville–Arnold) ⇒ motion on tori."
-  - "**Quantum integrability has no agreed definition** (Caux–Mossel 2011). The naive translation fails: every Hamiltonian has N commuting conserved operators (the projectors on its eigenstates)."
+  - "**Quantum integrability has no agreed definition** (Caux–Mossel 2011). The naive translation fails: every Hamiltonian has N commuting conserved operators (the projectors on its eigenstates). ([Caux–Mossel 2011](https://doi.org/10.1088/1742-5468/2011/02/P02023))"
   - "**(1) Local (or quasi-local) conserved charges** — an extensive number of conserved quantities that are sums of local densities. Most common in condensed matter; explains GGE relaxation."
   - "**(2) Bethe-ansatz solvability / Yang–Baxter** — eigenstates obtained exactly from an R-matrix. The working definition in mathematical physics; free fermions are integrable by (1) but trivially so."
   - "**(3) Factorized, non-diffractive scattering** — the multi-particle S-matrix factorizes into two-body ones (1+1D field theories)."

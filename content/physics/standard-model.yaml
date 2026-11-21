@@ -45,7 +45,7 @@ cards:
   - q: What is the gauge group of the Standard Model?
     a: $SU(3)_c \times SU(2)_L \times U(1)_Y$ (modulo a discrete quotient).
   - q: What is the minimum number of generations for CP violation in the CKM matrix, and who showed it?
-    a: Three; Kobayashi and Maskawa (1973), before the third generation was found.
+    a: Three; Kobayashi and Maskawa (1973), before the third generation was found. ([Kobayashi–Maskawa 1973](https://doi.org/10.1143/PTP.49.652))
   - q: Which precise Z-pole measurement fixed the number of light neutrino species?
     a: The Z invisible width measured at LEP gives $N_\nu = 2.984 \pm 0.008$ (2.996 ± 0.007 after a 2019 luminosity reanalysis), i.e. three.
   - q: Approximately how many free parameters does the Standard Model have?

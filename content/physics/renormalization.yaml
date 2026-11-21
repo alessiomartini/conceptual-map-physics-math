@@ -51,7 +51,7 @@ cards:
   - q: What does the c-theorem state?
     a: In 2D unitary QFTs there is a function decreasing along RG flows that equals the central charge at fixed points, so $c_{UV} > c_{IR}$.
   - q: What is the 4D analogue of the c-theorem?
-    a: 'The a-theorem (Komargodski–Schwimmer 2011): the Euler anomaly coefficient a decreases along RG flows.'
+    a: 'The a-theorem (Komargodski–Schwimmer 2011): the Euler anomaly coefficient a decreases along RG flows. ([Komargodski–Schwimmer 2011](https://doi.org/10.1007/JHEP12%282011%29099))'
   - q: What is dimensional transmutation?
     a: A classically scale-invariant theory with a running dimensionless coupling generates a dynamical scale, e.g. $\Lambda_{QCD} \approx 200$–$300$ MeV.
   - q: What does a Landau pole signal?
