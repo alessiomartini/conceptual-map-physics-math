@@ -23,7 +23,7 @@ asks:
   - What new phases and hydrodynamics appear when each particle is self-driven?
 key_results:
   - "Polymer scaling: Flory exponent $R \\sim N^{\\nu}$ with $\\nu \\approx 0.588$ in 3D; de Gennes' mapping of polymers to the $n\\to0$ limit of the O(n) model. ([de Gennes 1972](https://doi.org/10.1016/0375-9601%2872%2990149-1))"
-  - "Liquid crystals: nematic order, Frank elasticity, Landau–de Gennes theory; topological defects (disclinations)."
+  - "Liquid crystals: nematic order, Frank elasticity, Landau–de Gennes theory; topological defects (disclinations). ([Frank 1958](https://doi.org/10.1039/DF9582500019))"
   - "Colloids as model atoms: entropy-driven crystallization of hard spheres; depletion forces (Asakura–Oosawa). ([Asakura–Oosawa 1954](https://doi.org/10.1063/1.1740347))"
   - "Jamming transition of granular and foam packings (Liu–Nagel 1998); isostaticity. ([Liu–Nagel 1998](https://doi.org/10.1038/23819))"
   - "Active matter: Vicsek model (1995) ([Vicsek et al. 1995](https://doi.org/10.1103/PhysRevLett.75.1226)) and Toner–Tu theory — true long-range orientational order in 2D, evading Mermin–Wagner because the system is out of equilibrium."
