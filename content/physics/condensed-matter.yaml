@@ -22,7 +22,7 @@ asks:
   - Why do some materials superconduct, and at what temperatures?
   - What happens when interactions are strong and quasiparticle pictures fail (strange metals)?
 key_results:
-  - "Bloch's theorem and band theory; metals, insulators, semiconductors."
+  - "Bloch's theorem and band theory; metals, insulators, semiconductors. ([Bloch 1929](https://doi.org/10.1007/BF01339455))"
   - "Landau Fermi-liquid theory: interacting electrons as quasiparticles."
   - "BCS theory (1957): Cooper pairing via phonons; Anderson–Higgs mechanism in superconductors. ([BCS 1957](https://doi.org/10.1103/PhysRev.108.1175))"
   - "Anderson localization (1958): disorder can localize all states (in 1D, 2D). ([Anderson 1958](https://doi.org/10.1103/PhysRev.109.1492))"

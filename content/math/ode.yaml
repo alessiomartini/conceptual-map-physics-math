@@ -25,7 +25,7 @@ asks:
   - How do we approximate solutions numerically while keeping the structure (energy, volume, symplecticity) of the true flow?
 key_results:
   - "Picard–Lindelöf: a locally Lipschitz $f$ gives a unique local solution; Peano: continuity alone gives existence but not uniqueness ($\\dot x = \\sqrt{|x|}$)."
-  - "Grönwall's inequality: solutions depend continuously on initial data and parameters; maximal solutions either exist forever or leave every compact set (blow-up, e.g. $\\dot x = x^2$)."
+  - "Grönwall's inequality: solutions depend continuously on initial data and parameters; maximal solutions either exist forever or leave every compact set (blow-up, e.g. $\\dot x = x^2$). ([Gronwall 1919](https://doi.org/10.2307/1967124))"
   - "Linear systems: $x(t) = e^{At}x_0$, Jordan form and the variation-of-constants formula; Floquet theory for periodic coefficients (Bloch's theorem is its spatial version). ([Floquet 1883](https://doi.org/10.24033/asens.220))"
   - "Sturm–Liouville theory: self-adjoint boundary-value problems have real eigenvalues and complete orthogonal eigenfunctions (origin of Fourier series and special functions)."
   - "Frobenius method and the classification of singular points; special functions (Bessel, Legendre, hypergeometric) as solutions of ODEs with regular singularities."

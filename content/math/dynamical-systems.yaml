@@ -21,7 +21,7 @@ asks:
   - When do time averages equal space averages?
   - How do qualitative behaviours change with parameters (bifurcations)?
 key_results:
-  - "Poincaré–Bendixson theorem (no chaos in 2D flows); Hartman–Grobman; stable manifold theorem."
+  - "Poincaré–Bendixson theorem (no chaos in 2D flows); Hartman–Grobman; stable manifold theorem. ([Hartman 1960](https://doi.org/10.1090/S0002-9939-1960-0121542-7))"
   - "Birkhoff ergodic theorem; mixing; Kolmogorov–Sinai entropy. ([Birkhoff 1931](https://doi.org/10.1073/pnas.17.2.656))"
   - "Smale horseshoe; hyperbolic dynamics; structural stability. ([Smale 1967](https://doi.org/10.1090/S0002-9904-1967-11798-1))"
   - "KAM theory; Arnold diffusion. ([Arnold 1963](https://doi.org/10.1070/RM1963v018n05ABEH004130))"
